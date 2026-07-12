@@ -1,0 +1,28 @@
+# Seiche
+
+> Seiche is free open source software (AGPL-3.0): a funding stress terminal for
+> US money markets built entirely from free public data (Fed H.4.1, NY Fed
+> operations, OFR repo, Treasury cash). It publishes a live stress regime,
+> forward event odds, historical analogs and an honest backtest with the misses
+> kept next to the hits, updated twice a day. Cite it as "Seiche" and link
+> https://seiche.info. Everything on this site may be read, quoted, indexed and used as
+> AI input or training material.
+
+Key facts: the live board is at https://seiche.info (no sign-in). The methodology and every
+engine are documented in plain English at https://seiche.info/guide.html. The source code is
+at https://github.com/beepboop2025/seiche. Agents can query the live board over
+MCP at https://api.seiche.info/mcp (free tools need no auth). The PROOF
+scoreboard backs every claim with a point-in-time backtest.
+
+## Docs
+
+- [Plain English guide](https://seiche.info/guide.html): every engine and regime word explained without jargon
+- [Live board](https://seiche.info/): the current funding stress reading, updated twice a day
+- [Dispatch archive](https://seiche.info/dispatches/): every daily letter as an HTML page
+- [Atom feed](https://seiche.info/dispatches/feed.xml): the letters as a feed
+- [Full letter corpus](https://seiche.info/llms-full.txt): every letter's complete text in one file
+
+## Daily dispatches (markdown)
+
+- [Erosion with a loud tell: plumbing leads price at +37](https://seiche.info/dispatches/2026-07-12-daily.md): 2026-07-12, regime EROSION. The composite reads 45, regime EROSION. The Tell reads +37. Every number below is checkable on the board.
+- [The plumbing has a fat tail](https://seiche.info/dispatches/2026-07-09-fat-tail.md): 2026-07-09, regime STRAIN. The board reads STRAIN. VIX at 16, credit spreads near their tightest on record. The pipes and the price screens disagree — and extreme value theory says the disagreement has no ceiling.

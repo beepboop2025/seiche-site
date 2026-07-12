@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Seiche dispatches: the daily funding stress letter</title>
+  <subtitle>US money market plumbing, read daily from free public data. Every claim carries its number.</subtitle>
+  <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/"/>
+  <link rel="self" type="application/atom+xml" href="https://seiche.info/dispatches/feed.xml"/>
+  <id>https://seiche.info/dispatches/</id>
+  <updated>2026-07-12T11:00:00Z</updated>
+  <author><name>Seiche</name><uri>https://seiche.info</uri></author>
+  <entry>
+    <title>Erosion with a loud tell: plumbing leads price at +37</title>
+    <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-07-12-daily.html"/>
+    <id>https://seiche.info/dispatches/2026-07-12-daily.html</id>
+    <published>2026-07-12T11:00:00Z</published>
+    <updated>2026-07-12T11:00:00Z</updated>
+    <summary>The composite reads 45, regime EROSION. The Tell reads +37. Every number below is checkable on the board.</summary>
+    <content type="html">&lt;p&gt;The composite reads &lt;strong&gt;45 out of 100, EROSION&lt;/strong&gt;, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.&lt;/p&gt;
+&lt;p&gt;The heaviest hand on the dial is &lt;strong&gt;weather&lt;/strong&gt; at a score of 84, worth +9.2 points of the total. That is where the reading comes from. The rest is arithmetic.&lt;/p&gt;
+&lt;p&gt;The Tell, the gap between what the pipes measure and what the screens price, reads &lt;strong&gt;+37&lt;/strong&gt;: plumbing indicators at the 57th percentile of their own history, market indicators at the 20th.&lt;/p&gt;
+&lt;p&gt;A gap this wide has a short shelf life. The board&amp;#x27;s read is &lt;em&gt;plumbing leads price&lt;/em&gt;, and the record of what happened after past gaps sits in PROOF.&lt;/p&gt;
+&lt;p&gt;Overnight, the tape did move: &lt;strong&gt;MMF repo with FICC (sponsored)&lt;/strong&gt; printed 1,168.72 $B (level z +6.7, change z -0.1, as of 2026-05-31); &lt;strong&gt;Central bank liquidity swaps outstanding (H.4.1)&lt;/strong&gt; printed 170.00 $M (level z -0.2, change z -5.3, as of 2026-07-08); &lt;strong&gt;Discount window primary credit (Wed level)&lt;/strong&gt; printed 5,771.00 $M (level z +1.1, change z -4.4, as of 2026-07-08).&lt;/p&gt;
+&lt;h2&gt;The dates that matter&lt;/h2&gt;
+&lt;p&gt;The next date that matters is &lt;strong&gt;2026-07-16&lt;/strong&gt;: $266B auction settlement while reserves sit below the estimated kink, worst case $3,070B. The turn model puts 2026-07-31 (month_end) at +3.0bp with a band of [-0.9, +7.8], severity 2/5. FOMC decides 2026-07-29, 17 days out. The corporate tax date lands 2026-09-15, 65 days out; tax dates drain reserves on a schedule everyone can read.&lt;/p&gt;
+&lt;h2&gt;What the board is honest about&lt;/h2&gt;
+&lt;p&gt;All sources and engines report live. The misses this board has made sit in PROOF next to the hits; read those before weighting today&amp;#x27;s letter.&lt;/p&gt;
+&lt;h2&gt;The desk&amp;#x27;s forward read&lt;/h2&gt;
+&lt;p&gt;Bathymetry puts the odds of an event inside five business days at &lt;strong&gt;3%&lt;/strong&gt;, mean first-passage roughly 79 business days. The learned model reads 0% for the same window and calls it &lt;em&gt;does not out-rank the rule-based index&lt;/em&gt;. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 61 business days in the current state. Resonance reads 71: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.&lt;/p&gt;
+&lt;h3&gt;Positioning&lt;/h3&gt;
+&lt;p&gt;The most crowded seat is &lt;strong&gt;SOFR-3M&lt;/strong&gt;, leveraged net -0.22 of open interest (z -2.5). Dealer warehouse holds $428B, the 96th percentile of its history, 40% of it long end. Positioning data is COT and carries its native T+3 lag; the lag is shown, never hidden.&lt;/p&gt;
+&lt;h3&gt;Echoes&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;episode&lt;/th&gt;&lt;th&gt;window&lt;/th&gt;&lt;th&gt;similarity&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Mar 2020 dash-for-cash&lt;/td&gt;&lt;td&gt;T−23d&lt;/td&gt;&lt;td&gt;0.66&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Apr 2025 tariff shock basis unwind&lt;/td&gt;&lt;td&gt;T−24d&lt;/td&gt;&lt;td&gt;0.58&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sep 2025 tax-date squeeze (SOFR +18bp over EFFR)&lt;/td&gt;&lt;td&gt;T−16d&lt;/td&gt;&lt;td&gt;0.56&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sep 2019 repo spike (SOFR 5.25%, GC 10%)&lt;/td&gt;&lt;td&gt;T−2d&lt;/td&gt;&lt;td&gt;0.55&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Similarity is not destiny. The echo table says &lt;em&gt;this rhymes&lt;/em&gt;, and PROOF says how often rhymes mattered.&lt;/p&gt;
+&lt;h3&gt;What would change the desk&amp;#x27;s mind&lt;/h3&gt;
+&lt;p&gt;The tell closing back under +15, reserves stabilising for two weeks, or the resonance amplification easing below 1x. When one of those prints, the letter will say so, in this same place, with the number.&lt;/p&gt;
+&lt;p&gt;The board recomputes six times a day; this letter freezes one reading of it. Free public data with native lags. Not investment advice.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>The plumbing has a fat tail</title>
+    <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-07-09-fat-tail.html"/>
+    <id>https://seiche.info/dispatches/2026-07-09-fat-tail.html</id>
+    <published>2026-07-09T11:00:00Z</published>
+    <updated>2026-07-09T11:00:00Z</updated>
+    <summary>The board reads STRAIN. VIX at 16, credit spreads near their tightest on record. The pipes and the price screens disagree — and extreme value theory says the disagreement has no ceiling.</summary>
+    <content type="html">&lt;p&gt;The composite reads &lt;strong&gt;STRAIN, 46 out of 100&lt;/strong&gt;, on 100% coverage. Nothing on the price screen agrees. VIX sits at 16. High yield spreads are at the 6th percentile of their own history. If you only watched the market&amp;#x27;s own instruments, today would look calm.&lt;/p&gt;
+&lt;p&gt;The plumbing does not look calm. Reserve balances are drifting toward the ample floor, the overnight reverse repo facility that absorbed $2.5 trillion in 2022 now holds about $3 billion, and a balance-sheet trend alarm has been running since May. On the board, plumbing indicators sit at the &lt;strong&gt;76th percentile&lt;/strong&gt; of their history while market indicators sit at the &lt;strong&gt;27th&lt;/strong&gt;. That gap has a name here: the Tell. It reads +49, and it reads &lt;em&gt;plumbing leads price&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;The measurement under the disagreement&lt;/h2&gt;
+&lt;p&gt;Most of the board measures where stress is now. The Rogue Wave engine asks a different question: how bad can it get. It fits extreme value theory — a peaks-over-threshold GPD — to every funding-stress shock since 2018, 61 declustered waves over 5bp on 2,059 trading days of the SOFR−IORB spread.&lt;/p&gt;
+&lt;p&gt;The tail shape parameter comes back at &lt;strong&gt;ξ = 0.64&lt;/strong&gt;. In plain terms that is a heavy tail with no ceiling. The largest spike in the entire sample, 305bp, is explicitly &lt;strong&gt;not&lt;/strong&gt; the largest the basin can produce. The 10-year return level sits at 106bp with a stated confidence band; the point of the estimate is that it extends &lt;em&gt;past&lt;/em&gt; the worst thing that has already happened, with the uncertainty shown rather than hidden.&lt;/p&gt;
+&lt;p&gt;So the two numbers, side by side:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VIX at 16 is pricing a thin tail.&lt;/li&gt;
+&lt;li&gt;The plumbing statistic has a fat one, measured, published, and checkable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That is the whole disagreement. One of these two readings is wrong about the next six months.&lt;/p&gt;
+&lt;h2&gt;What the board is honest about&lt;/h2&gt;
+&lt;p&gt;This is not a forecast that the wave breaks tomorrow. The physics layer separates the forced response (how loud the basin rings to the known calendar) from the free decay (how fast it settles on ordinary days), and neither is screaming &lt;em&gt;today&lt;/em&gt;. The Rogue Wave finding is a statement about the shape of the tail, not its timing. The backtest lab publishes what this board has missed — March 2020&amp;#x27;s speed, April 2025 — right next to what it caught early. Read the misses before you weight the hits.&lt;/p&gt;
+&lt;h2&gt;The desk&amp;#x27;s read&lt;/h2&gt;
+&lt;p&gt;Here is where the desk lands on it, and the specific things being watched.&lt;/p&gt;
+&lt;p&gt;When the Tell has run above +40 with plumbing leading price by this margin, the historical pattern in the PROOF replay is not an immediate break but a &lt;strong&gt;widening of the distribution of outcomes&lt;/strong&gt; — the calm persists until it doesn&amp;#x27;t, and the transition is fast when it comes. The dates that matter next are the settlement crunches on the calendar and the month-end turn at July 31, where the forcing stacks on a basin whose shock absorber (RRP) is already empty.&lt;/p&gt;
+&lt;p&gt;The one-line version: this is a &lt;em&gt;setup&lt;/em&gt;, not a &lt;em&gt;trigger&lt;/em&gt;. A thin-tailed vol market sitting on top of a fat-tailed funding statistic is exactly the configuration that has preceded every plumbing-led episode this board has on record — and none of the level-based market instruments would tell you it is there. That is the entire reason the board exists.&lt;/p&gt;
+&lt;p&gt;Not advice. A reading. Check the numbers yourself — every one of them is on the free board, and the method is printed under each engine.&lt;/p&gt;</content>
+  </entry>
+</feed>
