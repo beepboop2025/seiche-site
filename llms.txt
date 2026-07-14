@@ -24,6 +24,7 @@ scoreboard backs every claim with a point-in-time backtest.
 
 ## Daily dispatches (markdown)
 
+- [Strain with a loud tell: plumbing leads price at +38](https://seiche.info/dispatches/2026-07-14-daily.md): 2026-07-14, regime STRAIN. The composite reads 45, regime STRAIN. The Tell reads +38. Every number below is checkable on the board.
 - [Strain with a loud tell: plumbing leads price at +37](https://seiche.info/dispatches/2026-07-13-daily.md): 2026-07-13, regime STRAIN. The composite reads 45, regime STRAIN. The Tell reads +37. Every number below is checkable on the board.
 - [Erosion with a loud tell: plumbing leads price at +37](https://seiche.info/dispatches/2026-07-12-daily.md): 2026-07-12, regime EROSION. The composite reads 45, regime EROSION. The Tell reads +37. Every number below is checkable on the board.
 - [The plumbing has a fat tail](https://seiche.info/dispatches/2026-07-09-fat-tail.md): 2026-07-09, regime STRAIN. The board reads STRAIN. VIX at 16, credit spreads near their tightest on record. The pipes and the price screens disagree — and extreme value theory says the disagreement has no ceiling.
