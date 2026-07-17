@@ -5,8 +5,40 @@
   <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/"/>
   <link rel="self" type="application/atom+xml" href="https://seiche.info/dispatches/feed.xml"/>
   <id>https://seiche.info/dispatches/</id>
-  <updated>2026-07-16T11:00:00Z</updated>
+  <updated>2026-07-17T11:00:00Z</updated>
   <author><name>Seiche</name><uri>https://seiche.info</uri></author>
+  <entry>
+    <title>SRF accepted moved overnight: the erosion tape gets a data point</title>
+    <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-07-17-daily.html"/>
+    <id>https://seiche.info/dispatches/2026-07-17-daily.html</id>
+    <published>2026-07-17T11:00:00Z</published>
+    <updated>2026-07-17T11:00:00Z</updated>
+    <summary>The composite reads 45, regime EROSION. The Tell reads +27. Every number below is checkable on the board.</summary>
+    <content type="html">&lt;p&gt;The composite reads &lt;strong&gt;45 out of 100, EROSION&lt;/strong&gt;, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.&lt;/p&gt;
+&lt;p&gt;The heaviest hand on the dial is &lt;strong&gt;weather&lt;/strong&gt; at a score of 84, worth +9.2 points of the total. A composite is only as honest as its decomposition, so here it is.&lt;/p&gt;
+&lt;p&gt;The Tell, the gap between what the pipes measure and what the screens price, reads &lt;strong&gt;+27&lt;/strong&gt;: plumbing indicators at the 49th percentile of their own history, market indicators at the 23th.&lt;/p&gt;
+&lt;p&gt;The gap is modest. Modest gaps are what most days look like, and saying so is part of the record.&lt;/p&gt;
+&lt;p&gt;Overnight, the tape did move: &lt;strong&gt;SRF accepted&lt;/strong&gt; printed 0.00 $B (level z -0.7, change z -17.2, as of 2026-07-16); &lt;strong&gt;Japan uncollateralized call rate (OECD MEI, monthly)&lt;/strong&gt; printed 0.84 % (level z +5.8, change z +15.4, as of 2026-06-01); &lt;strong&gt;MMF repo with FICC (sponsored)&lt;/strong&gt; printed 1,168.72 $B (level z +6.7, change z -0.1, as of 2026-05-31).&lt;/p&gt;
+&lt;h2&gt;The dates that matter&lt;/h2&gt;
+&lt;p&gt;The next date that matters is &lt;strong&gt;2026-07-23&lt;/strong&gt;: $266B auction settlement while reserves sit below the estimated kink, worst case $3,088B. The turn model puts 2026-07-31 (month_end) at +3.2bp with a band of [-0.7, +8.1], severity 2/5. FOMC decides 2026-07-29, 12 days out. The corporate tax date lands 2026-09-15, 60 days out; tax dates drain reserves on a schedule everyone can read.&lt;/p&gt;
+&lt;h2&gt;What the board is honest about&lt;/h2&gt;
+&lt;p&gt;Faults on the board today: gdelt. The affected inputs are degraded or dead and the composite&amp;#x27;s coverage says so. A dashboard that hides its broken gauges is lying with a straight face.&lt;/p&gt;
+&lt;h2&gt;The desk&amp;#x27;s forward read&lt;/h2&gt;
+&lt;p&gt;Bathymetry puts the odds of an event inside five business days at &lt;strong&gt;14%&lt;/strong&gt;, mean first-passage roughly 68 business days. The learned model reads 7% for the same window and calls it &lt;em&gt;does not out-rank the rule-based index&lt;/em&gt;. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 61 business days in the current state. Resonance reads 71: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.&lt;/p&gt;
+&lt;h3&gt;Positioning&lt;/h3&gt;
+&lt;p&gt;The most crowded seat is &lt;strong&gt;SOFR-3M&lt;/strong&gt;, leveraged net -0.22 of open interest (z -2.5). Dealer warehouse holds $445B, the 97th percentile of its history, 38% of it long end. Positioning data is COT and carries its native T+3 lag; the lag is shown, never hidden.&lt;/p&gt;
+&lt;h3&gt;Echoes&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;episode&lt;/th&gt;&lt;th&gt;window&lt;/th&gt;&lt;th&gt;similarity&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Mar 2020 dash-for-cash&lt;/td&gt;&lt;td&gt;T−19d&lt;/td&gt;&lt;td&gt;0.68&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Apr 2025 tariff shock basis unwind&lt;/td&gt;&lt;td&gt;T−20d&lt;/td&gt;&lt;td&gt;0.59&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sep 2025 tax-date squeeze (SOFR +18bp over EFFR)&lt;/td&gt;&lt;td&gt;T−12d&lt;/td&gt;&lt;td&gt;0.56&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sep 2019 repo spike (SOFR 5.25%, GC 10%)&lt;/td&gt;&lt;td&gt;T−2d&lt;/td&gt;&lt;td&gt;0.55&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Similarity is not destiny. The echo table says &lt;em&gt;this rhymes&lt;/em&gt;, and PROOF says how often rhymes mattered.&lt;/p&gt;
+&lt;h3&gt;What would change the desk&amp;#x27;s mind&lt;/h3&gt;
+&lt;p&gt;The tell closing back under +15, reserves stabilising for two weeks, or the resonance amplification easing below 1x. When one of those prints, the letter will say so, in this same place, with the number.&lt;/p&gt;
+&lt;p&gt;The board recomputes six times a day; this letter freezes one reading of it. Free public data with native lags. Not investment advice.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Strain with a loud tell: plumbing leads price at +32</title>
     <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-07-16-daily.html"/>

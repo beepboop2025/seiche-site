@@ -24,6 +24,7 @@ scoreboard backs every claim with a point-in-time backtest.
 
 ## Daily dispatches (markdown)
 
+- [SRF accepted moved overnight: the erosion tape gets a data point](https://seiche.info/dispatches/2026-07-17-daily.md): 2026-07-17, regime EROSION. The composite reads 45, regime EROSION. The Tell reads +27. Every number below is checkable on the board.
 - [Strain with a loud tell: plumbing leads price at +32](https://seiche.info/dispatches/2026-07-16-daily.md): 2026-07-16, regime STRAIN. The composite reads 46, regime STRAIN. The Tell reads +32. Every number below is checkable on the board.
 - [SRF accepted moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-15-daily.md): 2026-07-15, regime STRAIN. The composite reads 46, regime STRAIN. The Tell reads +27. Every number below is checkable on the board.
 - [Strain with a loud tell: plumbing leads price at +38](https://seiche.info/dispatches/2026-07-14-daily.md): 2026-07-14, regime STRAIN. The composite reads 45, regime STRAIN. The Tell reads +38. Every number below is checkable on the board.
