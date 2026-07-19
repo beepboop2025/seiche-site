@@ -24,6 +24,7 @@ scoreboard backs every claim with a point-in-time backtest.
 
 ## Daily dispatches (markdown)
 
+- [Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point](https://seiche.info/dispatches/2026-07-19-daily.md): 2026-07-19, regime EROSION. The composite reads 44, regime EROSION. The Tell reads +22. Every number below is checkable on the board.
 - [Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point](https://seiche.info/dispatches/2026-07-18-daily.md): 2026-07-18, regime EROSION. The composite reads 44, regime EROSION. The Tell reads +23. Every number below is checkable on the board.
 - [SRF accepted moved overnight: the erosion tape gets a data point](https://seiche.info/dispatches/2026-07-17-daily.md): 2026-07-17, regime EROSION. The composite reads 45, regime EROSION. The Tell reads +27. Every number below is checkable on the board.
 - [Strain with a loud tell: plumbing leads price at +32](https://seiche.info/dispatches/2026-07-16-daily.md): 2026-07-16, regime STRAIN. The composite reads 46, regime STRAIN. The Tell reads +32. Every number below is checkable on the board.
