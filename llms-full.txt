@@ -19,6 +19,54 @@ Below is the complete text of every daily letter, newest first.
 ---
 
 # Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point
+Date: 2026-07-23 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-23-daily.html
+
+The composite reads **46 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
+
+The heaviest hand on the dial is **weather** at a score of 100, worth +11.0 points of the total. A composite is only as honest as its decomposition, so here it is.
+
+The Tell, the gap between what the pipes measure and what the screens price, reads **+18**: plumbing indicators at the 45th percentile of their own history, market indicators at the 27th.
+
+The gap is modest. Modest gaps are what most days look like, and saying so is part of the record.
+
+Overnight, the tape did move: **Japan uncollateralized call rate (OECD MEI, monthly)** printed 0.84 % (level z +5.8, change z +15.4, as of 2026-06-01); **MMF repo with FICC (sponsored)** printed 1,301.06 $B (level z +7.5, change z +3.3, as of 2026-06-30); **2y Treasury constant maturity yield** printed 4.26 % (level z +3.1, change z +1.1, as of 2026-07-21).
+
+## The dates that matter
+
+The next date that matters is **2026-07-28**: $210B auction settlement while reserves sit below the estimated kink, worst case $3,100B. The turn model puts 2026-07-31 (month_end) at +3.0bp with a band of [-1.0, +7.9], severity 2/5. FOMC decides 2026-07-29, 6 days out. The corporate tax date lands 2026-09-15, 54 days out; tax dates drain reserves on a schedule everyone can read.
+
+## What the board is honest about
+
+All sources and engines report live. The misses this board has made sit in PROOF next to the hits; read those before weighting today's letter.
+
+## The desk's forward read
+
+Bathymetry puts the odds of an event inside five business days at **5%**, mean first-passage roughly 76 business days. The learned model reads 1% for the same window and calls it *does not out-rank the rule-based index*. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 11 business days in the current state. Resonance reads 71: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.
+
+### Positioning
+
+The most crowded seat is **SOFR-3M**, leveraged net -0.21 of open interest (z -2.4). Dealer warehouse holds $445B, the 97th percentile of its history, 38% of it long end. Positioning data is COT and carries its native T+3 lag; the lag is shown, never hidden.
+
+### Echoes
+
+| episode | window | similarity |
+|---|---|---|
+| Mar 2020 dash-for-cash | T−16d | 0.67 |
+| Apr 2025 tariff shock basis unwind | T−19d | 0.57 |
+| Sep 2025 tax-date squeeze (SOFR +18bp over EFFR) | T−28d | 0.56 |
+| Sep 2019 repo spike (SOFR 5.25%, GC 10%) | T−2d | 0.54 |
+
+Similarity is not destiny. The echo table says *this rhymes*, and PROOF says how often rhymes mattered.
+
+### What would change the desk's mind
+
+Srf or discount window take-up on a day with no calendar excuse, a mover breaching ±3 z on the funding side, or the composite crossing 60. When one of those prints, the letter will say so, in this same place, with the number.
+
+The board recomputes six times a day; this letter freezes one reading of it. Free public data with native lags. Not investment advice.
+
+---
+
+# Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point
 Date: 2026-07-22 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-22-daily.html
 
 The composite reads **46 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
