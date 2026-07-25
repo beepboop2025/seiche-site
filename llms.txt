@@ -24,6 +24,7 @@ scoreboard backs every claim with a point-in-time backtest.
 
 ## Daily dispatches (markdown)
 
+- [Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-25-daily.md): 2026-07-25, regime STRAIN. The composite reads 45, regime STRAIN. The Tell reads +19. Every number below is checkable on the board.
 - [Central bank liquidity swaps outstanding (H.4.1) moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-24-daily.md): 2026-07-24, regime STRAIN. The composite reads 46, regime STRAIN. The Tell reads +23. Every number below is checkable on the board.
 - [Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-23-daily.md): 2026-07-23, regime STRAIN. The composite reads 46, regime STRAIN. The Tell reads +18. Every number below is checkable on the board.
 - [Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-22-daily.md): 2026-07-22, regime STRAIN. The composite reads 46, regime STRAIN. The Tell reads +10. Every number below is checkable on the board.
