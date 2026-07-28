@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seiche skeptic pack</title>
+<meta name="description" content="The two questions a skeptical economist asks first, answered with the board's own numbers: the leak audit that prices what look-ahead would have bought, the orthogonal test that reruns event capture with the target's own variables removed, the point-in-time replay, the hash-chained notary, and what would falsify the whole board.">
+<link rel="canonical" href="https://seiche.info/skeptic.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<style>
+:root { --bg:#000; --panel:#0b0d15; --edge:#1c1f2b; --text:#edeef4;
+        --dim:#9aa0b6; --faint:#787f95; --accent:#9c8fe8;
+        --accent-soft:#bbaffe; --accent-bright:#d9d4ff;
+        --mono:ui-monospace,Menlo,Consolas,monospace;
+        color-scheme:dark; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--text);
+       font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+       font-size:14px; line-height:1.7; max-width:820px; margin:0 auto;
+       padding:40px 24px 90px; }
+a { color:var(--accent-soft); text-decoration:none; }
+a:hover { color:var(--accent-bright); text-decoration:underline; }
+h1 { font-weight:500; font-size:clamp(26px,4.6vw,34px); letter-spacing:-.02em;
+     margin:30px 0 6px; }
+h2 { font-weight:500; font-size:11.5px; letter-spacing:.15em;
+     text-transform:uppercase; color:var(--accent); margin:44px 0 14px;
+     padding-top:20px; border-top:1px solid var(--edge); }
+h3 { font-weight:600; font-size:13.5px; margin:18px 0 4px; }
+p { margin:12px 0; }
+.dim { color:var(--dim); }
+.faint { color:var(--faint); font-size:12px; }
+code, .mono { font-family:var(--mono); font-size:.9em; }
+code { background:var(--panel); padding:1px 6px; border-radius:5px;
+       color:var(--accent-bright); }
+table { border-collapse:collapse; width:100%; margin:14px 0; font-size:13px; }
+th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--edge); }
+th { color:var(--faint); font-weight:500; font-size:11px;
+     letter-spacing:.08em; text-transform:uppercase; }
+td.num { font-family:var(--mono); }
+.cite { background:var(--panel); border:1px solid var(--edge); border-radius:10px;
+        padding:14px 16px; font-family:var(--mono); font-size:12.5px;
+        white-space:pre-wrap; word-break:break-word; margin:14px 0; }
+ul { margin:12px 0 12px 20px; }
+li { margin:6px 0; }
+.top { display:flex; justify-content:space-between; align-items:baseline;
+       gap:14px; flex-wrap:wrap; padding-bottom:16px;
+       border-bottom:1px solid var(--edge); }
+.wordmark { font-weight:500; letter-spacing:.30em; font-size:18px; }
+.wordmark span { color:var(--accent); }
+
+.gap { background:var(--panel); border:1px solid var(--edge); border-radius:10px;
+       padding:14px 16px; margin:14px 0; }
+.gap strong { color:var(--accent-soft); }
+.cmd { background:var(--panel); border:1px solid var(--edge); border-radius:10px;
+       padding:14px 16px; font-family:var(--mono); font-size:12.5px;
+       line-height:1.6; white-space:pre; overflow-x:auto; margin:14px 0; }
+.limit { border-left:2px solid var(--edge); padding:2px 0 2px 14px;
+         margin:14px 0; color:var(--dim); font-size:13px; }
+.limit b { color:var(--faint); font-weight:600; text-transform:uppercase;
+           letter-spacing:.08em; font-size:11px; }
+.q { color:var(--accent-bright); font-weight:500; }
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="wordmark">SEI<span>CHE</span></div>
+  <div class="faint"><a href="/">back to the board</a> &middot; <a href="/methodology.html">methodology</a> &middot; <a href="/guide.html">plain English guide</a></div>
+</div>
+
+<h1>The skeptic pack</h1>
+<p class="faint mono">skeptic pack 2026-07-28 / board 0.7.0 tier1 / board snapshot 2026-07-28</p>
+<p class="dim">Two questions open every serious conversation about a board like
+this one. <span class="q">Isn't this just autocorrelation?</span> and
+<span class="q">isn't there look-ahead in your backtest?</span> The board has
+computed both answers on every cycle for months and buried them in a payload
+nobody reads. This page brings them to the front, with the numbers, the
+commands to check them yourself, and the limit of each test stated next to the
+result instead of in a footnote.</p>
+<p class="dim">Every section here is assembled from the live board or from the
+source that serves it. A section whose artifact is missing says so rather than
+filling the space with confident prose.</p>
+
+<h2>1. The leak audit: what cheating would have bought</h2>
+<p>The one-switch protocol, run against ourselves. The audit rebuilds the same backtestable index with exactly ONE discipline deliberately broken, scores every variant against the SAME events, and publishes the gain that break would have bought. A clean pipeline is one whose published number sits at the bottom of its own audit table: everything above it is skill the board refuses to claim.</p>
+<p>The largest gain on offer today is <code>NORM_GLOBAL</code>: event AUROC 0.824 against the honest 0.798, a leakage gain of +0.026. That is the number a leaky version of this board would print instead, and it is exactly the number this board declines to print.</p>
+<table>
+<tr><th>toggle</th><th>what breaks</th><th>AUROC</th><th>recall</th><th>run precision</th><th>LG AUROC</th><th>LG recall</th></tr>
+<tr><td><code>clean</code></td><td><span class='dim'>the published pipeline: expanding windows, trailing smoothers</span></td><td class='num'>0.798</td><td class='num'>0.615</td><td class='num'>0.174</td><td class='num'>+0.000</td><td class='num'>+0.000</td></tr>
+<tr><td><code>NORM_GLOBAL</code></td><td><span class='dim'>every z/percentile standardized on the FULL sample</span></td><td class='num'>0.824</td><td class='num'>0.714</td><td class='num'>0.444</td><td class='num'>+0.026</td><td class='num'>+0.099</td></tr>
+<tr><td><code>TEMP_CENTER</code></td><td><span class='dim'>tails smoother centered - peeks 2 days forward</span></td><td class='num'>0.809</td><td class='num'>0.769</td><td class='num'>0.217</td><td class='num'>+0.011</td><td class='num'>+0.154</td></tr>
+<tr><td><code>THRESH_FIT</code></td><td><span class='dim'>alert threshold fitted in-sample (best F1 at pctl 88 vs config-frozen 80)</span></td><td class='num'>0.798</td><td class='num'>0.538</td><td class='num'>0.400</td><td class='num'>+0.000</td><td class='num'>-0.077</td></tr>
+</table>
+<p>leak selectivity, measured on ourselves: the forward-peeking smoother would buy +0.011 AUROC - refused; full-sample standardization would buy +0.026 AUROC - refused; a self-fitted threshold would print run-precision 0.40 instead of the honest 0.17.</p>
+<p>Determinism check: the clean build ran twice on the same inputs and hashed identically both times (sha256 prefix <code>f2ac58a5adf080b0</code>, over the dated index values). Pin that hash and you can tell whether tomorrow's audit scored the same index you read about today.</p>
+<p class='faint mono'>audit as of 2026-07-27</p>
+<p class='dim'>The audit's own caveats, verbatim from the engine that computed the table:</p><ul class='dim'><li>the leaky variants exist ONLY inside this audit - they are never published as signals and never feed any other engine</li><li>all variants score against the identical declustered event list and warmup slice as PROOF - one switch flips per row, everything else held fixed</li><li>Leakage Gain is measured on final-vintage data like PROOF itself; the audit measures pipeline discipline, not vendor revisions</li><li>a near-zero gain on one toggle does not certify the pipeline leak-free - it certifies immunity to THAT leak class only</li></ul>
+<p class='limit'><b>Limit</b><br>A near zero gain on one toggle certifies immunity to that leak class and nothing wider. The audit is run on final-vintage data, so it measures pipeline discipline, not vendor revisions. And note the awkward direction: if the real pipeline were already peeking forward, the forward-peeking toggle would buy almost nothing, so read this table next to the point-in-time record in section 3, not instead of it.</p>
+
+<h2>2. The orthogonal test: the board without its own headline input</h2>
+<p>The event this board is scored against is a spike in the SOFR minus IORB spread. The published index contains spread and tail terms. So the objection is fair and obvious: is the signal just the target wearing a costume? The orthogonal run answers it by deleting the whole tails family from the index and rerunning the identical capture test, same events, same threshold, same warmup slice.</p>
+<p class='dim'>same event-capture test with the target&#x27;s own variable family removed from the signal (no spread, no tails) - kink-proxy/confession/rvxray/auctions/buffers only.</p>
+<table><tr><th>metric</th><th>published index</th><th>tails removed</th></tr><tr><td>event recall</td><td class='num'>62%</td><td class='num'>69%</td></tr><tr><td>run precision</td><td class='num'>17%</td><td class='num'>17%</td></tr><tr><td>events in sample</td><td class='num'>13</td><td class='num'>13</td></tr><tr><td>alert runs</td><td class='num'>23</td><td class='num'>18</td></tr><tr><td>median lead, trading days</td><td class='num'>60</td><td class='num'>60</td></tr></table>
+<p>Reading it in one line: strip out the variable family the event is defined on and the board still captures 69% of events, against 62% with everything in. The capture does not live in the spread term. Whatever this board is doing, it is not one series predicting itself.</p>
+<p class='dim'>Wilson 95% interval on that recall: 42% to 87%. The interval is wide because the event count is small, and it is printed rather than rounded away.</p>
+<p>What is left carrying the signal, with weights renormalized:</p><table><tr><th>surviving component</th><th>weight</th></tr><tr><td><code>kink</code></td><td class='num'>0.289</td></tr><tr><td><code>confession</code></td><td class='num'>0.267</td></tr><tr><td><code>rvxray</code></td><td class='num'>0.244</td></tr><tr><td><code>auctions</code></td><td class='num'>0.133</td></tr><tr><td><code>buffers</code></td><td class='num'>0.067</td></tr></table>
+<p class='dim'>Out of the run: <code>tails</code>, <code>weather</code>, <code>resonance</code>, <code>hydrophone</code>, <code>undertow</code>, <code>warehouse</code>. Some are excluded because they are the target's own family, the rest because they are live only and cannot be reconstructed point in time at all.</p>
+<p>The harder test, on the same page as the flattering one. Permute the alert runs at random and ask how often chance placement captures as many events: p is 0.093 over 2,000 permutations, verdict <em>NOT distinguishable from chance placement of the same alerts</em>. That is the board's own rigor block, and it belongs here more than anywhere else on the site.</p>
+<p class='limit'><b>Limit</b><br>State plainly what this does not prove. The surviving components are not independent of the funding tape: reserves, facility take-up and dealer pairs all respond to the same conditions the spread responds to, so this is a costume test, not an independence proof. The event is still defined on the spread. The index under test is the reconstructable lite index, not the live composite, which carries more information and cannot be backtested honestly. And the event count is small enough that the confidence interval, not the point estimate, is the number to quote.</p>
+
+<h2>3. The point-in-time proof: rebuild any past board yourself</h2>
+<p>Every engine on this board is a pure function of its input series. No engine fetches, no engine remembers. That is not a style preference, it is what makes the next paragraph possible: truncate every series at a past date, rerun the same code, and what comes out is the board as it stood on that date. Nothing is patched in and nothing is carried back.</p>
+<p>So do not take the sections above on trust. Rebuild the board yourself for 2025-12-31, a squeeze the board first flagged 42 trading days ahead, and read the composite it was printing that day:</p>
+<div class='cmd'># 1. from the hosted board: rebuild it as it stood on a past date
+# (a date nobody has replayed lately is rebuilt from scratch, so give it room)
+curl -s --max-time 600 https://api.seiche.info/api/asof/2025-12-31 \
+  | python3 -c &#x27;import json,sys; d=json.load(sys.stdin); \
+print(d[&quot;asof&quot;], d[&quot;engines&quot;][&quot;composite&quot;][&quot;value&quot;], d[&quot;engines&quot;][&quot;composite&quot;][&quot;regime&quot;])&#x27;
+
+# 2. or trust nothing of ours: run the same replay from the public source
+git clone https://github.com/beepboop2025/seiche &amp;&amp; cd seiche
+pip install -e ./backend
+python3 -c &#x27;import asyncio, json; from seiche import assemble; \
+print(json.dumps(asyncio.run(assemble.snapshot_asof(&quot;2025-12-31&quot;))[&quot;engines&quot;][&quot;composite&quot;]))&#x27;</div>
+<p>The whole payload comes back, every engine, so any claim about any past day is checkable against the same code that made it. Coverage starts around June 2018, which is where the free public series start. Be patient with the hosted route: a date nobody has asked for lately is rebuilt from the sources on demand, so the first call can run for minutes on a busy box before the replay is cached per date and served with a day-long cache header. The second route needs nothing from us but the code, which is the version a skeptic should prefer anyway.</p>
+<p>The stronger artifact sits next to it. From the day it was switched on, every published reading is appended to a forward-accruing as-published record at <code>/api/pit</code>, which no later recomputation can revise. A replay is honest reconstruction; the as-published record is not reconstruction at all.</p>
+<p class='limit'><b>Limit</b><br>Replays run on final-vintage data. Daily market prints are effectively unrevised, but weekly H.4.1 aggregates are lightly revised against what was on screens that day, and the payload says so in its own vintage note. The deep analytics layer is excluded from replays on purpose, because its percentile bases are defined against the live sample and replaying them would be the look-ahead this page exists to refuse. Replays are cached per date, and the operator can put the route behind sign-in with SEICHE_ASOF_AUTH=1, so a 401 means gated, not missing.</p>
+
+<h2>4. The notary: proof a past reading was not edited later</h2>
+<p>A record that can be quietly improved is not a record. Every as-published reading is canonicalised to JSON with fixed key order, hashed with SHA-256, and chained to the one before it as <code>sha256(prev_hash|digest|utc|pit_date)</code>, from a fixed published root, <code>seiche-notary-genesis-v1</code>. Change any earlier reading, reorder two links, delete one, and every later link stops reproducing.</p>
+<p>The chain is served with no authentication on purpose, and the check runs on your machine, not ours:</p>
+<div class='cmd'># 1. pull the ledger and recompute every link yourself
+curl -s &#x27;https://api.seiche.info/api/notary?n=500&#x27; &gt; notary.json
+python3 -c &#x27;
+import hashlib, json
+d = json.load(open(&quot;notary.json&quot;))
+rows = sorted(d[&quot;entries&quot;], key=lambda r: r[&quot;seq&quot;])
+prev = rows[0][&quot;prev_hash&quot;]
+print(&quot;window starts at genesis:&quot;, prev == d[&quot;genesis&quot;])
+for e in rows:
+    link = &quot;%s|%s|%s|%s&quot; % (prev, e[&quot;record_sha256&quot;], e[&quot;utc&quot;], e[&quot;pit_date&quot;])
+    assert hashlib.sha256(link.encode()).hexdigest() == e[&quot;chain_hash&quot;], e[&quot;seq&quot;]
+    prev = e[&quot;chain_hash&quot;]
+print(&quot;chain intact through&quot;, len(rows), &quot;links, head&quot;, prev)
+&#x27;
+
+# 2. prove a reading was not backdated (Bitcoin, via OpenTimestamps)
+curl -s https://api.seiche.info/api/notary/proof/RECORD_SHA256 -o reading.ots
+ots verify -d RECORD_SHA256 reading.ots
+
+# 3. the signed record: the operator&#x27;s key, then the per-day commitments
+curl -s https://api.seiche.info/api/attest/pubkey</div>
+<p>Step one proves internal consistency: the server cannot hand you a ledger with an edited past that still recomputes. Step two is the part that does not depend on trusting the operator at all: each digest is submitted to the OpenTimestamps calendars and settles into the Bitcoin chain, so a reading can be shown to have existed by a given block time and cannot be backdated. Step three is the signature layer, an Ed25519 key over <code>domain:stream:day:record_hash</code>, with per-day commitments at <code>/api/attest/stream/{stream}</code>. The digest in step two is the <code>record_sha256</code> of the ledger entry you are checking, and what comes back is a standard detached OpenTimestamps proof that any OTS verifier will take. A digest whose anchor has not settled yet answers 404 saying exactly that, which is better than a proof that proves nothing.</p>
+<p>The board's own as-published composite history, hash chained the same way and versioned in a public git repository, is a plain file: <code>https://seiche.info/data/book_history.json</code>. Keep a copy today and you hold a copy of the past nobody can edit out from under you.</p>
+<p class='limit'><b>Limit</b><br>The chain proves integrity and ordering, and the Bitcoin anchor proves a reading is not backdated. Neither proves the reading was computed from honest inputs; that is what sections 1 to 3 are for. Anchoring is a separate step from committing, so a very recent digest can still be pending, in which case it is only as good as the operator&#x27;s word until it settles. And the ledger stores commitments, not payloads, so pinning a specific past number means keeping the record you were shown, or reading it out of the published history file above.</p>
+
+<h2>5. What would falsify the whole board</h2>
+<p>Not marketing. These are the conditions under which the honest thing to do is take the board down, or at least stop quoting it. They are listed here because a tool that cannot say what would refute it is not a measurement, it is a mood.</p>
+<ul><li><strong>The endogenous claim dies on its own sample.</strong> The headline competence claim rests on 2 endogenous episodes. If the next two calendar or reserve squeezes arrive with the composite below its alert threshold, the claim is dead and no amount of engine count saves it.</li><li><strong>The permutation test never improves.</strong> Today the alert placement carries p 0.093 against chance placement of the same runs. If that does not fall as the sample grows, this board is decoration with good typography, and the honest move is to say so here.</li><li><strong>Run precision stays where it is.</strong> 17% of alert runs are followed by an event, which means most alerts are not. If that does not improve with sample, the board is a smoke alarm that rings at toast, and the number stays printed next to every claim until it does.</li><li><strong>The orthogonal run collapses.</strong> If capture without the tails family falls to the base rate, the board is one series wearing a costume and this page will print that instead of the current table.</li><li><strong>The leak audit inverts.</strong> If the forward-peeking toggle stops buying anything while published skill rises, the honest reading is not that we got better; it is that the real pipeline started peeking.</li><li><strong>The as-published record diverges from the reconstruction.</strong> The forward-accruing record and the backtest cover the same dates from different directions. If the reconstruction is systematically kinder to the board than the record it accrued live, the reconstruction is flattering and the backtest number should be retired.</li><li><strong>A replay cannot be reproduced.</strong> The code is AGPL and public. If someone runs it against the same free public series and cannot reproduce a published past board within revision noise, the point-in-time claim is false and everything above it is worth less.</li></ul>
+<p class='limit'><b>Limit</b><br>This list is written by the same desk that built the board, which is a conflict of interest and not a small one. The mitigation is that every item is checkable against a published artifact rather than against our opinion: the audit table, the rigor block, the ledger, the replay endpoint and the source. Bring your own falsifier if this list is missing one.</p>
+
+<h2>Where to go next</h2>
+<p>The method behind every number is on the versioned
+<a href="https://seiche.info/methodology.html">methodology page</a>, with citations and a
+changelog. The code that produced all of it is at
+<a href="https://github.com/beepboop2025/seiche">https://github.com/beepboop2025/seiche</a> under AGPL-3.0, including the leak audit
+and the orthogonal run, so the fastest way to disprove this page is to read
+the two engines behind it.</p>
+
+<h2>Changelog</h2>
+<ul>
+<li><span class='mono'>2026-07-28</span>: first publication; the leak audit and the orthogonal run were computed on the board for months before this page surfaced them.</li>
+</ul>
+
+<p class="faint">Free public data with native lags. Not investment advice.
+Seiche is free open source software (AGPL-3.0) and a public good.</p>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seiche methodology</title>
+<meta name="description" content="How Seiche computes its funding stress reading: composite weights, point-in-time rules, the PROOF scoreboard, the reserve-demand kink, and one subsection per engine. Versioned, with citations and a changelog.">
+<link rel="canonical" href="https://seiche.info/methodology.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<style>
+:root { --bg:#000; --panel:#0b0d15; --edge:#1c1f2b; --text:#edeef4;
+        --dim:#9aa0b6; --faint:#787f95; --accent:#9c8fe8;
+        --accent-soft:#bbaffe; --accent-bright:#d9d4ff;
+        --mono:ui-monospace,Menlo,Consolas,monospace;
+        color-scheme:dark; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--text);
+       font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+       font-size:14px; line-height:1.7; max-width:820px; margin:0 auto;
+       padding:40px 24px 90px; }
+a { color:var(--accent-soft); text-decoration:none; }
+a:hover { color:var(--accent-bright); text-decoration:underline; }
+h1 { font-weight:500; font-size:clamp(26px,4.6vw,34px); letter-spacing:-.02em;
+     margin:30px 0 6px; }
+h2 { font-weight:500; font-size:11.5px; letter-spacing:.15em;
+     text-transform:uppercase; color:var(--accent); margin:44px 0 14px;
+     padding-top:20px; border-top:1px solid var(--edge); }
+h3 { font-weight:600; font-size:13.5px; margin:18px 0 4px; }
+p { margin:12px 0; }
+.dim { color:var(--dim); }
+.faint { color:var(--faint); font-size:12px; }
+code, .mono { font-family:var(--mono); font-size:.9em; }
+code { background:var(--panel); padding:1px 6px; border-radius:5px;
+       color:var(--accent-bright); }
+table { border-collapse:collapse; width:100%; margin:14px 0; font-size:13px; }
+th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--edge); }
+th { color:var(--faint); font-weight:500; font-size:11px;
+     letter-spacing:.08em; text-transform:uppercase; }
+td.num { font-family:var(--mono); }
+.cite { background:var(--panel); border:1px solid var(--edge); border-radius:10px;
+        padding:14px 16px; font-family:var(--mono); font-size:12.5px;
+        white-space:pre-wrap; word-break:break-word; margin:14px 0; }
+ul { margin:12px 0 12px 20px; }
+li { margin:6px 0; }
+.top { display:flex; justify-content:space-between; align-items:baseline;
+       gap:14px; flex-wrap:wrap; padding-bottom:16px;
+       border-bottom:1px solid var(--edge); }
+.wordmark { font-weight:500; letter-spacing:.30em; font-size:18px; }
+.wordmark span { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="wordmark">SEI<span>CHE</span></div>
+  <div class="faint"><a href="/">back to the board</a> &middot; <a href="/guide.html">plain English guide</a></div>
+</div>
+
+<h1>Methodology</h1>
+<p class="faint mono">methodology 2026-07-28 / board 0.7.0 tier1</p>
+<p class="dim">This page is generated from the code that computes the board:
+the weights come from the config file, the engine subsections come from the
+engine module docstrings. If the code changes, this page changes with it, and
+the changelog at the bottom says when and why.</p>
+
+<h2>The composite and its weights</h2>
+<p>The headline number is a 0 to 100 nowcast of US dollar funding stress,
+a weighted blend of 11 sub-scores. Each sub-score is a pure function of
+free public data; the weights are an editorial opinion, published here so the
+opinion is checkable. Missing components renormalize the remaining weights
+and the coverage percentage says how much of the blend was live.</p>
+<table>
+<tr><th>component</th><th>weight</th><th>what it measures</th></tr>
+<tr><td><code>tails</code></td><td class='num'>0.17</td><td class='dim'>the tail seismograph on the SOFR complex, including the SOFR-IORB pressure gauge</td></tr>
+<tr><td><code>kink</code></td><td class='num'>0.13</td><td class='dim'>proximity to the reserve-scarcity kink</td></tr>
+<tr><td><code>weather</code></td><td class='num'>0.11</td><td class='dim'>forward crunch-window risk from the settlement calendar</td></tr>
+<tr><td><code>confession</code></td><td class='num'>0.12</td><td class='dim'>SRF take-up and discount window; paying up is an admission</td></tr>
+<tr><td><code>rvxray</code></td><td class='num'>0.11</td><td class='dim'>relative-value complex size and fragility</td></tr>
+<tr><td><code>resonance</code></td><td class='num'>0.1</td><td class='dim'>basin amplification, a louder ring to the same calendar forcing</td></tr>
+<tr><td><code>hydrophone</code></td><td class='num'>0.08</td><td class='dim'>plumbing connectivity, how far a shock travels through the pipes</td></tr>
+<tr><td><code>undertow</code></td><td class='num'>0.06</td><td class='dim'>damping loss; slower free decay is critical slowing down</td></tr>
+<tr><td><code>auctions</code></td><td class='num'>0.06</td><td class='dim'>Treasury supply digestion</td></tr>
+<tr><td><code>warehouse</code></td><td class='num'>0.03</td><td class='dim'>dealer balance-sheet saturation</td></tr>
+<tr><td><code>buffers</code></td><td class='num'>0.03</td><td class='dim'>RRP buffer emptiness; zero means no shock absorber left</td></tr>
+</table>
+<p>The number maps to a regime word:</p>
+<table>
+<tr><th>regime</th><th>index band</th></tr>
+<tr><td><code>CALM</code></td><td class='num'>0 to 25</td></tr>
+<tr><td><code>EROSION</code></td><td class='num'>25 to 45</td></tr>
+<tr><td><code>STRAIN</code></td><td class='num'>45 to 70</td></tr>
+<tr><td><code>STRESS</code></td><td class='num'>70 to 100</td></tr>
+</table>
+<p class="dim">Context layers (the Tell, Echo, the physics engines, every
+forecast view) are deliberately NOT weighted into the composite: resemblance
+and forecasts are context, not evidence of stress now.</p>
+
+<h2>Point-in-time rules</h2>
+<ul>
+<li>Every published reading is frozen into a forward-accruing as-published
+record the moment it is computed. No later recomputation can revise it.</li>
+<li>Each reading is hashed into a tamper-evident chain and anchored to
+Bitcoin via OpenTimestamps; anyone can verify at <code>/api/notary</code>
+that no past reading was altered or backdated.</li>
+<li>Historical replays (the Time Machine) use final-vintage data and say so
+in the payload. Weekly aggregates are lightly revised versus what was on
+screens that day; the replay never pretends otherwise.</li>
+<li>Native publication lags are shown, never hidden. A two-month-old
+observation on a lagged monthly series is the current print, and the board
+labels it that way instead of calling it news.</li>
+</ul>
+
+<h2>The PROOF scoreboard</h2>
+<p>PROOF is the board's own report card: a point-in-time backtest of the
+composite against dated funding-stress events, with recall, false-alarm
+runs, lead times, and the misses printed next to the hits. The evaluation
+follows the early-warning-system tradition of Kaminsky and Reinhart: signals
+are judged on hits, false alarms and lead time against a dated event list,
+not on in-sample fit.</p>
+<p>The competence boundary is stated, not implied. Endogenous events build
+up inside the plumbing (reserve scarcity, calendar settlement pressure) and
+leave a trail this board can read weeks ahead. Exogenous events (a pandemic,
+a single-bank run, a policy shock) arrive from outside the plumbing and are
+not visible in it beforehand; PROOF reports recall split by class so the
+tool never claims to see what it cannot. A leakage audit publishes the gains
+the board refuses to claim from deliberately leaky variants.</p>
+<ul>
+<li>Kaminsky, G., Lizondo, S., and Reinhart, C. (1998). Leading Indicators
+of Currency Crises. IMF Staff Papers 45(1).</li>
+<li>Kaminsky, G. and Reinhart, C. (1999). The Twin Crises: The Causes of
+Banking and Balance-of-Payments Problems. American Economic Review 89(3).</li>
+</ul>
+
+<h2>The reserve-demand kink</h2>
+<p>The reserve demand curve is flat when reserves are abundant and turns
+steeply negative near scarcity. The New York Fed estimates this elasticity
+as periodic research; Seiche fits it continuously as a hockey-stick
+regression of the SOFR-IORB spread on reserves/GDP, grid-searching the
+breakpoint and reporting the kink in today's dollars, the distance from
+current reserves, and days-to-kink at the trailing drain rate. Fit quality
+gates the confidence, and the model-vs-market consistency check discounts
+the sub-score when the fit and the tape disagree.</p>
+<p>The lineage is the NY Fed's Reserve Demand Elasticity work of Afonso,
+Giannone, La Spada and Williams; their estimate is the reference method and
+this board's hinge fit is the always-on approximation of it.</p>
+<ul>
+<li>Afonso, G., Giannone, D., La Spada, G., and Williams, J. C. When Are
+Central Bank Reserves Ample? Federal Reserve Bank of New York Staff Report
+1019 (the time-varying reserve demand curve model).</li>
+<li>Afonso, Giannone, La Spada and Williams. Tracking Reserve Demand
+Elasticity in Real Time. Liberty Street Economics / the NY Fed's published
+Reserve Demand Elasticity measure.</li>
+</ul>
+
+<h2>The engines</h2>
+<p class="dim">One subsection per engine module, taken from the first
+paragraph of each module's docstring. Every engine is a pure function
+of its input series and degrades to an explicit reason string instead of a
+silent gap.</p>
+<h3><code>auctions</code></h3>
+<p class='dim'>Auction Digestion Index - is the market choking on Treasury supply? Each auction is scored against the trailing distribution of its own tenor: weak bid-to-cover, heavy primary-dealer takedown (buyers of last resort), soft indirects (foreign demand). EWMA across auctions in time order gives a cumulative &quot;indigestion&quot; gauge; March 2026&#x27;s tailed 2s/5s/7s is the reference signature.</p>
+<h3><code>backtest</code></h3>
+<p class='dim'>PROOF - the backtest lab. The page that earns the right to be believed. Three questions, answered with numbers a skeptic can recompute:</p>
+<h3><code>basins</code></h3>
+<p class='dim'>Global Basin Coupling - the dollar system as connected bodies of water. Funding basins (US, euro area, UK, Japan, China) are connected through the FX-swap channel, cross-border bank funding and the dollar itself. In calm regimes each basin sloshes to its own local calendar; under global dollar pressure they synchronize - one tide moves all of them, and the swap lines light up. The tide panel also carries the INR/CNY/JPY/KRW FX legs (Fed H.10, deep daily history), so the common component is measured across both rates and currencies.</p>
+<h3><code>bathymetry</code></h3>
+<p class='dim'>Bathymetry - the shape of the basin floor, measured from the water&#x27;s motion. Every other engine reads the surface. This one reconstructs the DYNAMICS the surface obeys - the physics program applied end to end, in four blocks that share one estimated object:</p>
+<h3><code>book</code></h3>
+<p class='dim'>The Book - the signal made accountable. Every engine upstream of this file produces warnings. This one produces POSITIONS - the only output that can be wrong in a way that costs something, which is exactly why it exists: a forecaster that never books a P&amp;L is a pundit. The Book maps the ensemble state to explicit daily weights on a small liquid universe, runs the walk-forward P&amp;L with costs, and publishes the verdict either way.</p>
+<h3><code>breakwater</code></h3>
+<p class='dim'>The Breakwater - the rescuer modeled as part of the system. Every public forecaster treats the Federal Reserve as weather. It is not weather; it is a PLAYER - the institution paid to stop the exact event this terminal predicts, with a reaction function it never publishes but cannot help revealing: every intervention is a confession of where its pain threshold sat that day. Nobody instruments this. The pros carry it in their heads; the Breakwater writes it down.</p>
+<h3><code>caesar</code></h3>
+<p class='dim'>CAESar - tomorrow&#x27;s tail, estimated from the tail&#x27;s own dynamics. Rogue Wave (engines/roguewave.py) fits the STATIC law of the biggest waves the basin can make; CAESar answers the operational question: given how the last few days went, how bad could TOMORROW&#x27;s pop be? It runs the CAViaR recursion (Engle &amp; Manganelli 2004) on THE shared pop statistic (SOFR−IORB minus its trailing 5bd median - imported from backtest.pop_bp, never forked) and extends it to a joint (VaR, ES) estimator following Gatta, Lillo &amp; Mazzarisi, &quot;Conditional Autoregressive Expected Shortfall&quot; (arXiv:2407.06619):</p>
+<h3><code>communique</code></h3>
+<p class='dim'>Communiqué - the policy text read as plumbing data. The FOMC statement is written to be parsed; every desk parses it. This engine scores each statement with a DETERMINISTIC lexicon (fixed word lists in config - reproducible forever, no model drift, vintage-safe), because a scorer that changes under your feet cannot sit under a backtest. An LLM reading is welcome as enrichment via the desk assistant; the NUMBERS come from the lexicon.</p>
+<h3><code>composite</code></h3>
+<p class='dim'>Seiche Index - the one number, with its full decomposition. Weighted blend of engine sub-scores (weights = config.COMPOSITE_WEIGHTS, the tool&#x27;s editorial voice). Fail-loud: a dead input never silently drops out - its weight is renormalized away and the coverage % falls, both published.</p>
+<h3><code>cpsentinel</code></h3>
+<p class='dim'>CP Sentinel - do DeFi exploits narrow commercial-paper spreads? arXiv:2601.08263 (&quot;A Blessing in Disguise? DeFi Exploits and Short-Horizon Responses in U.S. Commercial Paper Spreads&quot;, Lin) documents a short-horizon FLIGHT-TO-QUALITY pattern that runs opposite to the prevailing contagion hypothesis: in the wake of major DeFi exploits, spreads on 3-month AA commercial paper tend to NARROW rather than widen. The paper&#x27;s reading is a liquidity-recycling channel - capital leaving DeFi is re-intermediated into traditional cash-management markets, and SEC Rule 2a-7 segmentation makes prime-eligible paper a plausible marginal destination. The paper is explicit that the channel is INFERRED from pricing patterns and monthly holdings, not directly identified (no daily fund-level routing is observed). This engine is therefore an associational event-study, not causal evidence, and every payload says so.</p>
+<h3><code>echo</code></h3>
+<p class='dim'>Echo Engine - historical stress-fingerprint matching. Build a daily state vector of plumbing z-scores, take today&#x27;s trailing ECHO_WINDOW-day trajectory, and measure its distance to the trajectory that *preceded* each labeled stress episode (windows ending 0..30 days before the break). Output: &quot;today resembles T-minus-N days before &lt;episode&gt;&quot;.</p>
+<h3><code>edetect</code></h3>
+<p class='dim'>E-Detector - the changepoint tripwire with a false-alarm warranty. Every other engine reads the water; this one stands watch for the moment the water CHANGES. The instrument is the e-detector of Shin, Ramdas &amp; Rinaldo (arXiv:2203.03532): a mixture of Shiryaev-Roberts e-processes restarted at consecutive times, thresholded at 1/alpha, which carries a NONASYMPTOTIC Frequentist warranty - under any pre-change distribution in the calibrated class, the expected waiting time to a false alarm is at least 1/alpha days. Not a heuristic, not a backtested threshold: a proof.</p>
+<h3><code>farbasin</code></h3>
+<p class='dim'>Far Basin - the policy-fear channel (Palimpsest). Seiche&#x27;s global-basin engine tracks the dollar system&#x27;s connected waters through RATES (€STR, SONIA), FX (broad dollar, INR) and the crypto moorings. This engine adds a channel none of those carry: what the Chinese state is actively deleting. Censorship intensity is a confession - the same logic as the SRF/discount-window confession channel, one basin further out. A spike in deletion-threat or in the Generative Firewall (state-aligned LLMs refusing what they answered last week) is policy fear you cannot buy from a market data vendor, arriving before it becomes a market print.</p>
+<h3><code>gyre</code></h3>
+<p class='dim'>The Gyre - is prediction possible at all? A gyre is a basin-scale circulation: persistent structure in what looks like open water. You cannot see it from a single wave, but drop enough drifters and the same paths keep re-emerging - the water has a geometry. Takens&#x27; theorem (1981) is the mathematical license to look for that geometry in one observable: the attractor of a deterministic dynamical system can be reconstructed, up to diffeomorphism, from delay vectors of a single measured series. If the funding basin&#x27;s dynamics are low-dimensional and deterministic, then near neighbors in delay space have near futures - and that forecast skill DECAYS with horizon, because deterministic chaos amplifies small differences exponentially. That decay is the chaos fingerprint. Linearly filtered noise wears the opposite signature: whatever &quot;skill&quot; it shows is pure autocorrelation, exactly reproducible by a phase-randomized surrogate that keeps the spectrum and destroys everything nonlinear - which is precisely what the surrogate gate here tests.</p>
+<h3><code>harbors</code></h3>
+<p class='dim'>Harbors - national money markets as harbors off the dollar ocean. The basins engine measures how the dollar system&#x27;s basins COUPLE; this one walks into each harbor and reads the local water line: the overnight anchor rate, what the currency is doing against the dollar, and whether local policy is being forced. Five harbors clear the keyless-and-honest bar today:</p>
+<h3><code>history</code></h3>
+<p class='dim'>Historical index reconstruction - the backtestable core of the Seiche Index. Rebuilds a daily &quot;Seiche-lite&quot; index over the full sample using EXPANDING- window standardization only: the value on any date uses only data available on that date (no look-ahead in any z-score or percentile). This is the series the PROOF lab, The Tell and the Playbook all run on.</p>
+<h3><code>hydrophone</code></h3>
+<p class='dim'>Hydrophone Array - how connected is the plumbing right now? In a calm basin the funding segments (tri-party, DVP, fed funds, SRF, TGA, RRP...) move on their own idiosyncratic noise: shocks are absorbed locally. As stress builds the segments start moving TOGETHER - a shock anywhere transmits everywhere. We measure that with the absorption ratio (Kritzman et al.): the share of panel variance explained by the top principal components of rolling standardized daily changes. Rising absorption = a densifying network = the system has stopped absorbing and started transmitting.</p>
+<h3><code>kink</code></h3>
+<p class='dim'>Kink Engine - live reserve-demand-curve estimation. The reserve demand curve is flat when reserves are abundant (the SOFR-IORB spread ignores reserve changes) and turns steeply negative near scarcity. The NY Fed estimates this (&quot;Reserve Demand Elasticity&quot;) as periodic research; we fit it continuously as a hockey-stick:</p>
+<h3><code>leakaudit</code></h3>
+<p class='dim'>Leak Audit - the one-switch leakage protocol, run against ourselves. The strongest finding in the 2026 backtest-leakage literature is that look-ahead bias is SELECTIVE: of all the ways a pipeline can cheat, two dominate everywhere they are measured - feature constructors that reach forward in time, and statistics normalized on the full sample (arXiv: 2605.23959, &quot;When Alpha Disappears&quot;: one-switch toggles, Leakage Gain of +15..26 Sharpe-equivalents from the dominant leaks; arXiv:2601.13770, Look-Ahead-Bench: LLM alpha decays −15..−22pp out of sample while honest point-in-time baselines hold near 0).</p>
+<h3><code>ledger</code></h3>
+<p class='dim'>Where the Dollars Sit: the weekly stock-flow ledger of the dollar funding system. Every desk asks the same question on H.4.1 day and almost nobody publishes the answer: reserves moved, so which liability took the other side. The Fed&#x27;s own balance sheet answers it as an accounting identity, because total assets have to equal everything holding them, and every piece of it is free weekly public data. The ledger reconciles to the dollar and prints its own residual, which is the part that makes it worth trusting. The identity it closes runs total assets against currency, reserves, the Treasury&#x27;s account, the two reverse repo pools and a residual:</p>
+<h3><code>market</code></h3>
+<p class='dim'>The Tell - plumbing-versus-price divergence. The whole thesis in one number. Every 2025/26 stress event was visible in the plumbing while price screens looked calm; The Tell measures exactly that gap:</p>
+<h3><code>markov</code></h3>
+<p class='dim'>Regime-transition Markov - the funding-stress regime as a Markov chain. Maps the reconstructed index history into the four regimes (CALM / EROSION / STRAIN / STRESS), estimates the daily transition-probability matrix by counting, and reads off the forward odds of reaching STRESS from where we are now, the expected dwell time in the current regime, and the long-run mix.</p>
+<h3><code>merian</code></h3>
+<p class='dim'>Merian Modes - the seiche eigenmodes, estimated instead of assumed. Merian&#x27;s formula T = 2L/sqrt(g h) gives a real basin&#x27;s standing-wave period from its geometry: length and depth in, period out. The funding basin&#x27;s geometry is unobservable, so we go the other way and read its ACTUAL modes out of the plumbing panel with Hankel-DMD - time-delay-embedded dynamic mode decomposition, a finite-dimensional estimate of the Koopman operator. The lineage deserves stating plainly: the Koopman operator is classical dynamics carried in Hilbert-space clothes (Koopman-von Neumann mechanics, 1931-32) - the same operator formalism as quantum mechanics, used here for exactly what it is: a spectral decomposition of the dynamics into modes, each with a frequency and a growth rate. Nothing quantum happens to a repo rate.</p>
+<h3><code>microseism</code></h3>
+<p class='dim'>Microseism - the shock catalog nobody kept (IDEAS.md #13 made real). Seismology keeps a catalog of every tremor, not just the earthquakes, because aftershock statistics - does one shock raise the hazard of the next? - are the cleanest read on how close the crust is to failure. Funding markets get the earthquake list (PROOF events) but nobody keeps the tremor catalog. This engine does: every pop of the SHARED pop statistic (backtest.pop_bp, never forked) &gt;= MICRO_POP_BP is a micro-shock, and the question is whether shocks CAUSE shocks (self-excitation) or merely share the calendar&#x27;s forcing.</p>
+<h3><code>mlpred</code></h3>
+<p class='dim'>ML Lab - a learned event-probability model that has to earn its place. Target: P(funding event within the next 5 business days), where &quot;event&quot; is the same definition the PROOF lab uses (SOFR−IORB jumping ≥ 10bp over its trailing 5d median). Features are strictly trailing-only (expanding z-scores, rolling percentiles, calendar distances); labels use final-vintage prints.</p>
+<h3><code>modelcourt</code></h3>
+<p class='dim'>Model Court, the adjudication layer over Seiche&#x27;s disagreeing event odds. Seiche publishes five forward views of the same 5bd question and the letter prints them side by side with no ruling: Bathymetry (first-passage escape odds), the ML Lab (walk-forward gradient model), Swell (calendar forcing curve), Tide Tables (analog odds) and the Markov map (regime reach). The Court makes them argue. Each member testifies with its CURRENT probability plus whatever out-of-sample evidence its own payload already carries, the Court pools the members it can defend pooling, and it keeps a live odds ledger so the ranking is eventually EARNED out of sample instead of argued from each model&#x27;s own backtest.</p>
+<h3><code>montecarlo</code></h3>
+<p class='dim'>Monte Carlo path fan - thousands of simulated forward paths from today. Takes the OU + jump process fit to the reconstructed index (shared with the oujump engine) and simulates N paths H business days forward, then reports the fan (per-horizon percentiles) and the PATH-MAX / PATH-MIN probabilities: P(touch STRESS within Nd) and P(fall back to CALM within Nd).</p>
+<h3><code>moorings</code></h3>
+<p class='dim'>Stablecoin Moorings - the offshore-dollar basin&#x27;s tie lines. A moored ship strains its lines before they snap. Stablecoins are the moorings between the crypto basin and the T-bill market: USDT/USDC hold $200B+ of bills, redemptions force bill sales, and the peg price is a real-time print of offshore dollar demand. Three instruments:</p>
+<h3><code>navigator</code></h3>
+<p class='dim'>The Navigator - an LLM forecaster made accountable. Frontier language models carry decades of macroeconomic reasoning in their weights. Every vendor bolting one onto a dashboard asks you to TRUST it. Seiche doesn&#x27;t do trust: the Navigator must COMMIT - one P(funding event within 5bd) per data-day, with a rationale citing the board - and the commitment goes straight into the hash-chained as-published record, where its realized Brier accrues in public against climatology and the Stack.</p>
+<h3><code>officialbid</code></h3>
+<p class='dim'>Foreign Official Bid, rotation vs retreat in the official sector&#x27;s dollars. Foreign central banks hold Treasuries in custody at the New York Fed (WMTSECL1) and park cash at the foreign RRP (WLRRAFOIAL). A falling custody book alone is ambiguous: officials may be selling Treasuries to defend a currency (the bid leaving the auction room) or merely shifting the same dollars into cash at the Fed (a parking change, not a retreat). Reading the two pools together disambiguates, and the FIMA repo line (officials borrowing dollars against their custody collateral instead of selling it) is the stress tell on top. Rules are stated, not vibes:</p>
+<h3><code>oujump</code></h3>
+<p class='dim'>OU + jump-diffusion - the index as a mean-reverting process with jumps. Fits a discrete Ornstein-Uhlenbeck process to the reconstructed index (dX = k(theta - X)dt + sigma dW, business-day steps), separates the fat residuals into a compound-Poisson jump term, and reports the ANALYTIC marginal distribution at each horizon: P(above the STRESS line at +Nd), split into the diffusion tail and the jump tail.</p>
+<h3><code>playbook</code></h3>
+<p class='dim'>Playbook - what happened the last N times the board looked like this? State = (Seiche-lite regime bucket) x (Tell reading). For every historical day in the same state we tabulate what liquid markets did over the next 5 and 20 business days - in native units (S&amp;P return %, VIX pts, OAS bp, yield bp), with n and hit rates printed. Decision support, not advice: the table shows distributions, the operator owns the trade.</p>
+<h3><code>rdenowcast</code></h3>
+<p class='dim'>RDE Nowcast: our live kink fit graded against the NY Fed&#x27;s official print. The NY Fed publishes Reserve Demand Elasticity monthly (Afonso, Giannone, La Spada, Williams): the effect, in basis points, of a 1 percent change in total reserves on the federal funds-IORB spread, with confidence bands. Our kink engine fits the same demand curve continuously from public data. This engine converts our hinge fit into their units and puts the two side by side: if we track their print between releases, we carry a multi-week nowcast lead over the official number; where we diverge, one of us is wrong and the scorecard keeps the receipts so PROOF can grade it.</p>
+<h3><code>regatta</code></h3>
+<p class='dim'>Regatta - the fleet raced honestly (Model Confidence Set). With a fleet of forecast members there is an objection PROOF&#x27;s per-engine permutation nulls cannot answer: WITH THIS MANY BOATS, ONE HAD TO LOOK GOOD. Multiple-comparison inflation is how quant shops fool themselves - rank fifteen models on the same sample and the winner&#x27;s edge is part skill, part selection. The Model Confidence Set (Hansen, Lunde &amp; Nason 2011) is the standard cure: starting from the full fleet, iteratively eliminate boats whose loss is statistically worse than the best remaining, using a block bootstrap of the daily loss differentials to respect serial correlation. What survives is the set of models statistically INDISTINGUISHABLE from the leader at the stated confidence - the honest podium, snoop-corrected.</p>
+<h3><code>reportcard</code></h3>
+<p class='dim'>Auction Report Card: the same day event study behind every auction grade. auctions.py already scores each auction against its own tenor&#x27;s history, bid to cover, the primary dealer takedown, the indirect share, and carries an EWMA digestion index across them. That answers &quot;was the demand normal&quot;. It does not answer the question a funding desk asks next, which is what the plumbing did about it. This engine is that second layer, and it is deliberately not a re-implementation of the first.</p>
+<h3><code>resonance</code></h3>
+<p class='dim'>Resonance Engine - the seiche made literal. A seiche is a standing wave in an enclosed basin: its amplitude is set not by the forcing but by the basin&#x27;s damping. Funding markets are forced by the same calendar every month - month-end window dressing, quarter-end balance-sheet snapshots, mid-month coupon settlements, corporate tax dates, year-end. When the SAME forcing starts producing a BIGGER slosh, the basin is losing damping: intermediation capacity is thinning even while levels between events look calm. That amplification trend - not the level - is the signal.</p>
+<h3><code>riptide</code></h3>
+<p class='dim'>Riptide - the pop prognosis: chop or current? The morning the spread pops is the only morning the whole desk asks the same question, and no tool answers it: is this a one-day slosh (chop) or the start of a squeeze (a current that will carry you out)? Three discriminators make the question answerable at the pop-day close:</p>
+<h3><code>roguewave</code></h3>
+<p class='dim'>Rogue Wave - the tail law of the basin. Extreme value theory is literally the mathematics of rogue waves: the Pickands-Balkema-de Haan theorem says that excesses over a high threshold converge to the Generalized Pareto Distribution no matter what the bulk of the water is doing. Peaks-over-threshold on THE shared pop statistic (SOFR−IORB minus its trailing 5bd median - imported from backtest.pop_bp, never forked) is therefore the honest way to speak about pops LARGER than any in the sample: return levels and P(pop ≥ x) beyond history, with the uncertainty stated instead of hidden.</p>
+<h3><code>runway</code></h3>
+<p class='dim'>Reserve Runway: 13-week reserve-path projection with a named kink date. The kink engine says where scarcity starts; this engine says when we get there. Weekly reserve identity, projected 13 weeks under three stated scenarios:</p>
+<h3><code>rvxray</code></h3>
+<p class='dim'>RV X-Ray - leveraged-positioning size and fragility for the Treasury RV complex (basis trade + swap-spread trade funding leg).</p>
+<h3><code>scuttlebutt</code></h3>
+<p class='dim'>Scuttlebutt - what the harbor is talking about. The scuttlebutt was the ship&#x27;s water cask where sailors traded rumor; the word still means exactly that. This engine measures press ATTENTION on the money-market topics this terminal watches (repo, MMFs, reserves, bills, Fed facilities, the basis trade) from GDELT&#x27;s normalized daily coverage series.</p>
+<h3><code>searoom</code></h3>
+<p class='dim'>Sea Room - guaranteed coverage for the fleet&#x27;s probability. Sea room is the margin a navigator keeps between the ship and the rocks - not a bet about where the ship is, a GUARANTEE about where it isn&#x27;t. The Stack publishes P(event); Venn-Abers calibrates that number. What neither provides is a coverage guarantee: a daily statement over {event, no-event} that CONTAINS the truth a stated fraction of the time, no matter how the regime drifts. Adaptive Conformal Inference (Gibbs &amp; Candès 2021) provides exactly that, assumption-free: emit the set of labels whose nonconformity score fits within a quantile of past scores, and steer the working miscoverage level alpha_t by the realized errors  - </p>
+<h3><code>seastate</code></h3>
+<p class='dim'>Sea State - the marine regime scale, estimated instead of asserted. Mariners grade the water on a defined scale - sea state 2 is not an opinion, it is a measurement convention. The terminal&#x27;s regime words (CALM/EROSION/ STRAIN/STRESS) are editorial thresholds on the composite; this engine estimates the regime the way a statistician would: a two-state Gaussian hidden Markov model (Hamilton 1989) on the detrended spread residual, where the two states are learned from the data - a low-variance &quot;calm water&quot; state and a high-variance &quot;rough water&quot; state - and the published number is the FILTERED P(rough): the probability, using only information available at each close, that the basin is currently in its rough regime.</p>
+<h3><code>sonar</code></h3>
+<p class='dim'>SONAR - the daily anomaly sweep. Every series the collectors hold, pinged every day with the same question: &quot;is your latest print unusual, on level or on change?&quot; Robust statistics only (median/MAD - a squeeze day must not inflate its own yardstick). Output is a ranked movers board: the terminal&#x27;s answer to &quot;what actually moved today?&quot;</p>
+<h3><code>spillover</code></h3>
+<p class='dim'>Spillover - directional funding-stress connectedness across the harbors. Harbors reads each national money market&#x27;s own water line; Basins measures how COUPLED the dollar basins are (absorption ratio, lead-lag). Neither answers the question a contagion desk actually asks: when one harbor&#x27;s funding tightens, WHERE does the stress go, and who is the source?</p>
+<h3><code>stacker</code></h3>
+<p class='dim'>The Stack - walk-forward ensemble of every forecast Seiche makes. Seiche now emits three independent views of the same target - P(funding event within 5bd): the rule-based Seiche-lite expanding percentile, the ML Lab walk-forward model, and the Tide Tables analog odds - plus The Tell (the plumbing-vs-price divergence, a different axis entirely). A fleet beats a flagship, but only if the admiral is honest about it:</p>
+<h3><code>stationkeeping</code></h3>
+<p class='dim'>Station-Keeping - maneuver detection for the reserve system. Method transfer from satellite tracking (the SGP4/Skyfield workflow in every orbit-determination repo): propagate the expected state from known dynamics, compare against observations, and treat persistent innovation residuals as a MANEUVER - the object fired thrusters your model doesn&#x27;t know about.</p>
+<h3><code>stigma</code></h3>
+<p class='dim'>SRF Stigma Gauge: a ceiling that leaks names the banks that will not walk in. The Standing Repo Facility is supposed to cap secured funding by arbitrage: any counterparty that can borrow from the Fed at the offering rate has no reason to pay more in the market. So repo volume persistently printing ABOVE that rate while SRF take-up sits near zero is the classic stigma signature, desks paying up rather than be seen at the window. September 2019 is the canonical case of a backstop arriving late because nobody wanted to be first.</p>
+<h3><code>supplydesk</code></h3>
+<p class='dim'>Supply Desk, the Wrightson-style forward cash table. For each Treasury settlement date over the next four weeks: gross new issuance, maturing amount, and NET NEW CASH in $B, split bills vs coupons. Net new cash is the number desks actually trade off: it is the reserve drain the calendar forces that day (issuance settles, TGA builds, reserves fall) net of the cash the market gets back from maturing paper.</p>
+<h3><code>swell</code></h3>
+<p class='dim'>Swell Forecast - the funding-stress forward curve. Marine forecasting publishes swell height BY DATE: not &quot;the sea is rough&quot; but &quot;Thursday brings 8-foot swell.&quot; Funding stress deserves the same product, and the physics cooperates: the basin&#x27;s forcing schedule is KNOWN IN ADVANCE - month/quarter/year turns, corporate tax dates, coupon-settlement piles all sit on the public calendar. Every incumbent tool scores today; nobody publishes the term structure of funding stress. This engine does:</p>
+<h3><code>tails</code></h3>
+<p class='dim'>Tail Seismograph - distribution-tail pressure in secured funding rates. The NY Fed publishes the full daily distribution (P1/P25/P75/P99) of SOFR, TGCR and BGCR. Before the median ever moves, the 99th percentile detaches: some desk somewhere is paying up. Tail pressure = P99 - P50, z-scored against the trailing year, blended across rates and smoothed with a short EWMA.</p>
+<h3><code>thermohaline</code></h3>
+<p class='dim'>Thermohaline - the deep circulation under the daily plumbing. The ocean has two circulations: wind-driven surface currents that change in days, and the thermohaline conveyor - slow, planet-scale, and the thing that actually sets the climate. The funding basin is the same: SOFR prints and RRP balances are surface weather; underneath sits the OFFSHORE DOLLAR STOCK - USD credit owed by non-banks outside the United States (BIS global liquidity indicators, ~$14T) - and the credit-to-GDP gaps that measure how far national credit systems have stretched above trend. When the conveyor accelerates, the world has borrowed more dollars it must eventually roll, hedge, or repay through the very plumbing this terminal watches; every squeeze in the daily data is ultimately a rationing of THIS stock.</p>
+<h3><code>tidetables</code></h3>
+<p class='dim'>Tide Tables - analog forecasting: the pattern layer made predictive. A tide table predicts a basin&#x27;s future not by running physics forward but by reading the basin&#x27;s own recorded past: the same forcing configurations keep recurring, so the best local forecast is &quot;find every time the water looked like this and read off what it did next&quot; (Lorenz&#x27;s analog method, the oldest trick in operational weather forecasting). Funding markets are an enclosed basin forced by a repeating calendar - they rhyme constantly.</p>
+<h3><code>turn</code></h3>
+<p class='dim'>Turn Barometer - forecast the severity of the NEXT calendar turn. Month-, quarter- and year-end funding turns are the most predictable stress events in finance: the date is known, only the amplitude is uncertain. We learn the amplitude from history: features frozen 5 business days before each past turn (buffer state, spread level, tail pressure, reserve percentile, prior slosh of the same mode), target = that turn&#x27;s slosh in bp.</p>
+<h3><code>undertow</code></h3>
+<p class='dim'>Undertow - the damping gauge: critical slowing down, measured continuously. A damped basin forgets a perturbation fast: the surface flattens, the autocorrelation of its state dies quickly, its variance stays bounded. A basin LOSING damping forgets slowly - lag-1 autocorrelation and variance of the detrended state rise, and every little pop takes longer to bleed off. That signature (critical slowing down) precedes regime shifts across ecology, climate and finance (Scheffer et al., Nature 2009) - and it needs no event to fire: it is read off the response to everyday noise.</p>
+<h3><code>warehouse</code></h3>
+<p class='dim'>Warehouse Engine - dealer balance-sheet saturation. Primary dealers are the market&#x27;s shock absorber of last resort: they take down what auctions can&#x27;t place and warehouse what forced sellers dump. A full warehouse is an absorber that&#x27;s already spent. We track net outright UST positions by maturity bucket (NY Fed PD stats, weekly, T+9 by publication): total saturation percentile, the 13-week build rate, and where on the curve the inventory sits (long-end inventory is the expensive, hard-to-hedge kind).</p>
+<h3><code>weather</code></h3>
+<p class='dim'>Liquidity Weather - forward reserve-path forecast with crunch windows. Identity (with ON RRP ~ 0, every TGA move hits reserves ~1:1):</p>
+<h3><code>windfetch</code></h3>
+<p class='dim'>Windfetch - the current-affairs wind over this basin (overlay, never blended). In the lab&#x27;s oceanography, FETCH is the stretch of open water the wind blows over to generate the waves every other engine here measures. The Undertow repo runs the actual instrument (GDELT DOC 2.0 attention across seven cited transmission channels, each grounded in retrieved literature and routed to the lab surface it plausibly shocks); this engine reads the published pack back and shows Seiche its own slice: the funding-routed channels, with the rest of the world&#x27;s wind as context.</p>
+<h3><code>wrecks</code></h3>
+<p class='dim'>Wrecks - the crypto shipwrecks, read against the funding board. Six labelled crypto stress episodes, each replayed point-in-time at T-21, T-10, T-5, T-1 and T-0 business days before the anchor date, using the same Time Machine as everything else (no lookahead). The honest question splits two ways:</p>
+
+<h2>Data, downloads and citing</h2>
+<p>Every series the board holds can be downloaded as CSV from
+<code>/api/series/&lt;MNEMONIC&gt;.csv</code> on
+<code>api.seiche.info</code>, with source, unit, native lag and retrieved-at
+in the header. The catalog of mnemonics is at
+<code>/api/series/index.json</code>. A handful of third-party licensed
+series (mirrored on FRED) are display-only on the board and excluded from
+bulk export; the catalog marks them.</p>
+<h3>Cite as</h3>
+<div class="cite">Seiche funding-stress terminal (methodology 2026-07-28 / board 0.7.0 tier1).
+https://seiche.info/methodology.html
+Source code: https://github.com/beepboop2025/seiche (AGPL-3.0).
+Data: free public sources with native lags; per-series provenance in each CSV header.</div>
+
+<h2>Changelog</h2>
+<ul>
+<li><span class='mono'>2026-07-28</span>: letter hygiene overhaul; letters before this date could re-headline slow series as news and printed raw z-scores without magnitude context; the archive is preserved as published.</li>
+</ul>
+
+<p class="faint">Free public data with native lags. Not investment advice.
+Seiche is free open source software (AGPL-3.0) and a public good.</p>
+</body>
+</html>
