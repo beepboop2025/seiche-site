@@ -26,6 +26,7 @@ from outside it cannot.
 - [Plain English guide](https://seiche.info/guide.html): every engine and regime word explained without jargon
 - [Methodology](https://seiche.info/methodology.html): versioned methods page with citations, changelog and cite-as block
 - [Skeptic pack](https://seiche.info/skeptic.html): the leakage audit, the orthogonal event-capture test, the point-in-time replay and the notary, with the commands to check each one
+- [Ampleness check](https://seiche.info/ampleness.html): are reserves still ample, walked indicator by indicator with the threshold behind every verdict
 - [Live board](https://seiche.info/): the current funding stress reading
 - [Dispatch archive](https://seiche.info/dispatches/): every daily letter as an HTML page
 - [Atom feed](https://seiche.info/dispatches/feed.xml): the letters as a feed
