@@ -34,6 +34,7 @@ from outside it cannot.
 
 ## Daily dispatches (markdown)
 
+- [Total stablecoin circulation moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-29-daily.md): 2026-07-29, regime STRAIN. The composite reads 45, regime STRAIN. That is +0.2 on the day. The Tell reads +13. Every number below is checkable on the board.
 - [SRF accepted moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-28-daily.md): 2026-07-28, regime STRAIN. The composite reads 45, regime STRAIN. That is -0.2 on the day. The Tell reads +7. Every number below is checkable on the board.
 - [Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-27-daily.md): 2026-07-27, regime STRAIN. The composite reads 45, regime STRAIN. The Tell reads +16. Every number below is checkable on the board.
 - [Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-26-daily.md): 2026-07-26, regime STRAIN. The composite reads 45, regime STRAIN. The Tell reads +16. Every number below is checkable on the board.
