@@ -56,7 +56,7 @@ li { margin:6px 0; }
 </div>
 
 <h1>Methodology</h1>
-<p class="faint mono">methodology 2026-07-28 / board 0.7.0 tier1</p>
+<p class="faint mono">methodology 2026-07-28 / board 0.7.1 tier1</p>
 <p class="dim">This page is generated from the code that computes the board:
 the weights come from the config file, the engine subsections come from the
 engine module docstrings. If the code changes, this page changes with it, and
@@ -222,6 +222,8 @@ silent gap.</p>
 <p class='dim'>Playbook - what happened the last N times the board looked like this? State = (Seiche-lite regime bucket) x (Tell reading). For every historical day in the same state we tabulate what liquid markets did over the next 5 and 20 business days - in native units (S&amp;P return %, VIX pts, OAS bp, yield bp), with n and hit rates printed. Decision support, not advice: the table shows distributions, the operator owns the trade.</p>
 <h3><code>rdenowcast</code></h3>
 <p class='dim'>RDE Nowcast: our live kink fit graded against the NY Fed&#x27;s official print. The NY Fed publishes Reserve Demand Elasticity monthly (Afonso, Giannone, La Spada, Williams): the effect, in basis points, of a 1 percent change in total reserves on the federal funds-IORB spread, with confidence bands. Our kink engine fits the same demand curve continuously from public data. This engine converts our hinge fit into their units and puts the two side by side: if we track their print between releases, we carry a multi-week nowcast lead over the official number; where we diverge, one of us is wrong and the scorecard keeps the receipts so PROOF can grade it.</p>
+<h3><code>refereegli</code></h3>
+<p class='dim'>Referee GLI: the &quot;global liquidity&quot; story&#x27;s headline claims, tested on the layer any outsider can reconstruct. The category&#x27;s flagship index is proprietary, but its largest agreed component is public: G3 central bank balance sheets in dollar terms. This engine rebuilds that layer monthly from 2003 (Fed, ECB, BoJ at monthly average spot) and puts the three public claims through the board&#x27;s own standards: a 3 to 6 month asset price lead, a 12 to 15 month business cycle lead, and a 65 month liquidity cycle. Every correlation carries a moving block bootstrap interval, the predictive claim gets a walk forward test with no look ahead and Granger tests in both directions, and where the post 2003 sample is too short to decide a claim the power problem is quantified instead of hidden.</p>
 <h3><code>regatta</code></h3>
 <p class='dim'>Regatta - the fleet raced honestly (Model Confidence Set). With a fleet of forecast members there is an objection PROOF&#x27;s per-engine permutation nulls cannot answer: WITH THIS MANY BOATS, ONE HAD TO LOOK GOOD. Multiple-comparison inflation is how quant shops fool themselves - rank fifteen models on the same sample and the winner&#x27;s edge is part skill, part selection. The Model Confidence Set (Hansen, Lunde &amp; Nason 2011) is the standard cure: starting from the full fleet, iteratively eliminate boats whose loss is statistically worse than the best remaining, using a block bootstrap of the daily loss differentials to respect serial correlation. What survives is the set of models statistically INDISTINGUISHABLE from the leader at the stated confidence - the honest podium, snoop-corrected.</p>
 <h3><code>reportcard</code></h3>
@@ -284,7 +286,7 @@ in the header. The catalog of mnemonics is at
 series (mirrored on FRED) are display-only on the board and excluded from
 bulk export; the catalog marks them.</p>
 <h3>Cite as</h3>
-<div class="cite">Seiche funding-stress terminal (methodology 2026-07-28 / board 0.7.0 tier1).
+<div class="cite">Seiche funding-stress terminal (methodology 2026-07-28 / board 0.7.1 tier1).
 https://seiche.info/methodology.html
 Source code: https://github.com/beepboop2025/seiche (AGPL-3.0).
 Data: free public sources with native lags; per-series provenance in each CSV header.</div>
