@@ -65,6 +65,143 @@ table.ref th:first-child, table.ref td:first-child { text-align:left; }
 </style>
 </head>
 <body>
-<p>The referee analysis is not available today: only 114 overlapping months. The page publishes only what the engine computed; when the inputs are dark this notice is the whole content, by design.</p>
+
+<h1>The Referee</h1>
+<p class="faint">Version 2026-07-30. Data through 2026-06-30.
+Window 2003-01-31 to 2026-06-30, 282 months.</p>
+
+<p>The firm that coined "global liquidity" as a macro category publishes
+three quantitative claims for its index family: liquidity leads asset prices
+by 3 to 6 months, liquidity leads the business cycle by 12 to 15 months, and
+global liquidity runs a cycle of roughly 65 months. The index is
+proprietary. The claims ship without error bars, out of sample tests, or a
+revision record. So this page does what any referee does: it takes the
+largest component everyone agrees on, G3 central bank balance sheets in
+dollar terms, rebuilds it from public data, and tests the claims under the
+same standards this board applies to itself.</p>
+
+<p><strong>Scope, stated above the fold.</strong> This is not a test of the
+proprietary index. It is a test of its publicly reconstructible layer: Fed,
+ECB and Bank of Japan total assets at monthly average spot, month end, 2003
+onward. The full index adds private credit and cross border flows across
+some 80 countries back to 1974. If the full index performs better than its
+public layer, that performance lives entirely in the unpublished layers, and
+that is a claim its publisher could settle tomorrow by releasing an error
+distribution. We would run it the day they do.</p>
+
+<p>The reconstruction today: 17.76 trillion dollars
+(Fed 6.74, ECB 7.04, BoJ 3.98),
+-5.8 percent year on year.</p>
+
+<div class="claim">
+<h3>Claim 1: "liquidity leads asset prices by 3 to 6 months" <span class="tok tok-fail">NOT REPRODUCIBLE</span></h3>
+<p>Year on year growth of the G3 aggregate, correlated with forward equity
+returns (Nasdaq Composite, the only broad index with full window public
+history). Intervals are circular moving block bootstrap.</p>
+<table class="ref">
+<tr><th>horizon</th><th>correlation with forward return</th></tr>
+<tr><td>1 months ahead</td><td>-0.00 in [-0.16, +0.15], n 270</td></tr>
+<tr><td>3 months ahead</td><td>-0.01 in [-0.23, +0.21], n 268</td></tr>
+<tr><td>6 months ahead</td><td>+0.00 in [-0.26, +0.25], n 265</td></tr>
+<tr><td>9 months ahead</td><td>-0.02 in [-0.30, +0.25], n 262</td></tr>
+<tr><td>12 months ahead</td><td>-0.07 in [-0.34, +0.19], n 259</td></tr>
+<tr><td>18 months ahead</td><td>-0.14 in [-0.42, +0.14], n 253</td></tr>
+</table>
+<p>The walk forward test (2011-01-31 to 2026-01-31, signal from trailing data only) puts the 6 month forward log return after high liquidity months at +0.082 against +0.065 after low liquidity months: a spread of +0.017 with a 95 percent interval of [-0.032, +0.065]. An interval that straddles zero is the test refusing to certify the claim.</p>
+<p>Causality, both directions: liquidity to returns F 0.60 (p 0.73), returns to liquidity F 1.19 (p 0.31), 6 lags. Neither direction clears conventional significance on this layer.</p>
+<p>The transform is not the story: rerunning the forward correlations on 6
+month annualized growth gives the same flat zeros.</p>
+<table class="ref">
+<tr><th>horizon (6m growth)</th><th>correlation</th></tr>
+<tr><td>3 months ahead</td><td>+0.01 in [-0.19, +0.20], n 274</td></tr>
+<tr><td>6 months ahead</td><td>+0.04 in [-0.26, +0.27], n 271</td></tr>
+<tr><td>12 months ahead</td><td>+0.00 in [-0.35, +0.31], n 265</td></tr>
+</table>
+<p>Neither is the definition. The strongest known variant of
+the claim is net liquidity: central bank assets minus the Treasury cash
+balance minus reverse repo take up (today 5.92 trillion
+dollars, window 2003-02-28 to 2026-07-31). The level
+chart of that series against equities is the famous exhibit. The honest
+question is whether its growth predicts forward returns, and it reads the
+same way:</p>
+<table class="ref">
+<tr><th>horizon (net liquidity)</th><th>correlation</th></tr>
+<tr><td>3 months ahead</td><td>-0.04 in [-0.24, +0.25], n 165</td></tr>
+<tr><td>6 months ahead</td><td>+0.03 in [-0.15, +0.23], n 162</td></tr>
+<tr><td>12 months ahead</td><td>+0.02 in [-0.25, +0.21], n 156</td></tr>
+<tr><td>6 months ahead, 2015 onward</td><td>+0.10 in [-0.42, +0.41], n 133</td></tr>
+</table>
+<p>Its walk forward evaluation (2019-08-31 to 2026-01-31) lands on exactly the era the exhibit is drawn from, and puts the 6 month spread at +0.004 with a 95 percent interval of [-0.134, +0.117].</p>
+<p>Stability check, forward 6 month horizon:</p>
+<table class="ref">
+<tr><th>sample</th><th>correlation</th></tr>
+<tr><td>full sample</td><td>+0.00 in [-0.26, +0.25], n 265</td></tr>
+<tr><td>2003 to 2014</td><td>-0.01 in [-0.46, +0.38], n 132</td></tr>
+<tr><td>2015 onward</td><td>+0.07 in [-0.30, +0.34], n 133</td></tr>
+</table>
+<p>Whatever the 3 to 6 month lead is, it is not in the central bank layer,
+gross or net.</p>
+</div>
+
+<div class="claim">
+<h3>Claim 2: "liquidity leads the business cycle by 12 to 15 months" <span class="tok tok-part">WRONG WINDOW</span></h3>
+<p>Against US industrial production growth, the contemporaneous correlation
+is -0.41: central banks expand when the economy contracts. The
+correlation turns positive only far out, peaking at a lead of 22 months
+(+0.23 in [+0.05, +0.41], n 248). At the claimed 13 month lead it reads
++0.15 in [-0.14, +0.46], n 257, an interval that straddles zero.</p>
+<p>Two honest readings. Either the lead is real but sits well past the
+claimed window, or the pattern is a policy reaction function: recessions
+trigger balance sheet expansion, recoveries follow recessions, and the
+apparent lead is partly the economy forecasting the central bank rather than
+the reverse. Separating those requires exactly the private credit layer that
+is not public.</p>
+</div>
+
+<div class="claim">
+<h3>Claim 3: "a cycle of roughly 65 months" <span class="tok tok-open">UNTESTABLE HERE</span></h3>
+<p>On 270 months of data the periodogram's dominant
+period is 54 months, but the spectral
+resolution at a 65 month period is plus or minus
+16 months: the sample
+cannot separate 65 from its neighbours. If the claim is true this window
+holds about 4.2 cycles.
+Peak to peak spacings of the smoothed series run 25, 27, 35, 29, 28, 51, 34, 27 months.</p>
+<p>This deserves saying with respect: the long homogeneous history behind
+the proprietary index is the one genuinely irreplaceable thing its publisher
+owns, and it is the only instrument that could settle their own headline
+claim. We would rather they published the test than the assertion.</p>
+</div>
+
+<h2>What would change this page</h2>
+<p>A published lead lag distribution on the full index, with revision errors
+and out of sample splits. That is the standard this board holds itself to:
+every reading sealed before outcomes, every miss on the public record. Until
+then, the reproducible layer of the global liquidity story contains no
+tradable asset price lead, and the business cycle lead sits far from where
+the marketing puts it.</p>
+
+<h2>Sources and method</h2>
+<p>Fed total assets (H.4.1 via FRED WALCL), ECB total assets (ECBASSETSW),
+BoJ total assets (JPNASSETS), converted at monthly average spot (DEXUSEU,
+DEXJPUS); Nasdaq Composite (NASDAQCOM); US industrial production (INDPRO).
+Derived statistics only are republished here. G3 central bank assets are converted to dollars at monthly average spot and summed month end from 2003. Year on year growth of that aggregate is correlated with forward equity returns at horizons of 1 to 18 months and with forward industrial production growth at 0 to 24 months; every correlation carries a circular moving block bootstrap interval. The predictive claim is additionally tested walk forward with a trailing median signal and no look ahead, and with lagged OLS F tests in both causal directions. Cycle length is read from a linearly detrended periodogram with its resolution limit stated. The transform choice is stress tested by rerunning the forward correlations on six month annualized growth, and the strongest known variant of the claim, net liquidity defined as central bank assets minus the Treasury cash balance minus reverse repo take up, gets the same forward correlations and the same walk forward test.
+The G3 reconstruction is deliberately incomplete: no keyless PBoC or Bank of
+England balance sheet feed exists, and the gap is stated rather than
+interpolated over. The engine behind this page is
+<code>engines/refereegli.py</code>; its method paragraph is on the
+<a href="https://seiche.info/methodology.html">methodology page</a> and the code is at
+<a href="https://github.com/beepboop2025/seiche">https://github.com/beepboop2025/seiche</a> under AGPL-3.0. The two questions a
+skeptic asks first are answered in the
+<a href="https://seiche.info/skeptic.html">skeptic pack</a>.</p>
+
+<h2>Changelog</h2>
+<ul>
+<li><strong>2026-07-30</strong>: first publication; G3 reconstruction 2003 onward, all three headline claims tested, the walk forward and both Granger directions published with the misses included.</li>
+</ul>
+
+<p class="faint">Free public data with native lags. Not investment advice.
+Seiche is free open source software (AGPL-3.0) and a public good.</p>
+
 </body>
 </html>
