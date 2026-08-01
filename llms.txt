@@ -43,6 +43,7 @@ from outside it cannot.
 
 ## Daily dispatches (markdown)
 
+- [Strain with a loud tell: plumbing leads price at +32](https://seiche.info/dispatches/2026-08-01-daily.md): 2026-08-01, regime STRAIN. The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +32. Every number below is checkable on the board.
 - [Nasdaq Composite index moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-31-daily.md): 2026-07-31, regime STRAIN. The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +19. Every number below is checkable on the board.
 - [S&P 500 index moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-30-daily.md): 2026-07-30, regime STRAIN. The composite reads 45, regime STRAIN. That is +0.1 on the day. The Tell reads +13. Every number below is checkable on the board.
 - [Total stablecoin circulation moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-29-daily.md): 2026-07-29, regime STRAIN. The composite reads 45, regime STRAIN. That is +0.2 on the day. The Tell reads +13. Every number below is checkable on the board.
