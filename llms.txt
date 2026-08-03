@@ -43,6 +43,7 @@ from outside it cannot.
 
 ## Daily dispatches (markdown)
 
+- [The Week Ahead 1: 5 pre-registered calls for the week of 2026-08-03](https://seiche.info/dispatches/2026-08-03-week-ahead.md): 2026-08-03, regime WEEK AHEAD. Issue 1 of the Monday letter. The composite reads 46, regime STRAIN. 5 pre-registered calls for the week and 4 dated items on the calendar. The first issue, so there is nothing to grade yet.
 - [Strain with a loud tell: plumbing leads price at +32](https://seiche.info/dispatches/2026-08-02-daily.md): 2026-08-02, regime STRAIN. The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +32. Every number below is checkable on the board.
 - [Strain with a loud tell: plumbing leads price at +32](https://seiche.info/dispatches/2026-08-01-daily.md): 2026-08-01, regime STRAIN. The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +32. Every number below is checkable on the board.
 - [Nasdaq Composite index moved overnight: the strain tape gets a data point](https://seiche.info/dispatches/2026-07-31-daily.md): 2026-07-31, regime STRAIN. The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +19. Every number below is checkable on the board.
