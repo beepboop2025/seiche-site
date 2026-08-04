@@ -102,21 +102,21 @@ history). Intervals are circular moving block bootstrap.</p>
 <table class="ref">
 <tr><th>horizon</th><th>correlation with forward return</th></tr>
 <tr><td>1 months ahead</td><td>-0.00 in [-0.16, +0.14], n 270</td></tr>
-<tr><td>3 months ahead</td><td>-0.01 in [-0.23, +0.21], n 268</td></tr>
-<tr><td>6 months ahead</td><td>+0.00 in [-0.26, +0.25], n 265</td></tr>
-<tr><td>9 months ahead</td><td>-0.02 in [-0.31, +0.25], n 262</td></tr>
-<tr><td>12 months ahead</td><td>-0.07 in [-0.34, +0.19], n 259</td></tr>
-<tr><td>18 months ahead</td><td>-0.14 in [-0.42, +0.14], n 253</td></tr>
+<tr><td>3 months ahead</td><td>-0.01 in [-0.23, +0.21], n 269</td></tr>
+<tr><td>6 months ahead</td><td>+0.00 in [-0.26, +0.25], n 266</td></tr>
+<tr><td>9 months ahead</td><td>-0.02 in [-0.31, +0.25], n 263</td></tr>
+<tr><td>12 months ahead</td><td>-0.07 in [-0.34, +0.18], n 260</td></tr>
+<tr><td>18 months ahead</td><td>-0.14 in [-0.42, +0.13], n 254</td></tr>
 </table>
-<p>The walk forward test (2011-01-31 to 2026-01-31, signal from trailing data only) puts the 6 month forward log return after high liquidity months at +0.082 against +0.065 after low liquidity months: a spread of +0.017 with a 95 percent interval of [-0.032, +0.065]. An interval that straddles zero is the test refusing to certify the claim.</p>
+<p>The walk forward test (2011-01-31 to 2026-02-28, signal from trailing data only) puts the 6 month forward log return after high liquidity months at +0.082 against +0.066 after low liquidity months: a spread of +0.016 with a 95 percent interval of [-0.033, +0.065]. An interval that straddles zero is the test refusing to certify the claim.</p>
 <p>Causality, both directions: liquidity to returns F 0.60 (p 0.73), returns to liquidity F 1.19 (p 0.31), 6 lags. Neither direction clears conventional significance on this layer.</p>
 <p>The transform is not the story: rerunning the forward correlations on 6
 month annualized growth gives the same flat zeros.</p>
 <table class="ref">
 <tr><th>horizon (6m growth)</th><th>correlation</th></tr>
-<tr><td>3 months ahead</td><td>+0.01 in [-0.19, +0.20], n 274</td></tr>
-<tr><td>6 months ahead</td><td>+0.04 in [-0.26, +0.27], n 271</td></tr>
-<tr><td>12 months ahead</td><td>+0.00 in [-0.35, +0.31], n 265</td></tr>
+<tr><td>3 months ahead</td><td>+0.01 in [-0.19, +0.20], n 275</td></tr>
+<tr><td>6 months ahead</td><td>+0.04 in [-0.26, +0.26], n 272</td></tr>
+<tr><td>12 months ahead</td><td>+0.00 in [-0.35, +0.31], n 266</td></tr>
 </table>
 <p>Neither is the definition. The strongest known variant of
 the claim is net liquidity: central bank assets minus the Treasury cash
@@ -127,18 +127,18 @@ question is whether its growth predicts forward returns, and it reads the
 same way:</p>
 <table class="ref">
 <tr><th>horizon (net liquidity)</th><th>correlation</th></tr>
-<tr><td>3 months ahead</td><td>-0.04 in [-0.25, +0.25], n 165</td></tr>
-<tr><td>6 months ahead</td><td>+0.03 in [-0.16, +0.23], n 162</td></tr>
-<tr><td>12 months ahead</td><td>+0.02 in [-0.25, +0.21], n 156</td></tr>
-<tr><td>6 months ahead, 2015 onward</td><td>+0.10 in [-0.42, +0.41], n 133</td></tr>
+<tr><td>3 months ahead</td><td>-0.04 in [-0.24, +0.25], n 166</td></tr>
+<tr><td>6 months ahead</td><td>+0.02 in [-0.16, +0.23], n 163</td></tr>
+<tr><td>12 months ahead</td><td>+0.02 in [-0.26, +0.20], n 157</td></tr>
+<tr><td>6 months ahead, 2015 onward</td><td>+0.09 in [-0.42, +0.41], n 134</td></tr>
 </table>
-<p>Its walk forward evaluation (2019-08-31 to 2026-01-31) lands on exactly the era the exhibit is drawn from, and puts the 6 month spread at +0.003 with a 95 percent interval of [-0.135, +0.116].</p>
+<p>Its walk forward evaluation (2019-08-31 to 2026-02-28) lands on exactly the era the exhibit is drawn from, and puts the 6 month spread at +0.002 with a 95 percent interval of [-0.142, +0.115].</p>
 <p>Stability check, forward 6 month horizon:</p>
 <table class="ref">
 <tr><th>sample</th><th>correlation</th></tr>
-<tr><td>full sample</td><td>+0.00 in [-0.26, +0.25], n 265</td></tr>
+<tr><td>full sample</td><td>+0.00 in [-0.26, +0.25], n 266</td></tr>
 <tr><td>2003 to 2014</td><td>-0.01 in [-0.46, +0.38], n 132</td></tr>
-<tr><td>2015 onward</td><td>+0.07 in [-0.30, +0.34], n 133</td></tr>
+<tr><td>2015 onward</td><td>+0.07 in [-0.31, +0.33], n 134</td></tr>
 </table>
 <p>Whatever the 3 to 6 month lead is, it is not in the central bank layer,
 gross or net.</p>
@@ -194,7 +194,7 @@ claim. We would rather they published the test than the assertion.</p>
 <p class="faint">0 PASS, 1 PARTIAL, 7 FAIL, 0 not applicable.</p>
 <table class="ref">
 <tr><th>row</th><th>grade</th><th>evidence</th></tr>
-<tr><td>point-in-time controls</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claims ship with no stated look ahead protections. Rebuilt with them (trailing median signal, no look ahead), the public layer&#x27;s 6 month spread is +0.0167 with a 95 percent interval of [-0.0320, +0.0647].</td></tr>
+<tr><td>point-in-time controls</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claims ship with no stated look ahead protections. Rebuilt with them (trailing median signal, no look ahead), the public layer&#x27;s 6 month spread is +0.0161 with a 95 percent interval of [-0.0326, +0.0653].</td></tr>
 <tr><td>train/eval split transparency</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">No design or evaluation split ships with the claims: no error bars, no out of sample tests, no design sample named. The referee page states that absence above the fold.</td></tr>
 <tr><td>held-out evaluation</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">Nothing is held out because nothing is released to hold out. The referee&#x27;s own held out test on the public layer refuses to certify the asset price lead; at the claimed 13 month business cycle lead the correlation reads +0.15 in [-0.14, +0.46], n 257.</td></tr>
 <tr><td>universe and series definition</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">The largest agreed component is public and is reconstructed here: G3 central bank assets at monthly average spot, 282 months from 2003-01-31 to 2026-06-30. The remaining layers, private credit and cross border flows across some 80 countries back to 1974, are defined in prose and reproducible by nobody outside the firm.</td></tr>
