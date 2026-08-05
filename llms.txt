@@ -36,6 +36,7 @@ from outside it cannot.
 ## Docs
 
 - [Plain English guide](https://seiche.info/guide.html): every engine and regime word explained without jargon
+- [API + MCP quickstart](https://seiche.info/developers.html): connect an agent or make the first public API call in under a minute
 - [Methodology](https://seiche.info/methodology.html): versioned methods page with citations, changelog and cite-as block
 - [Skeptic pack](https://seiche.info/skeptic.html): the leakage audit, the orthogonal event-capture test, the point-in-time replay and the notary, with the commands to check each one
 - [Ampleness check](https://seiche.info/ampleness.html): are reserves still ample, walked indicator by indicator with the threshold behind every verdict
