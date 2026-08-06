@@ -33,6 +33,10 @@ the backtest record, hits and misses both, and states the competence boundary:
 stress that builds inside the plumbing can be seen early, shocks that arrive
 from outside it cannot.
 
+The Telegram delivery surfaces are https://t.me/seiche_desk_bot for the bot
+and https://t.me/LiquidityLabDesk for the public channel. They deliver the
+same product; the callable contract remains the MCP server above.
+
 Below is the complete text of every daily letter, newest first.
 
 ---
