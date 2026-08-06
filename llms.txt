@@ -50,6 +50,7 @@ from outside it cannot.
 
 ## Daily dispatches (markdown)
 
+- [The calendar is carrying the strain call; the price of overnight cash still says abundance](https://seiche.info/dispatches/2026-08-06-daily.md): 2026-08-06, regime STRAIN. The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.7%; plumbing leads market pricing by +34 percentile points. The index is -0.3 against the last published letter.
 - [S&P 500 index moves +136.02 pts to 7,736.52 pts overnight: 2.7 sigma against its own history](https://seiche.info/dispatches/2026-08-05-daily.md): 2026-08-05, regime STRAIN. The composite reads 46, regime STRAIN. That is +0.1 on the day. The Tell reads +39. Every number below is checkable on the board.
 - [DVP repo total volume (preliminary) moves +320.13 $B to 3,161.60 $B on its latest print: 4.7 sigma against its own history](https://seiche.info/dispatches/2026-08-04-daily.md): 2026-08-04, regime STRAIN. The composite reads 46, regime STRAIN. That is -0.6 on the day. The Tell reads +32. Every number below is checkable on the board.
 - [Strain with a loud tell: plumbing leads price at +32](https://seiche.info/dispatches/2026-08-03-daily.md): 2026-08-03, regime STRAIN. The composite reads 46, regime STRAIN. That is +0.2 on the day. The Tell reads +32. Every number below is checkable on the board.
