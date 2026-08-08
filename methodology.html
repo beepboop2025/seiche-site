@@ -56,7 +56,7 @@ li { margin:6px 0; }
 </div>
 
 <h1>Methodology</h1>
-<p class="faint mono">methodology 2026-07-28 / board 0.8.0 tier1</p>
+<p class="faint mono">methodology 2026-07-28 / board 0.9.0 estuary</p>
 <p class="dim">This page is generated from the code that computes the board:
 the weights come from the config file, the engine subsections come from the
 engine module docstrings. If the code changes, this page changes with it, and
@@ -160,6 +160,8 @@ silent gap.</p>
 <p class='dim'>Auction Digestion Index - is the market choking on Treasury supply? Each auction is scored against the trailing distribution of its own tenor: weak bid-to-cover, heavy primary-dealer takedown (buyers of last resort), soft indirects (foreign demand). EWMA across auctions in time order gives a cumulative &quot;indigestion&quot; gauge; March 2026&#x27;s tailed 2s/5s/7s is the reference signature.</p>
 <h3><code>backtest</code></h3>
 <p class='dim'>PROOF - the backtest lab. The page that earns the right to be believed. Three questions, answered with numbers a skeptic can recompute:</p>
+<h3><code>ballast</code></h3>
+<p class='dim'>Ballast - commodity futures cash pressure read through funding plumbing. Ballast is deliberately *not* a commodity-price signal and never enters the Seiche composite. It combines official weekly CFTC positioning with public spot benchmarks, EIA physical inventory, and dollar-funding spreads to answer one narrower question: where can a commodity move create an unusually large need for cash or balance-sheet capacity?</p>
 <h3><code>basins</code></h3>
 <p class='dim'>Global Basin Coupling - the dollar system as connected bodies of water. Funding basins (US, euro area, UK, Japan, China) are connected through the FX-swap channel, cross-border bank funding and the dollar itself. In calm regimes each basin sloshes to its own local calendar; under global dollar pressure they synchronize - one tide moves all of them, and the swap lines light up. The tide panel also carries the INR/CNY/JPY/KRW FX legs (Fed H.10, deep daily history), so the common component is measured across both rates and currencies.</p>
 <h3><code>bathymetry</code></h3>
@@ -292,7 +294,7 @@ in the header. The catalog of mnemonics is at
 series (mirrored on FRED) are display-only on the board and excluded from
 bulk export; the catalog marks them.</p>
 <h3>Cite as</h3>
-<div class="cite">Seiche funding-stress terminal (methodology 2026-07-28 / board 0.8.0 tier1).
+<div class="cite">Seiche funding-stress terminal (methodology 2026-07-28 / board 0.9.0 estuary).
 https://seiche.info/methodology.html
 Source code: https://github.com/beepboop2025/seiche (AGPL-3.0).
 Data: free public sources with native lags; per-series provenance in each CSV header.</div>
