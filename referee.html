@@ -70,6 +70,7 @@ table.ref td.rub-ev { text-align:left; max-width:620px; }
 <h1>The Referee</h1>
 <p class="faint">Version 2026-08-01. Data through 2026-07-31.
 Window 2003-01-31 to 2026-07-31, 283 months.</p>
+<p><span class="tok tok-fail">CONSTRUCTION PIT ONLY</span> These retrospective statistics are not validated-backtest evidence. chronological transforms use final/current-vintage history and do not reconstruct what was publicly knowable on each historical date.</p>
 
 <p>The firm that coined "global liquidity" as a macro category publishes
 three quantitative claims for its index family: liquidity leads asset prices
@@ -217,7 +218,7 @@ the marketing puts it.</p>
 <p>Fed total assets (H.4.1 via FRED WALCL), ECB total assets (ECBASSETSW),
 BoJ total assets (JPNASSETS), converted at monthly average spot (DEXUSEU,
 DEXJPUS); Nasdaq Composite (NASDAQCOM); US industrial production (INDPRO).
-Derived statistics only are republished here. G3 central bank assets are converted to dollars at monthly average spot and summed month end from 2003. Year on year growth of that aggregate is correlated with forward equity returns at horizons of 1 to 18 months and with forward industrial production growth at 0 to 24 months; every correlation carries a circular moving block bootstrap interval. The predictive claim is additionally tested walk forward with a trailing median signal and no look ahead, and with lagged OLS F tests in both causal directions. Cycle length is read from a linearly detrended periodogram with its resolution limit stated. The transform choice is stress tested by rerunning the forward correlations on six month annualized growth, and the strongest known variant of the claim, net liquidity defined as central bank assets minus the Treasury cash balance minus reverse repo take up, gets the same forward correlations and the same walk forward test.
+Derived statistics only are republished here. G3 central bank assets are converted to dollars at monthly average spot and summed month end from 2003. Year on year growth of that aggregate is correlated with forward equity returns at horizons of 1 to 18 months and with forward industrial production growth at 0 to 24 months; every correlation carries a circular moving block bootstrap interval. The predictive claim is additionally tested walk forward with a trailing median signal and no look ahead, and with lagged OLS F tests in both causal directions. Cycle length is read from a linearly detrended periodogram with its resolution limit stated. The transform choice is stress tested by rerunning the forward correlations on six month annualized growth, and the strongest known variant of the claim, net liquidity defined as central bank assets minus the Treasury cash balance minus reverse repo take up, gets the same forward correlations and the same walk forward test. Historical inputs are final/current-vintage unless the attached historical_evidence manifest proves otherwise; chronological alignment alone is not a validated-backtest claim.
 The G3 reconstruction is deliberately incomplete: no keyless PBoC or Bank of
 England balance sheet feed exists, and the gap is stated rather than
 interpolated over. The engine behind this page is

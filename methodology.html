@@ -110,10 +110,11 @@ labels it that way instead of calling it news.</li>
 </ul>
 
 <h2>The PROOF scoreboard</h2>
-<p>PROOF is the board's own report card: a point-in-time backtest of the
+<p>PROOF is the board's own report card: a construction-PIT diagnostic of the
 composite against dated funding-stress events, with recall, false-alarm
 runs, lead times, and the misses printed next to the hits. The evaluation
-follows the early-warning-system tradition of Kaminsky and Reinhart: signals
+uses final/current-vintage history, so it is not validated-backtest evidence.
+It follows the early-warning-system tradition of Kaminsky and Reinhart: signals
 are judged on hits, false alarms and lead time against a dated event list,
 not on in-sample fit.</p>
 <p>The competence boundary is stated, not implied. Endogenous events build
@@ -283,7 +284,7 @@ silent gap.</p>
 <h3><code>windfetch</code></h3>
 <p class='dim'>Windfetch - the current-affairs wind over this basin (overlay, never blended). In the lab&#x27;s oceanography, FETCH is the stretch of open water the wind blows over to generate the waves every other engine here measures. The Undertow repo runs the actual instrument (GDELT DOC 2.0 attention across seven cited transmission channels, each grounded in retrieved literature and routed to the lab surface it plausibly shocks); this engine reads the published pack back and shows Seiche its own slice: the funding-routed channels, with the rest of the world&#x27;s wind as context.</p>
 <h3><code>wrecks</code></h3>
-<p class='dim'>Wrecks - the crypto shipwrecks, read against the funding board. Six labelled crypto stress episodes, each replayed point-in-time at T-21, T-10, T-5, T-1 and T-0 business days before the anchor date, using the same Time Machine as everything else (no lookahead). The honest question splits two ways:</p>
+<p class='dim'>Wrecks - the crypto shipwrecks, read against the funding board. Six labelled crypto stress episodes, each replayed with causal truncation at T-21, T-10, T-5, T-1 and T-0 business days before the anchor date, using the same final-vintage Time Machine as everything else (construction-PIT, not proof of historical knowability). The honest question splits two ways:</p>
 
 <h2>Data, downloads and citing</h2>
 <p>Every series the board holds can be downloaded as CSV from
