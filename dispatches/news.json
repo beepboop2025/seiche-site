@@ -1,0 +1,517 @@
+{
+  "schema": "seiche.analytical-feed.v1",
+  "product": "seiche",
+  "generated_from": "/dispatches/index.json",
+  "entries": [
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-11-daily",
+      "product": "seiche",
+      "slug": "2026-08-11-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-11-daily.html",
+      "headline": "S&P 500 index sits at 7,753.11 pts, +2.5 sigma from its own median: a level, not a move",
+      "dek": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +35 percentile points. The index is +0.0 against the last published letter.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-11T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-10-daily",
+      "product": "seiche",
+      "slug": "2026-08-10-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-10-daily.html",
+      "headline": "The Tell holds at +35.0, unchanged against the last letter: plumbing leads price",
+      "dek": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.5%; plumbing leads market pricing by +35 percentile points. The index is +0.0 against the last published letter.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-10T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-10-week-ahead",
+      "product": "seiche",
+      "slug": "2026-08-10-week-ahead",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-10-week-ahead.html",
+      "headline": "The Week Ahead 2: 5 pre-registered calls for the week of 2026-08-10",
+      "dek": "Issue 2 of the Monday letter. The composite reads 45, regime EROSION. 5 pre-registered calls for the week and 5 dated items on the calendar. Last week's calls graded 3 of 4, misses first.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-10T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-09-daily",
+      "product": "seiche",
+      "slug": "2026-08-09-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-09-daily.html",
+      "headline": "The Tell reads +35.0: plumbing at the 62nd percentile of its own history, screens at the 27th",
+      "dek": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +35 percentile points. The index is +0.0 against the last published letter.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-09T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-08-daily",
+      "product": "seiche",
+      "slug": "2026-08-08-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-08-daily.html",
+      "headline": "S&P 500 index sits at 7,757.64 pts, +2.5 sigma from its own median: a level, not a move",
+      "dek": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +35 percentile points. The index is +0.0 against the last published letter.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-08T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-07-daily",
+      "product": "seiche",
+      "slug": "2026-08-07-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-07-daily.html",
+      "headline": "2y Treasury constant maturity yield sits at 4.18 %, +2.8 sigma from its own median: a level, not a move",
+      "dek": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.5%; plumbing leads market pricing by +31 percentile points. The index is +0.0 against the last published letter.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-07T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-06-daily",
+      "product": "seiche",
+      "slug": "2026-08-06-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-06-daily.html",
+      "headline": "The calendar is carrying the strain call; the price of overnight cash still says abundance",
+      "dek": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.7%; plumbing leads market pricing by +34 percentile points. The index is -0.3 against the last published letter.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-06T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-05-daily",
+      "product": "seiche",
+      "slug": "2026-08-05-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-05-daily.html",
+      "headline": "S&P 500 index moves +136.02 pts to 7,736.52 pts overnight: 2.7 sigma against its own history",
+      "dek": "The composite reads 46, regime STRAIN. That is +0.1 on the day. The Tell reads +39. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-05T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-04-daily",
+      "product": "seiche",
+      "slug": "2026-08-04-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-04-daily.html",
+      "headline": "DVP repo total volume (preliminary) moves +320.13 $B to 3,161.60 $B on its latest print: 4.7 sigma against its own history",
+      "dek": "The composite reads 46, regime STRAIN. That is -0.6 on the day. The Tell reads +32. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-04T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-03-daily",
+      "product": "seiche",
+      "slug": "2026-08-03-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-03-daily.html",
+      "headline": "Strain with a loud tell: plumbing leads price at +32",
+      "dek": "The composite reads 46, regime STRAIN. That is +0.2 on the day. The Tell reads +32. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-03T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-03-week-ahead",
+      "product": "seiche",
+      "slug": "2026-08-03-week-ahead",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-03-week-ahead.html",
+      "headline": "The Week Ahead 1: 5 pre-registered calls for the week of 2026-08-03",
+      "dek": "Issue 1 of the Monday letter. The composite reads 46, regime STRAIN. 5 pre-registered calls for the week and 4 dated items on the calendar. The first issue, so there is nothing to grade yet.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-03T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-02-daily",
+      "product": "seiche",
+      "slug": "2026-08-02-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-02-daily.html",
+      "headline": "Strain with a loud tell: plumbing leads price at +32",
+      "dek": "The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +32. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-02T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-01-daily",
+      "product": "seiche",
+      "slug": "2026-08-01-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-01-daily.html",
+      "headline": "Strain with a loud tell: plumbing leads price at +32",
+      "dek": "The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +32. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-01T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-31-daily",
+      "product": "seiche",
+      "slug": "2026-07-31-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-31-daily.html",
+      "headline": "Nasdaq Composite index moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +19. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-31T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-30-daily",
+      "product": "seiche",
+      "slug": "2026-07-30-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-30-daily.html",
+      "headline": "S&P 500 index moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 45, regime STRAIN. That is +0.1 on the day. The Tell reads +13. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-30T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-29-daily",
+      "product": "seiche",
+      "slug": "2026-07-29-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-29-daily.html",
+      "headline": "Total stablecoin circulation moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 45, regime STRAIN. That is +0.2 on the day. The Tell reads +13. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-29T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-28-daily",
+      "product": "seiche",
+      "slug": "2026-07-28-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-28-daily.html",
+      "headline": "SRF accepted moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 45, regime STRAIN. That is -0.2 on the day. The Tell reads +7. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-28T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-27-daily",
+      "product": "seiche",
+      "slug": "2026-07-27-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-27-daily.html",
+      "headline": "Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point",
+      "dek": "The composite reads 45, regime STRAIN. The Tell reads +16. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-27T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-26-daily",
+      "product": "seiche",
+      "slug": "2026-07-26-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-26-daily.html",
+      "headline": "Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point",
+      "dek": "The composite reads 45, regime STRAIN. The Tell reads +16. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-26T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-25-daily",
+      "product": "seiche",
+      "slug": "2026-07-25-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-25-daily.html",
+      "headline": "Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point",
+      "dek": "The composite reads 45, regime STRAIN. The Tell reads +19. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-25T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-24-daily",
+      "product": "seiche",
+      "slug": "2026-07-24-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-24-daily.html",
+      "headline": "Central bank liquidity swaps outstanding (H.4.1) moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 46, regime STRAIN. The Tell reads +23. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-24T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-23-daily",
+      "product": "seiche",
+      "slug": "2026-07-23-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-23-daily.html",
+      "headline": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 46, regime STRAIN. The Tell reads +18. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-23T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-22-daily",
+      "product": "seiche",
+      "slug": "2026-07-22-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-22-daily.html",
+      "headline": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 46, regime STRAIN. The Tell reads +10. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-22T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-21-daily",
+      "product": "seiche",
+      "slug": "2026-07-21-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-21-daily.html",
+      "headline": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 46, regime STRAIN. The Tell reads +11. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-21T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-20-daily",
+      "product": "seiche",
+      "slug": "2026-07-20-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-20-daily.html",
+      "headline": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point",
+      "dek": "The composite reads 44, regime EROSION. The Tell reads +22. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-20T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-19-daily",
+      "product": "seiche",
+      "slug": "2026-07-19-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-19-daily.html",
+      "headline": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point",
+      "dek": "The composite reads 44, regime EROSION. The Tell reads +22. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-19T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-18-daily",
+      "product": "seiche",
+      "slug": "2026-07-18-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-18-daily.html",
+      "headline": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point",
+      "dek": "The composite reads 44, regime EROSION. The Tell reads +23. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-18T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-17-daily",
+      "product": "seiche",
+      "slug": "2026-07-17-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-17-daily.html",
+      "headline": "SRF accepted moved overnight: the erosion tape gets a data point",
+      "dek": "The composite reads 45, regime EROSION. The Tell reads +27. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-17T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-16-daily",
+      "product": "seiche",
+      "slug": "2026-07-16-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-16-daily.html",
+      "headline": "Strain with a loud tell: plumbing leads price at +32",
+      "dek": "The composite reads 46, regime STRAIN. The Tell reads +32. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-16T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-15-daily",
+      "product": "seiche",
+      "slug": "2026-07-15-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-15-daily.html",
+      "headline": "SRF accepted moved overnight: the strain tape gets a data point",
+      "dek": "The composite reads 46, regime STRAIN. The Tell reads +27. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-15T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-14-daily",
+      "product": "seiche",
+      "slug": "2026-07-14-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-14-daily.html",
+      "headline": "Strain with a loud tell: plumbing leads price at +38",
+      "dek": "The composite reads 45, regime STRAIN. The Tell reads +38. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-14T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-13-daily",
+      "product": "seiche",
+      "slug": "2026-07-13-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-13-daily.html",
+      "headline": "Strain with a loud tell: plumbing leads price at +37",
+      "dek": "The composite reads 45, regime STRAIN. The Tell reads +37. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-13T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-12-daily",
+      "product": "seiche",
+      "slug": "2026-07-12-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-12-daily.html",
+      "headline": "Erosion with a loud tell: plumbing leads price at +37",
+      "dek": "The composite reads 45, regime EROSION. The Tell reads +37. Every number below is checkable on the board.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-12T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-07-09-fat-tail",
+      "product": "seiche",
+      "slug": "2026-07-09-fat-tail",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-09-fat-tail.html",
+      "headline": "The plumbing has a fat tail",
+      "dek": "The board reads STRAIN. VIX at 16, credit spreads near their tightest on record. The pipes and the price screens disagree — and extreme value theory says the disagreement has no ceiling.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-07-09T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    }
+  ]
+}
