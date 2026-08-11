@@ -74,7 +74,7 @@ Date: 2026-08-11 · Regime: EROSION · Canonical: https://seiche.info/dispatches
 
 **The calendar is carrying the strain call; the price of overnight cash still says abundance.**
 
-The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +35 percentile points.
+The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.3%; plumbing leads market pricing by +39 percentile points.
 
 - **Balance-sheet identity**, as of 2026-08-05: Reserves rose $8.8B on the week to $2,993B, and the ledger says where from: the residual absorbed $20.6B, the foreign RRP pool released $16.8B, the balance sheet added $10.4B, six legs summing to the reserve change to the dollar with $55.5B of the balance sheet, 0.82% of assets, still sitting in the unnamed residual. Source: Federal Reserve H.4.1.
 - **Official-sector footprint**, as of 2026-08-05: Foreign officials cut their Fed custody Treasuries by $95.2B over 13 weeks while foreign RRP parking held flat, only a partial rotation because the combined official footprint still fell $98.5B to $2,949B, 103% of the custody drop leaving the official sector rather than moving inside it. Source: Federal Reserve custody and foreign RRP.
@@ -86,11 +86,11 @@ The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 
 
 ## 1 · The reading
 
-The composite reads **45 out of 100, EROSION**, +0.0 against the last published reading, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.
+The composite reads **45 out of 100, EROSION**, +0.1 against the last published reading, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.
 
 The heaviest hand on the dial is **the calendar squeeze (weather)** at a score of 100, worth +11.0 points of the total. Pinned at the ceiling today: the calendar squeeze (weather), the cash buffers, RRP and TGA (buffers). Those components are carrying no new information from day to day, and the letter names every one of them rather than only the loudest. That is where the reading comes from. The rest is arithmetic.
 
-Change gets attributed here, not just level: against the last letter, the tail law (tails) -0.2, -0.2 points net across the components.
+Change gets attributed here, not just level: against the last letter, the tail law (tails) -0.1, -0.1 points net across the components.
 
 ## 2 · What moved
 
@@ -104,7 +104,7 @@ Repo held under the SRF ceiling for all of the last 20 sessions with SRF take-up
 
 ## 3 · The Tell
 
-The Tell, the gap between what the pipes measure and what the screens price, reads **+35.0**: plumbing indicators at the 61.0 percentile of their own history, market indicators at the 26.0, a gap of +35.0.
+The Tell, the gap between what the pipes measure and what the screens price, reads **+39.0**: plumbing indicators at the 61.0 percentile of their own history, market indicators at the 22.0, a gap of +39.0.
 
 A gap this wide has a short shelf life. The board's read is *plumbing leads price*, and the record of what happened after past gaps sits in PROOF.
 
@@ -128,7 +128,7 @@ Foreign officials cut their Fed custody Treasuries by $95.2B over 13 weeks while
 
 ## 6 · The dates that matter
 
-The next date that matters is **2026-08-13**: $95B auction settlement while reserves sit below the estimated kink, worst case reserves near $2,968B after the drain. The last letter put that window's settlement at $266B; the schedule now reads $95B. Revisions get said, not slipped. The turn model puts 2026-08-31 (month_end) at +2.2bp with a band of [-1.8, +6.8], severity 1/5. FOMC decides 2026-09-16, 36 days out. The corporate tax date lands 2026-09-15, 35 days out; tax dates drain reserves on a schedule everyone can read.
+The next date that matters is **2026-08-17**: $125B auction settlement while reserves sit below the estimated kink, worst case reserves near $2,945B after the drain. The turn model puts 2026-08-31 (month_end) at +2.2bp with a band of [-1.8, +6.7], severity 1/5. FOMC decides 2026-09-16, 36 days out. The corporate tax date lands 2026-09-15, 35 days out; tax dates drain reserves on a schedule everyone can read.
 
 ## 7 · What the board is honest about
 
@@ -138,30 +138,30 @@ All sources and engines report live. The misses this board has made sit in PROOF
 
 ### The court
 
-Bathymetry puts the odds of an event inside five business days at **8%**, mean first-passage roughly 75 business days. The learned model reads 4% for the same window and calls it *does not out-rank the rule-based index*. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 62 business days in the current state. Resonance reads 66: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.
+Bathymetry puts the odds of an event inside five business days at **7%**, mean first-passage roughly 75 business days. The learned model reads 3% for the same window and calls it *does not out-rank the rule-based index*. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 65 business days in the current state. Resonance reads 66: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.
 
 The stack pools the members at **6%** for the five-day window, dispersion 0.03, pooled over its own 6 members rather than the views quoted above. Its own verdict, in full: published signal = mean (Brier 0.0404 vs mean 0.0404, climatology 0.0394); does NOT beat the best single member (swell), the ensemble adds robustness, not skill.
 
-Model Court, 5bd event odds: 4 models span 3.6 to 24.0 pct, pooled 4.0 pct (skill weighted, 2 of 4 beat climatology); live ranking withheld (8 of 30 resolved at worst).
+Model Court, 5bd event odds: 4 models span 2.8 to 16.0 pct, pooled 9.5 pct (skill weighted, 1 of 4 beat climatology); live ranking withheld (9 of 30 resolved at worst).
 
-Ledger status: ledger accruing: bathymetry 8/30 resolved (6 pending), ml 8/30 resolved (6 pending), stacker 8/30 resolved (6 pending), swell 8/30 resolved (6 pending), tidetables 8/30 resolved (6 pending); ranked verdict withheld until 30 resolved rows per model..
+Ledger status: ledger accruing: bathymetry 9/30 resolved (6 pending), ml 9/30 resolved (6 pending), stacker 9/30 resolved (6 pending), swell 9/30 resolved (6 pending), tidetables 9/30 resolved (6 pending); ranked verdict withheld until 30 resolved rows per model..
 
 ### The supply desk
 
 | settles | bills $B | coupons $B | maturing $B | net new cash $B | status |
 |---|---|---|---|---|---|
 | 2026-08-11 | 295 | 0 | 256 | **+39** | announced |
-| 2026-08-13 | 276 | 0 | 261 | **+15** | announced |
+| 2026-08-13 | 282 | 0 | 261 | **+21** | announced |
 | 2026-08-17 | 0 | 125 | 131 | **-6** | announced |
-| 2026-08-18 | 297 | 0 | 266 | **+32** | est. size |
+| 2026-08-18 | 282 | 0 | 266 | **+16** | announced |
 | 2026-08-20 | 287 | 0 | 270 | **+17** | est. size |
-| 2026-08-25 | 295 | 77 | 267 | **+104** | projected |
-| 2026-08-27 | 276 | 0 | 271 | **+5** | projected |
+| 2026-08-25 | 282 | 77 | 267 | **+91** | projected |
+| 2026-08-27 | 282 | 0 | 271 | **+11** | projected |
 | 2026-08-31 | 0 | 164 | 179 | **-15** | projected |
 
-The heaviest settlement ahead is 2026-08-25 at $+104B net. Net new cash is the number that drains reserves. Maturing includes SOMA rollovers, so the private-side drain runs smaller on SOMA-heavy dates; projected rows are the desk's house estimate and get graded when Treasury announces.
+The heaviest settlement ahead is 2026-08-25 at $+91B net. Net new cash is the number that drains reserves. Maturing includes SOMA rollovers, so the private-side drain runs smaller on SOMA-heavy dates; projected rows are the desk's house estimate and get graded when Treasury announces.
 
-The last auction on the board is the 13w bill of 2026-08-10, graded C on a composite z of -0.33, and its funding window is still open at 0 of 4 marks, so the board is not scoring the plumbing yet, and the trailing indirect share for that tenor is firming.
+The last auction on the board is the 6w bill of 2026-08-11, graded B on a composite z of -0.97, and its funding window is still open at 0 of 4 marks, so the board is not scoring the plumbing yet, and the trailing indirect share for that tenor is firming.
 
 ### Positioning
 
@@ -171,16 +171,16 @@ Leveraged funds hold **$1,049B gross short** in Treasury futures, **$838B net sh
 
 | episode | window | similarity |
 |---|---|---|
-| Mar 2020 dash-for-cash | T−22d | 0.67 |
-| Sep 2025 tax-date squeeze (SOFR +18bp over EFFR) | T−17d | 0.59 |
-| Sep 2019 repo spike (SOFR 5.25%, GC 10%) | T−3d | 0.58 |
-| Apr 2025 tariff shock basis unwind | T−7d | 0.55 |
+| Mar 2020 dash-for-cash | T−21d | 0.68 |
+| Sep 2025 tax-date squeeze (SOFR +18bp over EFFR) | T−16d | 0.60 |
+| Sep 2019 repo spike (SOFR 5.25%, GC 10%) | T−2d | 0.58 |
+| Apr 2025 tariff shock basis unwind | T−30d | 0.56 |
 
-The top rhyme is Mar 2020 dash-for-cash at 0.67, above the desk's 0.60 attention line. That line is an editorial convention, not a validated threshold: the engine publishes no null distribution for this distance, so nothing here says how often a 0.60 rhyme is a coincidence. Similarity is not destiny, and PROOF's outcome tables, not this one, carry what actually followed.
+The top rhyme is Mar 2020 dash-for-cash at 0.68, above the desk's 0.60 attention line. That line is an editorial convention, not a validated threshold: the engine publishes no null distribution for this distance, so nothing here says how often a 0.60 rhyme is a coincidence. Similarity is not destiny, and PROOF's outcome tables, not this one, carry what actually followed.
 
 ### The ledger: what would change the desk's mind
 
-- **E1** · The Tell closing back under +15; today it reads +35.
+- **E1** · The Tell closing back under +15; today it reads +39.
 - **E2** · Reserves stabilising for two straight weeks; the current drain runs $-1.8B a business day.
 - **E3** · Calendar amplification easing below 1x; today it runs 6.3x.
 
