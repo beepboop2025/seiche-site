@@ -73,6 +73,8 @@ same product; the callable contract remains the MCP server above.
 - [Skeptic pack](https://seiche.info/skeptic.html): the leakage audit, the orthogonal event-capture test, the construction-PIT replay and the notary, with the commands to check each one
 - [Ampleness check](https://seiche.info/ampleness.html): are reserves still ample, walked indicator by indicator with the threshold behind every verdict
 - [Live board](https://seiche.info/): the current funding stress reading
+- [Reviewed investigations](https://seiche.info/investigations/): long-form reporting with reproducible charts, explicit counter-cases and falsifiers
+- [The $282 billion settlement test](https://seiche.info/investigations/the-282-billion-settlement-test/): calm overnight cash versus a dated reserve-capacity test
 - [Dispatch archive](https://seiche.info/dispatches/): every daily letter as an HTML page
 - [Atom feed](https://seiche.info/dispatches/feed.xml): the letters as a feed
 - [Full letter corpus](https://seiche.info/llms-full.txt): every letter's complete text in one file
