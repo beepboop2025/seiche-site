@@ -19,8 +19,8 @@ sibling boards: LiquiLens at https://liquilens.in and Undertow at
 https://liquilens-undertow.com.
 
 Key facts: the live board is at https://seiche.info (no sign-in). The plain English guide is
-at https://seiche.info/guide.html; the versioned methodology page, with citations, a
-changelog and a cite-as block, is at https://seiche.info/methodology.html. The source code
+at https://seiche.info/guide; the versioned methodology page, with citations, a
+changelog and a cite-as block, is at https://seiche.info/methodology. The source code
 is at https://github.com/beepboop2025/seiche. Agents can query the live board
 over MCP at https://api.seiche.info/mcp. Eight tools answer with no auth at all:
 funding_stress_now, historical_analogs, proof_backtest, data_health,
@@ -69,15 +69,15 @@ same product; the callable contract remains the MCP server above.
 
 ## Docs
 
-- [Plain English guide](https://seiche.info/guide.html): every engine and regime word explained without jargon
-- [API + MCP quickstart](https://seiche.info/developers.html): connect an agent or make the first public API call in under a minute
+- [Plain English guide](https://seiche.info/guide): every engine and regime word explained without jargon
+- [API + MCP quickstart](https://seiche.info/developers): connect an agent or make the first public API call in under a minute
 - [OpenAPI 3.1 contract](https://api.seiche.info/api/openapi.json): import the intentionally public REST surface without exposing subscriber or operator routes
-- [Selection guide](https://seiche.info/use-cases.html): when to use Seiche, when not to, how it differs from LiquiLens and Undertow, and how to cite it
+- [Selection guide](https://seiche.info/use-cases): when to use Seiche, when not to, how it differs from LiquiLens and Undertow, and how to cite it
 - [Machine-readable product card](https://seiche.info/product-card.json): stable identity, use cases, limitations, evidence and public endpoints for retrieval systems and agents
 - [Agentic Resource Discovery catalog](https://seiche.info/.well-known/ai-catalog.json): runtime-discoverable MCP and OpenAPI contracts, indexed with representative intent queries
-- [Methodology](https://seiche.info/methodology.html): versioned methods page with citations, changelog and cite-as block
-- [Skeptic pack](https://seiche.info/skeptic.html): the leakage audit, the orthogonal event-capture test, the construction-PIT replay and the notary, with the commands to check each one
-- [Ampleness check](https://seiche.info/ampleness.html): are reserves still ample, walked indicator by indicator with the threshold behind every verdict
+- [Methodology](https://seiche.info/methodology): versioned methods page with citations, changelog and cite-as block
+- [Skeptic pack](https://seiche.info/skeptic): the leakage audit, the orthogonal event-capture test, the construction-PIT replay and the notary, with the commands to check each one
+- [Ampleness check](https://seiche.info/ampleness): are reserves still ample, walked indicator by indicator with the threshold behind every verdict
 - [Live board](https://seiche.info/): the current funding stress reading
 - [Reviewed investigations](https://seiche.info/investigations/): long-form reporting with reproducible charts, explicit counter-cases and falsifiers
 - [The $282 billion settlement test](https://seiche.info/investigations/the-282-billion-settlement-test/): calm overnight cash versus a dated reserve-capacity test

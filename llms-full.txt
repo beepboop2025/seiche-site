@@ -19,8 +19,8 @@ sibling boards: LiquiLens at https://liquilens.in and Undertow at
 https://liquilens-undertow.com.
 
 Key facts: the live board is at https://seiche.info (no sign-in). The plain English guide is
-at https://seiche.info/guide.html; the versioned methodology page, with citations, a
-changelog and a cite-as block, is at https://seiche.info/methodology.html. The source code
+at https://seiche.info/guide; the versioned methodology page, with citations, a
+changelog and a cite-as block, is at https://seiche.info/methodology. The source code
 is at https://github.com/beepboop2025/seiche. Agents can query the live board
 over MCP at https://api.seiche.info/mcp. Eight tools answer with no auth at all:
 funding_stress_now, historical_analogs, proof_backtest, data_health,
@@ -72,7 +72,7 @@ Below is the complete text of every daily letter, newest first.
 ---
 
 # SRF accepted wakes to 0.00 $B overnight: 13.5 sigma on a near-zero base, not a large flow
-Date: 2026-08-13 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-13-daily.html
+Date: 2026-08-13 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-13-daily
 
 *Issue 33 · 2026-08-13 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -199,7 +199,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # SRF accepted wakes to 0.10 $B overnight: 66.8 sigma on a near-zero base, not a large flow
-Date: 2026-08-12 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-12-daily.html
+Date: 2026-08-12 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-12-daily
 
 *Issue 32 · 2026-08-12 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -324,7 +324,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # S&P 500 index sits at 7,753.11 pts, +2.5 sigma from its own median: a level, not a move
-Date: 2026-08-11 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-11-daily.html
+Date: 2026-08-11 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-11-daily
 
 *Issue 31 · 2026-08-11 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -449,7 +449,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # The Tell holds at +35.0, unchanged against the last letter: plumbing leads price
-Date: 2026-08-10 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-10-daily.html
+Date: 2026-08-10 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-10-daily
 
 *Issue 30 · 2026-08-10 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -574,7 +574,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # The Week Ahead 2: 5 pre-registered calls for the week of 2026-08-10
-Date: 2026-08-10 · Regime: WEEK AHEAD · Canonical: https://seiche.info/dispatches/2026-08-10-week-ahead.html
+Date: 2026-08-10 · Regime: WEEK AHEAD · Canonical: https://seiche.info/dispatches/2026-08-10-week-ahead
 
 *Issue 2 · the week of 2026-08-10 · the sections run in the same order every week, and section 6 grades what section 5 said last time.*
 
@@ -700,7 +700,7 @@ The calls above were written before the week ran and are stored in the letter's 
 ---
 
 # The Tell reads +35.0: plumbing at the 62nd percentile of its own history, screens at the 27th
-Date: 2026-08-09 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-09-daily.html
+Date: 2026-08-09 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-09-daily
 
 *Issue 29 · 2026-08-09 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -825,7 +825,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # S&P 500 index sits at 7,757.64 pts, +2.5 sigma from its own median: a level, not a move
-Date: 2026-08-08 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-08-daily.html
+Date: 2026-08-08 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-08-daily
 
 *Issue 28 · 2026-08-08 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -950,7 +950,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # 2y Treasury constant maturity yield sits at 4.18 %, +2.8 sigma from its own median: a level, not a move
-Date: 2026-08-07 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-07-daily.html
+Date: 2026-08-07 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-08-07-daily
 
 *Issue 27 · 2026-08-07 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -1073,7 +1073,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # The calendar is carrying the strain call; the price of overnight cash still says abundance
-Date: 2026-08-06 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-06-daily.html
+Date: 2026-08-06 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-06-daily
 
 *Issue 26 · 2026-08-06 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -1196,7 +1196,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # S&P 500 index moves +136.02 pts to 7,736.52 pts overnight: 2.7 sigma against its own history
-Date: 2026-08-05 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-05-daily.html
+Date: 2026-08-05 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-05-daily
 
 *Issue 25 · 2026-08-05 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -1305,7 +1305,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # DVP repo total volume (preliminary) moves +320.13 $B to 3,161.60 $B on its latest print: 4.7 sigma against its own history
-Date: 2026-08-04 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-04-daily.html
+Date: 2026-08-04 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-04-daily
 
 *Issue 24 · 2026-08-04 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -1414,7 +1414,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Strain with a loud tell: plumbing leads price at +32
-Date: 2026-08-03 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-03-daily.html
+Date: 2026-08-03 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-03-daily
 
 *Issue 23 · 2026-08-03 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -1525,7 +1525,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # The Week Ahead 1: 5 pre-registered calls for the week of 2026-08-03
-Date: 2026-08-03 · Regime: WEEK AHEAD · Canonical: https://seiche.info/dispatches/2026-08-03-week-ahead.html
+Date: 2026-08-03 · Regime: WEEK AHEAD · Canonical: https://seiche.info/dispatches/2026-08-03-week-ahead
 
 *Issue 1 · the week of 2026-08-03 · the sections run in the same order every week, and section 6 grades what section 5 said last time.*
 
@@ -1636,7 +1636,7 @@ The calls above were written before the week ran and are stored in the letter's 
 ---
 
 # Strain with a loud tell: plumbing leads price at +32
-Date: 2026-08-02 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-02-daily.html
+Date: 2026-08-02 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-02-daily
 
 *Issue 22 · 2026-08-02 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -1747,7 +1747,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Strain with a loud tell: plumbing leads price at +32
-Date: 2026-08-01 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-01-daily.html
+Date: 2026-08-01 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-08-01-daily
 
 *Issue 21 · 2026-08-01 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -1858,7 +1858,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Nasdaq Composite index moved overnight: the strain tape gets a data point
-Date: 2026-07-31 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-31-daily.html
+Date: 2026-07-31 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-31-daily
 
 *Issue 20 · 2026-07-31 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -1969,7 +1969,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # S&P 500 index moved overnight: the strain tape gets a data point
-Date: 2026-07-30 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-30-daily.html
+Date: 2026-07-30 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-30-daily
 
 *Issue 19 · 2026-07-30 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -2078,7 +2078,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Total stablecoin circulation moved overnight: the strain tape gets a data point
-Date: 2026-07-29 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-29-daily.html
+Date: 2026-07-29 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-29-daily
 
 *Issue 18 · 2026-07-29 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -2189,7 +2189,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # SRF accepted moved overnight: the strain tape gets a data point
-Date: 2026-07-28 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-28-daily.html
+Date: 2026-07-28 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-28-daily
 
 *Issue 17 · 2026-07-28 · the sections run in the same order every day, so the delta takes a minute to extract.*
 
@@ -2298,7 +2298,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point
-Date: 2026-07-27 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-27-daily.html
+Date: 2026-07-27 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-27-daily
 
 The composite reads **45 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2346,7 +2346,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point
-Date: 2026-07-26 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-26-daily.html
+Date: 2026-07-26 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-26-daily
 
 The composite reads **45 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2394,7 +2394,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point
-Date: 2026-07-25 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-25-daily.html
+Date: 2026-07-25 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-25-daily
 
 The composite reads **45 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2442,7 +2442,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Central bank liquidity swaps outstanding (H.4.1) moved overnight: the strain tape gets a data point
-Date: 2026-07-24 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-24-daily.html
+Date: 2026-07-24 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-24-daily
 
 The composite reads **46 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2490,7 +2490,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point
-Date: 2026-07-23 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-23-daily.html
+Date: 2026-07-23 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-23-daily
 
 The composite reads **46 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2538,7 +2538,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point
-Date: 2026-07-22 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-22-daily.html
+Date: 2026-07-22 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-22-daily
 
 The composite reads **46 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2586,7 +2586,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point
-Date: 2026-07-21 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-21-daily.html
+Date: 2026-07-21 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-21-daily
 
 The composite reads **46 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2634,7 +2634,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point
-Date: 2026-07-20 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-20-daily.html
+Date: 2026-07-20 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-20-daily
 
 The composite reads **44 out of 100, EROSION**, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.
 
@@ -2682,7 +2682,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point
-Date: 2026-07-19 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-19-daily.html
+Date: 2026-07-19 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-19-daily
 
 The composite reads **44 out of 100, EROSION**, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.
 
@@ -2730,7 +2730,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point
-Date: 2026-07-18 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-18-daily.html
+Date: 2026-07-18 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-18-daily
 
 The composite reads **44 out of 100, EROSION**, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.
 
@@ -2778,7 +2778,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # SRF accepted moved overnight: the erosion tape gets a data point
-Date: 2026-07-17 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-17-daily.html
+Date: 2026-07-17 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-17-daily
 
 The composite reads **45 out of 100, EROSION**, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.
 
@@ -2826,7 +2826,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Strain with a loud tell: plumbing leads price at +32
-Date: 2026-07-16 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-16-daily.html
+Date: 2026-07-16 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-16-daily
 
 The composite reads **46 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2874,7 +2874,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # SRF accepted moved overnight: the strain tape gets a data point
-Date: 2026-07-15 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-15-daily.html
+Date: 2026-07-15 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-15-daily
 
 The composite reads **46 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2922,7 +2922,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Strain with a loud tell: plumbing leads price at +38
-Date: 2026-07-14 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-14-daily.html
+Date: 2026-07-14 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-14-daily
 
 The composite reads **45 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -2970,7 +2970,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Strain with a loud tell: plumbing leads price at +37
-Date: 2026-07-13 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-13-daily.html
+Date: 2026-07-13 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-13-daily
 
 The composite reads **45 out of 100, STRAIN**, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.
 
@@ -3018,7 +3018,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # Erosion with a loud tell: plumbing leads price at +37
-Date: 2026-07-12 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-12-daily.html
+Date: 2026-07-12 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-07-12-daily
 
 The composite reads **45 out of 100, EROSION**, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.
 
@@ -3066,7 +3066,7 @@ The board recomputes six times a day; this letter freezes one reading of it. Fre
 ---
 
 # The plumbing has a fat tail
-Date: 2026-07-09 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-09-fat-tail.html
+Date: 2026-07-09 · Regime: STRAIN · Canonical: https://seiche.info/dispatches/2026-07-09-fat-tail
 
 The composite reads **STRAIN, 46 out of 100**, on 100% coverage. Nothing on the price screen agrees. VIX sits at 16. High yield spreads are at the 6th percentile of their own history. If you only watched the market's own instruments, today would look calm.
 
