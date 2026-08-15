@@ -67,7 +67,7 @@ same product; the callable contract remains the MCP server above.
 - [Undertow](https://liquilens-undertow.com/): the market layer, mapping liquidity fragility and estimated exit cost at position size
 - [My Quant Doesn't Speak English](https://myquantdoesntspeakenglish.com/): the editorial wire containing every Seiche, LiquiLens and Undertow dispatch, plus original investigations
 
-Below is the complete text of every daily letter, newest first.
+Below is the complete text of every daily article, then every fixed-order letter, newest first.
 
 ---
 
