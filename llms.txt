@@ -89,7 +89,7 @@ same product; the callable contract remains the MCP server above.
 
 ## Daily articles (markdown)
 
-- [The calendar is carrying the strain call; the price of overnight cash still says abundance](https://seiche.info/articles/2026-08-15-the-calendar-is-carrying-the-strain-call-the-price-of-overnight-cash-sti.md): 2026-08-15, current analysis. The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.6%; plumbing leads market pricing by +37 percentile points.
+- [Reserve drain puts the calendar in charge of dollar-funding risk](https://seiche.info/articles/2026-08-15-reserve-drain-puts-the-calendar-in-charge-of-dollar-funding-risk.md): 2026-08-15, current analysis. A measured reserve decline and a dated settlement have put Seiche’s funding board in STRAIN. But overnight cash still signals abundance, making the settlement a test of whether calendar pressure can become a funding constraint.
 
 ## Daily dispatches (markdown)
 - [S&P 500 index sits at 7,785.76 pts, +2.5 sigma from its own median: a level, not a move](https://seiche.info/dispatches/2026-08-15-daily.md): 2026-08-15, regime STRAIN. The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.6%; plumbing leads market pricing by +37 percentile points. The index is +0.0 against the last published letter.
