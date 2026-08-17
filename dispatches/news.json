@@ -4,6 +4,21 @@
   "generated_from": "/dispatches/index.json",
   "entries": [
     {
+      "schema": "seiche.legacy-dispatch-pointer.v1",
+      "id": "seiche:2026-08-17-week-ahead",
+      "product": "seiche",
+      "slug": "2026-08-17-week-ahead",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-17-week-ahead",
+      "headline": "The Week Ahead 3: 1 dated events and 5 calls on the record",
+      "dek": "Issue 3 of the Monday letter. The composite reads 47, regime STRAIN. 5 pre-registered calls for the week and 1 dated items on the calendar. Last week's calls graded 2 of 4, misses first.",
+      "editorial_class": "legacy_dispatch",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-17T00:00:00Z",
+      "limitations": [
+        "Published before the structured analytical-story contract."
+      ]
+    },
+    {
       "schema": "seiche.analytical-story.v1",
       "evidence_contract": "lab-evidence-envelope/v1",
       "id": "seiche:2026-08-16-daily",
