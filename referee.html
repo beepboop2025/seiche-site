@@ -157,8 +157,8 @@ gross or net.</p>
 <p>Against US industrial production growth, the contemporaneous correlation
 is -0.41: central banks expand when the economy contracts. The
 correlation turns positive only far out, peaking at a lead of 22 months
-(+0.23 in [+0.05, +0.41], n 248). At the claimed 13 month lead it reads
-+0.15 in [-0.14, +0.46], n 257, an interval that straddles zero.</p>
+(+0.23 in [+0.05, +0.41], n 249). At the claimed 13 month lead it reads
++0.15 in [-0.13, +0.46], n 258, an interval that straddles zero.</p>
 <p>Two honest readings. Either the lead is real but sits well past the
 claimed window, or the pattern is a policy reaction function: recessions
 trigger balance sheet expansion, recoveries follow recessions, and the
@@ -204,7 +204,7 @@ claim. We would rather they published the test than the assertion.</p>
 <tr><th>row</th><th>grade</th><th>evidence</th></tr>
 <tr><td>point-in-time controls</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claims ship with no stated look ahead protections. Rebuilt with them (trailing median signal, no look ahead), the public layer&#x27;s 6 month spread is +0.0158 with a 95 percent interval of [-0.0327, +0.0653].</td></tr>
 <tr><td>train/eval split transparency</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">No design or evaluation split ships with the claims: no error bars, no out of sample tests, no design sample named. The referee page states that absence above the fold.</td></tr>
-<tr><td>held-out evaluation</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">Nothing is held out because nothing is released to hold out. The referee&#x27;s own held out test on the public layer refuses to certify the asset price lead; at the claimed 13 month business cycle lead the correlation reads +0.15 in [-0.14, +0.46], n 257.</td></tr>
+<tr><td>held-out evaluation</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">Nothing is held out because nothing is released to hold out. The referee&#x27;s own held out test on the public layer refuses to certify the asset price lead; at the claimed 13 month business cycle lead the correlation reads +0.15 in [-0.13, +0.46], n 258.</td></tr>
 <tr><td>universe and series definition</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">The largest agreed component is public and is reconstructed here: G3 central bank assets at monthly average spot, 283 months from 2003-01-31 to 2026-07-31. The remaining layers, private credit and cross border flows across some 80 countries back to 1974, are defined in prose and reproducible by nobody outside the firm.</td></tr>
 <tr><td>artifact release</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The index is proprietary: no series, no code, no error distribution. The referee page commits to rerunning every test the day an error distribution is released.</td></tr>
 <tr><td>vintage and revision handling</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">No revision record ships with the claims, so as published values cannot even be distinguished from today&#x27;s history. An index family whose vintages are unpublished is ungradeable on this row, and ungradeable by choice is a FAIL, not an N/A.</td></tr>
