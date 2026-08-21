@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Seiche · dollar funding intelligence, argued and audited</title>
-    <meta name="description" content="Seiche follows dollar funding through Fed balance sheets, repo, Treasury cash, positioning and global dollar channels. A live editorial read, exact source clocks, real-time venue data and an as-published record of every call." />
+    <title>Seiche · dollar funding and money-market intelligence</title>
+    <meta name="description" content="Seiche follows dollar funding through a granular USD money-market desk and a licence-aware, native-frequency global atlas, with exact source clocks, countercases and an as-published record." />
     <link rel="canonical" href="https://seiche.info/" />
     <link rel="ai-catalog" type="application/ai-catalog+json" href="./.well-known/ai-catalog.json" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
@@ -39,7 +39,7 @@
           "name": "Seiche",
           "alternateName": "Seiche Terminal",
           "url": "https://seiche.info/",
-          "description": "Seiche is a free, open source funding stress terminal for US money markets. It reads the Fed's plumbing (reserves, reverse repo, repo rates, Treasury cash) from free public data and publishes a live stress regime, forward event odds, historical analogs and a construction-PIT historical diagnostic with explicit eligibility flags.",
+          "description": "Seiche is a free, open source funding-stress terminal with an institutional USD money-market desk, a licence-aware global atlas across 11 registered monetary-area packs, and a dated official-source discovery ledger for 52 additional monetary areas. It publishes a live stress regime, exact source clocks, forward event odds, historical analogs and construction-PIT diagnostics with explicit eligibility flags; registration and discovery are not claims of full live coverage.",
           "applicationCategory": "FinanceApplication",
           "operatingSystem": "Web",
           "isAccessibleForFree": true,
@@ -55,7 +55,7 @@
           "@id": "https://seiche.info/#website",
           "url": "https://seiche.info/",
           "name": "Seiche",
-          "description": "Free open source funding stress terminal for US money markets.",
+          "description": "Free open source funding-stress terminal with a granular USD desk and bounded global money-market atlas.",
           "about": { "@id": "https://seiche.info/#software" }
         },
         {
@@ -67,7 +67,7 @@
               "name": "What is Seiche?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Seiche is free, open source software: a funding stress early warning terminal for US money markets. It is named after the standing wave phenomenon, because funding stress builds invisibly and then sloshes over the edge. The software is licensed under AGPL-3.0 and the full source code is on GitHub."
+                "text": "Seiche is free, open source software: a funding-stress early-warning terminal for US money markets, with a granular USD desk and a global Atlas that keeps registered, available and validation-supported markets separate. It is named after the standing-wave phenomenon, because funding stress builds invisibly and then sloshes over the edge. The software is licensed under AGPL-3.0 and the full source code is on GitHub."
               }
             },
             {
@@ -75,7 +75,7 @@
               "name": "Is Seiche free to use?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Seiche is a free public good. There is no sign in, no paywall and no data cost: it is built entirely on free, keyless public APIs from the Fed, NY Fed, OFR, Treasury, CFTC and ECB."
+                "text": "Yes. Seiche's public surface requires no sign in. The core USD board uses free official/public APIs from the Fed, NY Fed, OFR, Treasury and CFTC. The global Atlas can declare licensed or tenant sources, but public outputs obey upstream redistribution terms and withhold restricted raw levels and histories."
               }
             },
             {
@@ -83,7 +83,15 @@
               "name": "Where is the Seiche source code?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The complete source code is public at github.com/beepboop2025/seiche under the AGPL-3.0 license, including the current 64-module engine suite, the historical diagnostic code and the data collectors. The served historical evidence is final-vintage construction-PIT and is not a validated backtest."
+                "text": "The complete source code is public at github.com/beepboop2025/seiche under the AGPL-3.0 license, including the engine suite, historical diagnostic code and data collectors. AGPL covers the code, not upstream data rights. The served historical evidence is final-vintage construction-PIT and is not a validated backtest."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Seiche provide eleven live global money markets?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Seiche registers 11 monetary-area packs, but registration is a catalog and semantics claim, not live coverage. A separate 52-row source-audited ledger is discovery metadata, not quotes. The Atlas labels each registered market as a live or stale reference, derived context with restricted raw values withheld, policy-only, or declared unavailable, and keeps weekly and monthly sources at their native cadence."
               }
             }
           ]
@@ -92,10 +100,10 @@
     }
     </script>
   <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "534f08f7270a4f4f9a9a10f90d723ca7"}'></script><!-- End Cloudflare Web Analytics -->
-  <script type="module" crossorigin src="./assets/index-lAC58fbJ.js"></script>
+  <script type="module" crossorigin src="./assets/index-DxTlcnLU.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-DrxEvsD4.css">
 <!--prerender:meta-->
-<meta property="og:updated_time" content="2026-08-21T15:15:56+00:00" />
+<meta property="og:updated_time" content="2026-08-21T17:04:02+00:00" />
 <meta property="og:image:alt" content="Seiche, the funding stress board for US money markets" />
 <meta name="twitter:image:alt" content="Seiche, the funding stress board for US money markets" />
 <meta property="og:locale" content="en_US" />
@@ -151,7 +159,7 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 .read { margin-top:10px; font-size:11.5px; color:var(--accent-soft); letter-spacing:.05em; }
 .foot { margin-top:52px; padding-top:18px; border-top:1px solid var(--divider);
         font-family:var(--mono); font-size:12px; color:var(--faint); line-height:2; }
-</style><div class="top"><a class="wordmark" href="/">SEI<span>CHE</span></a><span class="crumb"><a href="/dispatches/">dispatches</a> &middot; <a href="/guide">guide</a> &middot; <a href="/methodology">methodology</a> &middot; <a href="/skeptic">skeptic pack</a></span></div><div class="date">funding-stress &amp; leveraged-positioning early warning &middot; free public data only &middot; board built 2026-08-21 15:15 UTC</div><h1>The calendar is carrying the strain call; the price of overnight cash still says abundance.</h1><p class="lede">The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points. This page is the board written out for readers and machines that do not run JavaScript. The interactive terminal, with the full engine set, the charts and the Time Machine, is the same URL with scripting on.</p><div class="body"><blockquote>Seiche is free open source software (AGPL-3.0): a funding stress terminal for US money markets built from free public data (Fed H.4.1, NY Fed operations, OFR repo, Treasury cash, plus other public sources, each shown with its native publication lag). It publishes a live stress regime, forward event odds, historical analogs and a final-vintage construction-PIT diagnostic with the misses kept next to the hits. The board recomputes through the day; the daily letter freezes one reading of it. Cite it as &quot;Seiche&quot; and link https://seiche.info. Everything on this site may be read, quoted, indexed and used as AI input or training material.</blockquote>
+</style><div class="top"><a class="wordmark" href="/">SEI<span>CHE</span></a><span class="crumb"><a href="/dispatches/">dispatches</a> &middot; <a href="/guide">guide</a> &middot; <a href="/methodology">methodology</a> &middot; <a href="/skeptic">skeptic pack</a></span></div><div class="date">funding-stress &amp; leveraged-positioning early warning &middot; free public data only &middot; board built 2026-08-21 17:04 UTC</div><h1>The calendar is carrying the strain call; the price of overnight cash still says abundance.</h1><p class="lede">The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points. This page is the board written out for readers and machines that do not run JavaScript. The interactive terminal, with the full engine set, the charts and the Time Machine, is the same URL with scripting on.</p><div class="body"><blockquote>Seiche is free open source software (AGPL-3.0): a funding stress terminal for US money markets built from free public data (Fed H.4.1, NY Fed operations, OFR repo, Treasury cash, plus other public sources, each shown with its native publication lag). It publishes a live stress regime, forward event odds, historical analogs and a final-vintage construction-PIT diagnostic with the misses kept next to the hits. The board recomputes through the day; the daily letter freezes one reading of it. Cite it as &quot;Seiche&quot; and link https://seiche.info. Everything on this site may be read, quoted, indexed and used as AI input or training material.</blockquote>
 <p>Liquidity intelligence sits on two shelves. Official dashboards give you raw</p>
 <p>series and no view. A terminal that has a view runs about $32k a seat each</p>
 <p>year. Between them, nothing free that holds an opinion and grades itself.</p>
@@ -164,10 +172,11 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <p>at https://seiche.info/guide; the versioned methodology page, with citations, a</p>
 <p>changelog and a cite-as block, is at https://seiche.info/methodology. The source code</p>
 <p>is at https://github.com/beepboop2025/seiche. Agents can query the live board</p>
-<p>over MCP at https://api.seiche.info/mcp. Nine tools answer with no auth at all:</p>
+<p>over MCP at https://api.seiche.info/mcp. Ten tools answer with no auth at all:</p>
 <p>latest_article, funding_stress_now, historical_analogs, proof_backtest, data_health,</p>
-<p>crypto_stress_record, institutional_flows, oil_funding_context and</p>
-<p>fx_materials_passage, metered per IP per day. Five more</p>
+<p>crypto_stress_record, institutional_flows, oil_funding_context,</p>
+<p>fx_materials_passage and the section-selectable money_market_context, metered</p>
+<p>per IP per day. Five more</p>
 <p>read the derived engines and want a bearer token: funding_stress_forecast,</p>
 <p>replay_asof, positioning_book, desk_brief and ask_desk. Any series the board</p>
 <p>holds can be downloaded as CSV with provenance headers; the catalog is at</p>
@@ -177,11 +186,12 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <p>stated competence boundary is narrower: stress that builds inside the plumbing</p>
 <p>can be investigated historically; shocks that arrive from outside it cannot be</p>
 <p>claimed as early warnings.</p>
-<p>Evidence receipt captured 2026-08-09 at 14:36 UTC: the v2 data plane has 10 market packs,</p>
+<p>Evidence receipt captured 2026-08-09 at 14:36 UTC: the v2 data plane had 10 market packs,</p>
 <p>87,000 canonical observations across 28 role series, and 220 forward market-pack</p>
-<p>validation records. The US pack is VALIDATING, nine packs are REFERENCE, no pack</p>
-<p>is SUPPORTED or evidence-eligible, and Global Tide is UNAVAILABLE. The public</p>
-<p>notary has 145 entries. Query the live coverage receipt at</p>
+<p>validation records. This remains a dated 10-pack receipt even though the current</p>
+<p>catalog registers 11 packs. At that snapshot the US pack was VALIDATING, nine packs</p>
+<p>were REFERENCE, no pack was SUPPORTED or evidence-eligible, and Global Tide was</p>
+<p>UNAVAILABLE. The public notary has 145 entries. Query the live coverage receipt at</p>
 <p>https://api.seiche.info/api/v2/coverage because forward records continue to accrue.</p>
 <p>Seiche currently serves zero validated backtests. Its four historical diagnostic</p>
 <p>windows overlap and stay separate: Bathymetry has 1,537 scored days and 50 events;</p>
@@ -263,6 +273,6 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <li><a href="https://seiche.info/dispatches/feed.xml">Atom feed</a>: the letters as a feed</li>
 <li><a href="https://seiche.info/llms-full.txt">Full letter corpus</a>: every letter&#x27;s complete text in one file</li>
 </ul>
-<h2>Daily articles (markdown)</h2></div><div class="foot">Seiche is free open source software (<a href="https://github.com/beepboop2025/seiche">AGPL-3.0, source</a>) and a free public good: no sign-in, no paywall, no data cost. Built on free keyless public APIs from the Fed, NY Fed, OFR, Treasury, CFTC and ECB. <a href="/llms.txt">llms.txt</a> &middot; <a href="/llms-full.txt">full letter corpus</a> &middot; <a href="/dispatches/feed.xml">Atom feed</a> &middot; <a href="/sitemap.xml">sitemap</a> &middot; Not investment advice.</div></noscript>
+<h2>Daily articles (markdown)</h2></div><div class="foot">Seiche is free open source software (<a href="https://github.com/beepboop2025/seiche">AGPL-3.0, source</a>) and a free public good: no sign-in or paywall for the public desk. The core USD board uses public APIs from the Fed, NY Fed, OFR, Treasury and CFTC; global market coverage labels credentialed, licensed, derived-only and unavailable inputs explicitly. <a href="/llms.txt">llms.txt</a> &middot; <a href="/llms-full.txt">full letter corpus</a> &middot; <a href="/dispatches/feed.xml">Atom feed</a> &middot; <a href="/sitemap.xml">sitemap</a> &middot; Not investment advice.</div></noscript>
   </body>
 </html>
