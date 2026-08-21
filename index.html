@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Seiche · dollar funding and money-market intelligence</title>
-    <meta name="description" content="Seiche follows dollar funding through a granular USD money-market desk and a licence-aware, native-frequency global atlas, with exact source clocks, countercases and an as-published record." />
+    <title>Seiche · money, forex and capital-market intelligence</title>
+    <meta name="description" content="Seiche connects dollar funding, an 11-pack global money-market atlas, 22 registered public FX reference series and a bounded capital-market transmission projection with explicit clocks, rights and evidence gaps." />
     <link rel="canonical" href="https://seiche.info/" />
     <link rel="ai-catalog" type="application/ai-catalog+json" href="./.well-known/ai-catalog.json" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
     <link rel="alternate" type="application/atom+xml" href="./dispatches/feed.xml" title="Seiche dispatches" />
+    <link rel="alternate" type="application/atom+xml" href="./articles/feed.xml" title="Seiche daily market analysis" />
+    <link rel="alternate" type="application/feed+json" href="./articles/feed.json" title="Seiche daily market analysis JSON Feed" />
     <link rel="alternate" type="application/json" href="./product-card.json" title="Seiche product card" />
     <link rel="preload" as="fetch" href="./data/overview.json" crossorigin="anonymous" />
     <meta name="theme-color" content="#000000" />
@@ -18,15 +20,15 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Seiche" />
     <meta property="og:url" content="https://seiche.info/" />
-    <meta property="og:title" content="Seiche · the calendar is carrying the strain call; the price of overnight cash still says abundance." />
-    <meta property="og:description" content="The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points. Conviction: GUARDED. Evidence, countercase and dated source clocks published." />
+    <meta property="og:title" content="Seiche · world-market intelligence, argued and audited" />
+    <meta property="og:description" content="Money, forex and capital markets connected through one provenance-first evidence atlas, with source clocks, rights states and explicit coverage gaps." />
     <meta property="og:image" content="https://seiche.info/og2.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Seiche · the calendar is carrying the strain call; the price of overnight cash still says abundance." />
-    <meta name="twitter:description" content="The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points. Conviction: GUARDED. Evidence, countercase and dated source clocks published." />
+    <meta name="twitter:title" content="Seiche · world-market intelligence, argued and audited" />
+    <meta name="twitter:description" content="Money markets, 22 public FX reference series and capital-market transmission with native clocks and an audited boundary." />
     <meta name="twitter:image" content="https://seiche.info/og2.png" />
 
     <script type="application/ld+json">
@@ -34,15 +36,24 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "Organization",
+          "@id": "https://seiche.info/#organization",
+          "name": "Seiche",
+          "url": "https://seiche.info/",
+          "logo": "https://seiche.info/og2.png",
+          "sameAs": ["https://github.com/beepboop2025/seiche"]
+        },
+        {
           "@type": "SoftwareApplication",
           "@id": "https://seiche.info/#software",
           "name": "Seiche",
           "alternateName": "Seiche Terminal",
           "url": "https://seiche.info/",
-          "description": "Seiche is a free, open source funding-stress terminal with an institutional USD money-market desk, a licence-aware global atlas across 11 registered monetary-area packs, and a dated official-source discovery ledger for 52 additional monetary areas. It publishes a live stress regime, exact source clocks, forward event odds, historical analogs and construction-PIT diagnostics with explicit eligibility flags; registration and discovery are not claims of full live coverage.",
+          "description": "Seiche is a free, open source financial-market evidence terminal connecting an institutional USD money-market desk, a licence-aware atlas across 11 registered monetary-area packs, 22 registered Federal Reserve H.10 bilateral FX reference series, three trade-weighted dollar indexes, and a bounded derived macro-capital transmission projection. Its public contracts expose applicable source clocks, rights states and explicit gaps; reference coverage is not a claim to every live or executable market quote.",
           "applicationCategory": "FinanceApplication",
           "operatingSystem": "Web",
           "isAccessibleForFree": true,
+          "provider": { "@id": "https://seiche.info/#organization" },
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
           "license": "https://www.gnu.org/licenses/agpl-3.0.html",
           "softwareHelp": { "@type": "CreativeWork", "url": "https://seiche.info/guide" },
@@ -55,57 +66,20 @@
           "@id": "https://seiche.info/#website",
           "url": "https://seiche.info/",
           "name": "Seiche",
-          "description": "Free open source funding-stress terminal with a granular USD desk and bounded global money-market atlas.",
-          "about": { "@id": "https://seiche.info/#software" }
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://seiche.info/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is Seiche?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Seiche is free, open source software: a funding-stress early-warning terminal for US money markets, with a granular USD desk and a global Atlas that keeps registered, available and validation-supported markets separate. It is named after the standing-wave phenomenon, because funding stress builds invisibly and then sloshes over the edge. The software is licensed under AGPL-3.0 and the full source code is on GitHub."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is Seiche free to use?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Seiche's public surface requires no sign in. The core USD board uses free official/public APIs from the Fed, NY Fed, OFR, Treasury and CFTC. The global Atlas can declare licensed or tenant sources, but public outputs obey upstream redistribution terms and withhold restricted raw levels and histories."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Where is the Seiche source code?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The complete source code is public at github.com/beepboop2025/seiche under the AGPL-3.0 license, including the engine suite, historical diagnostic code and data collectors. AGPL covers the code, not upstream data rights. The served historical evidence is final-vintage construction-PIT and is not a validated backtest."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does Seiche provide eleven live global money markets?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. Seiche registers 11 monetary-area packs, but registration is a catalog and semantics claim, not live coverage. A separate 52-row source-audited ledger is discovery metadata, not quotes. The Atlas labels each registered market as a live or stale reference, derived context with restricted raw values withheld, policy-only, or declared unavailable, and keeps weekly and monthly sources at their native cadence."
-              }
-            }
-          ]
+          "description": "Free open source money-, forex- and capital-market evidence terminal with a granular USD funding desk and bounded global atlas.",
+          "about": { "@id": "https://seiche.info/#software" },
+          "publisher": { "@id": "https://seiche.info/#organization" }
         }
       ]
     }
     </script>
   <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "534f08f7270a4f4f9a9a10f90d723ca7"}'></script><!-- End Cloudflare Web Analytics -->
-  <script type="module" crossorigin src="./assets/index-DxTlcnLU.js"></script>
+  <script type="module" crossorigin src="./assets/index-D2zrgNHH.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-DrxEvsD4.css">
 <!--prerender:meta-->
-<meta property="og:updated_time" content="2026-08-21T17:04:02+00:00" />
-<meta property="og:image:alt" content="Seiche, the funding stress board for US money markets" />
-<meta name="twitter:image:alt" content="Seiche, the funding stress board for US money markets" />
+<meta property="og:updated_time" content="2026-08-21T19:22:47+00:00" />
+<meta property="og:image:alt" content="Seiche, the public money, forex and capital-market evidence terminal" />
+<meta name="twitter:image:alt" content="Seiche, the public money, forex and capital-market evidence terminal" />
 <meta property="og:locale" content="en_US" />
 <!--/prerender:meta-->
 </head>
@@ -159,7 +133,7 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 .read { margin-top:10px; font-size:11.5px; color:var(--accent-soft); letter-spacing:.05em; }
 .foot { margin-top:52px; padding-top:18px; border-top:1px solid var(--divider);
         font-family:var(--mono); font-size:12px; color:var(--faint); line-height:2; }
-</style><div class="top"><a class="wordmark" href="/">SEI<span>CHE</span></a><span class="crumb"><a href="/dispatches/">dispatches</a> &middot; <a href="/guide">guide</a> &middot; <a href="/methodology">methodology</a> &middot; <a href="/skeptic">skeptic pack</a></span></div><div class="date">funding-stress &amp; leveraged-positioning early warning &middot; free public data only &middot; board built 2026-08-21 17:04 UTC</div><h1>The calendar is carrying the strain call; the price of overnight cash still says abundance.</h1><p class="lede">The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points. This page is the board written out for readers and machines that do not run JavaScript. The interactive terminal, with the full engine set, the charts and the Time Machine, is the same URL with scripting on.</p><div class="body"><blockquote>Seiche is free open source software (AGPL-3.0): a funding stress terminal for US money markets built from free public data (Fed H.4.1, NY Fed operations, OFR repo, Treasury cash, plus other public sources, each shown with its native publication lag). It publishes a live stress regime, forward event odds, historical analogs and a final-vintage construction-PIT diagnostic with the misses kept next to the hits. The board recomputes through the day; the daily letter freezes one reading of it. Cite it as &quot;Seiche&quot; and link https://seiche.info. Everything on this site may be read, quoted, indexed and used as AI input or training material.</blockquote>
+</style><div class="top"><a class="wordmark" href="/">SEI<span>CHE</span></a><span class="crumb"><a href="/dispatches/">dispatches</a> &middot; <a href="/guide">guide</a> &middot; <a href="/methodology">methodology</a> &middot; <a href="/skeptic">skeptic pack</a></span></div><div class="date">funding-stress &amp; leveraged-positioning early warning &middot; free public data only &middot; board built 2026-08-21 19:22 UTC</div><h1>The calendar is carrying the strain call; the price of overnight cash still says abundance.</h1><p class="lede">The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points. This page is the board written out for readers and machines that do not run JavaScript. The interactive terminal, with the full engine set, the charts and the Time Machine, is the same URL with scripting on.</p><div class="body"><blockquote>Seiche is free open source software (AGPL-3.0): a financial-market evidence terminal connecting US dollar funding, an 11-pack global money-market atlas, 22 registered public FX reference series, three dollar indexes, and capital-market transmission through Treasury, credit, volatility, dealer, positioning and commodity evidence. Where a public observation is exposed, its source-native publication lag and rights state remain explicit. Seiche publishes a live funding regime, forward event odds, historical analogs and a final-vintage construction-PIT diagnostic with the misses kept next to the hits. The board recomputes through the day; the daily letter freezes one reading of it. Cite it as &quot;Seiche&quot; and link https://seiche.info. Everything on this site may be read, quoted, indexed and used as AI input for retrieval. The crawler policy permits search and AI input but does not grant model training.</blockquote>
 <p>Liquidity intelligence sits on two shelves. Official dashboards give you raw</p>
 <p>series and no view. A terminal that has a view runs about $32k a seat each</p>
 <p>year. Between them, nothing free that holds an opinion and grades itself.</p>
@@ -172,10 +146,11 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <p>at https://seiche.info/guide; the versioned methodology page, with citations, a</p>
 <p>changelog and a cite-as block, is at https://seiche.info/methodology. The source code</p>
 <p>is at https://github.com/beepboop2025/seiche. Agents can query the live board</p>
-<p>over MCP at https://api.seiche.info/mcp. Ten tools answer with no auth at all:</p>
+<p>over MCP at https://api.seiche.info/mcp. Eleven tools answer with no auth at all:</p>
 <p>latest_article, funding_stress_now, historical_analogs, proof_backtest, data_health,</p>
 <p>crypto_stress_record, institutional_flows, oil_funding_context,</p>
-<p>fx_materials_passage and the section-selectable money_market_context, metered</p>
+<p>fx_materials_passage, the section-selectable money_market_context and the</p>
+<p>money/forex/capital section-selectable world_markets_context, metered</p>
 <p>per IP per day. Five more</p>
 <p>read the derived engines and want a bearer token: funding_stress_forecast,</p>
 <p>replay_asof, positioning_book, desk_brief and ask_desk. Any series the board</p>
@@ -186,6 +161,26 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <p>stated competence boundary is narrower: stress that builds inside the plumbing</p>
 <p>can be investigated historically; shocks that arrive from outside it cannot be</p>
 <p>claimed as early warnings.</p>
+<p>The global money-market evidence map is at https://seiche.info/money-markets/. Its fixed</p>
+<p>21 August 2026 receipt separates 11 registered packs into six redistributable</p>
+<p>public benchmarks, one derived-only benchmark, one policy-only market and</p>
+<p>three declared-unavailable markets. The source-audited ledger contains 52</p>
+<p>additional discovery candidates across nine regions, for a 63-market discovery</p>
+<p>universe. Discovery is not live coverage, and no registered pack in that receipt</p>
+<p>is evidence-eligible. Seiche does not publish a universal world-economy or global</p>
+<p>money-market stress score. The machine-readable twin is at</p>
+<p>https://seiche.info/money-markets/catalog.json; use the live Atlas at</p>
+<p>https://api.seiche.info/api/v2/money-markets for current observations and clocks.</p>
+<p>The unified world-markets evidence atlas is at https://seiche.info/markets/. It connects</p>
+<p>money-market funding, 22 registered Federal Reserve H.10 bilateral FX reference series,</p>
+<p>three trade-weighted dollar indexes, and a bounded derived macro-capital</p>
+<p>transmission projection without claiming every tradable quote or security. Forex coverage and</p>
+<p>pair conventions are at https://seiche.info/markets/forex/. Treasury rates and supply, credit,</p>
+<p>volatility, dealer balance sheet, official custody, futures positioning and</p>
+<p>commodity cash-demand context are at https://seiche.info/markets/capital-markets/. Executable</p>
+<p>quotes, order books, forward/basis curves, options surfaces, complete security</p>
+<p>masters and redistribution-restricted feeds remain explicit gaps. The cache-only</p>
+<p>machine twin is https://api.seiche.info/api/v2/world-markets.</p>
 <p>Evidence receipt captured 2026-08-09 at 14:36 UTC: the v2 data plane had 10 market packs,</p>
 <p>87,000 canonical observations across 28 role series, and 220 forward market-pack</p>
 <p>validation records. This remains a dated 10-pack receipt even though the current</p>
@@ -213,7 +208,7 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <li><a href="https://liquilens.in/">LiquiLens</a>: the institution layer, ranking which banks and lenders should feel funding stress first</li>
 <li><a href="https://liquilens-undertow.com/">Undertow</a>: the market layer, mapping liquidity fragility and estimated exit cost at position size</li>
 <li><a href="https://myquantdoesntspeakenglish.com/">My Quant Doesn&#x27;t Speak English</a>: the editorial wire containing every Seiche, LiquiLens and Undertow dispatch, plus original investigations</li>
-</ul><h2>The argument</h2><p class="lede"><strong>The calendar is carrying the strain call; the price of overnight cash still says abundance.</strong></p><p>The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points.</p><p><strong>Conviction: GUARDED</strong>: The read is led by modelled or slow-moving structure while current market plumbing has not broadly confirmed it.</p><h3>Evidence ledger</h3><ol><li><strong>Balance-sheet identity.</strong> Reserves fell $8.8B on the week to $2,935B, and the ledger says where from: the foreign RRP pool absorbed $16.0B, the balance sheet shrank $14.3B, the residual released $10.9B, six legs summing to the reserve change to the dollar with $8.0B of the balance sheet, 0.12% of assets, still sitting in the unnamed residual. <small>Source: Federal Reserve H.4.1; as of 2026-08-19.</small></li><li><strong>Official-sector footprint.</strong> Foreign officials cut their Fed custody Treasuries by $80.7B over 13 weeks while foreign RRP parking rose by $55.6B, only a partial rotation because the combined official footprint still fell $25.0B to $2,960B, 31% of the custody drop leaving the official sector rather than moving inside it. <small>Source: Federal Reserve custody and foreign RRP; as of 2026-08-19.</small></li><li><strong>Reserve-demand curve.</strong> Reserves are $768B below the fitted kink, but SOFR is -0.9bp versus IORB; fit R-squared is 0.62. <small>Source: FRED, NY Fed secured rates, BEA GDP; as of 2026-08-19.</small></li><li><strong>Dated forcing.</strong> $266B auction settlement while reserves sit below the estimated kink. <small>Source: Treasury auction calendar and Seiche reserve path; as of 2026-08-27.</small></li></ol><h3>The countercase</h3><ul><li>SOFR is 0.9bp below IORB, a current abundance signal rather than a scarcity print. <small>Source: NY Fed secured rates and Federal Reserve IORB; as of 2026-08-19.</small></li><li>Standing Repo Facility take-up is $0.00B; the backstop is not being tested in size. <small>Source: New York Fed operations; as of 2026-08-21.</small></li><li>Market stress sits at only the 32nd percentile of its own history. <small>Source: VIX, credit spreads and rates volatility; as of 2026-08-20.</small></li></ul><h2>Today's reading</h2><p>The composite reads 45 out of 100, STRAIN, on 100% coverage. The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points.</p><p>The Tell reads <strong>+26</strong>, plumbing leads price: the plumbing sits at the 58th percentile of its own history against the market's 32nd, as of 2026-08-20. The Tell is reported beside the index, never weighted into it: divergence is a signal about positioning, not evidence of stress.</p><table><thead><tr><th>component</th><th>score 0-100</th><th>weight</th><th>contribution to the index</th></tr></thead><tbody><tr><td>the calendar squeeze (weather) (pinned near its ceiling)</td><td>100.0</td><td>0.11</td><td>11.0</td></tr><tr><td>reserve scarcity (kink)</td><td>57.0</td><td>0.13</td><td>7.4</td></tr><tr><td>calendar amplification (resonance)</td><td>66.5</td><td>0.10</td><td>6.7</td></tr><tr><td>futures-basis plumbing (rvxray)</td><td>56.8</td><td>0.11</td><td>6.2</td></tr><tr><td>the cash buffers, RRP and TGA (buffers) (pinned near its ceiling)</td><td>99.9</td><td>0.03</td><td>3.0</td></tr><tr><td>market microstructure (undertow)</td><td>46.8</td><td>0.06</td><td>2.8</td></tr><tr><td>the swap-line confession (confession)</td><td>22.4</td><td>0.12</td><td>2.7</td></tr><tr><td>the dealer warehouse (warehouse)</td><td>80.8</td><td>0.03</td><td>2.4</td></tr><tr><td>the tail law (tails)</td><td>12.0</td><td>0.17</td><td>2.0</td></tr><tr><td>auction digestion (auctions)</td><td>16.7</td><td>0.06</td><td>1.0</td></tr><tr><td>repo microstructure (hydrophone)</td><td>0.0</td><td>0.08</td><td>0.0</td></tr></tbody></table><p>A dead input is never imputed. Its weight is renormalised away and the published coverage falls to say so: coverage today is 100%.</p><h2>The headline numbers</h2><p>Each line carries its own as-of date, because these series publish on different lags and averaging that away is how a stale print gets read as today's.</p><table><thead><tr><th>series</th><th>latest</th><th>as of</th></tr></thead><tbody><tr><td>SOFR</td><td>3.63 %</td><td>2026-08-20</td></tr><tr><td>EFFR</td><td>3.63 %</td><td>2026-08-20</td></tr><tr><td>IORB</td><td>3.65 %</td><td>2026-08-21</td></tr><tr><td>Reserve balances</td><td>2,935 $B</td><td>2026-08-19</td></tr><tr><td>ON RRP</td><td>0.2 $B</td><td>2026-08-20</td></tr><tr><td>Treasury General Account</td><td>962 $B</td><td>2026-08-19</td></tr><tr><td>SRF accepted</td><td>0.00 $B</td><td>2026-08-21</td></tr><tr><td>Discount window</td><td>5.0 $B</td><td>2026-08-19</td></tr><tr><td>VIX</td><td>16.01 pts</td><td>2026-08-20</td></tr><tr><td>HY OAS</td><td>2.75 %</td><td>2026-08-20</td></tr></tbody></table><h2>The latest dispatch: Bitcoin (Coinbase daily close) moves +4,677.21 $ to 77,689.08 $ overnight: 3.5 sigma against its own history</h2><p class="lede">2026-08-21 &middot; STRAIN &middot; <a href="/dispatches/2026-08-21-daily">this letter as its own page</a>, <a href="/dispatches/2026-08-21-daily.md">as markdown</a>, or the <a href="/dispatches/">whole archive</a>. The free reading is below in full; the desk's forward read, which is free too, continues on the letter's own page.</p><p><em>Issue 41 · 2026-08-21 · the sections run in the same order every day, so the delta takes a minute to extract.</em></p>
+</ul><h2>The argument</h2><p class="lede"><strong>The calendar is carrying the strain call; the price of overnight cash still says abundance.</strong></p><p>The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points.</p><p><strong>Conviction: GUARDED</strong>: The read is led by modelled or slow-moving structure while current market plumbing has not broadly confirmed it.</p><h3>Evidence ledger</h3><ol><li><strong>Balance-sheet identity.</strong> Reserves fell $8.8B on the week to $2,935B, and the ledger says where from: the foreign RRP pool absorbed $16.0B, the balance sheet shrank $14.3B, the residual released $10.9B, six legs summing to the reserve change to the dollar with $8.0B of the balance sheet, 0.12% of assets, still sitting in the unnamed residual. <small>Source: Federal Reserve H.4.1; as of 2026-08-19.</small></li><li><strong>Official-sector footprint.</strong> Foreign officials cut their Fed custody Treasuries by $80.7B over 13 weeks while foreign RRP parking rose by $55.6B, only a partial rotation because the combined official footprint still fell $25.0B to $2,960B, 31% of the custody drop leaving the official sector rather than moving inside it. <small>Source: Federal Reserve custody and foreign RRP; as of 2026-08-19.</small></li><li><strong>Reserve-demand curve.</strong> Reserves are $768B below the fitted kink, but SOFR is -0.9bp versus IORB; fit R-squared is 0.62. <small>Source: FRED, NY Fed secured rates, BEA GDP; as of 2026-08-19.</small></li><li><strong>Dated forcing.</strong> $266B auction settlement while reserves sit below the estimated kink. <small>Source: Treasury auction calendar and Seiche reserve path; as of 2026-08-27.</small></li></ol><h3>The countercase</h3><ul><li>SOFR is 0.9bp below IORB, a current abundance signal rather than a scarcity print. <small>Source: NY Fed secured rates and Federal Reserve IORB; as of 2026-08-19.</small></li><li>Standing Repo Facility take-up is $0.00B; the backstop is not being tested in size. <small>Source: New York Fed operations; as of 2026-08-21.</small></li><li>Market stress sits at only the 32nd percentile of its own history. <small>Source: VIX, credit spreads and rates volatility; as of 2026-08-20.</small></li></ul><h2>Today's reading</h2><p>The composite reads 45 out of 100, STRAIN, on 100% coverage. The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +26 percentile points.</p><p>The Tell reads <strong>+26</strong>, plumbing leads price: the plumbing sits at the 58th percentile of its own history against the market's 32nd, as of 2026-08-20. The Tell is reported beside the index, never weighted into it: divergence is a signal about positioning, not evidence of stress.</p><table><thead><tr><th>component</th><th>score 0-100</th><th>weight</th><th>contribution to the index</th></tr></thead><tbody><tr><td>the calendar squeeze (weather) (pinned near its ceiling)</td><td>100.0</td><td>0.11</td><td>11.0</td></tr><tr><td>reserve scarcity (kink)</td><td>57.0</td><td>0.13</td><td>7.4</td></tr><tr><td>calendar amplification (resonance)</td><td>66.5</td><td>0.10</td><td>6.7</td></tr><tr><td>futures-basis plumbing (rvxray)</td><td>56.8</td><td>0.11</td><td>6.2</td></tr><tr><td>the cash buffers, RRP and TGA (buffers) (pinned near its ceiling)</td><td>100.0</td><td>0.03</td><td>3.0</td></tr><tr><td>market microstructure (undertow)</td><td>46.8</td><td>0.06</td><td>2.8</td></tr><tr><td>the swap-line confession (confession)</td><td>22.4</td><td>0.12</td><td>2.7</td></tr><tr><td>the dealer warehouse (warehouse)</td><td>80.8</td><td>0.03</td><td>2.4</td></tr><tr><td>the tail law (tails)</td><td>12.0</td><td>0.17</td><td>2.0</td></tr><tr><td>auction digestion (auctions)</td><td>16.7</td><td>0.06</td><td>1.0</td></tr><tr><td>repo microstructure (hydrophone)</td><td>0.0</td><td>0.08</td><td>0.0</td></tr></tbody></table><p>A dead input is never imputed. Its weight is renormalised away and the published coverage falls to say so: coverage today is 100%.</p><h2>The headline numbers</h2><p>Each line carries its own as-of date, because these series publish on different lags and averaging that away is how a stale print gets read as today's.</p><table><thead><tr><th>series</th><th>latest</th><th>as of</th></tr></thead><tbody><tr><td>SOFR</td><td>3.63 %</td><td>2026-08-20</td></tr><tr><td>EFFR</td><td>3.63 %</td><td>2026-08-20</td></tr><tr><td>IORB</td><td>3.65 %</td><td>2026-08-21</td></tr><tr><td>Reserve balances</td><td>2,935 $B</td><td>2026-08-19</td></tr><tr><td>ON RRP</td><td>0.2 $B</td><td>2026-08-21</td></tr><tr><td>Treasury General Account</td><td>962 $B</td><td>2026-08-19</td></tr><tr><td>SRF accepted</td><td>0.00 $B</td><td>2026-08-21</td></tr><tr><td>Discount window</td><td>5.0 $B</td><td>2026-08-19</td></tr><tr><td>VIX</td><td>16.01 pts</td><td>2026-08-20</td></tr><tr><td>HY OAS</td><td>2.75 %</td><td>2026-08-20</td></tr></tbody></table><h2>The latest dispatch: Bitcoin (Coinbase daily close) moves +4,677.21 $ to 77,689.08 $ overnight: 3.5 sigma against its own history</h2><p class="lede">2026-08-21 &middot; STRAIN &middot; <a href="/dispatches/2026-08-21-daily">this letter as its own page</a>, <a href="/dispatches/2026-08-21-daily.md">as markdown</a>, or the <a href="/dispatches/">whole archive</a>. The free reading is below in full; the desk's forward read, which is free too, continues on the letter's own page.</p><p><em>Issue 41 · 2026-08-21 · the sections run in the same order every day, so the delta takes a minute to extract.</em></p>
 <h2>The argument</h2>
 <p><strong>The calendar is carrying the strain call; the price of overnight cash still says abundance.</strong></p>
 <p>The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +30 percentile points.</p>
@@ -259,6 +254,12 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <li><a href="https://seiche.info/developers">API + MCP quickstart</a>: connect an agent or make the first public API call in under a minute</li>
 <li><a href="https://api.seiche.info/api/openapi.json">OpenAPI 3.1 contract</a>: import the intentionally public REST surface without exposing subscriber or operator routes</li>
 <li><a href="https://seiche.info/use-cases">Selection guide</a>: when to use Seiche, when not to, how it differs from LiquiLens and Undertow, and how to cite it</li>
+<li><a href="https://seiche.info/markets/">World markets evidence atlas</a>: money, forex and capital markets joined by one provenance, clock, rights and evidence-status contract</li>
+<li><a href="https://seiche.info/markets/forex/">Forex reference ledger</a>: 22 public H.10 bilateral reference series, three dollar indexes, exact quote conventions and explicit missing instruments</li>
+<li><a href="https://seiche.info/markets/capital-markets/">Capital-markets transmission projection</a>: a bounded derived macro-capital projection over registered Treasury, credit, volatility, dealer, positioning and commodity source families</li>
+<li><a href="https://api.seiche.info/api/v2/world-markets">World-markets JSON context</a>: cache-only schema v1 projection with summary, money, forex, capital, source and methodology sections</li>
+<li><a href="https://seiche.info/money-markets/">Global money-market evidence map</a>: a crawlable coverage and rights receipt for 11 registered packs and the 52-market discovery ledger, with no universal score</li>
+<li><a href="https://seiche.info/money-markets/catalog.json">Money-market evidence catalog</a>: stable market IDs, availability states, official sources, data-rights boundaries, API links and citation guidance</li>
 <li><a href="https://seiche.info/product-card.json">Machine-readable product card</a>: stable identity, use cases, limitations, evidence and public endpoints for retrieval systems and agents</li>
 <li><a href="https://seiche.info/.well-known/ai-catalog.json">Agentic Resource Discovery catalog</a>: runtime-discoverable MCP and OpenAPI contracts, indexed with representative intent queries</li>
 <li><a href="https://seiche.info/methodology">Methodology</a>: versioned methods page with citations, changelog and cite-as block</li>
