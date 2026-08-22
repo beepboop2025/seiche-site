@@ -192,7 +192,7 @@ claim. We would rather they published the test than the assertion.</p>
 <tr><td>train/eval split transparency</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">Nothing in the composite is fitted, so there is no training set to disclose: the weights and the alert percentile are frozen in config.py and PROOF prints its warmup slice and its caveat list. The gap: those editorial choices were made by an operator who had already seen the full history, and no document separates the data that shaped the design from the data that now grades it. Disclosed, but not separated.</td></tr>
 <tr><td>held-out evaluation</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">The genuinely held out sample is the live record since first publication: the PIT ledger commits one record per day per stream, and the attest layer signs each committed record (Ed25519) and anchors it to Bitcoin through OpenTimestamps, so a post publication reading is sealed before its outcome. The backtest window itself is not held out: the design saw it. The true out of sample record is the attested one, and it is still short.</td></tr>
 <tr><td>universe and series definition</td><td><span class="tok tok-pass">PASS</span></td><td class="rub-ev">Every input is a registered SeriesSpec in config.py with mnemonic, source ID, fetch start and native lag. The funding event is defined once (backtest.pop_bp: SOFR minus IORB against its trailing 5 business day median, 10bp threshold) and every consumer imports that definition. Registry tests pin fetch starts so a retune cannot silently starve an engine.</td></tr>
-<tr><td>artifact release</td><td><span class="tok tok-pass">PASS</span></td><td class="rub-ev">The whole pipeline is public AGPL-3.0 code; the board snapshot is baked to frontend/public/data/overview.json on every publish; the Time Machine endpoint (/api/asof/{date}) replays the full light board as of any historical date; and the PROOF scoreboard has its own signed and Bitcoin anchored stream (attest prove-scoreboard).</td></tr>
+<tr><td>artifact release</td><td><span class="tok tok-pass">PASS</span></td><td class="rub-ev">The whole pipeline is public AGPL-3.0-or-later code; the board snapshot is baked to frontend/public/data/overview.json on every publish; the Time Machine endpoint (/api/asof/{date}) replays the full light board as of any historical date; and the PROOF scoreboard has its own signed and Bitcoin anchored stream (attest prove-scoreboard).</td></tr>
 <tr><td>vintage and revision handling</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">PROOF consumes final vintage values: the FRED collector reads fredgraph.csv, which serves the current revised history, and no ALFRED as published replay exists in this codebase. The PROOF page prints the caveat (weekly H.4.1 aggregates are lightly revised; daily market prints effectively are not) and the PIT ledger accrues true as published readings from publication day forward, but the historical backtest itself rides revised values. That is the gap, named.</td></tr>
 <tr><td>threshold provenance</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">Editorial, frozen, disclosed: the alert percentile (80) and the composite weights sit in config.py under a TUNING POINT banner that calls them the tool&#x27;s editorial voice, and nothing in the pipeline refits them. The Leak Audit&#x27;s THRESH_FIT row publishes what an in sample fitted threshold would have bought, and PROOF&#x27;s AUROC is threshold free, so the cost of the editorial choice is measured. But measured is not derived: the numbers come from judgment, not from a walk forward derivation, and this rubric does not round that up.</td></tr>
 <tr><td>verdict revision policy</td><td><span class="tok tok-pass">PASS</span></td><td class="rub-ev">Published readings are append only: the notary hash chains every reading so editing any past day breaks every link after it, and the attest layer makes a rewrite attributable (signature) and undatable (Bitcoin anchor). The referee, methodology and skeptic pages carry dated changelogs, and the PROOF page&#x27;s stated contract is that unimpressive numbers publish anyway.</td></tr>
@@ -231,7 +231,7 @@ England balance sheet feed exists, and the gap is stated rather than
 interpolated over. The engine behind this page is
 <code>engines/refereegli.py</code>; its method paragraph is on the
 <a href="https://seiche.info/methodology">methodology page</a> and the code is at
-<a href="https://github.com/beepboop2025/seiche">https://github.com/beepboop2025/seiche</a> under AGPL-3.0. The two questions a
+<a href="https://github.com/beepboop2025/seiche">https://github.com/beepboop2025/seiche</a> under AGPL-3.0-or-later. The two questions a
 skeptic asks first are answered in the
 <a href="https://seiche.info/skeptic">skeptic pack</a>.</p>
 
@@ -241,7 +241,7 @@ skeptic asks first are answered in the
 </ul>
 
 <p class="faint">Free public data with native lags. Not investment advice.
-Seiche is free open source software (AGPL-3.0) and a public good.</p>
+Seiche is free open source software (AGPL-3.0-or-later) and a public good.</p>
 
 </body>
 </html>
