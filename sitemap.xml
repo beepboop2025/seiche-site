@@ -135,6 +135,12 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://seiche.info/dispatches/2026-08-24-daily</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://seiche.info/dispatches/2026-08-24-week-ahead</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -421,6 +427,12 @@
     <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://seiche.info/articles/2026-08-24-september-2019-showed-how-calendar-pressure-can-expose-a-funding-fault-b/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://seiche.info/articles/2026-08-23-march-2023-showed-why-system-liquidity-can-mask-a-lender-level-cash-cris/</loc>
