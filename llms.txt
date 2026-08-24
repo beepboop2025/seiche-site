@@ -102,6 +102,7 @@ same product; the callable contract remains the MCP server above.
 
 - [LiquiLens](https://liquilens.in/): the institution layer, ranking which banks and lenders should feel funding stress first
 - [Undertow](https://liquilens-undertow.com/): the market layer, mapping liquidity fragility and estimated exit cost at position size
+- [Palimpsest](https://palimpsest.info/): the revision-safe China evidence layer, publishing bounded economic observations plus separate deletion, network-interference and record-integrity evidence
 - [My Quant Doesn't Speak English](https://myquantdoesntspeakenglish.com/): the editorial wire containing every Seiche, LiquiLens and Undertow dispatch, plus original investigations
 
 ## Docs
@@ -110,6 +111,10 @@ same product; the callable contract remains the MCP server above.
 - [API + MCP quickstart](https://seiche.info/developers): connect an agent or make the first public API call in under a minute
 - [OpenAPI 3.1 contract](https://api.seiche.info/api/openapi.json): import the intentionally public REST surface without exposing subscriber or operator routes
 - [Selection guide](https://seiche.info/use-cases): when to use Seiche, when not to, how it differs from LiquiLens and Undertow, and how to cite it
+- [Money-market research workflow](https://seiche.info/use-cases/money-market-research/): move from an exact benchmark through rights, native clocks and system cash before routing institution and exit questions
+- [Capital-market transmission workflow](https://seiche.info/use-cases/capital-market-transmission/): trace price, position, intermediary and funding links without treating co-movement as causality
+- [China economy evidence workflow](https://seiche.info/use-cases/china-economy-evidence/): use Palimpsest for revision-safe public observations and Seiche for structural macro identity, rights and transmission context
+- [Financial-evidence Agent Skill](https://github.com/beepboop2025/financial-evidence-skills/tree/main/financial-evidence): route research across Seiche, LiquiLens, Undertow and Palimpsest and fetch bounded no-auth JSON with explicit source errors
 - [World markets evidence atlas](https://seiche.info/markets/): money, forex and capital markets joined by one provenance, clock, rights and evidence-status contract
 - [Forex reference ledger](https://seiche.info/markets/forex/): 22 public H.10 bilateral reference series, three dollar indexes, exact quote conventions and explicit missing instruments
 - [Capital-markets transmission projection](https://seiche.info/markets/capital-markets/): a bounded derived macro-capital projection over registered Treasury, credit, volatility, dealer, positioning and commodity source families
