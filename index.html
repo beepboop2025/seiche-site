@@ -10,12 +10,12 @@
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-    <link rel="alternate" type="application/atom+xml" href="./dispatches/feed.xml" title="Seiche dispatches" />
+    <link rel="alternate" type="application/atom+xml" href="/dispatches/feed.xml" title="Seiche dispatches" />
     <link rel="alternate" type="application/atom+xml" href="./articles/feed.xml" title="Seiche daily market analysis" />
     <link rel="alternate" type="application/feed+json" href="./articles/feed.json" title="Seiche daily market analysis JSON Feed" />
     <link rel="alternate" type="application/json" href="./product-card.json" title="Seiche product card" />
     <link rel="alternate" type="application/json" href="https://api.seiche.info/api/v2/corpus/v1/catalog" title="Seiche structured market corpus" />
-    <link rel="preload" as="fetch" href="./data/overview.json" crossorigin="anonymous" />
+    <link rel="preload" as="fetch" href="/data/overview.json" crossorigin="anonymous" />
     <meta name="theme-color" content="#000000" />
 <script type="application/ld+json">
     {
@@ -60,7 +60,7 @@
     }
     </script>
   <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "534f08f7270a4f4f9a9a10f90d723ca7"}'></script><!-- End Cloudflare Web Analytics -->
-  <script type="module" crossorigin src="./assets/index-CLwwqton.js"></script>
+  <script type="module" crossorigin src="./assets/index-CT1IxnlA.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-DrxEvsD4.css">
 <!--prerender:meta-->
 <meta property="og:updated_time" content="2026-08-30T15:07:27+00:00" />
@@ -184,6 +184,17 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <p>quotes, order books, forward/basis curves, options surfaces, complete security</p>
 <p>masters and redistribution-restricted feeds remain explicit gaps. The cache-only</p>
 <p>machine twin is https://api.seiche.info/api/v2/world-markets.</p>
+<p>The live Market Atlas is at https://seiche.info/#corpus. It drills from each canonical</p>
+<p>market and instrument into exact observations, source/publication/knowledge</p>
+<p>clocks, revisions, quality, staleness and redistribution state. The same view</p>
+<p>opens the independently operated Hetzner evidence lake at</p>
+<p>https://api.seiche.info/api/v2/corpus: versioned dataset receipts, normalized</p>
+<p>BIS flows and full records, revision runs, observed Seiche partitions and</p>
+<p>protected exports. Full BIS rows use bounded immutable serving shards and</p>
+<p>snapshot-bound cursors; no request scans a multi-million-row gzip monolith.</p>
+<p>Discovery never grants model, training, scoring, execution or redistribution</p>
+<p>permission, and corpus rows do not enter Seiche analytics merely because they</p>
+<p>are inspectable.</p>
 <p>China macro evidence is at https://seiche.info/markets/china-macro/. It binds four official</p>
 <p>NBS monthly-series identities to exact labels, semantics, release references and</p>
 <p>source semantics. Its structural catalog is unsigned; only a restricted response</p>
@@ -272,6 +283,8 @@ h1 { font-size:clamp(26px,4.5vw,38px); font-weight:500; letter-spacing:-.02em; l
 <li><a href="https://seiche.info/use-cases/china-economy-evidence/">China economy evidence workflow</a>: use Palimpsest for revision-safe public observations and Seiche for structural macro identity, rights and transmission context</li>
 <li><a href="https://github.com/beepboop2025/financial-evidence-skills/tree/main/financial-evidence">Financial-evidence Agent Skill</a>: route research across Seiche, LiquiLens, Undertow and Palimpsest and fetch bounded no-auth JSON with explicit source errors</li>
 <li><a href="https://seiche.info/markets/">World markets evidence atlas</a>: money, forex and capital markets joined by one provenance, clock, rights and evidence-status contract</li>
+<li><a href="https://seiche.info/#corpus">Market Atlas</a>: canonical instruments and observations joined to the rights-aware Hetzner dataset and BIS corpus, with bounded record pagination and explicit clocks</li>
+<li><a href="https://api.seiche.info/api/v2/corpus">Market corpus API</a>: dataset receipts, BIS flows and full normalized records, revision runs, Seiche lake partitions, exports and a separate MCP transport</li>
 <li><a href="https://seiche.info/markets/forex/">Forex reference ledger</a>: 22 public H.10 bilateral reference series, three dollar indexes, exact quote conventions and explicit missing instruments</li>
 <li><a href="https://seiche.info/markets/capital-markets/">Capital-markets transmission projection</a>: a bounded derived macro-capital projection over registered Treasury, credit, volatility, dealer, positioning and commodity source families</li>
 <li><a href="https://seiche.info/markets/china-macro/">China macro evidence catalog</a>: four exact NBS series identities; the structural catalog is unsigned, while only a restricted response adds verified Seiche owner-attested provenance; no values are redistributed</li>
