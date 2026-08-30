@@ -548,4 +548,51 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url><loc>https://seiche.info/views/board/composite/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/AU-AUD/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/CN-CNY/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/EA-EUR/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/HK-HKD/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/IN-INR/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/JP-JPY/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/KR-KRW/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/NZ-NZD/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/SG-SGD/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/UK-GBP/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/US-USD/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/money-markets/overview/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/dw-b/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/effr-pct/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/hy-oas-pct/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/iorb-pct/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/reserves-b/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/rrp-b/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/sofr-pct/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/srf-accepted-b/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/tga-b/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/series/vix/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/calendar/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/dispatches/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/forecast/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/fx-materials/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/helm/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/market/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/oil-funding/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/physics/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/positioning/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/proof/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/referee/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/resonance/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/scarcity/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/supply/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/system/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/tabs/today/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/world-markets/all/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/world-markets/capital-markets/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/world-markets/china-macro/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/world-markets/forex/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/world-markets/methodology/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/world-markets/money-markets/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/world-markets/sources/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seiche.info/views/world-markets/summary/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

@@ -1,0 +1,3785 @@
+{
+  "schema": "seiche.social-cards.v1",
+  "generated_at": "2026-08-30T10:44:08+00:00",
+  "image_contract": {
+    "width": 1200,
+    "height": 630,
+    "type": "image/png",
+    "content_addressed": true
+  },
+  "request_time_collection": false,
+  "request_time_model_fitting": false,
+  "share_route_contract": {
+    "covered": [
+      "board composite",
+      "published headline series",
+      "registered money-market pack",
+      "bounded world-market selector",
+      "every finite generic public UI tab",
+      "dispatch detail",
+      "article detail"
+    ],
+    "fragment_only_gaps": [],
+    "non_shareable_surfaces": {
+      "CORPUS": "unbounded rights-aware dataset registry",
+      "TIME MACHINE": "arbitrary request-time historical reconstruction",
+      "ACCOUNT": "private viewer and credential state"
+    },
+    "reason": "Every finite public share action resolves to a path-based card. Unbounded, request-time or private surfaces expose no share action."
+  },
+  "views": [
+    {
+      "kind": "board",
+      "identifier": "home",
+      "canonical_url": "https://seiche.info/",
+      "eyebrow": "live funding board",
+      "title": "Dollar funding stress: STRAIN",
+      "description": "The calendar is carrying the strain call; the price of overnight cash still says abundance.",
+      "status": "STRAIN · 1 SOURCE FAULT",
+      "value": "46.6",
+      "unit": "out of 100",
+      "metrics": [
+        {
+          "label": "coverage",
+          "value": "94%"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "the Tell",
+          "value": "37.4"
+        },
+        {
+          "label": "5bd event read",
+          "value": "6%"
+        }
+      ],
+      "as_of": "2026-08-30T10:44:08+00:00",
+      "as_of_label": "SNAPSHOT GENERATED",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche composite",
+      "rights": "Point-in-time as published; research context, not investment advice.",
+      "image": "https://seiche.info/share/cards/board/home.fceef0c98b8a5909.png",
+      "sha256_prefix": "fceef0c98b8a5909"
+    },
+    {
+      "kind": "board",
+      "identifier": "composite",
+      "canonical_url": "https://seiche.info/views/board/composite/",
+      "eyebrow": "live funding board",
+      "title": "Dollar funding stress: STRAIN",
+      "description": "The calendar is carrying the strain call; the price of overnight cash still says abundance.",
+      "status": "STRAIN · 1 SOURCE FAULT",
+      "value": "46.6",
+      "unit": "out of 100",
+      "metrics": [
+        {
+          "label": "coverage",
+          "value": "94%"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "the Tell",
+          "value": "37.4"
+        },
+        {
+          "label": "5bd event read",
+          "value": "6%"
+        }
+      ],
+      "as_of": "2026-08-30T10:44:08+00:00",
+      "as_of_label": "SNAPSHOT GENERATED",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche composite",
+      "rights": "Point-in-time as published; research context, not investment advice.",
+      "image": "https://seiche.info/share/cards/board/composite.b59a83a0a27fc127.png",
+      "sha256_prefix": "b59a83a0a27fc127"
+    },
+    {
+      "kind": "world-markets",
+      "identifier": "summary",
+      "canonical_url": "https://seiche.info/views/world-markets/summary/",
+      "eyebrow": "world markets / summary",
+      "title": "World-markets evidence atlas",
+      "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "derived",
+      "value": "Evidence coverage and known gaps",
+      "unit": "context only · no executable prices",
+      "metrics": [
+        {
+          "label": "available domains",
+          "value": "3/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "history in response",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche world-markets v1",
+      "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
+      "image": "https://seiche.info/share/cards/world-markets/summary.8c0e1f0133daa7cf.png",
+      "sha256_prefix": "8c0e1f0133daa7cf"
+    },
+    {
+      "kind": "world-markets",
+      "identifier": "money-markets",
+      "canonical_url": "https://seiche.info/views/world-markets/money-markets/",
+      "eyebrow": "world markets / money markets",
+      "title": "Money markets across clearing systems",
+      "description": "The most stretched current observed channel is still below the desk's watch threshold relative to its own recent history. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "observed",
+      "value": "The most stretched current observed channel is still below the desk's watch threshold relative to its own recent history.",
+      "unit": "context only · no executable prices",
+      "metrics": [
+        {
+          "label": "available domains",
+          "value": "3/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "history in response",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche world-markets v1",
+      "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
+      "image": "https://seiche.info/share/cards/world-markets/money-markets.eed8139f2605f081.png",
+      "sha256_prefix": "eed8139f2605f081"
+    },
+    {
+      "kind": "world-markets",
+      "identifier": "forex",
+      "canonical_url": "https://seiche.info/views/world-markets/forex/",
+      "eyebrow": "world markets / forex",
+      "title": "Foreign-exchange reference evidence",
+      "description": "FX/material pressure and funding pricing are broadly aligned. The loudest upstream row is Brazilian real; the loudest physical row is Aluminum. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "derived",
+      "value": "FX/material pressure and funding pricing are broadly aligned. The loudest upstream row is Brazilian real; the loudest physical row is Aluminum.",
+      "unit": "context only · no executable prices",
+      "metrics": [
+        {
+          "label": "available domains",
+          "value": "3/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "history in response",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche world-markets v1",
+      "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
+      "image": "https://seiche.info/share/cards/world-markets/forex.d71f2be05d412138.png",
+      "sha256_prefix": "d71f2be05d412138"
+    },
+    {
+      "kind": "world-markets",
+      "identifier": "capital-markets",
+      "canonical_url": "https://seiche.info/views/world-markets/capital-markets/",
+      "eyebrow": "world markets / capital markets",
+      "title": "Capital-market transmission",
+      "description": "plumbing leads price. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "derived",
+      "value": "plumbing leads price",
+      "unit": "context only · no executable prices",
+      "metrics": [
+        {
+          "label": "available domains",
+          "value": "3/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "history in response",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche world-markets v1",
+      "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
+      "image": "https://seiche.info/share/cards/world-markets/capital-markets.763c697069533751.png",
+      "sha256_prefix": "763c697069533751"
+    },
+    {
+      "kind": "world-markets",
+      "identifier": "china-macro",
+      "canonical_url": "https://seiche.info/views/world-markets/china-macro/",
+      "eyebrow": "world markets / china macro",
+      "title": "China macro evidence boundary",
+      "description": "The release-reviewed NBS series catalog is public, but no trusted owner export is currently available. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "structural",
+      "value": "The release-reviewed NBS series catalog is public, but no trusted owner export is currently available.",
+      "unit": "context only · no executable prices",
+      "metrics": [
+        {
+          "label": "available domains",
+          "value": "0/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "history in response",
+          "value": "no"
+        }
+      ],
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche world-markets v1",
+      "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
+      "image": "https://seiche.info/share/cards/world-markets/china-macro.9f41ce1e1a848b49.png",
+      "sha256_prefix": "9f41ce1e1a848b49"
+    },
+    {
+      "kind": "world-markets",
+      "identifier": "sources",
+      "canonical_url": "https://seiche.info/views/world-markets/sources/",
+      "eyebrow": "world markets / sources",
+      "title": "World-markets source register",
+      "description": "Official publisher register. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "structural",
+      "value": "Official publisher register",
+      "unit": "context only · no executable prices",
+      "metrics": [
+        {
+          "label": "available domains",
+          "value": "3/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "history in response",
+          "value": "no"
+        }
+      ],
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche world-markets v1",
+      "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
+      "image": "https://seiche.info/share/cards/world-markets/sources.1a0adad9a8e18c81.png",
+      "sha256_prefix": "1a0adad9a8e18c81"
+    },
+    {
+      "kind": "world-markets",
+      "identifier": "methodology",
+      "canonical_url": "https://seiche.info/views/world-markets/methodology/",
+      "eyebrow": "world markets / methodology",
+      "title": "World-markets method",
+      "description": "Bounded context; not an executable market feed. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "structural",
+      "value": "Bounded context; not an executable market feed",
+      "unit": "context only · no executable prices",
+      "metrics": [
+        {
+          "label": "available domains",
+          "value": "3/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "history in response",
+          "value": "no"
+        }
+      ],
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche world-markets v1",
+      "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
+      "image": "https://seiche.info/share/cards/world-markets/methodology.89a0cfba790dba27.png",
+      "sha256_prefix": "89a0cfba790dba27"
+    },
+    {
+      "kind": "world-markets",
+      "identifier": "all",
+      "canonical_url": "https://seiche.info/views/world-markets/all/",
+      "eyebrow": "world markets / all",
+      "title": "World markets, one evidence contract",
+      "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "derived",
+      "value": "Evidence coverage and known gaps",
+      "unit": "context only · no executable prices",
+      "metrics": [
+        {
+          "label": "available domains",
+          "value": "3/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "history in response",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche world-markets v1",
+      "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
+      "image": "https://seiche.info/share/cards/world-markets/all.12a37699c18e29b5.png",
+      "sha256_prefix": "12a37699c18e29b5"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "overview",
+      "canonical_url": "https://seiche.info/views/money-markets/overview/",
+      "eyebrow": "global money-market atlas",
+      "title": "Cash conditions across local clearing systems",
+      "description": "A bounded 21 August 2026 discovery receipt for Seiche's registered money-market packs, public benchmark availability, source rights, and evidence limits. It is not a world-economy score or a claim of validated global coverage.",
+      "status": "PARTIAL",
+      "value": "11 markets",
+      "unit": "local conventions · never one universal score",
+      "metrics": [
+        {
+          "label": "raw live benchmarks",
+          "value": "6"
+        },
+        {
+          "label": "derived context",
+          "value": "1"
+        },
+        {
+          "label": "declared unavailable",
+          "value": "3"
+        }
+      ],
+      "as_of": "2026-08-21",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche money-market coverage receipt",
+      "rights": "Discovery is not live coverage; upstream rights remain attached.",
+      "image": "https://seiche.info/share/cards/money-markets/overview.086217f91d64895a.png",
+      "sha256_prefix": "086217f91d64895a"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "AU-AUD",
+      "canonical_url": "https://seiche.info/views/money-markets/AU-AUD/",
+      "eyebrow": "money market / AU-AUD",
+      "title": "Australian dollar cash market",
+      "description": "AONIA is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "LIVE_REFERENCE",
+      "value": "AONIA",
+      "unit": "AUD",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "yes"
+        },
+        {
+          "label": "rights",
+          "value": "allowed"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-19",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "Raw value may be shown under the registered source terms.",
+      "image": "https://seiche.info/share/cards/money-markets/au-aud.10990f67823780ab.png",
+      "sha256_prefix": "10990f67823780ab"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "CN-CNY",
+      "canonical_url": "https://seiche.info/views/money-markets/CN-CNY/",
+      "eyebrow": "money market / CN-CNY",
+      "title": "Mainland Chinese renminbi cash market",
+      "description": "NO PUBLIC BENCHMARK is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "DECLARED_UNAVAILABLE",
+      "value": "NO PUBLIC BENCHMARK",
+      "unit": "CNY",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "no"
+        },
+        {
+          "label": "rights",
+          "value": "metadata_only"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "The raw value is withheld or unavailable; this is not a zero.",
+      "image": "https://seiche.info/share/cards/money-markets/cn-cny.a3a9bad47d66656d.png",
+      "sha256_prefix": "a3a9bad47d66656d"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "EA-EUR",
+      "canonical_url": "https://seiche.info/views/money-markets/EA-EUR/",
+      "eyebrow": "money market / EA-EUR",
+      "title": "Euro area cash market",
+      "description": "ESTR is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "LIVE_REFERENCE",
+      "value": "ESTR",
+      "unit": "EUR",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "yes"
+        },
+        {
+          "label": "rights",
+          "value": "allowed"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-19",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "Raw value may be shown under the registered source terms.",
+      "image": "https://seiche.info/share/cards/money-markets/ea-eur.ae17005542b4c3bb.png",
+      "sha256_prefix": "ae17005542b4c3bb"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "HK-HKD",
+      "canonical_url": "https://seiche.info/views/money-markets/HK-HKD/",
+      "eyebrow": "money market / HK-HKD",
+      "title": "Hong Kong dollar cash market",
+      "description": "HKMA BASE RATE is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "POLICY_ONLY",
+      "value": "HKMA BASE RATE",
+      "unit": "HKD",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "yes"
+        },
+        {
+          "label": "rights",
+          "value": "allowed_policy_anchor"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-18",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "Raw value may be shown under the registered source terms.",
+      "image": "https://seiche.info/share/cards/money-markets/hk-hkd.bd91cdba495be9e3.png",
+      "sha256_prefix": "bd91cdba495be9e3"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "IN-INR",
+      "canonical_url": "https://seiche.info/views/money-markets/IN-INR/",
+      "eyebrow": "money market / IN-INR",
+      "title": "Indian rupee cash market",
+      "description": "CALL WAR is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "LIVE_REFERENCE",
+      "value": "CALL WAR",
+      "unit": "INR",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "yes"
+        },
+        {
+          "label": "rights",
+          "value": "allowed"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-19",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "Raw value may be shown under the registered source terms.",
+      "image": "https://seiche.info/share/cards/money-markets/in-inr.21a1e54035ffb887.png",
+      "sha256_prefix": "21a1e54035ffb887"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "JP-JPY",
+      "canonical_url": "https://seiche.info/views/money-markets/JP-JPY/",
+      "eyebrow": "money market / JP-JPY",
+      "title": "Japanese yen cash market",
+      "description": "TONA is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "LIVE_REFERENCE",
+      "value": "TONA",
+      "unit": "JPY",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "yes"
+        },
+        {
+          "label": "rights",
+          "value": "allowed"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-18",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "Raw value may be shown under the registered source terms.",
+      "image": "https://seiche.info/share/cards/money-markets/jp-jpy.783ca94a6a8251db.png",
+      "sha256_prefix": "783ca94a6a8251db"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "KR-KRW",
+      "canonical_url": "https://seiche.info/views/money-markets/KR-KRW/",
+      "eyebrow": "money market / KR-KRW",
+      "title": "South Korean won cash market",
+      "description": "NO PUBLIC BENCHMARK is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "DECLARED_UNAVAILABLE",
+      "value": "NO PUBLIC BENCHMARK",
+      "unit": "KRW",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "no"
+        },
+        {
+          "label": "rights",
+          "value": "access_policy_unavailable"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "The raw value is withheld or unavailable; this is not a zero.",
+      "image": "https://seiche.info/share/cards/money-markets/kr-krw.e8fdb574a41e5ce7.png",
+      "sha256_prefix": "e8fdb574a41e5ce7"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "NZ-NZD",
+      "canonical_url": "https://seiche.info/views/money-markets/NZ-NZD/",
+      "eyebrow": "money market / NZ-NZD",
+      "title": "New Zealand dollar cash market",
+      "description": "NO PUBLIC BENCHMARK is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "DECLARED_UNAVAILABLE",
+      "value": "NO PUBLIC BENCHMARK",
+      "unit": "NZD",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "no"
+        },
+        {
+          "label": "rights",
+          "value": "access_policy_unavailable"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "The raw value is withheld or unavailable; this is not a zero.",
+      "image": "https://seiche.info/share/cards/money-markets/nz-nzd.7409e8146808509a.png",
+      "sha256_prefix": "7409e8146808509a"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "SG-SGD",
+      "canonical_url": "https://seiche.info/views/money-markets/SG-SGD/",
+      "eyebrow": "money market / SG-SGD",
+      "title": "Singapore dollar cash market",
+      "description": "SORA is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "LIVE_REFERENCE",
+      "value": "SORA",
+      "unit": "SGD",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "yes"
+        },
+        {
+          "label": "rights",
+          "value": "allowed"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-19",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "Raw value may be shown under the registered source terms.",
+      "image": "https://seiche.info/share/cards/money-markets/sg-sgd.bcafd90b4b27e3ba.png",
+      "sha256_prefix": "bcafd90b4b27e3ba"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "UK-GBP",
+      "canonical_url": "https://seiche.info/views/money-markets/UK-GBP/",
+      "eyebrow": "money market / UK-GBP",
+      "title": "United Kingdom sterling cash market",
+      "description": "SONIA is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "DERIVED_CONTEXT",
+      "value": "SONIA",
+      "unit": "GBP",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "no"
+        },
+        {
+          "label": "rights",
+          "value": "derived_only"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "The raw value is withheld or unavailable; this is not a zero.",
+      "image": "https://seiche.info/share/cards/money-markets/uk-gbp.fb22e26d23cb4c29.png",
+      "sha256_prefix": "fb22e26d23cb4c29"
+    },
+    {
+      "kind": "money-markets",
+      "identifier": "US-USD",
+      "canonical_url": "https://seiche.info/views/money-markets/US-USD/",
+      "eyebrow": "money market / US-USD",
+      "title": "United States dollar cash market",
+      "description": "SOFR is the registered local benchmark. Availability, rights and its native clock are shown without cross-market level ranking.",
+      "status": "LIVE_REFERENCE",
+      "value": "SOFR",
+      "unit": "USD",
+      "metrics": [
+        {
+          "label": "public raw value",
+          "value": "yes"
+        },
+        {
+          "label": "rights",
+          "value": "allowed"
+        },
+        {
+          "label": "evidence eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-19",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche registered market pack",
+      "rights": "Raw value may be shown under the registered source terms.",
+      "image": "https://seiche.info/share/cards/money-markets/us-usd.d729769d1ce0b465.png",
+      "sha256_prefix": "d729769d1ce0b465"
+    },
+    {
+      "kind": "series",
+      "identifier": "dw-b",
+      "canonical_url": "https://seiche.info/views/series/dw-b/",
+      "eyebrow": "published series / dw_b",
+      "title": "Dw B",
+      "description": "The current published Dw B observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "4.9",
+      "unit": "native units",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "dw_b"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-26",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/dw-b.b329989a556f2757.png",
+      "sha256_prefix": "b329989a556f2757"
+    },
+    {
+      "kind": "series",
+      "identifier": "effr-pct",
+      "canonical_url": "https://seiche.info/views/series/effr-pct/",
+      "eyebrow": "published series / effr_pct",
+      "title": "Effr Pct",
+      "description": "The current published Effr Pct observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "3.63",
+      "unit": "native units",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "effr_pct"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/effr-pct.ee3d06c5c81f3c95.png",
+      "sha256_prefix": "ee3d06c5c81f3c95"
+    },
+    {
+      "kind": "series",
+      "identifier": "hy-oas-pct",
+      "canonical_url": "https://seiche.info/views/series/hy-oas-pct/",
+      "eyebrow": "published series / hy_oas_pct",
+      "title": "High-yield OAS",
+      "description": "The current published High-yield OAS observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "2.63",
+      "unit": "%",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "hy_oas_pct"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/hy-oas-pct.882a1394f9b8a84e.png",
+      "sha256_prefix": "882a1394f9b8a84e"
+    },
+    {
+      "kind": "series",
+      "identifier": "iorb-pct",
+      "canonical_url": "https://seiche.info/views/series/iorb-pct/",
+      "eyebrow": "published series / iorb_pct",
+      "title": "IORB",
+      "description": "The current published IORB observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "3.65",
+      "unit": "%",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "iorb_pct"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-31",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/iorb-pct.af279525a81bd9a9.png",
+      "sha256_prefix": "af279525a81bd9a9"
+    },
+    {
+      "kind": "series",
+      "identifier": "reserves-b",
+      "canonical_url": "https://seiche.info/views/series/reserves-b/",
+      "eyebrow": "published series / reserves_b",
+      "title": "Reserve balances",
+      "description": "The current published Reserve balances observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "2,924.936",
+      "unit": "$B",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "reserves_b"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-26",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/reserves-b.57380a979abca663.png",
+      "sha256_prefix": "57380a979abca663"
+    },
+    {
+      "kind": "series",
+      "identifier": "rrp-b",
+      "canonical_url": "https://seiche.info/views/series/rrp-b/",
+      "eyebrow": "published series / rrp_b",
+      "title": "Overnight reverse repo",
+      "description": "The current published Overnight reverse repo observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "0.175",
+      "unit": "$B",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "rrp_b"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-28",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/rrp-b.7eb55a574ce3447c.png",
+      "sha256_prefix": "7eb55a574ce3447c"
+    },
+    {
+      "kind": "series",
+      "identifier": "sofr-pct",
+      "canonical_url": "https://seiche.info/views/series/sofr-pct/",
+      "eyebrow": "published series / sofr_pct",
+      "title": "SOFR",
+      "description": "The current published SOFR observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "3.64",
+      "unit": "%",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "sofr_pct"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/sofr-pct.96aa0a0d5d6190ed.png",
+      "sha256_prefix": "96aa0a0d5d6190ed"
+    },
+    {
+      "kind": "series",
+      "identifier": "srf-accepted-b",
+      "canonical_url": "https://seiche.info/views/series/srf-accepted-b/",
+      "eyebrow": "published series / srf_accepted_b",
+      "title": "Srf Accepted B",
+      "description": "The current published Srf Accepted B observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "0",
+      "unit": "native units",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "srf_accepted_b"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-28",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/srf-accepted-b.3af597998a242826.png",
+      "sha256_prefix": "3af597998a242826"
+    },
+    {
+      "kind": "series",
+      "identifier": "tga-b",
+      "canonical_url": "https://seiche.info/views/series/tga-b/",
+      "eyebrow": "published series / tga_b",
+      "title": "Treasury General Account",
+      "description": "The current published Treasury General Account observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "959.4",
+      "unit": "$B",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "tga_b"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/tga-b.d9fc8de346a82030.png",
+      "sha256_prefix": "d9fc8de346a82030"
+    },
+    {
+      "kind": "series",
+      "identifier": "vix",
+      "canonical_url": "https://seiche.info/views/series/vix/",
+      "eyebrow": "published series / vix",
+      "title": "VIX",
+      "description": "The current published VIX observation with its source clock and availability state.",
+      "status": "OBSERVED",
+      "value": "14.51",
+      "unit": "index",
+      "metrics": [
+        {
+          "label": "series id",
+          "value": "vix"
+        },
+        {
+          "label": "freshness",
+          "value": "as published"
+        },
+        {
+          "label": "source",
+          "value": "Seiche source ledger"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche headline ledger",
+      "rights": "Public board observation; upstream terms remain attached.",
+      "image": "https://seiche.info/share/cards/series/vix.9a760c634b787987.png",
+      "sha256_prefix": "9a760c634b787987"
+    },
+    {
+      "kind": "tab",
+      "identifier": "today",
+      "canonical_url": "https://seiche.info/views/tabs/today/",
+      "eyebrow": "terminal view / today",
+      "title": "Today's dollar-funding argument",
+      "description": "The current desk thesis, countercase, evidence and next dates that can change the call.",
+      "status": "STRAIN",
+      "value": "46.6",
+      "unit": "funding-stress index · 0–100",
+      "metrics": [
+        {
+          "label": "regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "the Tell",
+          "value": "37.4"
+        },
+        {
+          "label": "coverage",
+          "value": "94%"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/today.2ddb5345407013b9.png",
+      "sha256_prefix": "2ddb5345407013b9"
+    },
+    {
+      "kind": "tab",
+      "identifier": "dispatches",
+      "canonical_url": "https://seiche.info/views/tabs/dispatches/",
+      "eyebrow": "terminal view / dispatches",
+      "title": "The Seiche dispatch record",
+      "description": "Dated arguments from the funding desk; each issue keeps its original clock, regime and countercase.",
+      "status": "PUBLISHED ARCHIVE",
+      "value": "2026-08-30T10:44:08+00:00",
+      "unit": "latest sealed archive build",
+      "metrics": [
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "snapshot version",
+          "value": "0.11.1 estuary"
+        },
+        {
+          "label": "available inputs",
+          "value": "1/1"
+        }
+      ],
+      "as_of": "2026-08-30T10:44:08+00:00",
+      "as_of_label": "SNAPSHOT GENERATED",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/dispatches.3f680829aee3a57e.png",
+      "sha256_prefix": "3f680829aee3a57e"
+    },
+    {
+      "kind": "tab",
+      "identifier": "fx-materials",
+      "canonical_url": "https://seiche.info/views/tabs/fx-materials/",
+      "eyebrow": "terminal view / fx materials",
+      "title": "FX and physical cash pressure",
+      "description": "Dollar regimes and physical-market pressure traced into funding spreads with separate clocks and holdout boundaries.",
+      "status": "IN SYNC",
+      "value": "-19.9",
+      "unit": "upstream minus funding · points",
+      "metrics": [
+        {
+          "label": "upstream pressure",
+          "value": "26.6"
+        },
+        {
+          "label": "funding priced",
+          "value": "46.5"
+        },
+        {
+          "label": "coverage",
+          "value": "100%"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/fx-materials.443f59f1adbb6e21.png",
+      "sha256_prefix": "443f59f1adbb6e21"
+    },
+    {
+      "kind": "tab",
+      "identifier": "oil-funding",
+      "canonical_url": "https://seiche.info/views/tabs/oil-funding/",
+      "eyebrow": "terminal view / oil funding",
+      "title": "The barrel's funding loop",
+      "description": "Oil prices, the price of cash, market structure and mechanical working-capital scenarios kept in their native units.",
+      "status": "OBSERVED + MECHANICAL SCENARIO",
+      "value": "$83.9",
+      "unit": "WTI · USD per barrel",
+      "metrics": [
+        {
+          "label": "Brent",
+          "value": "$88.2"
+        },
+        {
+          "label": "SOFR − IORB",
+          "value": "-1bp"
+        },
+        {
+          "label": "Cushing stocks",
+          "value": "22.4m bbl"
+        }
+      ],
+      "as_of": "2026-08-28",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/oil-funding.89dbf9ce060499d2.png",
+      "sha256_prefix": "89dbf9ce060499d2"
+    },
+    {
+      "kind": "tab",
+      "identifier": "scarcity",
+      "canonical_url": "https://seiche.info/views/tabs/scarcity/",
+      "eyebrow": "terminal view / scarcity",
+      "title": "Reserve scarcity and runway",
+      "description": "The fitted reserve-demand kink, current distance and thirteen-week balance-sheet paths as structural estimates, not a universal floor.",
+      "status": "STRUCTURAL ESTIMATE",
+      "value": "-778.8",
+      "unit": "$B reserves minus fitted kink",
+      "metrics": [
+        {
+          "label": "current reserves",
+          "value": "$2,924.9B"
+        },
+        {
+          "label": "fitted kink",
+          "value": "$3,703.7B"
+        },
+        {
+          "label": "base path end",
+          "value": "$2,878.3B"
+        }
+      ],
+      "as_of": "2026-08-26",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/scarcity.4a35f4398c3affe3.png",
+      "sha256_prefix": "4a35f4398c3affe3"
+    },
+    {
+      "kind": "tab",
+      "identifier": "supply",
+      "canonical_url": "https://seiche.info/views/tabs/supply/",
+      "eyebrow": "terminal view / supply",
+      "title": "Treasury supply and funding digestion",
+      "description": "Announced cash needs, auction digestion and the foreign-official footprint with dated public-source clocks.",
+      "status": "ANNOUNCED SUPPLY",
+      "value": null,
+      "unit": "$B net new cash · published horizon",
+      "metrics": [
+        {
+          "label": "available inputs",
+          "value": "1/3"
+        },
+        {
+          "label": "source faults",
+          "value": "1"
+        },
+        {
+          "label": "stale published inputs",
+          "value": "0"
+        }
+      ],
+      "as_of": "2026-08-30T10:44:08+00:00",
+      "as_of_label": "SNAPSHOT GENERATED",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/supply.7ea90cbc535af07e.png",
+      "sha256_prefix": "7ea90cbc535af07e"
+    },
+    {
+      "kind": "tab",
+      "identifier": "forecast",
+      "canonical_url": "https://seiche.info/views/tabs/forecast/",
+      "eyebrow": "terminal view / forecast",
+      "title": "Funding-event diagnostics",
+      "description": "Several forward estimators shown together with validation, dispersion and explicit non-trading claim boundaries.",
+      "status": "DIAGNOSTIC · NOT A TRADE SIGNAL",
+      "value": "6%",
+      "unit": "5bd ensemble event probability",
+      "metrics": [
+        {
+          "label": "Swell 5bd",
+          "value": "11.9%"
+        },
+        {
+          "label": "Bathymetry 5bd",
+          "value": "5.3%"
+        },
+        {
+          "label": "fleet dispersion",
+          "value": "2.8%"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/forecast.0dfbc12790499e32.png",
+      "sha256_prefix": "0dfbc12790499e32"
+    },
+    {
+      "kind": "tab",
+      "identifier": "physics",
+      "canonical_url": "https://seiche.info/views/tabs/physics/",
+      "eyebrow": "terminal view / physics",
+      "title": "The funding physics package",
+      "description": "State transitions, latent modes, jump diagnostics and changepoints with their evidence and validation limits attached.",
+      "status": "DIAGNOSTIC",
+      "value": "5.3%",
+      "unit": "5bd state-transition diagnostic",
+      "metrics": [
+        {
+          "label": "mean first passage",
+          "value": "77 business days"
+        },
+        {
+          "label": "latent rank",
+          "value": "8"
+        },
+        {
+          "label": "series in modes",
+          "value": "11"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/physics.5edff338ff653492.png",
+      "sha256_prefix": "5edff338ff653492"
+    },
+    {
+      "kind": "tab",
+      "identifier": "helm",
+      "canonical_url": "https://seiche.info/views/tabs/helm/",
+      "eyebrow": "terminal view / helm",
+      "title": "The accountable paper book",
+      "description": "Today's frozen rulebook stance, ensemble probability and walk-forward record; a paper proxy, never advice.",
+      "status": "PAPER PROXY",
+      "value": "neutral",
+      "unit": "paper proxy · not investment advice",
+      "metrics": [
+        {
+          "label": "ensemble 5bd",
+          "value": "6%"
+        },
+        {
+          "label": "fleet dispersion",
+          "value": "2.8%"
+        },
+        {
+          "label": "the Tell",
+          "value": "37.4"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/helm.2a7a47236dbbe37d.png",
+      "sha256_prefix": "2a7a47236dbbe37d"
+    },
+    {
+      "kind": "tab",
+      "identifier": "market",
+      "canonical_url": "https://seiche.info/views/tabs/market/",
+      "eyebrow": "terminal view / market",
+      "title": "Plumbing versus market pricing",
+      "description": "The Tell compares funding-plumbing percentiles with market-priced stress, then keeps analog outcomes and press attention separate.",
+      "status": "plumbing leads price",
+      "value": "37.4",
+      "unit": "plumbing percentile minus market percentile",
+      "metrics": [
+        {
+          "label": "plumbing percentile",
+          "value": "57"
+        },
+        {
+          "label": "market percentile",
+          "value": "20"
+        },
+        {
+          "label": "press baseline",
+          "value": "yes"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/market.6b199667beac713c.png",
+      "sha256_prefix": "6b199667beac713c"
+    },
+    {
+      "kind": "tab",
+      "identifier": "calendar",
+      "canonical_url": "https://seiche.info/views/tabs/calendar/",
+      "eyebrow": "terminal view / calendar",
+      "title": "The next funding turn",
+      "description": "Settlements, tax dates, auctions and turn windows projected from the published calendar without converting a scenario into a fact.",
+      "status": "FORWARD CALENDAR",
+      "value": "2026-08-31",
+      "unit": "next published turn window",
+      "metrics": [
+        {
+          "label": "turn mode",
+          "value": "month_end"
+        },
+        {
+          "label": "published forecast",
+          "value": "2.2bp"
+        },
+        {
+          "label": "crunch windows",
+          "value": "5"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/calendar.c0feff4cf3f25aae.png",
+      "sha256_prefix": "c0feff4cf3f25aae"
+    },
+    {
+      "kind": "tab",
+      "identifier": "positioning",
+      "canonical_url": "https://seiche.info/views/tabs/positioning/",
+      "eyebrow": "terminal view / positioning",
+      "title": "Leveraged positioning and dealer warehouse",
+      "description": "Public positioning proxies, crowding and dealer inventory with scenario-quality limits left visible.",
+      "status": "POSITIONING PROXY",
+      "value": "407.5",
+      "unit": "$B dealer net Treasury inventory",
+      "metrics": [
+        {
+          "label": "warehouse percentile",
+          "value": "95"
+        },
+        {
+          "label": "RV net",
+          "value": "$-793.3B"
+        },
+        {
+          "label": "crowding rows",
+          "value": "9"
+        }
+      ],
+      "as_of": "2026-08-25",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/positioning.ece66d8ec60697f3.png",
+      "sha256_prefix": "ece66d8ec60697f3"
+    },
+    {
+      "kind": "tab",
+      "identifier": "resonance",
+      "canonical_url": "https://seiche.info/views/tabs/resonance/",
+      "eyebrow": "terminal view / resonance",
+      "title": "Cross-channel resonance",
+      "description": "Synchronization, persistence, changepoints and lead-lag diagnostics across the published funding channels.",
+      "status": "MULTIVARIATE DIAGNOSTIC",
+      "value": "66.5",
+      "unit": "resonance score · 0–100",
+      "metrics": [
+        {
+          "label": "undertow score",
+          "value": "47"
+        },
+        {
+          "label": "e-detector streams",
+          "value": "2"
+        },
+        {
+          "label": "hydrophone status",
+          "value": "yes"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/resonance.855dfc598d59d257.png",
+      "sha256_prefix": "855dfc598d59d257"
+    },
+    {
+      "kind": "tab",
+      "identifier": "proof",
+      "canonical_url": "https://seiche.info/views/tabs/proof/",
+      "eyebrow": "terminal view / proof",
+      "title": "The historical claim boundary",
+      "description": "Construction-point-in-time diagnostics, leak audits and model comparisons with vintage evidence and real-money eligibility explicit.",
+      "status": "UNVERIFIED",
+      "value": "UNVERIFIED",
+      "unit": "historical evidence status",
+      "metrics": [
+        {
+          "label": "validated backtest",
+          "value": "no"
+        },
+        {
+          "label": "ML 5bd",
+          "value": "1.8%"
+        },
+        {
+          "label": "real-money eligible",
+          "value": "no"
+        }
+      ],
+      "as_of": "2026-08-26",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/proof.745a3f374d0b2f39.png",
+      "sha256_prefix": "745a3f374d0b2f39"
+    },
+    {
+      "kind": "tab",
+      "identifier": "referee",
+      "canonical_url": "https://seiche.info/views/tabs/referee/",
+      "eyebrow": "terminal view / referee",
+      "title": "Global-liquidity claims, refereed",
+      "description": "Three popular quantitative claims tested on the public G3 central-bank layer with uncertainty and sample limits attached.",
+      "status": "OBSERVED + CLAIM TEST",
+      "value": "-6.6",
+      "unit": "G3 central-bank assets · YoY %",
+      "metrics": [
+        {
+          "label": "G3 assets",
+          "value": "$17.5tn"
+        },
+        {
+          "label": "asset lead peak",
+          "value": "5 months"
+        },
+        {
+          "label": "cycle estimate",
+          "value": "67.8 months"
+        }
+      ],
+      "as_of": "2026-07-31",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/referee.cc2df7916bea1155.png",
+      "sha256_prefix": "cc2df7916bea1155"
+    },
+    {
+      "kind": "tab",
+      "identifier": "system",
+      "canonical_url": "https://seiche.info/views/tabs/system/",
+      "eyebrow": "terminal view / system",
+      "title": "Publication health and provenance",
+      "description": "The sealed snapshot clock, source inventory, explicit faults and evidence-boundary status behind every public reading.",
+      "status": "1 SOURCE FAULT",
+      "value": "1",
+      "unit": "source faults in this sealed snapshot",
+      "metrics": [
+        {
+          "label": "source records",
+          "value": "105"
+        },
+        {
+          "label": "stale headline rows",
+          "value": "0"
+        },
+        {
+          "label": "snapshot version",
+          "value": "0.11.1 estuary"
+        }
+      ],
+      "as_of": "2026-08-30T10:44:08+00:00",
+      "as_of_label": "SNAPSHOT GENERATED",
+      "generated_at": "2026-08-30T10:44:08+00:00",
+      "source": "Seiche sealed publication snapshot",
+      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
+      "image": "https://seiche.info/share/cards/tab/system.e3a4992a913e118c.png",
+      "sha256_prefix": "e3a4992a913e118c"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-29-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-29-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "The Tell reads +38.1: plumbing at the 58th percentile of its own history, screens at the 20th",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.1%; plumbing leads market pricing by +38 percentile points. The index is +0.0 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-29",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-29",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-29",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-29-daily.c99b566c3dc0a0f1.png",
+      "sha256_prefix": "c99b566c3dc0a0f1"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-28-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-28-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "SRF accepted wakes to 0.00 $B overnight: 16.9 sigma on a near-zero base, not a large flow",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.1%; plumbing leads market pricing by +38 percentile points. The index is -1.8 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-28",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-28",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-28",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-28-daily.167a83517920ea4f.png",
+      "sha256_prefix": "167a83517920ea4f"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-27-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-27-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "SRF accepted wakes to 0.10 $B overnight: 67.5 sigma on a near-zero base, not a large flow",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +32 percentile points. The index is -0.3 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-27",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-27",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-27-daily.83fcb57d73fdb281.png",
+      "sha256_prefix": "83fcb57d73fdb281"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-26-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-26-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "2y Treasury constant maturity yield sits at 4.24 %, +2.8 sigma from its own median: a level, not a move",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +30 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-26",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-26",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-26",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-26-daily.da82374a2bc8b04b.png",
+      "sha256_prefix": "da82374a2bc8b04b"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-25-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-25-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "2y Treasury constant maturity yield moves +0.05 % to 4.24 % on its latest print: 2.8 sigma against its own history",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.0%; plumbing leads market pricing by +30 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-25",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-25",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-25",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-25-daily.5ee5f51fa67fee26.png",
+      "sha256_prefix": "5ee5f51fa67fee26"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-24-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-24-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "No print cleared the 2.5 sigma bar: the freshest standing flag is 4 days old, strain at 45",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 5.8%; plumbing leads market pricing by +23 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-24",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-24",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-24",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-24-daily.c88c5466966015bd.png",
+      "sha256_prefix": "c88c5466966015bd"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-24-week-ahead",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-24-week-ahead",
+      "eyebrow": "desk record / week ahead",
+      "title": "The Week Ahead 4: 7 dated events and 5 calls on the record",
+      "description": "Issue 4 of the Monday letter. The composite reads 45, regime STRAIN. 5 pre-registered calls for the week and 7 dated items on the calendar. Last week's calls graded 4 of 6, misses first.",
+      "status": "WEEK AHEAD",
+      "value": "2026-08-24",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "week ahead"
+        },
+        {
+          "label": "board regime",
+          "value": "WEEK AHEAD"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-24",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-24",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-24-week-ahead.c07613f16d79d735.png",
+      "sha256_prefix": "c07613f16d79d735"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-23-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-23-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "No print cleared the 2.5 sigma bar: the freshest standing flag is 3 days old, strain at 45",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 5.9%; plumbing leads market pricing by +23 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-23",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-23",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-23",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-23-daily.5e675b64dd73ce18.png",
+      "sha256_prefix": "5e675b64dd73ce18"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-22-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-22-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "2y Treasury constant maturity yield prints 4.19 % on its latest print: 2.6 sigma against its own history",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 5.9%; plumbing leads market pricing by +23 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-22",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-22",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-22",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-22-daily.dbaa3301ab8ae66c.png",
+      "sha256_prefix": "dbaa3301ab8ae66c"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-21-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-21-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Bitcoin (Coinbase daily close) moves +4,677.21 $ to 77,689.08 $ overnight: 3.5 sigma against its own history",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +30 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-21",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-21",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-21",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-21-daily.66c5d1e8311b5799.png",
+      "sha256_prefix": "66c5d1e8311b5799"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-20-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-20-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "2y Treasury constant maturity yield sits at 4.19 %, +2.6 sigma from its own median: a level, not a move",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.7%; plumbing leads market pricing by +32 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-20",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-20",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-20",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-20-daily.7b4c7cf500d635fd.png",
+      "sha256_prefix": "7b4c7cf500d635fd"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-19-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-19-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "The calendar is carrying the strain call; the price of overnight cash still says abundance",
+      "description": "The board reads 46 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.3%; plumbing leads market pricing by +35 percentile points. The index is -1.8 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-19",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-19",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-19",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-19-daily.6e71a9735c20f980.png",
+      "sha256_prefix": "6e71a9735c20f980"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-18-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-18-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "2y Treasury constant maturity yield sits at 4.17 %, +2.5 sigma from its own median: a level, not a move",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.8%; plumbing leads market pricing by +39 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-18",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-18",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-18",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-18-daily.9f26b9783a3fb042.png",
+      "sha256_prefix": "9f26b9783a3fb042"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-17-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-17-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "The Tell reads +37.3: plumbing at the 64th percentile of its own history, screens at the 27th",
+      "description": "The board reads 47 out of 100, STRAIN; the dated reserve path contributes 11.7 points; the pooled five-business-day event read is 6.5%; plumbing leads market pricing by +37 percentile points. The index is +1.8 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-17",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-17",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-17",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-17-daily.129e70cb07e19631.png",
+      "sha256_prefix": "129e70cb07e19631"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-17-week-ahead",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-17-week-ahead",
+      "eyebrow": "desk record / week ahead",
+      "title": "The Week Ahead 3: 1 dated events and 5 calls on the record",
+      "description": "Issue 3 of the Monday letter. The composite reads 47, regime STRAIN. 5 pre-registered calls for the week and 1 dated items on the calendar. Last week's calls graded 2 of 4, misses first.",
+      "status": "WEEK AHEAD",
+      "value": "2026-08-17",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "week ahead"
+        },
+        {
+          "label": "board regime",
+          "value": "WEEK AHEAD"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-17",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-17",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-17-week-ahead.e1273bec31446539.png",
+      "sha256_prefix": "e1273bec31446539"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-16-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-16-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "The Tell reads +37.1: plumbing at the 64th percentile of its own history, screens at the 27th",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.6%; plumbing leads market pricing by +37 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-16",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-16",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-16",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-16-daily.108472319f363d93.png",
+      "sha256_prefix": "108472319f363d93"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-15-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-15-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "S&P 500 index sits at 7,785.76 pts, +2.5 sigma from its own median: a level, not a move",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.6%; plumbing leads market pricing by +37 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-15",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-15",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-15",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-15-daily.9fef34f82dd4e4f2.png",
+      "sha256_prefix": "9fef34f82dd4e4f2"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-14-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-14-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "S&P 500 index sits at 7,798.99 pts, +2.6 sigma from its own median: a level, not a move",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.6%; plumbing leads market pricing by +39 percentile points. The index is +0.0 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-14",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-14",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-14",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-14-daily.d536897940b925b8.png",
+      "sha256_prefix": "d536897940b925b8"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-13-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-13-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "SRF accepted wakes to 0.00 $B overnight: 13.5 sigma on a near-zero base, not a large flow",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.1%; plumbing leads market pricing by +29 percentile points. The index is +0.0 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-13",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-13",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-13",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-13-daily.e9d09dee889d9148.png",
+      "sha256_prefix": "e9d09dee889d9148"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-12-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-12-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "SRF accepted wakes to 0.10 $B overnight: 66.8 sigma on a near-zero base, not a large flow",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.1%; plumbing leads market pricing by +31 percentile points. The index is +0.0 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-12",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-12",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-12",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-12-daily.4beecba6802100bc.png",
+      "sha256_prefix": "4beecba6802100bc"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-11-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-11-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "S&P 500 index sits at 7,753.11 pts, +2.5 sigma from its own median: a level, not a move",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.3%; plumbing leads market pricing by +39 percentile points. The index is +0.1 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-11",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-11",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-11",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-11-daily.6cc85e9b2109fb7b.png",
+      "sha256_prefix": "6cc85e9b2109fb7b"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-10-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-10-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "The Tell holds at +35.0, unchanged against the last letter: plumbing leads price",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.5%; plumbing leads market pricing by +35 percentile points. The index is +0.0 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-10",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-10",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-10",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-10-daily.726ff2aaccc3b7ce.png",
+      "sha256_prefix": "726ff2aaccc3b7ce"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-10-week-ahead",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-10-week-ahead",
+      "eyebrow": "desk record / week ahead",
+      "title": "The Week Ahead 2: 5 pre-registered calls for the week of 2026-08-10",
+      "description": "Issue 2 of the Monday letter. The composite reads 45, regime EROSION. 5 pre-registered calls for the week and 5 dated items on the calendar. Last week's calls graded 3 of 4, misses first.",
+      "status": "WEEK AHEAD",
+      "value": "2026-08-10",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "week ahead"
+        },
+        {
+          "label": "board regime",
+          "value": "WEEK AHEAD"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-10",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-10",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-10-week-ahead.816b14b98b0a0c4d.png",
+      "sha256_prefix": "816b14b98b0a0c4d"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-09-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-09-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "The Tell reads +35.0: plumbing at the 62nd percentile of its own history, screens at the 27th",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +35 percentile points. The index is +0.0 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-09",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-09",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-09",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-09-daily.8809aa7bc354a71b.png",
+      "sha256_prefix": "8809aa7bc354a71b"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-08-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-08-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "S&P 500 index sits at 7,757.64 pts, +2.5 sigma from its own median: a level, not a move",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +35 percentile points. The index is +0.0 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-08",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-08",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-08",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-08-daily.e4e60616e3f7a7a1.png",
+      "sha256_prefix": "e4e60616e3f7a7a1"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-07-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-07-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "2y Treasury constant maturity yield sits at 4.18 %, +2.8 sigma from its own median: a level, not a move",
+      "description": "The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.5%; plumbing leads market pricing by +31 percentile points. The index is +0.0 against the last published letter.",
+      "status": "EROSION",
+      "value": "2026-08-07",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-07",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-07",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-07-daily.263874dd8312b349.png",
+      "sha256_prefix": "263874dd8312b349"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-06-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-06-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "The calendar is carrying the strain call; the price of overnight cash still says abundance",
+      "description": "The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.7%; plumbing leads market pricing by +34 percentile points. The index is -0.3 against the last published letter.",
+      "status": "STRAIN",
+      "value": "2026-08-06",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-06",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-06",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-06-daily.fd89320b6926d2e2.png",
+      "sha256_prefix": "fd89320b6926d2e2"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-05-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-05-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "S&P 500 index moves +136.02 pts to 7,736.52 pts overnight: 2.7 sigma against its own history",
+      "description": "The composite reads 46, regime STRAIN. That is +0.1 on the day. The Tell reads +39. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-08-05",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-05",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-05",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-05-daily.957f86b1abc9b6d5.png",
+      "sha256_prefix": "957f86b1abc9b6d5"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-04-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-04-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "DVP repo total volume (preliminary) moves +320.13 $B to 3,161.60 $B on its latest print: 4.7 sigma against its own history",
+      "description": "The composite reads 46, regime STRAIN. That is -0.6 on the day. The Tell reads +32. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-08-04",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-04",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-04",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-04-daily.cf23c17d23a793c5.png",
+      "sha256_prefix": "cf23c17d23a793c5"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-03-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-03-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Strain with a loud tell: plumbing leads price at +32",
+      "description": "The composite reads 46, regime STRAIN. That is +0.2 on the day. The Tell reads +32. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-08-03",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-03",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-03",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-03-daily.4e363de132d8de00.png",
+      "sha256_prefix": "4e363de132d8de00"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-03-week-ahead",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-03-week-ahead",
+      "eyebrow": "desk record / week ahead",
+      "title": "The Week Ahead 1: 5 pre-registered calls for the week of 2026-08-03",
+      "description": "Issue 1 of the Monday letter. The composite reads 46, regime STRAIN. 5 pre-registered calls for the week and 4 dated items on the calendar. The first issue, so there is nothing to grade yet.",
+      "status": "WEEK AHEAD",
+      "value": "2026-08-03",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "week ahead"
+        },
+        {
+          "label": "board regime",
+          "value": "WEEK AHEAD"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-03",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-03",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-03-week-ahead.2e57e1d2edf276dd.png",
+      "sha256_prefix": "2e57e1d2edf276dd"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-02-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-02-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Strain with a loud tell: plumbing leads price at +32",
+      "description": "The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +32. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-08-02",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-02",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-02",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-02-daily.0a1b32a08b09d2fa.png",
+      "sha256_prefix": "0a1b32a08b09d2fa"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-08-01-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-08-01-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Strain with a loud tell: plumbing leads price at +32",
+      "description": "The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +32. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-08-01",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-08-01",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-01",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-08-01-daily.f5aee4083448235c.png",
+      "sha256_prefix": "f5aee4083448235c"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-31-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-31-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Nasdaq Composite index moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 46, regime STRAIN. That is +0.0 on the day. The Tell reads +19. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-31",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-31",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-31",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-31-daily.6fbd8ae8919cdf05.png",
+      "sha256_prefix": "6fbd8ae8919cdf05"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-30-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-30-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "S&P 500 index moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 45, regime STRAIN. That is +0.1 on the day. The Tell reads +13. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-30",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-30",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-30",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-30-daily.c7ed5c868eb27708.png",
+      "sha256_prefix": "c7ed5c868eb27708"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-29-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-29-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Total stablecoin circulation moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 45, regime STRAIN. That is +0.2 on the day. The Tell reads +13. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-29",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-29",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-29",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-29-daily.d7ce478b30c9df16.png",
+      "sha256_prefix": "d7ce478b30c9df16"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-28-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-28-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "SRF accepted moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 45, regime STRAIN. That is -0.2 on the day. The Tell reads +7. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-28",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-28",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-28",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-28-daily.19d7f1c476007f5f.png",
+      "sha256_prefix": "19d7f1c476007f5f"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-27-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-27-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point",
+      "description": "The composite reads 45, regime STRAIN. The Tell reads +16. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-27",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-27",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-27-daily.64e0158c5b2035d5.png",
+      "sha256_prefix": "64e0158c5b2035d5"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-26-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-26-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point",
+      "description": "The composite reads 45, regime STRAIN. The Tell reads +16. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-26",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-26",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-26",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-26-daily.510048817dc33a54.png",
+      "sha256_prefix": "510048817dc33a54"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-25-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-25-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Central bank liquidity swaps outstanding (H.4.1) moved on the latest print: the strain tape gets a data point",
+      "description": "The composite reads 45, regime STRAIN. The Tell reads +19. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-25",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-25",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-25",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-25-daily.511d1ed86a64ea09.png",
+      "sha256_prefix": "511d1ed86a64ea09"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-24-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-24-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Central bank liquidity swaps outstanding (H.4.1) moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 46, regime STRAIN. The Tell reads +23. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-24",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-24",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-24",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-24-daily.ec1793e1de31daab.png",
+      "sha256_prefix": "ec1793e1de31daab"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-23-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-23-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 46, regime STRAIN. The Tell reads +18. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-23",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-23",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-23",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-23-daily.4c0d3db3c8799f85.png",
+      "sha256_prefix": "4c0d3db3c8799f85"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-22-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-22-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 46, regime STRAIN. The Tell reads +10. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-22",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-22",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-22",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-22-daily.d76f1a25464cfb37.png",
+      "sha256_prefix": "d76f1a25464cfb37"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-21-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-21-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 46, regime STRAIN. The Tell reads +11. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-21",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-21",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-21",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-21-daily.0de8e1e6868713f3.png",
+      "sha256_prefix": "0de8e1e6868713f3"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-20-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-20-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point",
+      "description": "The composite reads 44, regime EROSION. The Tell reads +22. Every number below is checkable on the board.",
+      "status": "EROSION",
+      "value": "2026-07-20",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-20",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-20",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-20-daily.873206d55abe4e4c.png",
+      "sha256_prefix": "873206d55abe4e4c"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-19-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-19-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point",
+      "description": "The composite reads 44, regime EROSION. The Tell reads +22. Every number below is checkable on the board.",
+      "status": "EROSION",
+      "value": "2026-07-19",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-19",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-19",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-19-daily.0f859ab75fe88686.png",
+      "sha256_prefix": "0f859ab75fe88686"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-18-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-18-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Japan uncollateralized call rate (OECD MEI, monthly) moved overnight: the erosion tape gets a data point",
+      "description": "The composite reads 44, regime EROSION. The Tell reads +23. Every number below is checkable on the board.",
+      "status": "EROSION",
+      "value": "2026-07-18",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-18",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-18",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-18-daily.2b05e94c68e7b387.png",
+      "sha256_prefix": "2b05e94c68e7b387"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-17-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-17-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "SRF accepted moved overnight: the erosion tape gets a data point",
+      "description": "The composite reads 45, regime EROSION. The Tell reads +27. Every number below is checkable on the board.",
+      "status": "EROSION",
+      "value": "2026-07-17",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-17",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-17",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-17-daily.67aaba89ce530521.png",
+      "sha256_prefix": "67aaba89ce530521"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-16-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-16-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Strain with a loud tell: plumbing leads price at +32",
+      "description": "The composite reads 46, regime STRAIN. The Tell reads +32. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-16",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-16",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-16",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-16-daily.2df95fb2830ecef5.png",
+      "sha256_prefix": "2df95fb2830ecef5"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-15-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-15-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "SRF accepted moved overnight: the strain tape gets a data point",
+      "description": "The composite reads 46, regime STRAIN. The Tell reads +27. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-15",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-15",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-15",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-15-daily.59b6870626f82438.png",
+      "sha256_prefix": "59b6870626f82438"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-14-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-14-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Strain with a loud tell: plumbing leads price at +38",
+      "description": "The composite reads 45, regime STRAIN. The Tell reads +38. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-14",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-14",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-14",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-14-daily.128614f60e6e939f.png",
+      "sha256_prefix": "128614f60e6e939f"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-13-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-13-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Strain with a loud tell: plumbing leads price at +37",
+      "description": "The composite reads 45, regime STRAIN. The Tell reads +37. Every number below is checkable on the board.",
+      "status": "STRAIN",
+      "value": "2026-07-13",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-13",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-13",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-13-daily.d3048a30faa2cc8a.png",
+      "sha256_prefix": "d3048a30faa2cc8a"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-12-daily",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-12-daily",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "Erosion with a loud tell: plumbing leads price at +37",
+      "description": "The composite reads 45, regime EROSION. The Tell reads +37. Every number below is checkable on the board.",
+      "status": "EROSION",
+      "value": "2026-07-12",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "EROSION"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-12",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-12",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-12-daily.c68777a94f9fced1.png",
+      "sha256_prefix": "c68777a94f9fced1"
+    },
+    {
+      "kind": "dispatch",
+      "identifier": "2026-07-09-fat-tail",
+      "canonical_url": "https://seiche.info/dispatches/2026-07-09-fat-tail",
+      "eyebrow": "desk record / daily dispatch",
+      "title": "The plumbing has a fat tail",
+      "description": "The board reads STRAIN. VIX at 16, credit spreads near their tightest on record. The pipes and the price screens disagree — and extreme value theory says the disagreement has no ceiling.",
+      "status": "STRAIN",
+      "value": "2026-07-09",
+      "unit": "point-in-time desk record",
+      "metrics": [
+        {
+          "label": "edition",
+          "value": "daily dispatch"
+        },
+        {
+          "label": "board regime",
+          "value": "STRAIN"
+        },
+        {
+          "label": "revision policy",
+          "value": "dated public record"
+        }
+      ],
+      "as_of": "2026-07-09",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-07-09",
+      "source": "Seiche desk",
+      "rights": "Public dated analysis; not investment advice.",
+      "image": "https://seiche.info/share/cards/dispatch/2026-07-09-fat-tail.5b45241c934369e6.png",
+      "sha256_prefix": "5b45241c934369e6"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-29-the-year-end-squeeze-showed-how-funding-capacity-can-tighten-before-over",
+      "canonical_url": "https://seiche.info/articles/2026-08-29-the-year-end-squeeze-showed-how-funding-capacity-can-tighten-before-over/",
+      "eyebrow": "published analysis / historical replay",
+      "title": "The year-end squeeze showed how funding capacity can tighten before overnight cash looks scarce",
+      "description": "The December 2025 year-end squeeze made an intermediation constraint observable through Standing Repo Facility use. Today’s tape did not clear the full-story gate: the calendar carries the strain call while overnight cash still signals abundance.",
+      "status": "PUBLISHED",
+      "value": "2026-08-28",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "historical replay"
+        },
+        {
+          "label": "words",
+          "value": "1,025"
+        },
+        {
+          "label": "editorial class",
+          "value": "desk_brief"
+        }
+      ],
+      "as_of": "2026-08-28",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-29T15:27:19Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-29-the-year-end-squeeze-showed-how-funding-capacity-can-tighten-before-over.ec96fca489de02cb.png",
+      "sha256_prefix": "ec96fca489de02cb"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-28-srf-acceptance-returns-to-0-00-b-as-the-calendar-carries-the-dollar-fund",
+      "canonical_url": "https://seiche.info/articles/2026-08-28-srf-acceptance-returns-to-0-00-b-as-the-calendar-carries-the-dollar-fund/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "SRF acceptance returns to 0.00 $B as the calendar carries the dollar-funding warning",
+      "description": "Seiche’s board reads 45, EROSION, led by a dated reserve path rather than an overnight cash squeeze. SOFR remains below IORB, SRF acceptance is 0.00 $B, and market stress is low: calendar pressure has not yet become an observed funding shortage.",
+      "status": "PUBLISHED",
+      "value": "2026-08-28",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "989"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-28",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-28T21:29:11Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-28-srf-acceptance-returns-to-0-00-b-as-the-calendar-carries-the-dollar-fund.4168ff3e1e417cbc.png",
+      "sha256_prefix": "4168ff3e1e417cbc"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-27-a-0-10b-srf-print-puts-dollar-funding-on-watch-but-the-calendar-not-over",
+      "canonical_url": "https://seiche.info/articles/2026-08-27-a-0-10b-srf-print-puts-dollar-funding-on-watch-but-the-calendar-not-over/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "A $0.10B SRF print puts dollar funding on watch, but the calendar—not overnight pricing—is carrying the strain call",
+      "description": "Standing Repo Facility acceptance reached $0.10B, an extreme move from a near-zero base but not a large flow. Seiche’s board reads EROSION as dated reserve pressure approaches; SOFR still signals abundant overnight cash.",
+      "status": "PUBLISHED",
+      "value": "2026-08-27",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "1,066"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-27",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-27T20:59:33Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-27-a-0-10b-srf-print-puts-dollar-funding-on-watch-but-the-calendar-not-over.5ec1636a300adf46.png",
+      "sha256_prefix": "5ec1636a300adf46"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-26-dollar-funding-strain-is-on-the-calendar-not-yet-in-the-overnight-price",
+      "canonical_url": "https://seiche.info/articles/2026-08-26-dollar-funding-strain-is-on-the-calendar-not-yet-in-the-overnight-price/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "Dollar-funding strain is on the calendar, not yet in the overnight price",
+      "description": "Seiche’s board reads 45.2, STRAIN, because dated Treasury settlements meet reserves below a modelled demand-curve kink. But SOFR remains below IORB and the Standing Repo Facility is unused: the structural warning has not become a cash-price break.",
+      "status": "PUBLISHED",
+      "value": "2026-08-25",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "1,165"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-25",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-26T11:21:42Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-26-dollar-funding-strain-is-on-the-calendar-not-yet-in-the-overnight-price.132178a6231eb916.png",
+      "sha256_prefix": "132178a6231eb916"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-25-treasury-settlements-are-the-pressure-point-as-overnight-dollar-funding",
+      "canonical_url": "https://seiche.info/articles/2026-08-25-treasury-settlements-are-the-pressure-point-as-overnight-dollar-funding/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "Treasury settlements are the pressure point as overnight dollar funding still signals abundance",
+      "description": "A fresh move in the 2-year Treasury yield coincides with a STRAIN reading on Seiche’s board. The proposed mechanism is dated reserve pressure, but the thesis fails unless secured funding or backstop use confirms it.",
+      "status": "PUBLISHED",
+      "value": "2026-08-24",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "992"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-24",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-25T11:19:20Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-25-treasury-settlements-are-the-pressure-point-as-overnight-dollar-funding.2d9900ab74c01efe.png",
+      "sha256_prefix": "2d9900ab74c01efe"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-24-september-2019-showed-how-calendar-pressure-can-expose-a-funding-fault-b",
+      "canonical_url": "https://seiche.info/articles/2026-08-24-september-2019-showed-how-calendar-pressure-can-expose-a-funding-fault-b/",
+      "eyebrow": "published analysis / historical replay",
+      "title": "September 2019 showed how calendar pressure can expose a funding fault before risk markets react",
+      "description": "This is a historical replay, not breaking news or a forecast. Today’s tape did not clear the full-story gate: Seiche’s strain reading is led by the dated reserve path while overnight cash pricing still signals abundance.",
+      "status": "PUBLISHED",
+      "value": "2026-08-21",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "historical replay"
+        },
+        {
+          "label": "words",
+          "value": "1,071"
+        },
+        {
+          "label": "editorial class",
+          "value": "desk_brief"
+        }
+      ],
+      "as_of": "2026-08-21",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-24T11:14:05Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-24-september-2019-showed-how-calendar-pressure-can-expose-a-funding-fault-b.460b0ab52fc2a4dc.png",
+      "sha256_prefix": "460b0ab52fc2a4dc"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-23-march-2023-showed-why-system-liquidity-can-mask-a-lender-level-cash-cris",
+      "canonical_url": "https://seiche.info/articles/2026-08-23-march-2023-showed-why-system-liquidity-can-mask-a-lender-level-cash-cris/",
+      "eyebrow": "published analysis / historical replay",
+      "title": "March 2023 showed why system liquidity can mask a lender-level cash crisis",
+      "description": "This historical replay examines the March 2023 regional-bank run: aggregate dollar-funding capacity can be supported while individual lenders still face a cash crisis. Today’s tape did not clear Seiche’s full-story gate.",
+      "status": "PUBLISHED",
+      "value": "2026-08-21",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "historical replay"
+        },
+        {
+          "label": "words",
+          "value": "1,108"
+        },
+        {
+          "label": "editorial class",
+          "value": "desk_brief"
+        }
+      ],
+      "as_of": "2026-08-21",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-23T11:13:27Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-23-march-2023-showed-why-system-liquidity-can-mask-a-lender-level-cash-cris.bc926a8a24fb63f4.png",
+      "sha256_prefix": "bc926a8a24fb63f4"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-22-a-high-two-year-yield-meets-a-calendar-led-dollar-funding-strain-call",
+      "canonical_url": "https://seiche.info/articles/2026-08-22-a-high-two-year-yield-meets-a-calendar-led-dollar-funding-strain-call/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "A high two-year yield meets a calendar-led dollar-funding strain call",
+      "description": "Seiche’s board reads STRAIN, but the decisive pressure is scheduled Treasury settlement against reserves below an estimated kink—not broad confirmation from overnight cash pricing.",
+      "status": "PUBLISHED",
+      "value": "2026-08-21",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "1,102"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-21",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-22T11:11:04Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-22-a-high-two-year-yield-meets-a-calendar-led-dollar-funding-strain-call.b64d68bbef72afd1.png",
+      "sha256_prefix": "b64d68bbef72afd1"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-21-bitcoin-s-jump-is-fresh-the-dollar-funding-warning-still-needs-a-cash-ma",
+      "canonical_url": "https://seiche.info/articles/2026-08-21-bitcoin-s-jump-is-fresh-the-dollar-funding-warning-still-needs-a-cash-ma/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "Bitcoin’s jump is fresh; the dollar-funding warning still needs a cash-market confirmation",
+      "description": "Seiche’s board reads STRAIN because a dated reserve path is carrying the signal. The test is whether Treasury settlements move secured funding toward or above the administered rate.",
+      "status": "PUBLISHED",
+      "value": "2026-08-20",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "1,023"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-20",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-21T11:17:20Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-21-bitcoin-s-jump-is-fresh-the-dollar-funding-warning-still-needs-a-cash-ma.a461b8292bdf167b.png",
+      "sha256_prefix": "a461b8292bdf167b"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-20-a-210b-settlement-is-the-next-test-of-dollar-funding-capacity-not-proof",
+      "canonical_url": "https://seiche.info/articles/2026-08-20-a-210b-settlement-is-the-next-test-of-dollar-funding-capacity-not-proof/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "A $210B settlement is the next test of dollar-funding capacity—not proof of a squeeze",
+      "description": "Seiche’s board is in STRAIN because a dated reserve-path calculation is carrying the signal, while overnight pricing and facility use still indicate abundance. The test is whether the settlement reaches secured funding.",
+      "status": "PUBLISHED",
+      "value": "2026-08-19",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "1,055"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-19",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-20T11:17:09Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-20-a-210b-settlement-is-the-next-test-of-dollar-funding-capacity-not-proof.685dfde12fbe344c.png",
+      "sha256_prefix": "685dfde12fbe344c"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-19-the-calendar-is-carrying-the-strain-call-overnight-cash-still-says-abund",
+      "canonical_url": "https://seiche.info/articles/2026-08-19-the-calendar-is-carrying-the-strain-call-overnight-cash-still-says-abund/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "The calendar is carrying the strain call; overnight cash still says abundance",
+      "description": "Seiche’s board reads 46 out of 100, STRAIN, led by a dated reserve path into Treasury settlement. But SOFR remains below IORB, the Standing Repo Facility is unused, and market stress is low: this is a capacity warning, not a confirmed funding squeeze.",
+      "status": "PUBLISHED",
+      "value": "2026-08-18",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "983"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-18",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-19T11:10:48Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-19-the-calendar-is-carrying-the-strain-call-overnight-cash-still-says-abund.36225272a7581466.png",
+      "sha256_prefix": "36225272a7581466"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-18-foreign-rrp-absorbed-39-7b-as-a-95b-settlement-approaches-overnight-cash",
+      "canonical_url": "https://seiche.info/articles/2026-08-18-foreign-rrp-absorbed-39-7b-as-a-95b-settlement-approaches-overnight-cash/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "Foreign RRP absorbed $39.7B as a $95B settlement approaches; overnight cash still says abundance",
+      "description": "Seiche’s strain reading is being driven by a dated reserve path, not a disorderly funding print. Reserves fell $49.3B in the latest weekly ledger, but SOFR remains below IORB and Standing Repo Facility use is zero.",
+      "status": "PUBLISHED",
+      "value": "2026-08-17",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "1,122"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-17",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-18T11:15:47Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-18-foreign-rrp-absorbed-39-7b-as-a-95b-settlement-approaches-overnight-cash.82567f81ee03a04f.png",
+      "sha256_prefix": "82567f81ee03a04f"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-17-march-2020-s-lesson-for-dollar-funding-watch-propagation-not-prediction",
+      "canonical_url": "https://seiche.info/articles/2026-08-17-march-2020-s-lesson-for-dollar-funding-watch-propagation-not-prediction/",
+      "eyebrow": "published analysis / historical replay",
+      "title": "March 2020’s lesson for dollar funding: watch propagation, not prediction",
+      "description": "The dash for cash showed how an external shock can turn demand for dollars into a balance-sheet and market-liquidity problem. Today’s tape did not clear the full-story gate.",
+      "status": "PUBLISHED",
+      "value": "2026-08-14",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "historical replay"
+        },
+        {
+          "label": "words",
+          "value": "1,058"
+        },
+        {
+          "label": "editorial class",
+          "value": "desk_brief"
+        }
+      ],
+      "as_of": "2026-08-14",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-17T11:16:11Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-17-march-2020-s-lesson-for-dollar-funding-watch-propagation-not-prediction.f416c076e3a7d2f9.png",
+      "sha256_prefix": "f416c076e3a7d2f9"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-16-what-the-april-2025-basis-unwind-teaches-about-dollar-funding-capacity",
+      "canonical_url": "https://seiche.info/articles/2026-08-16-what-the-april-2025-basis-unwind-teaches-about-dollar-funding-capacity/",
+      "eyebrow": "published analysis / historical replay",
+      "title": "What the April 2025 basis unwind teaches about dollar-funding capacity",
+      "description": "This historical replay separates a calendar-and-balance-sheet warning from an observed funding break. Today’s tape did not clear the full-story gate: overnight cash still signals abundance.",
+      "status": "PUBLISHED",
+      "value": "2026-08-14",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "historical replay"
+        },
+        {
+          "label": "words",
+          "value": "1,225"
+        },
+        {
+          "label": "editorial class",
+          "value": "desk_brief"
+        }
+      ],
+      "as_of": "2026-08-14",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-16T11:11:42Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-16-what-the-april-2025-basis-unwind-teaches-about-dollar-funding-capacity.3f4b9acb1e6e31bb.png",
+      "sha256_prefix": "3f4b9acb1e6e31bb"
+    },
+    {
+      "kind": "article",
+      "identifier": "2026-08-15-reserve-drain-puts-the-calendar-in-charge-of-dollar-funding-risk",
+      "canonical_url": "https://seiche.info/articles/2026-08-15-reserve-drain-puts-the-calendar-in-charge-of-dollar-funding-risk/",
+      "eyebrow": "published analysis / current analysis",
+      "title": "Reserve drain puts the calendar in charge of dollar-funding risk",
+      "description": "A measured reserve decline and a dated settlement have put Seiche’s funding board in STRAIN. But overnight cash still signals abundance, making the settlement a test of whether calendar pressure can become a funding constraint.",
+      "status": "PUBLISHED",
+      "value": "2026-08-14",
+      "unit": "evidence cut",
+      "metrics": [
+        {
+          "label": "article type",
+          "value": "current analysis"
+        },
+        {
+          "label": "words",
+          "value": "1,129"
+        },
+        {
+          "label": "editorial class",
+          "value": "full_story"
+        }
+      ],
+      "as_of": "2026-08-14",
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": "2026-08-15T11:03:01Z",
+      "source": "Seiche analysis desk",
+      "rights": "Public dated analysis; claims remain bound to the published evidence cut.",
+      "image": "https://seiche.info/share/cards/article/2026-08-15-reserve-drain-puts-the-calendar-in-charge-of-dollar-funding-risk.5719d45931b86f2d.png",
+      "sha256_prefix": "5719d45931b86f2d"
+    }
+  ],
+  "known_gap": "The corpus registry is unbounded and served by a separate rights-aware service. This finite publisher does not pre-render one card per corpus dataset; a future cache-only corpus card service must preserve restricted, unavailable, stale and download=null states."
+}
