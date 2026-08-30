@@ -63,6 +63,18 @@ quotes, order books, forward/basis curves, options surfaces, complete security
 masters and redistribution-restricted feeds remain explicit gaps. The cache-only
 machine twin is https://api.seiche.info/api/v2/world-markets.
 
+The live Market Atlas is at https://seiche.info/#corpus. It drills from each canonical
+market and instrument into exact observations, source/publication/knowledge
+clocks, revisions, quality, staleness and redistribution state. The same view
+opens the independently operated Hetzner evidence lake at
+https://api.seiche.info/api/v2/corpus: versioned dataset receipts, normalized
+BIS flows and full records, revision runs, observed Seiche partitions and
+protected exports. Full BIS rows use bounded immutable serving shards and
+snapshot-bound cursors; no request scans a multi-million-row gzip monolith.
+Discovery never grants model, training, scoring, execution or redistribution
+permission, and corpus rows do not enter Seiche analytics merely because they
+are inspectable.
+
 China macro evidence is at https://seiche.info/markets/china-macro/. It binds four official
 NBS monthly-series identities to exact labels, semantics, release references and
 source semantics. Its structural catalog is unsigned; only a restricted response
@@ -116,6 +128,8 @@ same product; the callable contract remains the MCP server above.
 - [China economy evidence workflow](https://seiche.info/use-cases/china-economy-evidence/): use Palimpsest for revision-safe public observations and Seiche for structural macro identity, rights and transmission context
 - [Financial-evidence Agent Skill](https://github.com/beepboop2025/financial-evidence-skills/tree/main/financial-evidence): route research across Seiche, LiquiLens, Undertow and Palimpsest and fetch bounded no-auth JSON with explicit source errors
 - [World markets evidence atlas](https://seiche.info/markets/): money, forex and capital markets joined by one provenance, clock, rights and evidence-status contract
+- [Market Atlas](https://seiche.info/#corpus): canonical instruments and observations joined to the rights-aware Hetzner dataset and BIS corpus, with bounded record pagination and explicit clocks
+- [Market corpus API](https://api.seiche.info/api/v2/corpus): dataset receipts, BIS flows and full normalized records, revision runs, Seiche lake partitions, exports and a separate MCP transport
 - [Forex reference ledger](https://seiche.info/markets/forex/): 22 public H.10 bilateral reference series, three dollar indexes, exact quote conventions and explicit missing instruments
 - [Capital-markets transmission projection](https://seiche.info/markets/capital-markets/): a bounded derived macro-capital projection over registered Treasury, credit, volatility, dealer, positioning and commodity source families
 - [China macro evidence catalog](https://seiche.info/markets/china-macro/): four exact NBS series identities; the structural catalog is unsigned, while only a restricted response adds verified Seiche owner-attested provenance; no values are redistributed
@@ -140,6 +154,7 @@ same product; the callable contract remains the MCP server above.
 
 ## Daily articles (markdown)
 
+- [A tax-date squeeze showed how calendar drains can outrun an abundant-cash tape](https://seiche.info/articles/2026-08-30-a-tax-date-squeeze-showed-how-calendar-drains-can-outrun-an-abundant-cas.md): 2026-08-30, historical replay. The September 2025 episode is a historical replay, not breaking news and not a forecast. Its lesson is that dated cash removal can test dealer capacity before a broader funding signal appears.
 - [The year-end squeeze showed how funding capacity can tighten before overnight cash looks scarce](https://seiche.info/articles/2026-08-29-the-year-end-squeeze-showed-how-funding-capacity-can-tighten-before-over.md): 2026-08-29, historical replay. The December 2025 year-end squeeze made an intermediation constraint observable through Standing Repo Facility use. Today’s tape did not clear the full-story gate: the calendar carries the strain call while overnight cash still signals abundance.
 - [SRF acceptance returns to 0.00 $B as the calendar carries the dollar-funding warning](https://seiche.info/articles/2026-08-28-srf-acceptance-returns-to-0-00-b-as-the-calendar-carries-the-dollar-fund.md): 2026-08-28, current analysis. Seiche’s board reads 45, EROSION, led by a dated reserve path rather than an overnight cash squeeze. SOFR remains below IORB, SRF acceptance is 0.00 $B, and market stress is low: calendar pressure has not yet become an observed funding shortage.
 - [A $0.10B SRF print puts dollar funding on watch, but the calendar—not overnight pricing—is carrying the strain call](https://seiche.info/articles/2026-08-27-a-0-10b-srf-print-puts-dollar-funding-on-watch-but-the-calendar-not-over.md): 2026-08-27, current analysis. Standing Repo Facility acceptance reached $0.10B, an extreme move from a near-zero base but not a large flow. Seiche’s board reads EROSION as dated reserve pressure approaches; SOFR still signals abundant overnight cash.
@@ -157,6 +172,7 @@ same product; the callable contract remains the MCP server above.
 - [Reserve drain puts the calendar in charge of dollar-funding risk](https://seiche.info/articles/2026-08-15-reserve-drain-puts-the-calendar-in-charge-of-dollar-funding-risk.md): 2026-08-15, current analysis. A measured reserve decline and a dated settlement have put Seiche’s funding board in STRAIN. But overnight cash still signals abundance, making the settlement a test of whether calendar pressure can become a funding constraint.
 
 ## Daily dispatches (markdown)
+- [The Tell holds at +38.1, unchanged against the last letter: plumbing leads price](https://seiche.info/dispatches/2026-08-30-daily.md): 2026-08-30, regime EROSION. The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.1%; plumbing leads market pricing by +38 percentile points. The index is -1.7 against the last published letter.
 - [The Tell reads +38.1: plumbing at the 58th percentile of its own history, screens at the 20th](https://seiche.info/dispatches/2026-08-29-daily.md): 2026-08-29, regime EROSION. The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.1%; plumbing leads market pricing by +38 percentile points. The index is +0.0 against the last published letter.
 - [SRF accepted wakes to 0.00 $B overnight: 16.9 sigma on a near-zero base, not a large flow](https://seiche.info/dispatches/2026-08-28-daily.md): 2026-08-28, regime EROSION. The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.1%; plumbing leads market pricing by +38 percentile points. The index is -1.8 against the last published letter.
 - [SRF accepted wakes to 0.10 $B overnight: 67.5 sigma on a near-zero base, not a large flow](https://seiche.info/dispatches/2026-08-27-daily.md): 2026-08-27, regime EROSION. The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.4%; plumbing leads market pricing by +32 percentile points. The index is -0.3 against the last published letter.
