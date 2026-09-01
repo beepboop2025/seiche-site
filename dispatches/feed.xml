@@ -5,8 +5,192 @@
   <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/"/>
   <link rel="self" type="application/atom+xml" href="https://seiche.info/dispatches/feed.xml"/>
   <id>https://seiche.info/dispatches/</id>
-  <updated>2026-08-30T11:00:00Z</updated>
+  <updated>2026-08-31T11:00:00Z</updated>
   <author><name>Seiche</name><uri>https://seiche.info</uri></author>
+  <entry>
+    <title>The Tell widens 6 to +44.1: plumbing leads price, strain at 45</title>
+    <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-08-31-daily"/>
+    <id>https://seiche.info/dispatches/2026-08-31-daily</id>
+    <published>2026-08-31T11:00:00Z</published>
+    <updated>2026-08-31T11:00:00Z</updated>
+    <summary>The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.2%; plumbing leads market pricing by +44 percentile points. The index is +0.2 against the last published letter.</summary>
+    <content type="html">&lt;p&gt;&lt;em&gt;Issue 51 · 2026-08-31 · the sections run in the same order every day, so the delta takes a minute to extract.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;The argument&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The calendar is carrying the strain call; the price of overnight cash still says abundance.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The board reads 45 out of 100, STRAIN; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.2%; plumbing leads market pricing by +44 percentile points.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Balance-sheet identity&lt;/strong&gt;, as of 2026-08-26: Reserves fell $10.4B on the week to $2,925B, and the ledger says where from: the foreign RRP pool released $17.9B, the residual absorbed $14.9B, the balance sheet shrank $14.8B, six legs summing to the reserve change to the dollar with $22.9B of the balance sheet, 0.34% of assets, still sitting in the unnamed residual. Source: Federal Reserve H.4.1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Official-sector footprint&lt;/strong&gt;, as of 2026-08-26: Foreign officials cut their Fed custody Treasuries by $64.4B over 13 weeks while foreign RRP parking rose by $56.4B, a parking rotation rather than the official bid leaving, footprint $2,971B. Source: Federal Reserve custody and foreign RRP.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reserve-demand curve&lt;/strong&gt;, as of 2026-08-26: Reserves are $779B below the fitted kink, but SOFR is -0.9bp versus IORB; fit R-squared is 0.62. Source: FRED, NY Fed secured rates, BEA GDP.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The countercase:&lt;/strong&gt; SOFR is 0.9bp below IORB, a current abundance signal rather than a scarcity print. Standing Repo Facility take-up is $0.00B; the backstop is not being tested in size.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conviction: GUARDED.&lt;/strong&gt; The read is led by modelled or slow-moving structure while current market plumbing has not broadly confirmed it.&lt;/p&gt;
+&lt;h2&gt;1 · The reading&lt;/h2&gt;
+&lt;p&gt;The composite reads &lt;strong&gt;45 out of 100, STRAIN&lt;/strong&gt;, +0.2 against the last published reading, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.&lt;/p&gt;
+&lt;p&gt;The heaviest hand on the dial is &lt;strong&gt;the calendar squeeze (weather)&lt;/strong&gt; at a score of 100, worth +11.0 points of the total. Pinned at the ceiling today: the calendar squeeze (weather), the cash buffers, RRP and TGA (buffers). Those components are carrying no new information from day to day, and the letter names every one of them rather than only the loudest. When one component carries the reading, watch that component, not the headline.&lt;/p&gt;
+&lt;p&gt;Change gets attributed here, not just level: against the last letter, auction digestion (auctions) +0.2, the tail law (tails) +0.1, +0.3 points net across the components.&lt;/p&gt;
+&lt;h2&gt;2 · What moved&lt;/h2&gt;
+&lt;p&gt;No new print cleared the ±2.5 robust z bar since the last letter. What is flagged today was flagged when it printed, and re-breaking old news is not this letter&amp;#x27;s trade.&lt;/p&gt;
+&lt;p&gt;Still flagged from prints already covered in an earlier letter: &lt;strong&gt;Sri Lankan rupees per USD (H.10)&lt;/strong&gt; (|z| 2.8, as of 2026-08-21). A standing flag is context, not news; when a fresh print lands it goes back in the movers line.&lt;/p&gt;
+&lt;p&gt;With nothing new on the tape, the forward read carries the letter. Bathymetry puts the odds of an event inside five business days at &lt;strong&gt;4%&lt;/strong&gt;, mean first-passage roughly 78 business days. The learned model reads 2% for the same window and calls it &lt;em&gt;does not out-rank the rule-based index&lt;/em&gt;. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 11 business days in the current state.&lt;/p&gt;
+&lt;p&gt;Repo held under the SRF ceiling for all of the last 20 sessions with SRF take-up at $0.0B, stigma score 0 of 100, the backstop is capping quietly.&lt;/p&gt;
+&lt;h2&gt;3 · The Tell&lt;/h2&gt;
+&lt;p&gt;The Tell, the gap between what the pipes measure and what the screens price, reads &lt;strong&gt;+44.1&lt;/strong&gt;: plumbing indicators at the 58.0 percentile of their own history, market indicators at the 14.0, a gap of +44.0.&lt;/p&gt;
+&lt;p&gt;That is a wide disagreement, and it resolves one of two ways: the screens catch up to the pipes, or the pipes calm down to meet the screens. The reading is &lt;em&gt;plumbing leads price&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;4 · Reserve scarcity&lt;/h2&gt;
+&lt;p&gt;The desk fits the reserve demand curve continuously, a public-data approximation of the NY Fed&amp;#x27;s monthly Reserve Demand Elasticity (the Afonso, Giannone, La Spada and Williams lineage). Theirs is estimated on confidential bank-level fed funds transactions; this one is a hinge fit on SOFR minus IORB against reserves over GDP, which is a different and coarser instrument reaching for the same quantity, and the comparison below is the check on whether it gets there. Today&amp;#x27;s fit puts the kink near &lt;strong&gt;$3,704B&lt;/strong&gt; of reserves; the system holds $2,925B, $779B below the estimate.&lt;/p&gt;
+&lt;p&gt;Fit honesty: R² 0.62 against a flat curve; the observed SOFR minus IORB spread of -0.9bp versus the fit&amp;#x27;s -0.2bp gives a consistency of 0.94. A modest fit is a lens, not a verdict, and the number is printed so you can discount it yourself.&lt;/p&gt;
+&lt;p&gt;Reserves are through the estimated kink, which is exactly where the spread should start answering to reserve changes. From here the board watches the slope, not the distance. Against that, the tape disagrees: SOFR is printing 0.9bp BELOW IORB, which is the abundance signature, not the scarce one. The honest reading is that the fitted kink is an estimate with a wide band and the observed spread is a fact, so scarcity here is a hypothesis the tape has not yet confirmed.&lt;/p&gt;
+&lt;p&gt;Reserves fell $10.4B on the week to $2,925B, and the ledger says where from: the foreign RRP pool released $17.9B, the residual absorbed $14.9B, the balance sheet shrank $14.8B, six legs summing to the reserve change to the dollar with $22.9B of the balance sheet, 0.34% of assets, still sitting in the unnamed residual.&lt;/p&gt;
+&lt;p&gt;External check: the NY Fed&amp;#x27;s latest official RDE print (2026-08-13) reads -0.37bp per one percent of reserves; the desk&amp;#x27;s continuous fit implies -0.29bp, inside their 68% band, direction agrees. The desk&amp;#x27;s fit runs 13 days ahead of their release cycle, which is the whole point of fitting it continuously. Where the two diverge, one of us is wrong, and the scorecard keeps count.&lt;/p&gt;
+&lt;p&gt;The running record, not just today: across 18 of their releases the desk&amp;#x27;s walk-forward fit landed inside their 68% band 9 times and agreed on direction 10 times, mean absolute gap 0.25bp. That is short of the two-in-three a calibrated nowcast should manage, so the fit is directionally useful and not yet precise. One matching print is an anecdote; this line is the claim, and it is graded against their current-vintage history rather than the print that stood on each cutoff date, which flatters neither side in a way the desk can measure.&lt;/p&gt;
+&lt;h2&gt;5 · The official sector&lt;/h2&gt;
+&lt;p&gt;Foreign officials cut their Fed custody Treasuries by $64.4B over 13 weeks while foreign RRP parking rose by $56.4B, a parking rotation rather than the official bid leaving, footprint $2,971B.&lt;/p&gt;
+&lt;h2&gt;6 · The dates that matter&lt;/h2&gt;
+&lt;p&gt;The next date that matters is &lt;strong&gt;2026-08-31&lt;/strong&gt;: calendar pressure date while reserves sit below the estimated kink, worst case reserves near $2,894B after the drain. The turn model puts 2026-08-31 (month_end) at +2.5bp with a band of [-1.5, +7.1], severity 1/5. FOMC decides 2026-09-16, 16 days out. The corporate tax date lands 2026-09-15, 15 days out; tax dates drain reserves on a schedule everyone can read.&lt;/p&gt;
+&lt;h2&gt;7 · What the board is honest about&lt;/h2&gt;
+&lt;p&gt;All sources and engines report live. The misses this board has made sit in PROOF next to the hits; read those before weighting today&amp;#x27;s letter.&lt;/p&gt;
+&lt;h2&gt;The desk&amp;#x27;s forward read&lt;/h2&gt;
+&lt;h3&gt;The court&lt;/h3&gt;
+&lt;p&gt;Bathymetry puts the odds of an event inside five business days at &lt;strong&gt;4%&lt;/strong&gt;, mean first-passage roughly 78 business days. The learned model reads 2% for the same window and calls it &lt;em&gt;does not out-rank the rule-based index&lt;/em&gt;. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 11 business days in the current state. Resonance reads 66: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.&lt;/p&gt;
+&lt;p&gt;The stack pools the members at &lt;strong&gt;6%&lt;/strong&gt; for the five-day window, dispersion 0.03, pooled over its own 6 members rather than the views quoted above. Its own verdict, in full: published signal = mean (Brier 0.04 vs mean 0.04, climatology 0.0391); does NOT beat the best single member (swell), the ensemble adds robustness, not skill.&lt;/p&gt;
+&lt;p&gt;Model Court, 5bd event odds: 4 models span 1.5 to 16.0 pct, pooled 11.9 pct (skill weighted, 1 of 4 beat climatology); live ranking withheld (28 of 30 resolved at worst).&lt;/p&gt;
+&lt;p&gt;Ledger status: ledger accruing: bathymetry 28/30 resolved (6 pending), ml 28/30 resolved (6 pending), stacker 28/30 resolved (6 pending), swell 28/30 resolved (6 pending), tidetables 28/30 resolved (6 pending); ranked verdict withheld until 30 resolved rows per model..&lt;/p&gt;
+&lt;h3&gt;The supply desk&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;settles&lt;/th&gt;&lt;th&gt;bills $B&lt;/th&gt;&lt;th&gt;coupons $B&lt;/th&gt;&lt;th&gt;maturing $B&lt;/th&gt;&lt;th&gt;net new cash $B&lt;/th&gt;&lt;th&gt;status&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;2026-08-31&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;234&lt;/td&gt;&lt;td&gt;179&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+54&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-01&lt;/td&gt;&lt;td&gt;284&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;275&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+9&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-03&lt;/td&gt;&lt;td&gt;318&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;326&lt;/td&gt;&lt;td&gt;&lt;strong&gt;-8&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-08&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;286&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+14&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;est. size&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-10&lt;/td&gt;&lt;td&gt;278&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;278&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+0&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;est. size&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-15&lt;/td&gt;&lt;td&gt;284&lt;/td&gt;&lt;td&gt;157&lt;/td&gt;&lt;td&gt;340&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+101&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;projected&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-17&lt;/td&gt;&lt;td&gt;266&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;282&lt;/td&gt;&lt;td&gt;&lt;strong&gt;-16&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;projected&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-22&lt;/td&gt;&lt;td&gt;284&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;295&lt;/td&gt;&lt;td&gt;&lt;strong&gt;-10&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;projected&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;The heaviest settlement ahead is 2026-09-15 at $+101B net. Net new cash is the number that drains reserves. Maturing includes SOMA rollovers, so the private-side drain runs smaller on SOMA-heavy dates; projected rows are the desk&amp;#x27;s house estimate and get graded when Treasury announces.&lt;/p&gt;
+&lt;p&gt;The last auction on the board is the 13w bill of 2026-08-31, graded C on a composite z of +0.14, and its funding window is still open at 0 of 4 marks, so the board is not scoring the plumbing yet, and the trailing indirect share for that tenor is softening.&lt;/p&gt;
+&lt;h3&gt;Positioning&lt;/h3&gt;
+&lt;p&gt;Leveraged funds hold &lt;strong&gt;$1,029B gross short&lt;/strong&gt; in Treasury futures, &lt;strong&gt;$793B net short&lt;/strong&gt; of it after longs. That is 77% of the gross standing one way, the signature of the cash-futures basis trade rather than a two-sided book. Neither number is a directional view by itself: the long cash leg that would offset a basis position is not in this dataset, and the letter will not price a bet it cannot see. The most crowded seat is &lt;strong&gt;UST 2Y NOTE&lt;/strong&gt; at the 100th percentile of its own history, leveraged net -0.26 of open interest (z +2.9). The emptiest is SOFR-3M at the 4th, which is worth naming because an unusually light seat is a different risk from a heavy one and the ranking statistic alone does not distinguish them. Dealer warehouse holds $408B, the 95th percentile of its history, 36% of it long end, as of 2026-08-19. Futures positioning is CFTC Commitments of Traders and carries its native T+3 lag; the dealer warehouse is the NY Fed primary dealer survey, published with a longer lag again. The futures rows carry no as-of date on the board today, which is itself a gap and is reported rather than papered over. Every figure here is weeks old by construction and is a stock, not this morning&amp;#x27;s flow.&lt;/p&gt;
+&lt;h3&gt;Echoes&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;episode&lt;/th&gt;&lt;th&gt;window&lt;/th&gt;&lt;th&gt;similarity&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Mar 2020 dash-for-cash&lt;/td&gt;&lt;td&gt;T−12d&lt;/td&gt;&lt;td&gt;0.69&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sep 2025 tax-date squeeze (SOFR +18bp over EFFR)&lt;/td&gt;&lt;td&gt;T−1d&lt;/td&gt;&lt;td&gt;0.61&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sep 2019 repo spike (SOFR 5.25%, GC 10%)&lt;/td&gt;&lt;td&gt;T−2d&lt;/td&gt;&lt;td&gt;0.59&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Apr 2025 tariff shock basis unwind&lt;/td&gt;&lt;td&gt;T−29d&lt;/td&gt;&lt;td&gt;0.58&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;The top rhyme is Mar 2020 dash-for-cash at 0.69, above the desk&amp;#x27;s 0.60 attention line. That line is an editorial convention, not a validated threshold: the engine publishes no null distribution for this distance, so nothing here says how often a 0.60 rhyme is a coincidence. Similarity is not destiny, and PROOF&amp;#x27;s outcome tables, not this one, carry what actually followed.&lt;/p&gt;
+&lt;h3&gt;The ledger: what would change the desk&amp;#x27;s mind&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S1&lt;/strong&gt; · SRF or discount window take-up above $1B on a day with no calendar excuse; discount window $4.9B as of 2026-08-26. That is through the $1B line already, so this item reads BREACHED and the standing read is that discount window borrowing is elevated against its own recent history, not that nothing has happened.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S2&lt;/strong&gt; · A funding-side mover breaching ±3 robust z on a fresh print.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S3&lt;/strong&gt; · The composite crossing 60; today it reads 45.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Resolution: the last letter&amp;#x27;s ledger was written for EROSION; the regime moved to STRAIN, so the items above are rewritten for the new state. The move itself is on the record in the composite history.&lt;/p&gt;
+&lt;p&gt;The board recomputes six times a day; this letter freezes one reading of it. Free public data with native lags. Not investment advice.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>The Week Ahead 5: 6 dated events and 5 calls on the record</title>
+    <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-08-31-week-ahead"/>
+    <id>https://seiche.info/dispatches/2026-08-31-week-ahead</id>
+    <published>2026-08-31T11:00:00Z</published>
+    <updated>2026-08-31T11:00:00Z</updated>
+    <summary>Issue 5 of the Monday letter. The composite reads 45, regime STRAIN. 5 pre-registered calls for the week and 6 dated items on the calendar. Last week&#x27;s calls graded 2 of 3, misses first.</summary>
+    <content type="html">&lt;p&gt;&lt;em&gt;Issue 5 · the week of 2026-08-31 · the sections run in the same order every week, and section 6 grades what section 5 said last time.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;1 · The week in one paragraph&lt;/h2&gt;
+&lt;p&gt;The week opens with the board at &lt;strong&gt;45 out of 100, STRAIN&lt;/strong&gt;, on 100% coverage. The Tell reads +44, plumbing at the 58th percentile of its own history against the market&amp;#x27;s 14th. There are 6 dated items inside the next ten days and 5 calls on the record below.&lt;/p&gt;
+&lt;p&gt;The single question this week is &lt;strong&gt;whether the +101B of net new cash settling 2026-09-15 shows up in reserves or gets absorbed by the buffers&lt;/strong&gt;. Everything under it is either a date, a number the desk expects, or a number the desk got wrong last week.&lt;/p&gt;
+&lt;h2&gt;2 · The calendar&lt;/h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;date&lt;/th&gt;&lt;th&gt;event&lt;/th&gt;&lt;th&gt;expected funding impact&lt;/th&gt;&lt;th&gt;what the desk watches&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;2026-08-31 (Mon)&lt;/td&gt;&lt;td&gt;Treasury settlement&lt;/td&gt;&lt;td&gt;+54B net new cash, drains reserves&lt;/td&gt;&lt;td&gt;bills 0B and coupons 234B against 179B maturing; announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-08-31 (Mon)&lt;/td&gt;&lt;td&gt;month end turn&lt;/td&gt;&lt;td&gt;turn model forecasts +2.5bp of slosh, band [-1.5, +7.1], severity 1 of 5&lt;/td&gt;&lt;td&gt;SOFR minus IORB into and over the turn; the published number is the naive leg&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-01 (Tue)&lt;/td&gt;&lt;td&gt;Treasury settlement&lt;/td&gt;&lt;td&gt;+9B net new cash, drains reserves&lt;/td&gt;&lt;td&gt;bills 284B and coupons 0B against 275B maturing; announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-03 (Thu)&lt;/td&gt;&lt;td&gt;Treasury settlement&lt;/td&gt;&lt;td&gt;-8B net new cash, returns cash to the market&lt;/td&gt;&lt;td&gt;bills 318B and coupons 0B against 326B maturing; announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-08 (Tue)&lt;/td&gt;&lt;td&gt;Treasury settlement&lt;/td&gt;&lt;td&gt;+14B net new cash, drains reserves&lt;/td&gt;&lt;td&gt;bills 300B and coupons 0B against 286B maturing; announced, size taken from the tenor&amp;#x27;s last print&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-10 (Thu)&lt;/td&gt;&lt;td&gt;Treasury settlement&lt;/td&gt;&lt;td&gt;+0B net new cash, drains reserves&lt;/td&gt;&lt;td&gt;bills 278B and coupons 0B against 278B maturing; announced, size taken from the tenor&amp;#x27;s last print&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;6 dated items inside ten days. The one to diary: month end turn, 2026-08-31 (Mon). Dates are the part of funding stress that is knowable in advance, which is why they lead this letter rather than close it.&lt;/p&gt;
+&lt;h2&gt;3 · Supply&lt;/h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;settles&lt;/th&gt;&lt;th&gt;bills $B&lt;/th&gt;&lt;th&gt;coupons $B&lt;/th&gt;&lt;th&gt;maturing $B&lt;/th&gt;&lt;th&gt;net new cash $B&lt;/th&gt;&lt;th&gt;status&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;2026-08-31 (Mon)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;234&lt;/td&gt;&lt;td&gt;179&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+54&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-01 (Tue)&lt;/td&gt;&lt;td&gt;284&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;275&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+9&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-03 (Thu)&lt;/td&gt;&lt;td&gt;318&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;326&lt;/td&gt;&lt;td&gt;&lt;strong&gt;-8&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;announced&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-08 (Tue)&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;286&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+14&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;announced, size estimated&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-10 (Thu)&lt;/td&gt;&lt;td&gt;278&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;278&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+0&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;announced, size estimated&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-15 (Tue)&lt;/td&gt;&lt;td&gt;284&lt;/td&gt;&lt;td&gt;157&lt;/td&gt;&lt;td&gt;340&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+101&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;projected&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-17 (Thu)&lt;/td&gt;&lt;td&gt;266&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;282&lt;/td&gt;&lt;td&gt;&lt;strong&gt;-16&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;projected&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-22 (Tue)&lt;/td&gt;&lt;td&gt;284&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;295&lt;/td&gt;&lt;td&gt;&lt;strong&gt;-10&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;projected&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-24 (Thu)&lt;/td&gt;&lt;td&gt;266&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;277&lt;/td&gt;&lt;td&gt;&lt;strong&gt;-10&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;projected&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2026-09-25 (Fri)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;78&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&lt;strong&gt;+78&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;projected&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Across the whole 10 row horizon to 2026-09-28, gross issuance runs $2,750B against $2,537B maturing, +212B of net new cash. The heaviest single day is 2026-09-15 (Tue) at +101B. Announcements run through 2026-09-15; 5 rows past that are the desk&amp;#x27;s own projection, carried at each tenor&amp;#x27;s last size and its observed cadence, and graded in this letter when Treasury announces.&lt;/p&gt;
+&lt;p&gt;Net new cash is the number that drains reserves. Maturing includes SOMA rollovers, so the private-side drain runs smaller on SOMA-heavy dates, and Treasury buybacks are not netted out of the maturing stock. Both caveats are in the engine, not in a footnote nobody reads.&lt;/p&gt;
+&lt;h2&gt;4 · Reserves&lt;/h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;leg&lt;/th&gt;&lt;th&gt;13w end level $B&lt;/th&gt;&lt;th&gt;kink crossing&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;base&lt;/td&gt;&lt;td&gt;2,878&lt;/td&gt;&lt;td&gt;2026-08-26&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;fast drain&lt;/td&gt;&lt;td&gt;2,808&lt;/td&gt;&lt;td&gt;2026-08-26&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;slow&lt;/td&gt;&lt;td&gt;2,878&lt;/td&gt;&lt;td&gt;2026-08-26&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;The legs share one arithmetic and differ on three stated assumptions: a trailing drift of -10.9B a week, a runoff pace of $0B a month, and a TGA now at $959B reverting to its trailing median of $864B on the base leg or its p75 of $935B on the fast one. This is arithmetic on published assumptions, not a forecast of policy, and the trailing drift already embeds recent runoff, so the explicit terms can double count.&lt;/p&gt;
+&lt;p&gt;The kink itself sits near &lt;strong&gt;$3,704B&lt;/strong&gt; of reserves against $2,925B held, $779B below the estimate, on a fit with R² 0.62 and a model versus market consistency of 0.94. Through the kink is where the spread starts answering to reserve changes, so the week&amp;#x27;s job is watching the slope, not the distance.&lt;/p&gt;
+&lt;p&gt;External check on the same curve: the NY Fed&amp;#x27;s latest Reserve Demand Elasticity print (2026-08-13) reads -0.37bp per one percent of reserves with a 68% band of [-0.57, -0.17]; the desk&amp;#x27;s continuous fit implies -0.29bp, inside that band, and the direction agrees, which the desk publishes 13 days ahead of their release cycle. Across 18 walk forward refits the desk landed inside their 68% band 9 times and agreed on direction 10 times, mean absolute difference 0.25bp.&lt;/p&gt;
+&lt;h2&gt;5 · Pre-registered calls&lt;/h2&gt;
+&lt;p&gt;Registered 5 calls for the week of 2026-08-31. Each carries a stable ID, the number the desk expects, the date it resolves and the rule that decides it. Next Monday&amp;#x27;s issue opens by grading them, misses first.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;W5-1&lt;/strong&gt; · The month end turn on 2026-08-31 prints a slosh inside the model&amp;#x27;s published band of -1.5 to +7.1bp. Expected: -1.5 to +7.1bp, around a point forecast of +2.5bp (naive leg, severity 1 of 5). Resolves 2026-09-03, hit if the realized slosh for that date on next week&amp;#x27;s turn record lands inside the band, miss if it lands outside; open if the turn has not yet entered the record.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;W5-2&lt;/strong&gt; · The 2026-09-15 settlement, which the board carries at +101B of net new cash (the board&amp;#x27;s own projection), lands within $10.1B of that figure once Treasury has announced it. Expected: +101B net new cash, tolerance $10.1B. Resolves 2026-09-07, hit if next week&amp;#x27;s supply table shows that date announced with Treasury&amp;#x27;s amount and within tolerance, miss if it is announced and outside; open if the row is still projected or its amount is still TBA (a TBA fill is the desk&amp;#x27;s own estimate and is never graded as announced).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;W5-3&lt;/strong&gt; · SRF take-up stays under $1B on every session of the week, which is to say it stays below the de minimis line. Expected: under $1B; the trailing twenty session maximum today is $0.10B. Resolves 2026-09-07, hit if next week&amp;#x27;s board shows a twenty session maximum take-up under the threshold, miss if any session prints at or above it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;W5-4&lt;/strong&gt; · Reserves print near $2,938B on next week&amp;#x27;s H.4.1, the base leg&amp;#x27;s week one level. Expected: $2,938B, tolerance $25B (the width of the desk&amp;#x27;s own fast to slow bracket at week one, floored at $25B). Resolves 2026-09-07, hit if next week&amp;#x27;s board carries current reserves within tolerance of the target, miss otherwise.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;W5-5&lt;/strong&gt; · The composite reads between 42.4 and 47.0 on next week&amp;#x27;s board. Expected: 42.4 to 47.0, from 45.1 today; the band is the board&amp;#x27;s own Monte Carlo p10 to p90 at 5 sessions, seeded fixed so the band is reproducible. Resolves 2026-09-07, hit if next week&amp;#x27;s composite prints inside the band, miss otherwise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;6 · Last week&amp;#x27;s calls, graded&lt;/h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;id&lt;/th&gt;&lt;th&gt;verdict&lt;/th&gt;&lt;th&gt;expected&lt;/th&gt;&lt;th&gt;actual&lt;/th&gt;&lt;th&gt;the call&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;W4-4&lt;/td&gt;&lt;td&gt;&lt;strong&gt;MISS&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;$2,986B, tolerance $25B (the width of the desk&amp;#x27;s own fast to slow bracket at week one, floored at $25B)&lt;/td&gt;&lt;td&gt;$2,925B&lt;/td&gt;&lt;td&gt;Reserves print near $2,986B on next week&amp;#x27;s H.4.1, the base leg&amp;#x27;s week one level.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;W4-3&lt;/td&gt;&lt;td&gt;&lt;strong&gt;HIT&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;under $1B; the trailing twenty session maximum today is $0.10B&lt;/td&gt;&lt;td&gt;$0.10B twenty session maximum&lt;/td&gt;&lt;td&gt;SRF take-up stays under $1B on every session of the week, which is to say it stays below the de minimis line.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;W4-5&lt;/td&gt;&lt;td&gt;&lt;strong&gt;HIT&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;42.4 to 47.0, from 45.1 today; the band is the board&amp;#x27;s own Monte Carlo p10 to p90 at 5 sessions, seeded fixed so the band is reproducible&lt;/td&gt;&lt;td&gt;45.1&lt;/td&gt;&lt;td&gt;The composite reads between 42.4 and 47.0 on next week&amp;#x27;s board.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;W4-1&lt;/td&gt;&lt;td&gt;&lt;strong&gt;OPEN&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;-1.8 to +6.9bp, around a point forecast of +2.2bp (naive leg, severity 1 of 5)&lt;/td&gt;&lt;td&gt;the turn is not in the board&amp;#x27;s record yet&lt;/td&gt;&lt;td&gt;The month end turn on 2026-08-31 prints a slosh inside the model&amp;#x27;s published band of -1.8 to +6.9bp.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;W4-2&lt;/td&gt;&lt;td&gt;&lt;strong&gt;OPEN&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;+73B net new cash, tolerance $7.3B&lt;/td&gt;&lt;td&gt;that date has left the forward window&lt;/td&gt;&lt;td&gt;The 2026-09-16 settlement, which the board carries at +73B of net new cash (the board&amp;#x27;s own projection), lands within $7.3B of that figure once Treasury has announced it.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Last week: 1 miss, 2 hit, 2 still open. Lifetime the desk has resolved 17 calls and hit 11 of them, 65%. Open calls carry one more week rather than quietly vanish: W4-1, W4-2.&lt;/p&gt;
+&lt;p&gt;An open call is one the data could not settle, usually a dark engine or a settlement still carried as projected. It is never scored as a hit.&lt;/p&gt;
+&lt;h2&gt;7 · What would change the desk&amp;#x27;s mind this week&lt;/h2&gt;
+&lt;p&gt;The falsifier ledger travels with the regime and the IDs are stable, so a regular can watch the distance close instead of rereading a static sentence.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S1&lt;/strong&gt; · SRF or discount window take-up above $1B on a day with no calendar excuse; discount window $4.9B as of 2026-08-26. That is through the $1B line already, so this item reads BREACHED and the standing read is that discount window borrowing is elevated against its own recent history, not that nothing has happened.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S2&lt;/strong&gt; · A funding-side mover breaching ±3 robust z on a fresh print.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;S3&lt;/strong&gt; · The composite crossing 60; today it reads 45.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The week ahead, continuation&lt;/h2&gt;
+&lt;h3&gt;The call ledger&lt;/h3&gt;
+&lt;p&gt;The desk has resolved 17 calls across the run of this letter and hit 11 of them, missing 6. The ledger only counts calls the data actually settled; open ones are carried, not quietly counted as wins.&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;id&lt;/th&gt;&lt;th&gt;kind&lt;/th&gt;&lt;th&gt;resolves&lt;/th&gt;&lt;th&gt;grading rule&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;W5-1&lt;/td&gt;&lt;td&gt;turn&lt;/td&gt;&lt;td&gt;2026-09-03&lt;/td&gt;&lt;td&gt;hit if the realized slosh for that date on next week&amp;#x27;s turn record lands inside the band, miss if it lands outside; open if the turn has not yet entered the record&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;W5-2&lt;/td&gt;&lt;td&gt;supply&lt;/td&gt;&lt;td&gt;2026-09-07&lt;/td&gt;&lt;td&gt;hit if next week&amp;#x27;s supply table shows that date announced with Treasury&amp;#x27;s amount and within tolerance, miss if it is announced and outside; open if the row is still projected or its amount is still TBA (a TBA fill is the desk&amp;#x27;s own estimate and is never graded as announced)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;W5-3&lt;/td&gt;&lt;td&gt;srf&lt;/td&gt;&lt;td&gt;2026-09-07&lt;/td&gt;&lt;td&gt;hit if next week&amp;#x27;s board shows a twenty session maximum take-up under the threshold, miss if any session prints at or above it&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;W5-4&lt;/td&gt;&lt;td&gt;reserves&lt;/td&gt;&lt;td&gt;2026-09-07&lt;/td&gt;&lt;td&gt;hit if next week&amp;#x27;s board carries current reserves within tolerance of the target, miss otherwise&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;W5-5&lt;/td&gt;&lt;td&gt;composite&lt;/td&gt;&lt;td&gt;2026-09-07&lt;/td&gt;&lt;td&gt;hit if next week&amp;#x27;s composite prints inside the band, miss otherwise&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3&gt;Reserve path assumptions, published beside the path&lt;/h3&gt;
+&lt;p&gt;Start 2,925B on 2026-08-26, trailing drift -10.9B a week over 13 weeks, runoff $0B a month, TGA $959B now against a median of $864B and a p75 of $935B, ON RRP $0.2B, settlements $137B gross counted at 25% passthrough.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;arithmetic on stated assumptions, not a forecast of policy&lt;/li&gt;
+&lt;li&gt;the trailing drift already embeds recent QT, settlement and fiscal flows, so the settlement term enters as a deviation from the calendar&amp;#x27;s own weekly mean (shape, not level) and only the explicit QT pace can still double count against the drift&lt;/li&gt;
+&lt;li&gt;settlement drains counted at 25% of gross (rollover assumption) before demeaning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;What the supply table does not know&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;rows marked issuance_incomplete sit past the announced horizon on a date whose maturities are known but whose refunding issuance is not projected (quarterly originals have no short cadence to extrapolate); their net is an artifact, not a forecast, and should not be read as a drain&lt;/li&gt;
+&lt;li&gt;maturing includes Fed SOMA holdings, which roll over at auction; net new cash to private investors is smaller on SOMA-heavy dates&lt;/li&gt;
+&lt;li&gt;Treasury buyback retirements are not netted from the maturing stock&lt;/li&gt;
+&lt;li&gt;TBA offering amounts are filled with the tenor&amp;#x27;s last realized size (amount_estimated=true)&lt;/li&gt;
+&lt;li&gt;projected rows carry each tenor&amp;#x27;s last size forward at its observed cadence; tenors without a regular cadence under 5 weeks (quarterly refunding originals, one-off CMBs) are not projected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Still open&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;W4-1&lt;/strong&gt; · The month end turn on 2026-08-31 prints a slosh inside the model&amp;#x27;s published band of -1.8 to +6.9bp. Status: the turn is not in the board&amp;#x27;s record yet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;W4-2&lt;/strong&gt; · The 2026-09-16 settlement, which the board carries at +73B of net new cash (the board&amp;#x27;s own projection), lands within $7.3B of that figure once Treasury has announced it. Status: that date has left the forward window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The calls above were written before the week ran and are stored in the letter&amp;#x27;s own state file, so next Monday&amp;#x27;s issue grades exactly this list and not a convenient subset of it. The board recomputes six times a day; this issue freezes one Monday reading of it. Free public data with native lags. Not investment advice.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>The Tell holds at +38.1, unchanged against the last letter: plumbing leads price</title>
     <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-08-30-daily"/>
@@ -3336,70 +3520,6 @@
 &lt;p&gt;Similarity is not destiny. The echo table says &lt;em&gt;this rhymes&lt;/em&gt;, and PROOF says how often rhymes mattered.&lt;/p&gt;
 &lt;h3&gt;What would change the desk&amp;#x27;s mind&lt;/h3&gt;
 &lt;p&gt;The tell closing back under +15, reserves stabilising for two weeks, or the resonance amplification easing below 1x. When one of those prints, the letter will say so, in this same place, with the number.&lt;/p&gt;
-&lt;p&gt;The board recomputes six times a day; this letter freezes one reading of it. Free public data with native lags. Not investment advice.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>SRF accepted moved overnight: the erosion tape gets a data point</title>
-    <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-07-17-daily"/>
-    <id>https://seiche.info/dispatches/2026-07-17-daily</id>
-    <published>2026-07-17T11:00:00Z</published>
-    <updated>2026-07-17T11:00:00Z</updated>
-    <summary>The composite reads 45, regime EROSION. The Tell reads +27. Every number below is checkable on the board.</summary>
-    <content type="html">&lt;p&gt;The composite reads &lt;strong&gt;45 out of 100, EROSION&lt;/strong&gt;, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.&lt;/p&gt;
-&lt;p&gt;The heaviest hand on the dial is &lt;strong&gt;weather&lt;/strong&gt; at a score of 84, worth +9.2 points of the total. A composite is only as honest as its decomposition, so here it is.&lt;/p&gt;
-&lt;p&gt;The Tell, the gap between what the pipes measure and what the screens price, reads &lt;strong&gt;+27&lt;/strong&gt;: plumbing indicators at the 49th percentile of their own history, market indicators at the 23th.&lt;/p&gt;
-&lt;p&gt;The gap is modest. Modest gaps are what most days look like, and saying so is part of the record.&lt;/p&gt;
-&lt;p&gt;Overnight, the tape did move: &lt;strong&gt;SRF accepted&lt;/strong&gt; printed 0.00 $B (level z -0.7, change z -17.2, as of 2026-07-16); &lt;strong&gt;Japan uncollateralized call rate (OECD MEI, monthly)&lt;/strong&gt; printed 0.84 % (level z +5.8, change z +15.4, as of 2026-06-01); &lt;strong&gt;MMF repo with FICC (sponsored)&lt;/strong&gt; printed 1,168.72 $B (level z +6.7, change z -0.1, as of 2026-05-31).&lt;/p&gt;
-&lt;h2&gt;The dates that matter&lt;/h2&gt;
-&lt;p&gt;The next date that matters is &lt;strong&gt;2026-07-23&lt;/strong&gt;: $266B auction settlement while reserves sit below the estimated kink, worst case $3,088B. The turn model puts 2026-07-31 (month_end) at +3.2bp with a band of [-0.7, +8.1], severity 2/5. FOMC decides 2026-07-29, 12 days out. The corporate tax date lands 2026-09-15, 60 days out; tax dates drain reserves on a schedule everyone can read.&lt;/p&gt;
-&lt;h2&gt;What the board is honest about&lt;/h2&gt;
-&lt;p&gt;Faults on the board today: gdelt. The affected inputs are degraded or dead and the composite&amp;#x27;s coverage says so. A dashboard that hides its broken gauges is lying with a straight face.&lt;/p&gt;
-&lt;h2&gt;The desk&amp;#x27;s forward read&lt;/h2&gt;
-&lt;p&gt;Bathymetry puts the odds of an event inside five business days at &lt;strong&gt;14%&lt;/strong&gt;, mean first-passage roughly 68 business days. The learned model reads 7% for the same window and calls it &lt;em&gt;does not out-rank the rule-based index&lt;/em&gt;. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 61 business days in the current state. Resonance reads 71: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.&lt;/p&gt;
-&lt;h3&gt;Positioning&lt;/h3&gt;
-&lt;p&gt;The most crowded seat is &lt;strong&gt;SOFR-3M&lt;/strong&gt;, leveraged net -0.22 of open interest (z -2.5). Dealer warehouse holds $445B, the 97th percentile of its history, 38% of it long end. Positioning data is COT and carries its native T+3 lag; the lag is shown, never hidden.&lt;/p&gt;
-&lt;h3&gt;Echoes&lt;/h3&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;episode&lt;/th&gt;&lt;th&gt;window&lt;/th&gt;&lt;th&gt;similarity&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Mar 2020 dash-for-cash&lt;/td&gt;&lt;td&gt;T−19d&lt;/td&gt;&lt;td&gt;0.68&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Apr 2025 tariff shock basis unwind&lt;/td&gt;&lt;td&gt;T−20d&lt;/td&gt;&lt;td&gt;0.59&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Sep 2025 tax-date squeeze (SOFR +18bp over EFFR)&lt;/td&gt;&lt;td&gt;T−12d&lt;/td&gt;&lt;td&gt;0.56&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Sep 2019 repo spike (SOFR 5.25%, GC 10%)&lt;/td&gt;&lt;td&gt;T−2d&lt;/td&gt;&lt;td&gt;0.55&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;Similarity is not destiny. The echo table says &lt;em&gt;this rhymes&lt;/em&gt;, and PROOF says how often rhymes mattered.&lt;/p&gt;
-&lt;h3&gt;What would change the desk&amp;#x27;s mind&lt;/h3&gt;
-&lt;p&gt;The tell closing back under +15, reserves stabilising for two weeks, or the resonance amplification easing below 1x. When one of those prints, the letter will say so, in this same place, with the number.&lt;/p&gt;
-&lt;p&gt;The board recomputes six times a day; this letter freezes one reading of it. Free public data with native lags. Not investment advice.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Strain with a loud tell: plumbing leads price at +32</title>
-    <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/2026-07-16-daily"/>
-    <id>https://seiche.info/dispatches/2026-07-16-daily</id>
-    <published>2026-07-16T11:00:00Z</published>
-    <updated>2026-07-16T11:00:00Z</updated>
-    <summary>The composite reads 46, regime STRAIN. The Tell reads +32. Every number below is checkable on the board.</summary>
-    <content type="html">&lt;p&gt;The composite reads &lt;strong&gt;46 out of 100, STRAIN&lt;/strong&gt;, on 100% coverage. The pipes are working harder for the same result. This is the regime where surprises stop being cheap.&lt;/p&gt;
-&lt;p&gt;The heaviest hand on the dial is &lt;strong&gt;weather&lt;/strong&gt; at a score of 84, worth +9.2 points of the total. When one component carries the reading, watch that component, not the headline.&lt;/p&gt;
-&lt;p&gt;The Tell, the gap between what the pipes measure and what the screens price, reads &lt;strong&gt;+32&lt;/strong&gt;: plumbing indicators at the 59th percentile of their own history, market indicators at the 27th.&lt;/p&gt;
-&lt;p&gt;That is a wide disagreement, and it resolves one of two ways: the screens catch up to the pipes, or the pipes calm down to meet the screens. The reading is &lt;em&gt;plumbing leads price&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Overnight, the tape did move: &lt;strong&gt;SRF accepted&lt;/strong&gt; printed 0.10 $B (level z +68.1, change z +0.2, as of 2026-07-15); &lt;strong&gt;MMF repo with FICC (sponsored)&lt;/strong&gt; printed 1,168.72 $B (level z +6.7, change z -0.1, as of 2026-05-31); &lt;strong&gt;Central bank liquidity swaps outstanding (H.4.1)&lt;/strong&gt; printed 170.00 $M (level z -0.2, change z -5.3, as of 2026-07-08).&lt;/p&gt;
-&lt;h2&gt;The dates that matter&lt;/h2&gt;
-&lt;p&gt;The next date that matters is &lt;strong&gt;2026-07-21&lt;/strong&gt;: $210B auction settlement while reserves sit below the estimated kink, worst case $3,046B. The turn model puts 2026-07-31 (month_end) at +3.0bp with a band of [-1.0, +7.8], severity 2/5. FOMC decides 2026-07-29, 13 days out. The corporate tax date lands 2026-09-15, 61 days out; tax dates drain reserves on a schedule everyone can read.&lt;/p&gt;
-&lt;h2&gt;What the board is honest about&lt;/h2&gt;
-&lt;p&gt;All sources and engines report live. The misses this board has made sit in PROOF next to the hits; read those before weighting today&amp;#x27;s letter.&lt;/p&gt;
-&lt;h2&gt;The desk&amp;#x27;s forward read&lt;/h2&gt;
-&lt;p&gt;Bathymetry puts the odds of an event inside five business days at &lt;strong&gt;12%&lt;/strong&gt;, mean first-passage roughly 71 business days. The learned model reads 1% for the same window and calls it &lt;em&gt;does not out-rank the rule-based index&lt;/em&gt;. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 11 business days in the current state. Resonance reads 71: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.&lt;/p&gt;
-&lt;h3&gt;Positioning&lt;/h3&gt;
-&lt;p&gt;The most crowded seat is &lt;strong&gt;SOFR-3M&lt;/strong&gt;, leveraged net -0.22 of open interest (z -2.5). Dealer warehouse holds $428B, the 96th percentile of its history, 40% of it long end. Positioning data is COT and carries its native T+3 lag; the lag is shown, never hidden.&lt;/p&gt;
-&lt;h3&gt;Echoes&lt;/h3&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;episode&lt;/th&gt;&lt;th&gt;window&lt;/th&gt;&lt;th&gt;similarity&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td&gt;Mar 2020 dash-for-cash&lt;/td&gt;&lt;td&gt;T−20d&lt;/td&gt;&lt;td&gt;0.68&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Apr 2025 tariff shock basis unwind&lt;/td&gt;&lt;td&gt;T−21d&lt;/td&gt;&lt;td&gt;0.58&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Sep 2025 tax-date squeeze (SOFR +18bp over EFFR)&lt;/td&gt;&lt;td&gt;T−13d&lt;/td&gt;&lt;td&gt;0.56&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Sep 2019 repo spike (SOFR 5.25%, GC 10%)&lt;/td&gt;&lt;td&gt;T−3d&lt;/td&gt;&lt;td&gt;0.55&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;Similarity is not destiny. The echo table says &lt;em&gt;this rhymes&lt;/em&gt;, and PROOF says how often rhymes mattered.&lt;/p&gt;
-&lt;h3&gt;What would change the desk&amp;#x27;s mind&lt;/h3&gt;
-&lt;p&gt;Srf or discount window take-up on a day with no calendar excuse, a mover breaching ±3 z on the funding side, or the composite crossing 60. When one of those prints, the letter will say so, in this same place, with the number.&lt;/p&gt;
 &lt;p&gt;The board recomputes six times a day; this letter freezes one reading of it. Free public data with native lags. Not investment advice.&lt;/p&gt;</content>
   </entry>
 </feed>

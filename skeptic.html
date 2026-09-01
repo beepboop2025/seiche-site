@@ -68,7 +68,7 @@ li { margin:6px 0; }
 </div>
 
 <h1>The skeptic pack</h1>
-<p class="faint mono">skeptic pack 2026-07-28 / board 0.11.1 estuary / board snapshot 2026-08-31</p>
+<p class="faint mono">skeptic pack 2026-07-28 / board 0.11.1 estuary / board snapshot 2026-09-01</p>
 <p class="dim">Two questions open every serious conversation about a board like
 this one. <span class="q">Isn't this just autocorrelation?</span> and
 <span class="q">isn't there look-ahead in your backtest?</span> The board has
@@ -82,16 +82,16 @@ filling the space with confident prose.</p>
 
 <h2>1. The leak audit: what cheating would have bought</h2>
 <p>The one-switch protocol, run against ourselves. The audit rebuilds the same backtestable index with exactly ONE discipline deliberately broken, scores every variant against the SAME events, and publishes the gain that break would have bought. A clean pipeline is one whose published number sits at the bottom of its own audit table: everything above it is skill the board refuses to claim.</p>
-<p>The largest gain on offer today is <code>NORM_GLOBAL</code>: event AUROC 0.819 against the honest 0.797, a leakage gain of +0.022. That is the number a leaky version of this board would print instead, and it is exactly the number this board declines to print.</p>
+<p>The largest gain on offer today is <code>NORM_GLOBAL</code>: event AUROC 0.819 against the honest 0.796, a leakage gain of +0.023. That is the number a leaky version of this board would print instead, and it is exactly the number this board declines to print.</p>
 <table>
 <tr><th>toggle</th><th>what breaks</th><th>AUROC</th><th>recall</th><th>run precision</th><th>LG AUROC</th><th>LG recall</th></tr>
-<tr><td><code>clean</code></td><td><span class='dim'>the published pipeline: expanding windows, trailing smoothers</span></td><td class='num'>0.797</td><td class='num'>0.615</td><td class='num'>0.167</td><td class='num'>+0.000</td><td class='num'>+0.000</td></tr>
-<tr><td><code>NORM_GLOBAL</code></td><td><span class='dim'>every z/percentile standardized on the FULL sample</span></td><td class='num'>0.819</td><td class='num'>0.714</td><td class='num'>0.444</td><td class='num'>+0.022</td><td class='num'>+0.099</td></tr>
-<tr><td><code>TEMP_CENTER</code></td><td><span class='dim'>tails smoother centered - peeks 2 days forward</span></td><td class='num'>0.808</td><td class='num'>0.769</td><td class='num'>0.174</td><td class='num'>+0.011</td><td class='num'>+0.154</td></tr>
-<tr><td><code>THRESH_FIT</code></td><td><span class='dim'>alert threshold fitted in-sample (best F1 at pctl 50 vs config-frozen 80)</span></td><td class='num'>0.797</td><td class='num'>0.846</td><td class='num'>0.333</td><td class='num'>+0.000</td><td class='num'>+0.231</td></tr>
+<tr><td><code>clean</code></td><td><span class='dim'>the published pipeline: expanding windows, trailing smoothers</span></td><td class='num'>0.796</td><td class='num'>0.615</td><td class='num'>0.167</td><td class='num'>+0.000</td><td class='num'>+0.000</td></tr>
+<tr><td><code>NORM_GLOBAL</code></td><td><span class='dim'>every z/percentile standardized on the FULL sample</span></td><td class='num'>0.819</td><td class='num'>0.714</td><td class='num'>0.500</td><td class='num'>+0.023</td><td class='num'>+0.099</td></tr>
+<tr><td><code>TEMP_CENTER</code></td><td><span class='dim'>tails smoother centered - peeks 2 days forward</span></td><td class='num'>0.808</td><td class='num'>0.769</td><td class='num'>0.174</td><td class='num'>+0.012</td><td class='num'>+0.154</td></tr>
+<tr><td><code>THRESH_FIT</code></td><td><span class='dim'>alert threshold fitted in-sample (best F1 at pctl 50 vs config-frozen 80)</span></td><td class='num'>0.796</td><td class='num'>0.846</td><td class='num'>0.333</td><td class='num'>+0.000</td><td class='num'>+0.231</td></tr>
 </table>
-<p>leak selectivity, measured on ourselves: the forward-peeking smoother would buy +0.011 AUROC - refused; full-sample standardization would buy +0.022 AUROC - refused; a self-fitted threshold would print run-precision 0.33 instead of the honest 0.17.</p>
-<p>Determinism check: the clean build ran twice on the same inputs and hashed identically both times (sha256 prefix <code>4fd71bba1ee73159</code>, over the dated index values). Pin that hash and you can tell whether tomorrow's audit scored the same index you read about today.</p>
+<p>leak selectivity, measured on ourselves: the forward-peeking smoother would buy +0.012 AUROC - refused; full-sample standardization would buy +0.023 AUROC - refused; a self-fitted threshold would print run-precision 0.33 instead of the honest 0.17.</p>
+<p>Determinism check: the clean build ran twice on the same inputs and hashed identically both times (sha256 prefix <code>59e79356d5e265ae</code>, over the dated index values). Pin that hash and you can tell whether tomorrow's audit scored the same index you read about today.</p>
 <p class='faint mono'>audit as of 2026-08-28</p>
 <p class='dim'>The audit's own caveats, verbatim from the engine that computed the table:</p><ul class='dim'><li>the leaky variants exist ONLY inside this audit - they are never published as signals and never feed any other engine</li><li>all variants score against the identical declustered event list and warmup slice as PROOF - one switch flips per row, everything else held fixed</li><li>Leakage Gain is measured on final-vintage data like PROOF itself; the audit measures pipeline discipline, not vendor revisions</li><li>a near-zero gain on one toggle does not certify the pipeline leak-free - it certifies immunity to THAT leak class only</li></ul>
 <p class='limit'><b>Limit</b><br>A near zero gain on one toggle certifies immunity to that leak class and nothing wider. The audit is run on final-vintage data, so it measures pipeline discipline, not vendor revisions. And note the awkward direction: if the real pipeline were already peeking forward, the forward-peeking toggle would buy almost nothing, so read this table next to the forward as-published record in section 3, not instead of it.</p>
