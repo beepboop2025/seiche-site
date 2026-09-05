@@ -75,8 +75,8 @@ table.ref td.rub-ev { text-align:left; max-width:620px; }
 <body>
 
 <h1>The Referee</h1>
-<p class="faint">Version 2026-08-01. Data through 2026-07-31.
-Window 2003-01-31 to 2026-07-31, 283 months.</p>
+<p class="faint">Version 2026-08-01. Data through 2026-08-31.
+Window 2003-01-31 to 2026-08-31, 284 months.</p>
 <p><span class="tok tok-fail">CONSTRUCTION PIT ONLY</span> These retrospective statistics are not validated-backtest evidence. chronological transforms use final/current-vintage history and do not reconstruct what was publicly knowable on each historical date.</p>
 
 <p>The firm that coined "global liquidity" as a macro category publishes
@@ -98,9 +98,9 @@ public layer, that performance lives entirely in the unpublished layers, and
 that is a claim its publisher could settle tomorrow by releasing an error
 distribution. We would run it the day they do.</p>
 
-<p>The reconstruction today: 17.49 trillion dollars
-(Fed 6.74, ECB 6.79, BoJ 3.97),
--6.6 percent year on year.</p>
+<p>The reconstruction today: 17.65 trillion dollars
+(Fed 6.73, ECB 6.86, BoJ 4.06),
+-5.3 percent year on year.</p>
 
 <div class="claim">
 <h3>Claim 1: "liquidity leads asset prices by 3 to 6 months" <span class="tok tok-fail">NOT REPRODUCIBLE</span></h3>
@@ -109,44 +109,44 @@ returns (Nasdaq Composite, the only broad index with full window public
 history). Intervals are circular moving block bootstrap.</p>
 <table class="ref">
 <tr><th>horizon</th><th>correlation with forward return</th></tr>
-<tr><td>1 months ahead</td><td>-0.01 in [-0.17, +0.14], n 271</td></tr>
-<tr><td>3 months ahead</td><td>-0.01 in [-0.23, +0.21], n 269</td></tr>
-<tr><td>6 months ahead</td><td>+0.00 in [-0.26, +0.25], n 266</td></tr>
-<tr><td>9 months ahead</td><td>-0.02 in [-0.31, +0.24], n 263</td></tr>
-<tr><td>12 months ahead</td><td>-0.07 in [-0.34, +0.18], n 260</td></tr>
-<tr><td>18 months ahead</td><td>-0.14 in [-0.42, +0.13], n 254</td></tr>
+<tr><td>1 months ahead</td><td>-0.01 in [-0.16, +0.15], n 272</td></tr>
+<tr><td>3 months ahead</td><td>-0.01 in [-0.23, +0.21], n 270</td></tr>
+<tr><td>6 months ahead</td><td>-0.00 in [-0.25, +0.25], n 267</td></tr>
+<tr><td>9 months ahead</td><td>-0.03 in [-0.31, +0.25], n 264</td></tr>
+<tr><td>12 months ahead</td><td>-0.07 in [-0.34, +0.18], n 261</td></tr>
+<tr><td>18 months ahead</td><td>-0.15 in [-0.43, +0.13], n 255</td></tr>
 </table>
-<p>The walk forward test (2011-01-31 to 2026-02-28, signal from trailing data only) puts the 6 month forward log return after high liquidity months at +0.082 against +0.066 after low liquidity months: a spread of +0.016 with a 95 percent interval of [-0.033, +0.065]. An interval that straddles zero is the test refusing to certify the claim.</p>
-<p>Causality, both directions: liquidity to returns F 0.56 (p 0.76), returns to liquidity F 1.19 (p 0.31), 6 lags. Neither direction clears conventional significance on this layer.</p>
+<p>The walk forward test (2011-01-31 to 2026-03-31, signal from trailing data only) puts the 6 month forward log return after high liquidity months at +0.082 against +0.067 after low liquidity months: a spread of +0.015 with a 95 percent interval of [-0.034, +0.066]. An interval that straddles zero is the test refusing to certify the claim.</p>
+<p>Causality, both directions: liquidity to returns F 0.56 (p 0.76), returns to liquidity F 1.11 (p 0.36), 6 lags. Neither direction clears conventional significance on this layer.</p>
 <p>The transform is not the story: rerunning the forward correlations on 6
 month annualized growth gives the same flat zeros.</p>
 <table class="ref">
 <tr><th>horizon (6m growth)</th><th>correlation</th></tr>
-<tr><td>3 months ahead</td><td>+0.01 in [-0.19, +0.20], n 275</td></tr>
-<tr><td>6 months ahead</td><td>+0.04 in [-0.26, +0.26], n 272</td></tr>
-<tr><td>12 months ahead</td><td>+0.00 in [-0.35, +0.31], n 266</td></tr>
+<tr><td>3 months ahead</td><td>+0.01 in [-0.19, +0.20], n 276</td></tr>
+<tr><td>6 months ahead</td><td>+0.03 in [-0.26, +0.25], n 273</td></tr>
+<tr><td>12 months ahead</td><td>+0.00 in [-0.37, +0.31], n 267</td></tr>
 </table>
 <p>Neither is the definition. The strongest known variant of
 the claim is net liquidity: central bank assets minus the Treasury cash
 balance minus reverse repo take up (today 5.77 trillion
-dollars, window 2003-02-28 to 2026-08-31). The level
+dollars, window 2003-02-28 to 2026-09-30). The level
 chart of that series against equities is the famous exhibit. The honest
 question is whether its growth predicts forward returns, and it reads the
 same way:</p>
 <table class="ref">
 <tr><th>horizon (net liquidity)</th><th>correlation</th></tr>
-<tr><td>3 months ahead</td><td>-0.04 in [-0.24, +0.25], n 166</td></tr>
-<tr><td>6 months ahead</td><td>+0.02 in [-0.16, +0.23], n 163</td></tr>
-<tr><td>12 months ahead</td><td>+0.02 in [-0.26, +0.20], n 157</td></tr>
-<tr><td>6 months ahead, 2015 onward</td><td>+0.09 in [-0.42, +0.41], n 134</td></tr>
+<tr><td>3 months ahead</td><td>-0.04 in [-0.24, +0.24], n 167</td></tr>
+<tr><td>6 months ahead</td><td>+0.02 in [-0.16, +0.24], n 164</td></tr>
+<tr><td>12 months ahead</td><td>+0.02 in [-0.27, +0.20], n 158</td></tr>
+<tr><td>6 months ahead, 2015 onward</td><td>+0.09 in [-0.42, +0.39], n 135</td></tr>
 </table>
-<p>Its walk forward evaluation (2019-08-31 to 2026-02-28) lands on exactly the era the exhibit is drawn from, and puts the 6 month spread at +0.002 with a 95 percent interval of [-0.142, +0.115].</p>
+<p>Its walk forward evaluation (2019-08-31 to 2026-03-31) lands on exactly the era the exhibit is drawn from, and puts the 6 month spread at -0.001 with a 95 percent interval of [-0.148, +0.113].</p>
 <p>Stability check, forward 6 month horizon:</p>
 <table class="ref">
 <tr><th>sample</th><th>correlation</th></tr>
-<tr><td>full sample</td><td>+0.00 in [-0.26, +0.25], n 266</td></tr>
+<tr><td>full sample</td><td>-0.00 in [-0.25, +0.25], n 267</td></tr>
 <tr><td>2003 to 2014</td><td>-0.01 in [-0.46, +0.38], n 132</td></tr>
-<tr><td>2015 onward</td><td>+0.07 in [-0.31, +0.33], n 134</td></tr>
+<tr><td>2015 onward</td><td>+0.07 in [-0.31, +0.32], n 135</td></tr>
 </table>
 <p>Whatever the 3 to 6 month lead is, it is not in the central bank layer,
 gross or net.</p>
@@ -169,7 +169,7 @@ is not public.</p>
 
 <div class="claim">
 <h3>Claim 3: "a cycle of roughly 65 months" <span class="tok tok-open">UNTESTABLE HERE</span></h3>
-<p>On 271 months of data the periodogram's dominant
+<p>On 272 months of data the periodogram's dominant
 period is 68 months, but the spectral
 resolution at a 65 month period is plus or minus
 16 months: the sample
@@ -202,13 +202,13 @@ claim. We would rather they published the test than the assertion.</p>
 <p class="faint">0 PASS, 1 PARTIAL, 7 FAIL, 0 not applicable.</p>
 <table class="ref">
 <tr><th>row</th><th>grade</th><th>evidence</th></tr>
-<tr><td>point-in-time controls</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claims ship with no stated look ahead protections. Rebuilt with them (trailing median signal, no look ahead), the public layer&#x27;s 6 month spread is +0.0159 with a 95 percent interval of [-0.0327, +0.0653].</td></tr>
+<tr><td>point-in-time controls</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claims ship with no stated look ahead protections. Rebuilt with them (trailing median signal, no look ahead), the public layer&#x27;s 6 month spread is +0.0146 with a 95 percent interval of [-0.0338, +0.0656].</td></tr>
 <tr><td>train/eval split transparency</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">No design or evaluation split ships with the claims: no error bars, no out of sample tests, no design sample named. The referee page states that absence above the fold.</td></tr>
 <tr><td>held-out evaluation</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">Nothing is held out because nothing is released to hold out. The referee&#x27;s own held out test on the public layer refuses to certify the asset price lead; at the claimed 13 month business cycle lead the correlation reads +0.15 in [-0.13, +0.46], n 258.</td></tr>
-<tr><td>universe and series definition</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">The largest agreed component is public and is reconstructed here: G3 central bank assets at monthly average spot, 283 months from 2003-01-31 to 2026-07-31. The remaining layers, private credit and cross border flows across some 80 countries back to 1974, are defined in prose and reproducible by nobody outside the firm.</td></tr>
+<tr><td>universe and series definition</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">The largest agreed component is public and is reconstructed here: G3 central bank assets at monthly average spot, 284 months from 2003-01-31 to 2026-08-31. The remaining layers, private credit and cross border flows across some 80 countries back to 1974, are defined in prose and reproducible by nobody outside the firm.</td></tr>
 <tr><td>artifact release</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The index is proprietary: no series, no code, no error distribution. The referee page commits to rerunning every test the day an error distribution is released.</td></tr>
 <tr><td>vintage and revision handling</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">No revision record ships with the claims, so as published values cannot even be distinguished from today&#x27;s history. An index family whose vintages are unpublished is ungradeable on this row, and ungradeable by choice is a FAIL, not an N/A.</td></tr>
-<tr><td>threshold provenance</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claimed windows, 3 to 6 months, 12 to 15 months and a 65 month cycle, arrive with no stated derivation. Tested on the public layer, the business cycle correlation peaks at a 22 month lead. The sample&#x27;s spectral resolution at 65 months is plus or minus 15.6 months: too coarse to certify the cycle either way.</td></tr>
+<tr><td>threshold provenance</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claimed windows, 3 to 6 months, 12 to 15 months and a 65 month cycle, arrive with no stated derivation. Tested on the public layer, the business cycle correlation peaks at a 22 month lead. The sample&#x27;s spectral resolution at 65 months is plus or minus 15.5 months: too coarse to certify the cycle either way.</td></tr>
 <tr><td>verdict revision policy</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claims are undated and carry no changelog and no stated policy for revising or retiring a claim that fails. A claim that cannot fail in public is copy, not a forecast; the referee page&#x27;s dated changelog is what the alternative looks like.</td></tr>
 </table>
 <p>Seven rows FAIL and one is PARTIAL, all from one root cause: nothing is released that would let an outsider grade the claims any better. The rubric grades the published record, and the published record is assertion.</p>
