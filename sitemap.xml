@@ -135,6 +135,12 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://seiche.info/dispatches/2026-09-07-daily</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://seiche.info/dispatches/2026-09-07-week-ahead</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -505,6 +511,12 @@
     <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://seiche.info/articles/2026-09-07-the-april-basis-unwind-showed-how-funding-strain-can-arrive-before-overn/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://seiche.info/articles/2026-09-06-a-new-board-alert-is-loud-the-funding-case-still-turns-on-the-calendar/</loc>
