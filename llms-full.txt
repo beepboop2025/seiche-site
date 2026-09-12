@@ -25,11 +25,12 @@ Key facts: the live board is at https://seiche.info (no sign-in). The plain Engl
 at https://seiche.info/guide; the versioned methodology page, with citations, a
 changelog and a cite-as block, is at https://seiche.info/methodology. The source code
 is at https://github.com/beepboop2025/seiche. Agents can query the live board
-over MCP at https://api.seiche.info/mcp. Twelve tools answer with no auth at all:
+over MCP at https://api.seiche.info/mcp. Thirteen tools answer with no auth at all:
 latest_article, funding_stress_now, trade_safety_risk_context, historical_analogs, proof_backtest, data_health,
 crypto_stress_record, institutional_flows, oil_funding_context,
 fx_materials_passage, the section-selectable money_market_context and the
-money/forex/capital section-selectable world_markets_context, metered
+money/forex/capital section-selectable world_markets_context, and the paginated
+Palimpsest-to-Seiche research_network, structured FX and China market_workbench, metered
 per IP per day. Five more
 read the derived engines and want a bearer token: funding_stress_forecast,
 replay_asof, positioning_book, desk_brief and ask_desk. Any series the board
@@ -118,6 +119,69 @@ same product; the callable contract remains the MCP server above.
 - [My Quant Doesn't Speak English](https://myquantdoesntspeakenglish.com/): the editorial wire containing every Seiche, LiquiLens and Undertow dispatch, plus original investigations
 
 Below is the complete text of every daily article, then every fixed-order letter, newest first.
+
+---
+
+# SRF wakes from zero, but the funding warning remains a calendar test
+Date: 2026-09-08 · Type: current_analysis · Canonical: https://seiche.info/articles/2026-09-08-srf-wakes-from-zero-but-the-funding-warning-remains-a-calendar-test/
+
+The Standing Repo Facility accepted $0.02B on September 8. It is the fresh board change: a wake-from-zero observation with a 13.49 level reading in Seiche’s monitor. It is not a large use of the facility.
+
+The narrower conclusion is that dollar-funding capacity faces a dated test, not a demonstrated break in the price of cash. Reserves have declined, Treasury settlements are approaching, and Seiche’s reserve-path measure places the system below its estimated reserve-demand kink. But SOFR remains below IORB, while the SRF backstop is not being used in size.
+
+Seiche’s composite reads 44.7, **EROSION**. Its largest contribution comes from the dated reserve path: the weather component is saturated at 100.0 and contributes 11.0 points. That is a structural warning, not an observed market price.
+
+## The mechanism or historical setup
+
+The mechanism concerns the timing and location of deployable cash, not simply the aggregate quantity of reserves. Reserves fell $30.4B in the week through September 2 to $2,895B. The ledger attributes $17.2B to a rebuilt Treasury General Account, $14.5B to the residual, and $6.3B to a larger Federal Reserve balance sheet. Six legs sum to the reserve change; $37.5B, or 0.56% of assets, remains in the unnamed residual.
+
+Treasury settlement can concentrate cash demand among institutions that intermediate secured funding. Seiche identifies $246B of settlement on September 10 and $119B on September 15 while reserves sit below the estimated kink. The chain is observable: settlement absorbs deployable balances; dealers and lenders become more selective in allocating balance sheet; then the price of secured overnight funding rises relative to IORB if the constraint binds.
+
+The desk guide’s comparison with the September 2019 repo spike is context, not a forecast. Its limited lesson is that corporate tax payments and Treasury settlement needs can coincide with less immediately deployable cash than calm aggregate indicators imply. A large reserve total can coexist with a local shortage of usable intermediation capacity.
+
+## Quantified evidence with as-of context
+
+The balance-sheet evidence is dated but concrete. Reserves were $2,894.531B as of September 2. Seiche’s fitted kink was $3,703.4B. The fit’s R-squared was 0.617, making the kink a structured estimate rather than a precise threshold.
+
+The official-sector footprint moved in the same direction through September 2. Foreign officials reduced Federal Reserve custody Treasuries by $45.7B over 13 weeks while foreign reverse-repo parking rose $33.5B. The combined footprint nevertheless fell $12.2B to $2,958B; Seiche calculates that 27% of the custody decline left the official sector rather than rotating within it.
+
+The calendar supplies the immediate forcing. For September 10, Seiche projects reserves at $2,927.5B, with a $2,874.8B worst case around the $246B settlement. For September 15, the corresponding figures are $2,907.3B and $2,836.9B around the $119B settlement. September 16 is another calendar-pressure date, with a $2,809.9B worst case. By September 30, the forecast is $2,883.7B and the worst case is $2,749.8B.
+
+The divergence is real but incomplete: Seiche’s plumbing percentile is 65.0 while the market percentile is 24.0, a 41-point lead for plumbing over price. The pooled five-business-day event read is 6.2%. A separate machine-learning output does not beat climatology on probability levels and is published for ranking and alerting, not as literal odds.
+
+## The strongest counter-case
+
+The counter-case can defeat the thesis because it rests on the current price of cash. SOFR was 0.8 basis points below IORB as of September 2, an abundance signal rather than a scarcity print. A reserve estimate below a fitted kink does not override that observed relationship.
+
+Nor does the SRF reading establish stress. The $0.02B acceptance is statistically unusual because the base was near zero. It is not evidence that the Federal Reserve backstop is being tested in meaningful size.
+
+Broader pricing offers little corroboration. Market stress stood at the 24th percentile of its own history as of September 4. The VIX was 15.3 as of September 7 and high-yield option-adjusted spreads were 2.65% as of September 3. If secured funding remains cheap relative to IORB and broader stress stays subdued through settlement, the structural warning will have failed to become a funding event.
+
+The published September 30 forecast also argues against declaring a fracture now. It is a 5.2-basis-point move, within a 1.3-to-9.9-basis-point band, with severity rated 2 on a scale from 1 calm to 5 extreme. The published forecast is labelled naive, not modelled.
+
+## A falsifiable next test
+
+September 10 is the first observable test. The calendar-pressure thesis gains support only if stress migrates from the reserve path into plumbing: SOFR ceases trading below IORB or shows upward pressure, and SRF use rises above $0.02B.
+
+The thesis weakens if the September 10 and September 15 settlements, and the September 16 pressure date, pass with SOFR still below IORB, SRF use remaining near $0.02B, and reserves nearer Seiche’s forecast path than its adverse cases. That would show that reserve distribution or private intermediation absorbed the calendar demand more easily than the structural indicators suggested.
+
+September 30 is the broader test. A move within the published 1.3-to-9.9-basis-point band would be consistent with manageable seasonal pressure rather than a system-wide funding break.
+
+## Follow the pressure chain
+
+Follow the sequence rather than collapsing distinct risks into one claim: reserve drains and Treasury settlement; lenders’ and dealers’ willingness to deploy balance sheet; then the observable price of secured overnight dollars. The first link is visible. The second is plausible but not directly established by the evidence here. The third has not broken.
+
+[Seiche](https://seiche.info/dispatches/2026-09-08-daily) covers system dollar-funding capacity. [LiquiLens](https://liquilens.in/) covers institution and lender balance-sheet risk. [Undertow](https://liquilens-undertow.com/) covers market liquidity, crowding, and exit capacity, including its [exit view](https://liquilens-undertow.com/exit/). These are separate analytical boundaries, not interchangeable confirmation signals.
+
+## Sources, method, and limits
+
+The daily [dispatch](https://seiche.info/dispatches/2026-09-08-daily), [dispatch archive](https://seiche.info/dispatches/), [data overview](https://seiche.info/data/overview.json), [series index](https://api.seiche.info/api/series/index.json), and [methodology](https://seiche.info/methodology) provide the published Seiche material.
+
+Observed inputs in the dispatch are sourced to Federal Reserve H.4.1, Federal Reserve custody and foreign reverse-repo data, New York Fed secured-rate and operations data, Treasury auction-calendar data, and market series. The composite, reserve kink, dated reserve path, percentiles, scenarios, and forecasts are Seiche derivations, not observed market prices. Confidence measures agreement across independent signals, not the probability of a market outcome.
+
+**Research boundary:** This article addresses system dollar-funding capacity only. It does not treat Seiche’s structural measures as proof of institution-level lender risk or market exit capacity. Related LiquiLens and Undertow readings are context-only and do not enter Seiche’s composite or model features. Source publication times are not collected uniformly, so event, desk-knowledge, and publication clocks remain separate.
+
+Research and market data, not investment advice.
 
 ---
 
@@ -1492,6 +1556,131 @@ Observed inputs and series are available in Seiche’s [data overview](https://s
 Seiche covers system dollar-funding capacity. For institution and lender balance-sheet risk, see [LiquiLens](https://liquilens.in/). For market liquidity, crowding, and exit capacity, see [Undertow](https://liquilens-undertow.com/).
 
 Research and market data, not investment advice.
+
+---
+
+# SRF accepted wakes to 0.02 $B overnight: 13.5 sigma on a near-zero base, not a large flow
+Date: 2026-09-08 · Regime: EROSION · Canonical: https://seiche.info/dispatches/2026-09-08-daily
+
+*Issue 57 · 2026-09-08 · the sections run in the same order every day, so the delta takes a minute to extract.*
+
+## The argument
+
+**The calendar is carrying the strain call; the price of overnight cash still says abundance.**
+
+The board reads 45 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.2%; plumbing leads market pricing by +41 percentile points.
+
+- **Balance-sheet identity**, as of 2026-09-02: Reserves fell $30.4B on the week to $2,895B, and the ledger says where from: the TGA rebuilt $17.2B, the residual absorbed $14.5B, the balance sheet added $6.3B, six legs summing to the reserve change to the dollar with $37.5B of the balance sheet, 0.56% of assets, still sitting in the unnamed residual. Source: Federal Reserve H.4.1.
+- **Official-sector footprint**, as of 2026-09-02: Foreign officials cut their Fed custody Treasuries by $45.7B over 13 weeks while foreign RRP parking rose by $33.5B, only a partial rotation because the combined official footprint still fell $12.2B to $2,958B, 27% of the custody drop leaving the official sector rather than moving inside it. Source: Federal Reserve custody and foreign RRP.
+- **Reserve-demand curve**, as of 2026-09-02: Reserves are $809B below the fitted kink, but SOFR is -0.8bp versus IORB; fit R-squared is 0.62. Source: FRED, NY Fed secured rates, BEA GDP.
+
+**The countercase:** SOFR is 0.8bp below IORB, a current abundance signal rather than a scarcity print. Standing Repo Facility take-up is $0.02B; the backstop is not being tested in size.
+
+**Conviction: GUARDED.** The read is led by modelled or slow-moving structure while current market plumbing has not broadly confirmed it.
+
+## 1 · The reading
+
+The composite reads **45 out of 100, EROSION**, -0.2 against the last published reading, on 100% coverage. Nothing is breaking. The margin for error is what is shrinking.
+
+The heaviest hand on the dial is **the calendar squeeze (weather)** at a score of 100, worth +11.0 points of the total. Pinned at the ceiling today: the calendar squeeze (weather), the cash buffers, RRP and TGA (buffers). Those components are carrying no new information from day to day, and the letter names every one of them rather than only the loudest. A composite is only as honest as its decomposition, so here it is.
+
+Change gets attributed here, not just level: against the last letter, the tail law (tails) -0.2, -0.2 points net across the components.
+
+## 2 · What moved
+
+Overnight, the tape did move: **SRF accepted** printed 0.02 $B (level z +13.5, change z +3.1, as of 2026-09-08); **Newly censor-targeted terms** printed 98.00 terms (level z +4.2, change z ?, as of 2026-09-08).
+
+For scale: that SRF accepted print is 0.02 $B against a historical peak near 75 $B. The z score marks a series waking up on a quiet baseline, not a large flow; the dollar amount is de minimis and the letter says so next to the sigma. It is the first nonzero print after a stretch at zero, which is the actually interesting fact here.
+
+Still flagged from prints already covered in an earlier letter: **Brent crude oil spot, Europe** (|z| 3.2, as of 2026-09-01); **2y Treasury constant maturity yield** (|z| 2.8, as of 2026-09-03); **4-week T-bill secondary market rate** (|z| 2.7, as of 2026-09-03). A standing flag is context, not news; when a fresh print lands it goes back in the movers line.
+
+SOFR's 99th percentile cleared the SRF ceiling on 1 of the last 20 sessions for 2 bp days of leak while SRF take-up peaked at $0.1B against a $500B facility, stigma score 5 of 100.
+
+## 3 · The Tell
+
+The Tell, the gap between what the pipes measure and what the screens price, reads **+40.8**: plumbing indicators at the 65.0 percentile of their own history, market indicators at the 24.0, a gap of +41.0.
+
+A gap this wide has a short shelf life. The board's read is *plumbing leads price*, and the record of what happened after past gaps sits in PROOF.
+
+## 4 · Reserve scarcity
+
+The desk fits the reserve demand curve continuously, a public-data approximation of the NY Fed's monthly Reserve Demand Elasticity (the Afonso, Giannone, La Spada and Williams lineage). Theirs is estimated on confidential bank-level fed funds transactions; this one is a hinge fit on SOFR minus IORB against reserves over GDP, which is a different and coarser instrument reaching for the same quantity, and the comparison below is the check on whether it gets there. Today's fit puts the kink near **$3,703B** of reserves; the system holds $2,894B, $809B below the estimate.
+
+Fit honesty: R² 0.62 against a flat curve; the observed SOFR minus IORB spread of -0.8bp versus the fit's 0.1bp gives a consistency of 0.92. A modest fit is a lens, not a verdict, and the number is printed so you can discount it yourself.
+
+Reserves are through the estimated kink, which is exactly where the spread should start answering to reserve changes. From here the board watches the slope, not the distance. Against that, the tape disagrees: SOFR is printing 0.8bp BELOW IORB, which is the abundance signature, not the scarce one. The honest reading is that the fitted kink is an estimate with a wide band and the observed spread is a fact, so scarcity here is a hypothesis the tape has not yet confirmed.
+
+Reserves fell $30.4B on the week to $2,895B, and the ledger says where from: the TGA rebuilt $17.2B, the residual absorbed $14.5B, the balance sheet added $6.3B, six legs summing to the reserve change to the dollar with $37.5B of the balance sheet, 0.56% of assets, still sitting in the unnamed residual.
+
+External check: the NY Fed's latest official RDE print (2026-08-13) reads -0.37bp per one percent of reserves; the desk's continuous fit implies -0.29bp, inside their 68% band, direction agrees. The desk's fit runs 20 days ahead of their release cycle, which is the whole point of fitting it continuously. Where the two diverge, one of us is wrong, and the scorecard keeps count.
+
+The running record, not just today: across 18 of their releases the desk's walk-forward fit landed inside their 68% band 9 times and agreed on direction 10 times, mean absolute gap 0.25bp. That is short of the two-in-three a calibrated nowcast should manage, so the fit is directionally useful and not yet precise. One matching print is an anecdote; this line is the claim, and it is graded against their current-vintage history rather than the print that stood on each cutoff date, which flatters neither side in a way the desk can measure.
+
+## 5 · The official sector
+
+Foreign officials cut their Fed custody Treasuries by $45.7B over 13 weeks while foreign RRP parking rose by $33.5B, only a partial rotation because the combined official footprint still fell $12.2B to $2,958B, 27% of the custody drop leaving the official sector rather than moving inside it.
+
+## 6 · The dates that matter
+
+The next date that matters is **2026-09-10**: $246B auction settlement while reserves sit below the estimated kink, worst case reserves near $2,875B after the drain. The turn model puts 2026-09-30 (quarter_end) at +5.2bp with a band of [+1.3, +9.9], severity 2/5. FOMC decides 2026-09-16, 8 days out. The corporate tax date lands 2026-09-15, 7 days out; tax dates drain reserves on a schedule everyone can read.
+
+## 7 · What the board is honest about
+
+All sources and engines report live. The misses this board has made sit in PROOF next to the hits; read those before weighting today's letter.
+
+## The desk's forward read
+
+### The court
+
+Bathymetry puts the odds of an event inside five business days at **5%**, mean first-passage roughly 77 business days. The learned model reads 0% for the same window and calls it *does not out-rank the rule-based index*. The regime chain gives 0% odds of touching STRESS inside 21 business days, with an expected dwell of 63 business days in the current state. Resonance reads 60: the Year-end (G-SIB surcharge snapshot) mode is amplifying at 6.3x, which is the basin ringing louder to the same calendar.
+
+The stack pools the members at **6%** for the five-day window, dispersion 0.03, pooled over its own 6 members rather than the views quoted above. Its own verdict, in full: published signal = mean (Brier 0.04 vs mean 0.04, climatology 0.039); does NOT beat the best single member (swell), the ensemble adds robustness, not skill.
+
+Model Court, 5bd event odds: 4 models span 0.4 to 12.0 pct, pooled 4.1 pct (skill weighted, 1 of 4 beat climatology); live ranking withheld (34 of 30 resolved at worst).
+
+Ledger status: ledger accruing: bathymetry 34/30 resolved (6 pending), ml 34/30 resolved (6 pending), stacker 34/30 resolved (6 pending), swell 34/30 resolved (6 pending), tidetables 34/30 resolved (6 pending); ranked verdict withheld until 30 resolved rows per model..
+
+### The supply desk
+
+| settles | bills $B | coupons $B | maturing $B | net new cash $B | status |
+|---|---|---|---|---|---|
+| 2026-09-08 | 262 | 0 | 286 | **-24** | announced |
+| 2026-09-10 | 246 | 0 | 278 | **-32** | announced |
+| 2026-09-15 | 284 | 119 | 340 | **+63** | est. size |
+| 2026-09-17 | 271 | 0 | 282 | **-11** | est. size |
+| 2026-09-18 | 0 | 18 | 0 | **+18** | est. size |
+| 2026-09-22 | 262 | 0 | 295 | **-33** | projected |
+| 2026-09-24 | 246 | 0 | 277 | **-31** | projected |
+| 2026-09-25 | 0 | 78 | 0 | **+78** | projected |
+
+The heaviest settlement ahead is 2026-10-01 at $+96B net. Net new cash is the number that drains reserves. Maturing includes SOMA rollovers, so the private-side drain runs smaller on SOMA-heavy dates; projected rows are the desk's house estimate and get graded when Treasury announces.
+
+The last auction on the board is the 4w bill of 2026-09-03, graded B on a composite z of -0.51, and its funding window is still open at 2 of 4 marks, so the board is not scoring the plumbing yet, and the trailing indirect share for that tenor is firming.
+
+### Positioning
+
+Leveraged funds hold **$1,036B gross short** in Treasury futures, **$810B net short** of it after longs. That is 78% of the gross standing one way, the signature of the cash-futures basis trade rather than a two-sided book. Neither number is a directional view by itself: the long cash leg that would offset a basis position is not in this dataset, and the letter will not price a bet it cannot see. The most crowded seat is **UST 2Y NOTE** at the 99th percentile of its own history, leveraged net -0.29 of open interest (z +2.4). The emptiest is SOFR-3M at the 4th, which is worth naming because an unusually light seat is a different risk from a heavy one and the ranking statistic alone does not distinguish them. Dealer warehouse holds $438B, the 97th percentile of its history, 35% of it long end, as of 2026-08-26. Futures positioning is CFTC Commitments of Traders and carries its native T+3 lag; the dealer warehouse is the NY Fed primary dealer survey, published with a longer lag again. The futures rows carry no as-of date on the board today, which is itself a gap and is reported rather than papered over. Every figure here is weeks old by construction and is a stock, not this morning's flow.
+
+### Echoes
+
+| episode | window | similarity |
+|---|---|---|
+| Mar 2020 dash-for-cash | T−11d | 0.70 |
+| Sep 2025 tax-date squeeze (SOFR +18bp over EFFR) | T−4d | 0.60 |
+| Sep 2019 repo spike (SOFR 5.25%, GC 10%) | T−3d | 0.59 |
+| Apr 2025 tariff shock basis unwind | T−30d | 0.56 |
+
+The top rhyme is Mar 2020 dash-for-cash at 0.70, above the desk's 0.60 attention line. That line is an editorial convention, not a validated threshold: the engine publishes no null distribution for this distance, so nothing here says how often a 0.60 rhyme is a coincidence. Similarity is not destiny, and PROOF's outcome tables, not this one, carry what actually followed.
+
+### The ledger: what would change the desk's mind
+
+- **E1** · The Tell closing back under +15; today it reads +41.
+- **E2** · Reserves stabilising for two straight weeks; the current drain runs $-3.1B a business day.
+- **E3** · Calendar amplification easing below 1x; today it runs 6.3x.
+
+When one of those prints, the letter will say so, in this same place, with the number. The IDs are stable, so hold the desk to them.
+
+The board recomputes six times a day; this letter freezes one reading of it. Free public data with native lags. Not investment advice.
 
 ---
 
