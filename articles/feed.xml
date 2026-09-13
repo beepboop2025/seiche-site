@@ -5,8 +5,53 @@
   <link rel="alternate" type="text/html" href="https://seiche.info/articles/"/>
   <link rel="self" type="application/atom+xml" href="https://seiche.info/articles/feed.xml"/>
   <id>https://seiche.info/articles/</id>
-  <updated>2026-09-08T14:56:05Z</updated>
+  <updated>2026-09-13T01:41:27Z</updated>
   <author><name>Seiche</name><uri>https://seiche.info</uri></author>
+  <entry>
+    <title>Tax dates approach; overnight funding still shows little strain</title>
+    <link rel="alternate" type="text/html" href="https://seiche.info/articles/2026-09-13-tax-dates-and-overnight-funding/"/>
+    <id>https://seiche.info/articles/2026-09-13-tax-dates-and-overnight-funding/</id>
+    <published>2026-09-13T01:41:27Z</published>
+    <updated>2026-09-13T01:41:27Z</updated>
+    <summary>The board reads 44 out of 100, EROSION; the dated reserve path contributes 11.0 points; the pooled five-business-day event read is 6.1%; plumbing leads market pricing by +20 percentile points.</summary>
+    <category term="current_analysis"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Tax dates approach; overnight funding still shows little strain.&lt;/strong&gt; Seiche&amp;#x27;s reserve calendar identifies potential pressure ahead, while the latest retained SOFR reading remains below IORB and the Standing Repo Facility shows little use. The disagreement gives the desk a dated test: watch whether funding prices and backstop demand respond when the projected drain arrives. Confidence is guarded because the modelled reserve path has not received broad confirmation from the observed funding market.&lt;/p&gt;
+&lt;h2&gt;The mechanism&lt;/h2&gt;
+&lt;p&gt;The reserve path is a balance-sheet calendar, not a price forecast. Treasury settlements and tax dates move cash into the Treasury General Account; unless another balance-sheet leg offsets them, reserve balances at commercial banks fall. The useful question is therefore dated: how much capacity may leave the system, on which day, and what does the overnight tape say when that day arrives?&lt;/p&gt;
+&lt;p&gt;The dominant contribution today is &lt;strong&gt;the dated reserve path&lt;/strong&gt;, scored at 100.0 with 11.0 composite points. That is the board&amp;#x27;s attribution, not an observed security price. The independent question is whether the traded funding tape and official backstops confirm it.&lt;/p&gt;
+&lt;p&gt;That sequencing prevents a common category error. Capacity can deteriorate before the marginal price of cash moves, because aggregate reserves, their distribution, and the willingness to intermediate are not the same thing. But a capacity model can also be early or simply wrong. The article therefore treats attribution as a hypothesis about transmission and gives the live market tape veto power over the dramatic version of the story.&lt;/p&gt;
+&lt;h2&gt;What the evidence actually says&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Balance-sheet identity.&lt;/strong&gt; Reserves rose $96.8B on the week to $2,991B, and the ledger says where from: the TGA spent down $84.6B, the foreign RRP pool released $8.0B, the residual released $6.2B, six legs summing to the reserve change to the dollar with $31.3B of the balance sheet, 0.46% of assets, still sitting in the unnamed residual. The observation is dated 2026-09-09; source: Federal Reserve H.4.1.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Official-sector footprint.&lt;/strong&gt; Foreign officials cut their Fed custody Treasuries by $43.3B over 13 weeks while foreign RRP parking rose by $32.3B, a parking rotation rather than the official bid leaving, footprint $2,939B. The observation is dated 2026-09-09; source: Federal Reserve custody and foreign RRP.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reserve-demand curve.&lt;/strong&gt; Reserves are $712B below the fitted kink, but SOFR is -0.4bp versus IORB; fit R-squared is 0.62. The observation is dated 2026-09-09; source: FRED, NY Fed secured rates, BEA GDP.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dated forcing.&lt;/strong&gt; calendar pressure date while reserves sit below the estimated kink. The observation is dated 2026-09-15; source: Treasury auction calendar and Seiche reserve path.&lt;/p&gt;
+&lt;p&gt;Read together, these rows describe a chain rather than a pile of indicators. The reserve identity says where cash moved. The fitted demand curve says how much structural room the model sees. The overnight spread says whether scarcity is being priced now. The calendar supplies a date on which the disagreement can close. None of those steps is allowed to borrow certainty from the others.&lt;/p&gt;
+&lt;h2&gt;The strongest counter-case&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;NY Fed secured rates and Federal Reserve IORB, 2026-09-09.&lt;/strong&gt; SOFR is 0.4bp below IORB, a current abundance signal rather than a scarcity print.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New York Fed operations, 2026-09-11.&lt;/strong&gt; Standing Repo Facility take-up is $0.00B; the backstop is not being tested in size.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VIX, credit spreads and rates volatility, 2026-09-10.&lt;/strong&gt; Market stress sits at only the 35th percentile of its own history.&lt;/p&gt;
+&lt;p&gt;That counter-case is load-bearing. If overnight cash continues to trade comfortably below the administered rate, the backstop remains unused, and broad market stress stays low, then a high structural contribution is a warning about capacity, not evidence that a squeeze is underway. The article changes its mind when the tape changes, not when the prose needs drama.&lt;/p&gt;
+&lt;h2&gt;The historical echo&lt;/h2&gt;
+&lt;p&gt;Today&amp;#x27;s closest named episode is &lt;strong&gt;the December 2025 year-end squeeze&lt;/strong&gt;. Year-end reporting incentives reduced the willingness to intermediate exactly when balance-sheet demand was seasonally high. Heavy use of the Standing Repo Facility made the constraint observable rather than inferred from a single market rate.&lt;/p&gt;
+&lt;p&gt;Echo reports a trajectory similarity of 0.534; the comparison window sits 12 days from the registered episode date; across all 25 current neighbours, 8.0% had a registered funding event within five business days. These are construction-PIT comparisons, not a forecast.&lt;/p&gt;
+&lt;p&gt;The lesson is bounded: Backstop usage changes the interpretation of a tight print. It can show that private capacity is constrained while also limiting the probability that the constraint becomes a disorderly shortage. Similarity is a question generator. It does not turn one old path into today&amp;#x27;s destiny, and Seiche&amp;#x27;s own Tide Tables verdict stays attached to the comparison.&lt;/p&gt;
+&lt;h2&gt;The test ahead&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2026-09-15:&lt;/strong&gt; calendar pressure date while reserves sit below the estimated kink; scenario low $2,932B of reserves.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2026-09-16:&lt;/strong&gt; calendar pressure date while reserves sit below the estimated kink; scenario low $2,898B of reserves.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2026-09-17:&lt;/strong&gt; $246B auction settlement while reserves sit below the estimated kink; published settlement amount $246B; scenario low $2,882B of reserves.&lt;/p&gt;
+&lt;p&gt;The test is simple enough to falsify. Watch the published date, then read SOFR against IORB, repo-tail pressure, backstop usage, and the reserve ledger after the cash movement lands. If those independent checks remain calm, the structural thesis did not transmit. If several turn together, the story graduates from capacity risk to observed funding stress.&lt;/p&gt;
+&lt;h2&gt;Follow the pressure chain&lt;/h2&gt;
+&lt;p&gt;Seiche answers the system question: &lt;strong&gt;is dollar funding capacity tightening?&lt;/strong&gt; If that answer matters to a lender or counterparty decision, &lt;a href=&quot;https://liquilens.in/&quot;&gt;see which institutions should feel it first&lt;/a&gt;. If the concern is whether a position can be sold without moving the market, &lt;a href=&quot;https://liquilens-undertow.com/exit/&quot;&gt;price the exit on Undertow&lt;/a&gt;. To receive one reviewed read across all three layers, &lt;a href=&quot;https://t.me/LiquidityLabDesk&quot;&gt;join the Liquidity Lab daily channel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Those are three different jobs. Cross-linking them is useful only when the boundary stays visible: system liquidity does not identify a weak bank, and a weak bank does not tell you the cost of exiting a market position.&lt;/p&gt;
+&lt;h2&gt;Sources, method, and limits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://seiche.info/articles/2026-09-13-overview-evidence.json&quot;&gt;The retained September 13 Seiche snapshot&lt;/a&gt;, including the evidence rows, counter-case, and dated watch list quoted above.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://seiche.info/methodology&quot;&gt;Seiche methodology&lt;/a&gt;, including component definitions, validation status, and change log.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://api.seiche.info/api/series/index.json&quot;&gt;Public series catalog&lt;/a&gt;, with source, native cadence, as-of date, and freshness for each raw series.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://seiche.info/dispatches/2026-09-13-daily&quot;&gt;The daily dispatch&lt;/a&gt;, which preserves the complete fixed-order reading behind this article.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The composite is a Seiche derivation, not an observed price. Historical comparisons use final or current-vintage data constrained chronologically and are labelled construction-PIT; they are not publication-vintage backtests and are not real-money eligible. Source publication time is not collected uniformly. Related LiquiLens and Undertow readings are handoffs, not inputs to the Seiche composite. Research and market data, not investment advice.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>SRF wakes from zero, but the funding warning remains a calendar test</title>
     <link rel="alternate" type="text/html" href="https://seiche.info/articles/2026-09-08-srf-wakes-from-zero-but-the-funding-warning-remains-a-calendar-test/"/>
