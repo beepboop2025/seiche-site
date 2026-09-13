@@ -689,7 +689,6 @@
   <url><loc>https://seiche.info/views/series/rrp-b/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://seiche.info/views/series/sofr-pct/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://seiche.info/views/series/srf-accepted-b/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://seiche.info/views/series/tga-b/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://seiche.info/views/series/vix/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://seiche.info/views/tabs/calendar/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://seiche.info/views/tabs/dispatches/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
