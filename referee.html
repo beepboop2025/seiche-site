@@ -109,14 +109,14 @@ returns (Nasdaq Composite, the only broad index with full window public
 history). Intervals are circular moving block bootstrap.</p>
 <table class="ref">
 <tr><th>horizon</th><th>correlation with forward return</th></tr>
-<tr><td>1 months ahead</td><td>-0.01 in [-0.16, +0.15], n 272</td></tr>
+<tr><td>1 months ahead</td><td>-0.01 in [-0.17, +0.15], n 272</td></tr>
 <tr><td>3 months ahead</td><td>-0.01 in [-0.23, +0.21], n 270</td></tr>
 <tr><td>6 months ahead</td><td>-0.00 in [-0.25, +0.25], n 267</td></tr>
 <tr><td>9 months ahead</td><td>-0.03 in [-0.31, +0.25], n 264</td></tr>
 <tr><td>12 months ahead</td><td>-0.07 in [-0.34, +0.18], n 261</td></tr>
 <tr><td>18 months ahead</td><td>-0.15 in [-0.43, +0.13], n 255</td></tr>
 </table>
-<p>The walk forward test (2011-01-31 to 2026-03-31, signal from trailing data only) puts the 6 month forward log return after high liquidity months at +0.082 against +0.067 after low liquidity months: a spread of +0.015 with a 95 percent interval of [-0.034, +0.066]. An interval that straddles zero is the test refusing to certify the claim.</p>
+<p>The walk forward test (2011-01-31 to 2026-03-31, signal from trailing data only) puts the 6 month forward log return after high liquidity months at +0.082 against +0.067 after low liquidity months: a spread of +0.015 with a 95 percent interval of [-0.034, +0.065]. An interval that straddles zero is the test refusing to certify the claim.</p>
 <p>Causality, both directions: liquidity to returns F 0.56 (p 0.76), returns to liquidity F 1.11 (p 0.36), 6 lags. Neither direction clears conventional significance on this layer.</p>
 <p>The transform is not the story: rerunning the forward correlations on 6
 month annualized growth gives the same flat zeros.</p>
@@ -128,7 +128,7 @@ month annualized growth gives the same flat zeros.</p>
 </table>
 <p>Neither is the definition. The strongest known variant of
 the claim is net liquidity: central bank assets minus the Treasury cash
-balance minus reverse repo take up (today 5.86 trillion
+balance minus reverse repo take up (today 5.77 trillion
 dollars, window 2003-02-28 to 2026-09-30). The level
 chart of that series against equities is the famous exhibit. The honest
 question is whether its growth predicts forward returns, and it reads the
@@ -157,8 +157,8 @@ gross or net.</p>
 <p>Against US industrial production growth, the contemporaneous correlation
 is -0.41: central banks expand when the economy contracts. The
 correlation turns positive only far out, peaking at a lead of 22 months
-(+0.23 in [+0.05, +0.41], n 249). At the claimed 13 month lead it reads
-+0.15 in [-0.13, +0.46], n 258, an interval that straddles zero.</p>
+(+0.23 in [+0.05, +0.41], n 250). At the claimed 13 month lead it reads
++0.15 in [-0.13, +0.46], n 259, an interval that straddles zero.</p>
 <p>Two honest readings. Either the lead is real but sits well past the
 claimed window, or the pattern is a policy reaction function: recessions
 trigger balance sheet expansion, recoveries follow recessions, and the
@@ -202,9 +202,9 @@ claim. We would rather they published the test than the assertion.</p>
 <p class="faint">0 PASS, 1 PARTIAL, 7 FAIL, 0 not applicable.</p>
 <table class="ref">
 <tr><th>row</th><th>grade</th><th>evidence</th></tr>
-<tr><td>point-in-time controls</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claims ship with no stated look ahead protections. Rebuilt with them (trailing median signal, no look ahead), the public layer&#x27;s 6 month spread is +0.0147 with a 95 percent interval of [-0.0335, +0.0657].</td></tr>
+<tr><td>point-in-time controls</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The claims ship with no stated look ahead protections. Rebuilt with them (trailing median signal, no look ahead), the public layer&#x27;s 6 month spread is +0.0145 with a 95 percent interval of [-0.0339, +0.0654].</td></tr>
 <tr><td>train/eval split transparency</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">No design or evaluation split ships with the claims: no error bars, no out of sample tests, no design sample named. The referee page states that absence above the fold.</td></tr>
-<tr><td>held-out evaluation</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">Nothing is held out because nothing is released to hold out. The referee&#x27;s own held out test on the public layer refuses to certify the asset price lead; at the claimed 13 month business cycle lead the correlation reads +0.15 in [-0.13, +0.46], n 258.</td></tr>
+<tr><td>held-out evaluation</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">Nothing is held out because nothing is released to hold out. The referee&#x27;s own held out test on the public layer refuses to certify the asset price lead; at the claimed 13 month business cycle lead the correlation reads +0.15 in [-0.13, +0.46], n 259.</td></tr>
 <tr><td>universe and series definition</td><td><span class="tok tok-part">PARTIAL</span></td><td class="rub-ev">The largest agreed component is public and is reconstructed here: G3 central bank assets at monthly average spot, 284 months from 2003-01-31 to 2026-08-31. The remaining layers, private credit and cross border flows across some 80 countries back to 1974, are defined in prose and reproducible by nobody outside the firm.</td></tr>
 <tr><td>artifact release</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">The index is proprietary: no series, no code, no error distribution. The referee page commits to rerunning every test the day an error distribution is released.</td></tr>
 <tr><td>vintage and revision handling</td><td><span class="tok tok-fail">FAIL</span></td><td class="rub-ev">No revision record ships with the claims, so as published values cannot even be distinguished from today&#x27;s history. An index family whose vintages are unpublished is ungradeable on this row, and ungradeable by choice is a FAIL, not an N/A.</td></tr>
