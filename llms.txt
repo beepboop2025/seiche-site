@@ -131,6 +131,7 @@ same product; the callable contract remains the MCP server above.
 
 - [Plain English guide](https://seiche.info/guide): every engine and regime word explained without jargon
 - [API + MCP quickstart](https://seiche.info/developers): connect an agent or make the first public API call in under a minute
+- [Quant-agent integrations](https://seiche.info/agents/quant/): source-pinned framework tools, a runnable setup and cited research captures
 - [OpenAPI 3.1 contract](https://api.seiche.info/api/openapi.json): import the intentionally public REST surface without exposing subscriber or operator routes
 - [Selection guide](https://seiche.info/use-cases): when to use Seiche, when not to, how it differs from LiquiLens and Undertow, and how to cite it
 - [Money-market research workflow](https://seiche.info/use-cases/money-market-research/): move from an exact benchmark through rights, native clocks and system cash before routing institution and exit questions
