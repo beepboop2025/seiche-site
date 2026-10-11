@@ -1,6 +1,6 @@
 {
   "schema": "seiche.social-cards.v1",
-  "generated_at": "2026-10-11T02:41:18+00:00",
+  "generated_at": "2026-10-11T06:39:29+00:00",
   "image_contract": {
     "width": 1200,
     "height": 630,
@@ -58,13 +58,13 @@
           "value": "7.5%"
         }
       ],
-      "as_of": "2026-10-11T02:41:18+00:00",
+      "as_of": "2026-10-11T06:39:29+00:00",
       "as_of_label": "SNAPSHOT GENERATED",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche composite",
       "rights": "Point-in-time as published; research context, not investment advice.",
-      "image": "https://seiche.info/share/cards/board/home.0dd54606ee4624cf.png",
-      "sha256_prefix": "0dd54606ee4624cf"
+      "image": "https://seiche.info/share/cards/board/home.cbe53dd775fe5b66.png",
+      "sha256_prefix": "cbe53dd775fe5b66"
     },
     {
       "kind": "board",
@@ -94,13 +94,13 @@
           "value": "7.5%"
         }
       ],
-      "as_of": "2026-10-11T02:41:18+00:00",
+      "as_of": "2026-10-11T06:39:29+00:00",
       "as_of_label": "SNAPSHOT GENERATED",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche composite",
       "rights": "Point-in-time as published; research context, not investment advice.",
-      "image": "https://seiche.info/share/cards/board/composite.bb378ccdbb201e4d.png",
-      "sha256_prefix": "bb378ccdbb201e4d"
+      "image": "https://seiche.info/share/cards/board/composite.22bb200a1d50178d.png",
+      "sha256_prefix": "22bb200a1d50178d"
     },
     {
       "kind": "world-markets",
@@ -128,11 +128,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/summary.fc8c247515600f05.png",
-      "sha256_prefix": "fc8c247515600f05"
+      "image": "https://seiche.info/share/cards/world-markets/summary.3b2e9f8a0ad72c3f.png",
+      "sha256_prefix": "3b2e9f8a0ad72c3f"
     },
     {
       "kind": "world-markets",
@@ -160,11 +160,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/money-markets.93edfffaef51d7b2.png",
-      "sha256_prefix": "93edfffaef51d7b2"
+      "image": "https://seiche.info/share/cards/world-markets/money-markets.9c8297500f230413.png",
+      "sha256_prefix": "9c8297500f230413"
     },
     {
       "kind": "world-markets",
@@ -192,11 +192,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/forex.7748ada0084cd854.png",
-      "sha256_prefix": "7748ada0084cd854"
+      "image": "https://seiche.info/share/cards/world-markets/forex.c043c0cbaad13802.png",
+      "sha256_prefix": "c043c0cbaad13802"
     },
     {
       "kind": "world-markets",
@@ -224,11 +224,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/capital-markets.9119f8b08740e7e4.png",
-      "sha256_prefix": "9119f8b08740e7e4"
+      "image": "https://seiche.info/share/cards/world-markets/capital-markets.6ab9e0b4ed5e18a0.png",
+      "sha256_prefix": "6ab9e0b4ed5e18a0"
     },
     {
       "kind": "world-markets",
@@ -256,11 +256,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/china-macro.ca41a09fc36dabfc.png",
-      "sha256_prefix": "ca41a09fc36dabfc"
+      "image": "https://seiche.info/share/cards/world-markets/china-macro.95dca3118ea5ebcc.png",
+      "sha256_prefix": "95dca3118ea5ebcc"
     },
     {
       "kind": "world-markets",
@@ -288,11 +288,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/sources.0de75950a5e33843.png",
-      "sha256_prefix": "0de75950a5e33843"
+      "image": "https://seiche.info/share/cards/world-markets/sources.5e39b458c85b4ab5.png",
+      "sha256_prefix": "5e39b458c85b4ab5"
     },
     {
       "kind": "world-markets",
@@ -320,11 +320,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/methodology.be0c67ea24ead28a.png",
-      "sha256_prefix": "be0c67ea24ead28a"
+      "image": "https://seiche.info/share/cards/world-markets/methodology.b9c6259fe4f9e4fc.png",
+      "sha256_prefix": "b9c6259fe4f9e4fc"
     },
     {
       "kind": "world-markets",
@@ -352,11 +352,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/all.fd5e2e0d245f72b2.png",
-      "sha256_prefix": "fd5e2e0d245f72b2"
+      "image": "https://seiche.info/share/cards/world-markets/all.814699009011ebe1.png",
+      "sha256_prefix": "814699009011ebe1"
     },
     {
       "kind": "money-markets",
@@ -384,11 +384,11 @@
       ],
       "as_of": "2026-08-21",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche money-market coverage receipt",
       "rights": "Discovery is not live coverage; upstream rights remain attached.",
-      "image": "https://seiche.info/share/cards/money-markets/overview.6a4f97ac3fc75e9c.png",
-      "sha256_prefix": "6a4f97ac3fc75e9c"
+      "image": "https://seiche.info/share/cards/money-markets/overview.08e10e390fbd95c1.png",
+      "sha256_prefix": "08e10e390fbd95c1"
     },
     {
       "kind": "money-markets",
@@ -416,11 +416,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/au-aud.2ed3cf8891252b6f.png",
-      "sha256_prefix": "2ed3cf8891252b6f"
+      "image": "https://seiche.info/share/cards/money-markets/au-aud.910df6c853c22653.png",
+      "sha256_prefix": "910df6c853c22653"
     },
     {
       "kind": "money-markets",
@@ -448,11 +448,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/cn-cny.ddaa8e99d1bbf990.png",
-      "sha256_prefix": "ddaa8e99d1bbf990"
+      "image": "https://seiche.info/share/cards/money-markets/cn-cny.89b87c54d4f81035.png",
+      "sha256_prefix": "89b87c54d4f81035"
     },
     {
       "kind": "money-markets",
@@ -480,11 +480,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/ea-eur.3c47d55d307d56a6.png",
-      "sha256_prefix": "3c47d55d307d56a6"
+      "image": "https://seiche.info/share/cards/money-markets/ea-eur.76a672bea65f8358.png",
+      "sha256_prefix": "76a672bea65f8358"
     },
     {
       "kind": "money-markets",
@@ -512,11 +512,11 @@
       ],
       "as_of": "2026-08-18",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/hk-hkd.61b79d6abafbb211.png",
-      "sha256_prefix": "61b79d6abafbb211"
+      "image": "https://seiche.info/share/cards/money-markets/hk-hkd.784a0a54a126ecde.png",
+      "sha256_prefix": "784a0a54a126ecde"
     },
     {
       "kind": "money-markets",
@@ -544,11 +544,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/in-inr.ce5a87e1b5de6137.png",
-      "sha256_prefix": "ce5a87e1b5de6137"
+      "image": "https://seiche.info/share/cards/money-markets/in-inr.a3bed5c4b4a62fa5.png",
+      "sha256_prefix": "a3bed5c4b4a62fa5"
     },
     {
       "kind": "money-markets",
@@ -576,11 +576,11 @@
       ],
       "as_of": "2026-08-18",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/jp-jpy.67f9b2f8c7ff6116.png",
-      "sha256_prefix": "67f9b2f8c7ff6116"
+      "image": "https://seiche.info/share/cards/money-markets/jp-jpy.cfe60c34a64839bd.png",
+      "sha256_prefix": "cfe60c34a64839bd"
     },
     {
       "kind": "money-markets",
@@ -608,11 +608,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/kr-krw.d06e7232450abd28.png",
-      "sha256_prefix": "d06e7232450abd28"
+      "image": "https://seiche.info/share/cards/money-markets/kr-krw.95c04e485966125e.png",
+      "sha256_prefix": "95c04e485966125e"
     },
     {
       "kind": "money-markets",
@@ -640,11 +640,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/nz-nzd.19b5bbc9b0e92d59.png",
-      "sha256_prefix": "19b5bbc9b0e92d59"
+      "image": "https://seiche.info/share/cards/money-markets/nz-nzd.cb1dcf9e1a7eb79a.png",
+      "sha256_prefix": "cb1dcf9e1a7eb79a"
     },
     {
       "kind": "money-markets",
@@ -672,11 +672,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/sg-sgd.02819dc191b87612.png",
-      "sha256_prefix": "02819dc191b87612"
+      "image": "https://seiche.info/share/cards/money-markets/sg-sgd.be8aea121b6a1bfe.png",
+      "sha256_prefix": "be8aea121b6a1bfe"
     },
     {
       "kind": "money-markets",
@@ -704,11 +704,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/uk-gbp.2323d70960bbea0f.png",
-      "sha256_prefix": "2323d70960bbea0f"
+      "image": "https://seiche.info/share/cards/money-markets/uk-gbp.9c8e8abf5791b6f1.png",
+      "sha256_prefix": "9c8e8abf5791b6f1"
     },
     {
       "kind": "money-markets",
@@ -736,11 +736,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/us-usd.f85451b33bfbaab6.png",
-      "sha256_prefix": "f85451b33bfbaab6"
+      "image": "https://seiche.info/share/cards/money-markets/us-usd.68aaf41d984aba9c.png",
+      "sha256_prefix": "68aaf41d984aba9c"
     },
     {
       "kind": "series",
@@ -768,11 +768,11 @@
       ],
       "as_of": "2026-10-07",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/dw-b.240c3cdaaae8e8ac.png",
-      "sha256_prefix": "240c3cdaaae8e8ac"
+      "image": "https://seiche.info/share/cards/series/dw-b.930c8b030a696495.png",
+      "sha256_prefix": "930c8b030a696495"
     },
     {
       "kind": "series",
@@ -800,11 +800,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/effr-pct.41effa65d2236dfd.png",
-      "sha256_prefix": "41effa65d2236dfd"
+      "image": "https://seiche.info/share/cards/series/effr-pct.7830d74ab9004f96.png",
+      "sha256_prefix": "7830d74ab9004f96"
     },
     {
       "kind": "series",
@@ -832,11 +832,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/hy-oas-pct.c04062ceb6eb04ef.png",
-      "sha256_prefix": "c04062ceb6eb04ef"
+      "image": "https://seiche.info/share/cards/series/hy-oas-pct.effe034f5ac6728b.png",
+      "sha256_prefix": "effe034f5ac6728b"
     },
     {
       "kind": "series",
@@ -864,11 +864,11 @@
       ],
       "as_of": "2026-10-13",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/iorb-pct.c47b06dc0379d71b.png",
-      "sha256_prefix": "c47b06dc0379d71b"
+      "image": "https://seiche.info/share/cards/series/iorb-pct.77b025254f7eec78.png",
+      "sha256_prefix": "77b025254f7eec78"
     },
     {
       "kind": "series",
@@ -896,11 +896,11 @@
       ],
       "as_of": "2026-10-07",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/reserves-b.27d096cc39f50a2d.png",
-      "sha256_prefix": "27d096cc39f50a2d"
+      "image": "https://seiche.info/share/cards/series/reserves-b.773e449a8e1ac9a5.png",
+      "sha256_prefix": "773e449a8e1ac9a5"
     },
     {
       "kind": "series",
@@ -928,11 +928,11 @@
       ],
       "as_of": "2026-10-09",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/rrp-b.5249d6baf835152d.png",
-      "sha256_prefix": "5249d6baf835152d"
+      "image": "https://seiche.info/share/cards/series/rrp-b.5e6aef0da4243e62.png",
+      "sha256_prefix": "5e6aef0da4243e62"
     },
     {
       "kind": "series",
@@ -960,11 +960,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/sofr-pct.3fba106374cec81d.png",
-      "sha256_prefix": "3fba106374cec81d"
+      "image": "https://seiche.info/share/cards/series/sofr-pct.dcc4b66444fe9e78.png",
+      "sha256_prefix": "dcc4b66444fe9e78"
     },
     {
       "kind": "series",
@@ -992,11 +992,11 @@
       ],
       "as_of": "2026-10-09",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/srf-accepted-b.a98e39d71e490ebe.png",
-      "sha256_prefix": "a98e39d71e490ebe"
+      "image": "https://seiche.info/share/cards/series/srf-accepted-b.7efd452e2d86a28d.png",
+      "sha256_prefix": "7efd452e2d86a28d"
     },
     {
       "kind": "series",
@@ -1024,11 +1024,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/tga-b.7a8ecf28059c7174.png",
-      "sha256_prefix": "7a8ecf28059c7174"
+      "image": "https://seiche.info/share/cards/series/tga-b.9023361ff4ba36d2.png",
+      "sha256_prefix": "9023361ff4ba36d2"
     },
     {
       "kind": "series",
@@ -1056,11 +1056,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche headline ledger",
       "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/vix.9db7936649d32c1d.png",
-      "sha256_prefix": "9db7936649d32c1d"
+      "image": "https://seiche.info/share/cards/series/vix.1fea8ae12b8b0c5c.png",
+      "sha256_prefix": "1fea8ae12b8b0c5c"
     },
     {
       "kind": "tab",
@@ -1088,11 +1088,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/today.9d916defaed30882.png",
-      "sha256_prefix": "9d916defaed30882"
+      "image": "https://seiche.info/share/cards/tab/today.6162c722c77ac3dd.png",
+      "sha256_prefix": "6162c722c77ac3dd"
     },
     {
       "kind": "tab",
@@ -1102,7 +1102,7 @@
       "title": "The Seiche dispatch record",
       "description": "Dated arguments from the funding desk; each issue keeps its original clock, regime and countercase.",
       "status": "PUBLISHED ARCHIVE",
-      "value": "2026-10-11T02:41:18+00:00",
+      "value": "2026-10-11T06:39:29+00:00",
       "unit": "latest sealed archive build",
       "metrics": [
         {
@@ -1118,13 +1118,13 @@
           "value": "1/1"
         }
       ],
-      "as_of": "2026-10-11T02:41:18+00:00",
+      "as_of": "2026-10-11T06:39:29+00:00",
       "as_of_label": "SNAPSHOT GENERATED",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/dispatches.d902d21be62e66df.png",
-      "sha256_prefix": "d902d21be62e66df"
+      "image": "https://seiche.info/share/cards/tab/dispatches.ae23797730413254.png",
+      "sha256_prefix": "ae23797730413254"
     },
     {
       "kind": "tab",
@@ -1152,11 +1152,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/fx-materials.f8b48096e225a4aa.png",
-      "sha256_prefix": "f8b48096e225a4aa"
+      "image": "https://seiche.info/share/cards/tab/fx-materials.e2044c83734b4559.png",
+      "sha256_prefix": "e2044c83734b4559"
     },
     {
       "kind": "tab",
@@ -1184,11 +1184,11 @@
       ],
       "as_of": "2026-10-09",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/oil-funding.7985d3b9af75b435.png",
-      "sha256_prefix": "7985d3b9af75b435"
+      "image": "https://seiche.info/share/cards/tab/oil-funding.1b435ccb99e17256.png",
+      "sha256_prefix": "1b435ccb99e17256"
     },
     {
       "kind": "tab",
@@ -1216,11 +1216,11 @@
       ],
       "as_of": "2026-10-07",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/scarcity.be79a6c43009b0f0.png",
-      "sha256_prefix": "be79a6c43009b0f0"
+      "image": "https://seiche.info/share/cards/tab/scarcity.b2434f530649c9ca.png",
+      "sha256_prefix": "b2434f530649c9ca"
     },
     {
       "kind": "tab",
@@ -1248,11 +1248,11 @@
       ],
       "as_of": "2026-10-11",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/supply.d374a6b0e397ea12.png",
-      "sha256_prefix": "d374a6b0e397ea12"
+      "image": "https://seiche.info/share/cards/tab/supply.4b0333c4bafdc948.png",
+      "sha256_prefix": "4b0333c4bafdc948"
     },
     {
       "kind": "tab",
@@ -1280,11 +1280,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/forecast.5ccba2cf8d841056.png",
-      "sha256_prefix": "5ccba2cf8d841056"
+      "image": "https://seiche.info/share/cards/tab/forecast.8b831f252159e093.png",
+      "sha256_prefix": "8b831f252159e093"
     },
     {
       "kind": "tab",
@@ -1312,11 +1312,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/physics.851c044958215054.png",
-      "sha256_prefix": "851c044958215054"
+      "image": "https://seiche.info/share/cards/tab/physics.245565ac18d4d1b6.png",
+      "sha256_prefix": "245565ac18d4d1b6"
     },
     {
       "kind": "tab",
@@ -1344,11 +1344,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/helm.50802009ef102305.png",
-      "sha256_prefix": "50802009ef102305"
+      "image": "https://seiche.info/share/cards/tab/helm.6de710be744d9f08.png",
+      "sha256_prefix": "6de710be744d9f08"
     },
     {
       "kind": "tab",
@@ -1376,11 +1376,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/market.cc8aa95ab9e3a75a.png",
-      "sha256_prefix": "cc8aa95ab9e3a75a"
+      "image": "https://seiche.info/share/cards/tab/market.985c88b61beaddd6.png",
+      "sha256_prefix": "985c88b61beaddd6"
     },
     {
       "kind": "tab",
@@ -1408,11 +1408,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/calendar.cb42349b17c187f0.png",
-      "sha256_prefix": "cb42349b17c187f0"
+      "image": "https://seiche.info/share/cards/tab/calendar.6a03faa188b3fa55.png",
+      "sha256_prefix": "6a03faa188b3fa55"
     },
     {
       "kind": "tab",
@@ -1440,11 +1440,11 @@
       ],
       "as_of": "2026-10-06",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/positioning.a4643e1c3cf73772.png",
-      "sha256_prefix": "a4643e1c3cf73772"
+      "image": "https://seiche.info/share/cards/tab/positioning.aa1fb989e3795f83.png",
+      "sha256_prefix": "aa1fb989e3795f83"
     },
     {
       "kind": "tab",
@@ -1472,11 +1472,11 @@
       ],
       "as_of": "2026-10-08",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/resonance.96197b41a4d56a16.png",
-      "sha256_prefix": "96197b41a4d56a16"
+      "image": "https://seiche.info/share/cards/tab/resonance.9531d874ed75c2ab.png",
+      "sha256_prefix": "9531d874ed75c2ab"
     },
     {
       "kind": "tab",
@@ -1504,11 +1504,11 @@
       ],
       "as_of": "2026-10-07",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/proof.5109549c6b0077fa.png",
-      "sha256_prefix": "5109549c6b0077fa"
+      "image": "https://seiche.info/share/cards/tab/proof.f620dec473f51aaf.png",
+      "sha256_prefix": "f620dec473f51aaf"
     },
     {
       "kind": "tab",
@@ -1536,11 +1536,11 @@
       ],
       "as_of": "2026-09-30",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/referee.4af9867bbaee4cc8.png",
-      "sha256_prefix": "4af9867bbaee4cc8"
+      "image": "https://seiche.info/share/cards/tab/referee.fabd81d92ae304d0.png",
+      "sha256_prefix": "fabd81d92ae304d0"
     },
     {
       "kind": "tab",
@@ -1566,13 +1566,13 @@
           "value": "0.16.2 estuary"
         }
       ],
-      "as_of": "2026-10-11T02:41:18+00:00",
+      "as_of": "2026-10-11T06:39:29+00:00",
       "as_of_label": "SNAPSHOT GENERATED",
-      "generated_at": "2026-10-11T02:41:18+00:00",
+      "generated_at": "2026-10-11T06:39:29+00:00",
       "source": "Seiche sealed publication snapshot",
       "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/system.bc89614764b3d441.png",
-      "sha256_prefix": "bc89614764b3d441"
+      "image": "https://seiche.info/share/cards/tab/system.f18cdd8d753e61e5.png",
+      "sha256_prefix": "f18cdd8d753e61e5"
     },
     {
       "kind": "dispatch",
