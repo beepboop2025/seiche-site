@@ -1,6 +1,6 @@
 {
   "schema": "seiche.social-cards.v1",
-  "generated_at": "2026-10-31T17:05:48+00:00",
+  "generated_at": null,
   "image_contract": {
     "width": 1200,
     "height": 630,
@@ -34,73 +34,65 @@
       "kind": "board",
       "identifier": "home",
       "canonical_url": "https://seiche.info/",
-      "eyebrow": "live funding board",
-      "title": "Dollar funding stress: STRAIN",
-      "description": "The dated reserve path is the largest reason the board is not calm; the rest of the tape is mixed.",
-      "status": "STRAIN · 1 SOURCE FAULT",
-      "value": "46.5",
-      "unit": "out of 100",
+      "eyebrow": "funding board",
+      "title": "Dollar funding board withheld",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "coverage",
-          "value": "100%"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "source faults",
-          "value": "1"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "the Tell",
-          "value": "13.1"
-        },
-        {
-          "label": "5bd event read",
-          "value": "7.7%"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-31T17:05:48+00:00",
-      "as_of_label": "SNAPSHOT GENERATED",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche composite",
-      "rights": "Point-in-time as published; research context, not investment advice.",
-      "image": "https://seiche.info/share/cards/board/home.aee6adfd98ebfd92.png",
-      "sha256_prefix": "aee6adfd98ebfd92"
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/board/home.ed1651aeb110063a.png",
+      "sha256_prefix": "ed1651aeb110063a"
     },
     {
       "kind": "board",
       "identifier": "composite",
       "canonical_url": "https://seiche.info/views/board/composite/",
-      "eyebrow": "live funding board",
-      "title": "Dollar funding stress: STRAIN",
-      "description": "The dated reserve path is the largest reason the board is not calm; the rest of the tape is mixed.",
-      "status": "STRAIN · 1 SOURCE FAULT",
-      "value": "46.5",
-      "unit": "out of 100",
+      "eyebrow": "funding board",
+      "title": "Dollar funding board withheld",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "coverage",
-          "value": "100%"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "source faults",
-          "value": "1"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "the Tell",
-          "value": "13.1"
-        },
-        {
-          "label": "5bd event read",
-          "value": "7.7%"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-31T17:05:48+00:00",
-      "as_of_label": "SNAPSHOT GENERATED",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche composite",
-      "rights": "Point-in-time as published; research context, not investment advice.",
-      "image": "https://seiche.info/share/cards/board/composite.d63ec644e5ba6901.png",
-      "sha256_prefix": "d63ec644e5ba6901"
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/board/composite.2e54a8f9f2cb04ff.png",
+      "sha256_prefix": "2e54a8f9f2cb04ff"
     },
     {
       "kind": "world-markets",
@@ -109,30 +101,30 @@
       "eyebrow": "world markets / summary",
       "title": "World-markets evidence atlas",
       "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "derived",
+      "status": "unavailable",
       "value": "Evidence coverage and known gaps",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "3/3"
+          "value": "0/3"
         },
         {
           "label": "source faults",
-          "value": "1"
+          "value": "0"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": null,
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/summary.785e9636e615dc24.png",
-      "sha256_prefix": "785e9636e615dc24"
+      "image": "https://seiche.info/share/cards/world-markets/summary.36dff87d5ec039bd.png",
+      "sha256_prefix": "36dff87d5ec039bd"
     },
     {
       "kind": "world-markets",
@@ -140,31 +132,31 @@
       "canonical_url": "https://seiche.info/views/world-markets/money-markets/",
       "eyebrow": "world markets / money markets",
       "title": "Money markets across clearing systems",
-      "description": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "restricted",
-      "value": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "unavailable",
+      "value": "Evidence coverage and known gaps",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "3/3"
+          "value": "0/3"
         },
         {
           "label": "source faults",
-          "value": "1"
+          "value": "0"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": null,
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/money-markets.19bc73d3da1c37bc.png",
-      "sha256_prefix": "19bc73d3da1c37bc"
+      "image": "https://seiche.info/share/cards/world-markets/money-markets.ee075bd1d2fec2e6.png",
+      "sha256_prefix": "ee075bd1d2fec2e6"
     },
     {
       "kind": "world-markets",
@@ -173,30 +165,30 @@
       "eyebrow": "world markets / forex",
       "title": "Foreign-exchange reference evidence",
       "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "restricted",
+      "status": "unavailable",
       "value": "Evidence coverage and known gaps",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "3/3"
+          "value": "0/3"
         },
         {
           "label": "source faults",
-          "value": "1"
+          "value": "0"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": null,
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/forex.a5fb47a415ac4681.png",
-      "sha256_prefix": "a5fb47a415ac4681"
+      "image": "https://seiche.info/share/cards/world-markets/forex.55f586f234dde6e8.png",
+      "sha256_prefix": "55f586f234dde6e8"
     },
     {
       "kind": "world-markets",
@@ -205,30 +197,30 @@
       "eyebrow": "world markets / capital markets",
       "title": "Capital-market transmission",
       "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "derived",
+      "status": "unavailable",
       "value": "Evidence coverage and known gaps",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "3/3"
+          "value": "0/3"
         },
         {
           "label": "source faults",
-          "value": "1"
+          "value": "0"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": null,
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/capital-markets.046f1483ee4aa92a.png",
-      "sha256_prefix": "046f1483ee4aa92a"
+      "image": "https://seiche.info/share/cards/world-markets/capital-markets.42b66b7390dba703.png",
+      "sha256_prefix": "42b66b7390dba703"
     },
     {
       "kind": "world-markets",
@@ -247,7 +239,7 @@
         },
         {
           "label": "source faults",
-          "value": "1"
+          "value": "0"
         },
         {
           "label": "history in response",
@@ -256,11 +248,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": null,
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/china-macro.479b7567f554419b.png",
-      "sha256_prefix": "479b7567f554419b"
+      "image": "https://seiche.info/share/cards/world-markets/china-macro.e6d6fc194e8c0e6a.png",
+      "sha256_prefix": "e6d6fc194e8c0e6a"
     },
     {
       "kind": "world-markets",
@@ -275,11 +267,11 @@
       "metrics": [
         {
           "label": "available domains",
-          "value": "3/3"
+          "value": "0/3"
         },
         {
           "label": "source faults",
-          "value": "1"
+          "value": "0"
         },
         {
           "label": "history in response",
@@ -288,11 +280,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": null,
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/sources.ac1c20c998182fcb.png",
-      "sha256_prefix": "ac1c20c998182fcb"
+      "image": "https://seiche.info/share/cards/world-markets/sources.d3c014868e782c96.png",
+      "sha256_prefix": "d3c014868e782c96"
     },
     {
       "kind": "world-markets",
@@ -307,11 +299,11 @@
       "metrics": [
         {
           "label": "available domains",
-          "value": "3/3"
+          "value": "0/3"
         },
         {
           "label": "source faults",
-          "value": "1"
+          "value": "0"
         },
         {
           "label": "history in response",
@@ -320,11 +312,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": null,
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/methodology.e0e1b6f088b77225.png",
-      "sha256_prefix": "e0e1b6f088b77225"
+      "image": "https://seiche.info/share/cards/world-markets/methodology.80d63c67cac28e4f.png",
+      "sha256_prefix": "80d63c67cac28e4f"
     },
     {
       "kind": "world-markets",
@@ -333,30 +325,30 @@
       "eyebrow": "world markets / all",
       "title": "World markets, one evidence contract",
       "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "derived",
+      "status": "unavailable",
       "value": "Evidence coverage and known gaps",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "3/3"
+          "value": "0/3"
         },
         {
           "label": "source faults",
-          "value": "1"
+          "value": "0"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": null,
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/all.84d5d464f3e37c8e.png",
-      "sha256_prefix": "84d5d464f3e37c8e"
+      "image": "https://seiche.info/share/cards/world-markets/all.5ddc2d751679bca4.png",
+      "sha256_prefix": "5ddc2d751679bca4"
     },
     {
       "kind": "money-markets",
@@ -384,11 +376,11 @@
       ],
       "as_of": "2026-08-21",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche money-market coverage receipt",
       "rights": "Discovery is not live coverage; upstream rights remain attached.",
-      "image": "https://seiche.info/share/cards/money-markets/overview.0ef7dba818e500ac.png",
-      "sha256_prefix": "0ef7dba818e500ac"
+      "image": "https://seiche.info/share/cards/money-markets/overview.66984f9e85152e3f.png",
+      "sha256_prefix": "66984f9e85152e3f"
     },
     {
       "kind": "money-markets",
@@ -416,11 +408,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/au-aud.a075889865c4230c.png",
-      "sha256_prefix": "a075889865c4230c"
+      "image": "https://seiche.info/share/cards/money-markets/au-aud.189aae1769ec4e96.png",
+      "sha256_prefix": "189aae1769ec4e96"
     },
     {
       "kind": "money-markets",
@@ -448,11 +440,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/cn-cny.ba0d5c425992557a.png",
-      "sha256_prefix": "ba0d5c425992557a"
+      "image": "https://seiche.info/share/cards/money-markets/cn-cny.ce2ec2faf6abedc1.png",
+      "sha256_prefix": "ce2ec2faf6abedc1"
     },
     {
       "kind": "money-markets",
@@ -480,11 +472,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/ea-eur.6f54090dd1078a1a.png",
-      "sha256_prefix": "6f54090dd1078a1a"
+      "image": "https://seiche.info/share/cards/money-markets/ea-eur.2af6dbead3efa5c7.png",
+      "sha256_prefix": "2af6dbead3efa5c7"
     },
     {
       "kind": "money-markets",
@@ -512,11 +504,11 @@
       ],
       "as_of": "2026-08-18",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/hk-hkd.f4694d0142cb284b.png",
-      "sha256_prefix": "f4694d0142cb284b"
+      "image": "https://seiche.info/share/cards/money-markets/hk-hkd.f55b20d2b3c35f6e.png",
+      "sha256_prefix": "f55b20d2b3c35f6e"
     },
     {
       "kind": "money-markets",
@@ -544,11 +536,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/in-inr.bc7a965dfbfd1d67.png",
-      "sha256_prefix": "bc7a965dfbfd1d67"
+      "image": "https://seiche.info/share/cards/money-markets/in-inr.686aedc9341481c6.png",
+      "sha256_prefix": "686aedc9341481c6"
     },
     {
       "kind": "money-markets",
@@ -576,11 +568,11 @@
       ],
       "as_of": "2026-08-18",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/jp-jpy.e0e4e71987d4b4a2.png",
-      "sha256_prefix": "e0e4e71987d4b4a2"
+      "image": "https://seiche.info/share/cards/money-markets/jp-jpy.a65f1b938ead30fc.png",
+      "sha256_prefix": "a65f1b938ead30fc"
     },
     {
       "kind": "money-markets",
@@ -608,11 +600,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/kr-krw.17394dcd682f7b09.png",
-      "sha256_prefix": "17394dcd682f7b09"
+      "image": "https://seiche.info/share/cards/money-markets/kr-krw.2ba49c8a46ece168.png",
+      "sha256_prefix": "2ba49c8a46ece168"
     },
     {
       "kind": "money-markets",
@@ -640,11 +632,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/nz-nzd.00dabd6b7da8c2d3.png",
-      "sha256_prefix": "00dabd6b7da8c2d3"
+      "image": "https://seiche.info/share/cards/money-markets/nz-nzd.8ef9e86754451518.png",
+      "sha256_prefix": "8ef9e86754451518"
     },
     {
       "kind": "money-markets",
@@ -672,11 +664,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/sg-sgd.7ade73ec88758df6.png",
-      "sha256_prefix": "7ade73ec88758df6"
+      "image": "https://seiche.info/share/cards/money-markets/sg-sgd.bf483ce1f6b9c448.png",
+      "sha256_prefix": "bf483ce1f6b9c448"
     },
     {
       "kind": "money-markets",
@@ -704,11 +696,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/uk-gbp.8e8cb2b903060a00.png",
-      "sha256_prefix": "8e8cb2b903060a00"
+      "image": "https://seiche.info/share/cards/money-markets/uk-gbp.9862bd8145a2c534.png",
+      "sha256_prefix": "9862bd8145a2c534"
     },
     {
       "kind": "money-markets",
@@ -736,11 +728,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
+      "generated_at": "2026-08-21",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/us-usd.9df2feec6975ae20.png",
-      "sha256_prefix": "9df2feec6975ae20"
+      "image": "https://seiche.info/share/cards/money-markets/us-usd.851c9ab7ac71fac6.png",
+      "sha256_prefix": "851c9ab7ac71fac6"
     },
     {
       "kind": "series",
@@ -748,31 +740,31 @@
       "canonical_url": "https://seiche.info/views/series/dw-b/",
       "eyebrow": "published series / dw_b",
       "title": "Dw B",
-      "description": "The current published Dw B observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "9.5",
-      "unit": "native units",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "dw_b"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-28",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/dw-b.a7cf99410fe7b664.png",
-      "sha256_prefix": "a7cf99410fe7b664"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/dw-b.c4e0726604488744.png",
+      "sha256_prefix": "c4e0726604488744"
     },
     {
       "kind": "series",
@@ -780,31 +772,31 @@
       "canonical_url": "https://seiche.info/views/series/effr-pct/",
       "eyebrow": "published series / effr_pct",
       "title": "Effr Pct",
-      "description": "The current published Effr Pct observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "3.88",
-      "unit": "native units",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "effr_pct"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/effr-pct.516d79c374af46ce.png",
-      "sha256_prefix": "516d79c374af46ce"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/effr-pct.8361726a3e35eb57.png",
+      "sha256_prefix": "8361726a3e35eb57"
     },
     {
       "kind": "series",
@@ -812,31 +804,31 @@
       "canonical_url": "https://seiche.info/views/series/hy-oas-pct/",
       "eyebrow": "published series / hy_oas_pct",
       "title": "High-yield OAS",
-      "description": "The current published High-yield OAS observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "3.26",
-      "unit": "%",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "hy_oas_pct"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/hy-oas-pct.3d16da0abfa25e38.png",
-      "sha256_prefix": "3d16da0abfa25e38"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/hy-oas-pct.9393e4680346a29a.png",
+      "sha256_prefix": "9393e4680346a29a"
     },
     {
       "kind": "series",
@@ -844,31 +836,31 @@
       "canonical_url": "https://seiche.info/views/series/iorb-pct/",
       "eyebrow": "published series / iorb_pct",
       "title": "IORB",
-      "description": "The current published IORB observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "3.9",
-      "unit": "%",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "iorb_pct"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-11-02",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/iorb-pct.9a185bba3200e947.png",
-      "sha256_prefix": "9a185bba3200e947"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/iorb-pct.6e4e84d2fcb8c213.png",
+      "sha256_prefix": "6e4e84d2fcb8c213"
     },
     {
       "kind": "series",
@@ -876,31 +868,31 @@
       "canonical_url": "https://seiche.info/views/series/reserves-b/",
       "eyebrow": "published series / reserves_b",
       "title": "Reserve balances",
-      "description": "The current published Reserve balances observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "2,893.77",
-      "unit": "$B",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "reserves_b"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-28",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/reserves-b.af92d3423e72278e.png",
-      "sha256_prefix": "af92d3423e72278e"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/reserves-b.1005284f85d88731.png",
+      "sha256_prefix": "1005284f85d88731"
     },
     {
       "kind": "series",
@@ -908,31 +900,31 @@
       "canonical_url": "https://seiche.info/views/series/rrp-b/",
       "eyebrow": "published series / rrp_b",
       "title": "Overnight reverse repo",
-      "description": "The current published Overnight reverse repo observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "4.375",
-      "unit": "$B",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "rrp_b"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-30",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/rrp-b.564333f55a1d77a5.png",
-      "sha256_prefix": "564333f55a1d77a5"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/rrp-b.06d5821f4341db39.png",
+      "sha256_prefix": "06d5821f4341db39"
     },
     {
       "kind": "series",
@@ -940,31 +932,31 @@
       "canonical_url": "https://seiche.info/views/series/sofr-pct/",
       "eyebrow": "published series / sofr_pct",
       "title": "SOFR",
-      "description": "The current published SOFR observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "3.94",
-      "unit": "%",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "sofr_pct"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/sofr-pct.9f60c94395757b40.png",
-      "sha256_prefix": "9f60c94395757b40"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/sofr-pct.04fca58e99eef660.png",
+      "sha256_prefix": "04fca58e99eef660"
     },
     {
       "kind": "series",
@@ -972,31 +964,31 @@
       "canonical_url": "https://seiche.info/views/series/srf-accepted-b/",
       "eyebrow": "published series / srf_accepted_b",
       "title": "Srf Accepted B",
-      "description": "The current published Srf Accepted B observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "0",
-      "unit": "native units",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "srf_accepted_b"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-30",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/srf-accepted-b.ad4fdacc53e1dda6.png",
-      "sha256_prefix": "ad4fdacc53e1dda6"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/srf-accepted-b.42d8301f85860b71.png",
+      "sha256_prefix": "42d8301f85860b71"
     },
     {
       "kind": "series",
@@ -1004,31 +996,31 @@
       "canonical_url": "https://seiche.info/views/series/tga-b/",
       "eyebrow": "published series / tga_b",
       "title": "TGA opening balance",
-      "description": "The current published TGA opening balance observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "1,015.6",
-      "unit": "$B",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "tga_b"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/tga-b.2d17d7c87775221d.png",
-      "sha256_prefix": "2d17d7c87775221d"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/tga-b.aa857ff548250515.png",
+      "sha256_prefix": "aa857ff548250515"
     },
     {
       "kind": "series",
@@ -1036,31 +1028,31 @@
       "canonical_url": "https://seiche.info/views/series/vix/",
       "eyebrow": "published series / vix",
       "title": "VIX",
-      "description": "The current published VIX observation with its source clock and availability state.",
-      "status": "OBSERVED",
-      "value": "17.2",
-      "unit": "index",
+      "description": "Withheld pending source-rights qualification. Values are not reconstructed. A withheld reading is not a calm, zero or last-known reading.",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "series id",
-          "value": "vix"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "freshness",
-          "value": "as published"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "source",
-          "value": "Seiche source ledger"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche headline ledger",
-      "rights": "Public board observation; upstream terms remain attached.",
-      "image": "https://seiche.info/share/cards/series/vix.44c9012a2fc874fd.png",
-      "sha256_prefix": "44c9012a2fc874fd"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/vix.cec16f05569e4161.png",
+      "sha256_prefix": "cec16f05569e4161"
     },
     {
       "kind": "tab",
@@ -1069,30 +1061,30 @@
       "eyebrow": "terminal view / today",
       "title": "Today's dollar-funding argument",
       "description": "The current desk thesis, countercase, evidence and next dates that can change the call.",
-      "status": "STRAIN",
-      "value": "46.5",
-      "unit": "funding-stress index · 0–100",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "regime",
-          "value": "STRAIN"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "the Tell",
-          "value": "13.1"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "coverage",
-          "value": "100%"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/today.72519599460176c0.png",
-      "sha256_prefix": "72519599460176c0"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/today.0da5471b043ea81f.png",
+      "sha256_prefix": "0da5471b043ea81f"
     },
     {
       "kind": "tab",
@@ -1102,29 +1094,29 @@
       "title": "The Seiche dispatch record",
       "description": "Dated arguments from the funding desk; each issue keeps its original clock, regime and countercase.",
       "status": "PUBLISHED ARCHIVE",
-      "value": "2026-10-31T17:05:48+00:00",
-      "unit": "latest sealed archive build",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "board regime",
-          "value": "STRAIN"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "snapshot version",
-          "value": "0.16.10 estuary"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "available inputs",
-          "value": "1/1"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-31T17:05:48+00:00",
-      "as_of_label": "SNAPSHOT GENERATED",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/dispatches.40d2618e8563eac4.png",
-      "sha256_prefix": "40d2618e8563eac4"
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/dispatches.db87a1fbefffdf38.png",
+      "sha256_prefix": "db87a1fbefffdf38"
     },
     {
       "kind": "tab",
@@ -1133,30 +1125,30 @@
       "eyebrow": "terminal view / fx materials",
       "title": "FX and physical cash pressure",
       "description": "Dollar regimes and physical-market pressure traced into funding spreads with separate clocks and holdout boundaries.",
-      "status": "PRESSURE HELD UPSTREAM",
-      "value": "26.2",
-      "unit": "upstream minus funding · points",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "upstream pressure",
-          "value": "62"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "funding priced",
-          "value": "35.8"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "coverage",
-          "value": "100%"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/fx-materials.69b9f1ec310d91fb.png",
-      "sha256_prefix": "69b9f1ec310d91fb"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/fx-materials.9b281130f2714fe3.png",
+      "sha256_prefix": "9b281130f2714fe3"
     },
     {
       "kind": "tab",
@@ -1165,30 +1157,30 @@
       "eyebrow": "terminal view / oil funding",
       "title": "The barrel's funding loop",
       "description": "Oil prices, the price of cash, market structure and mechanical working-capital scenarios kept in their native units.",
-      "status": "OBSERVED + MECHANICAL SCENARIO",
-      "value": "$103.4",
-      "unit": "WTI · USD per barrel",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "Brent",
-          "value": "$123.1"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "SOFR − IORB",
-          "value": "4bp"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "Cushing stocks",
-          "value": "27m bbl"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-30",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/oil-funding.e2acec19edd3c015.png",
-      "sha256_prefix": "e2acec19edd3c015"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/oil-funding.cc9e1ad4752dd96f.png",
+      "sha256_prefix": "cc9e1ad4752dd96f"
     },
     {
       "kind": "tab",
@@ -1197,30 +1189,30 @@
       "eyebrow": "terminal view / scarcity",
       "title": "Reserve scarcity and runway",
       "description": "The fitted reserve-demand kink, current distance and thirteen-week balance-sheet paths as structural estimates, not a universal floor.",
-      "status": "STRUCTURAL ESTIMATE",
-      "value": "-866.1",
-      "unit": "$B reserves minus fitted kink",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "current reserves",
-          "value": "$2,893.8B"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "fitted kink",
-          "value": "$3,759.9B"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "base path end",
-          "value": "$2,930.4B"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-28",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/scarcity.32d0d89c11925509.png",
-      "sha256_prefix": "32d0d89c11925509"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/scarcity.ff0bb1873daa076e.png",
+      "sha256_prefix": "ff0bb1873daa076e"
     },
     {
       "kind": "tab",
@@ -1229,30 +1221,30 @@
       "eyebrow": "terminal view / supply",
       "title": "Treasury supply and funding digestion",
       "description": "Announced cash needs, auction digestion and the foreign-official footprint with dated public-source clocks.",
-      "status": "ANNOUNCED SUPPLY",
-      "value": "451.3",
-      "unit": "$B net new cash · published horizon",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "coupons net",
-          "value": "$160.7B"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "bills net",
-          "value": "$290.5B"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "heaviest day",
-          "value": "$154.2B"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-31",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/supply.7dbe5cc959da490e.png",
-      "sha256_prefix": "7dbe5cc959da490e"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/supply.40da343b64dcdf07.png",
+      "sha256_prefix": "40da343b64dcdf07"
     },
     {
       "kind": "tab",
@@ -1261,30 +1253,30 @@
       "eyebrow": "terminal view / forecast",
       "title": "Funding-event diagnostics",
       "description": "Several forward estimators shown together with validation, dispersion and explicit non-trading claim boundaries.",
-      "status": "DIAGNOSTIC · NOT A TRADE SIGNAL",
-      "value": "7.7%",
-      "unit": "5bd ensemble event probability",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "Swell 5bd",
-          "value": "11.7%"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "Bathymetry 5bd",
-          "value": "4.5%"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "fleet dispersion",
-          "value": "4.1%"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/forecast.fbf9712c1e9f91f4.png",
-      "sha256_prefix": "fbf9712c1e9f91f4"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/forecast.b16d37d8733f8dfc.png",
+      "sha256_prefix": "b16d37d8733f8dfc"
     },
     {
       "kind": "tab",
@@ -1293,30 +1285,30 @@
       "eyebrow": "terminal view / physics",
       "title": "The funding physics package",
       "description": "State transitions, latent modes, jump diagnostics and changepoints with their evidence and validation limits attached.",
-      "status": "DIAGNOSTIC",
-      "value": "4.5%",
-      "unit": "5bd state-transition diagnostic",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "mean first passage",
-          "value": "79 business days"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "latent rank",
-          "value": "8"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "series in modes",
-          "value": "11"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/physics.48fa5e0ee2f13080.png",
-      "sha256_prefix": "48fa5e0ee2f13080"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/physics.c3855d3b0f547ff3.png",
+      "sha256_prefix": "c3855d3b0f547ff3"
     },
     {
       "kind": "tab",
@@ -1325,30 +1317,30 @@
       "eyebrow": "terminal view / helm",
       "title": "The accountable paper book",
       "description": "Today's frozen rulebook stance, ensemble probability and walk-forward record; a paper proxy, never advice.",
-      "status": "PAPER PROXY",
-      "value": "neutral",
-      "unit": "paper proxy · not investment advice",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "ensemble 5bd",
-          "value": "7.7%"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "fleet dispersion",
-          "value": "4.1%"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "the Tell",
-          "value": "13.1"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/helm.f4dd14ac69b76439.png",
-      "sha256_prefix": "f4dd14ac69b76439"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/helm.1538c25d6c19f4f4.png",
+      "sha256_prefix": "1538c25d6c19f4f4"
     },
     {
       "kind": "tab",
@@ -1357,30 +1349,30 @@
       "eyebrow": "terminal view / market",
       "title": "Plumbing versus market pricing",
       "description": "The Tell compares funding-plumbing percentiles with market-priced stress, then keeps analog outcomes and press attention separate.",
-      "status": "aligned",
-      "value": "13.1",
-      "unit": "plumbing percentile minus market percentile",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "plumbing percentile",
-          "value": "86"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "market percentile",
-          "value": "73"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "press baseline",
-          "value": "yes"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/market.6be8687139b35749.png",
-      "sha256_prefix": "6be8687139b35749"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/market.9b99129c2dd067b1.png",
+      "sha256_prefix": "9b99129c2dd067b1"
     },
     {
       "kind": "tab",
@@ -1389,30 +1381,30 @@
       "eyebrow": "terminal view / calendar",
       "title": "The next funding turn",
       "description": "Settlements, tax dates, auctions and turn windows projected from the published calendar without converting a scenario into a fact.",
-      "status": "FORWARD CALENDAR",
-      "value": "2026-10-30",
-      "unit": "next published turn window",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "turn mode",
-          "value": "month_end"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "published forecast",
-          "value": "5bp"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "crunch windows",
-          "value": "3"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/calendar.d23acbd44028c546.png",
-      "sha256_prefix": "d23acbd44028c546"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/calendar.aa032937e66b6048.png",
+      "sha256_prefix": "aa032937e66b6048"
     },
     {
       "kind": "tab",
@@ -1421,30 +1413,30 @@
       "eyebrow": "terminal view / positioning",
       "title": "Leveraged positioning and dealer warehouse",
       "description": "Public positioning proxies, crowding and dealer inventory with scenario-quality limits left visible.",
-      "status": "POSITIONING PROXY",
-      "value": "387.4",
-      "unit": "$B dealer net Treasury inventory",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "warehouse percentile",
-          "value": "93"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "RV net",
-          "value": "$-823.5B"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "crowding rows",
-          "value": "10"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-27",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/positioning.0372e0290d93e139.png",
-      "sha256_prefix": "0372e0290d93e139"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/positioning.9890c2c41d4873fb.png",
+      "sha256_prefix": "9890c2c41d4873fb"
     },
     {
       "kind": "tab",
@@ -1453,30 +1445,30 @@
       "eyebrow": "terminal view / resonance",
       "title": "Cross-channel resonance",
       "description": "Synchronization, persistence, changepoints and lead-lag diagnostics across the published funding channels.",
-      "status": "MULTIVARIATE DIAGNOSTIC",
-      "value": "61.5",
-      "unit": "resonance score · 0–100",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "undertow score",
-          "value": "39.4"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "e-detector streams",
-          "value": "2"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "hydrophone status",
-          "value": "yes"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-29",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/resonance.6cd2cb8439dbeb50.png",
-      "sha256_prefix": "6cd2cb8439dbeb50"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/resonance.62c7badeac349891.png",
+      "sha256_prefix": "62c7badeac349891"
     },
     {
       "kind": "tab",
@@ -1485,30 +1477,30 @@
       "eyebrow": "terminal view / proof",
       "title": "The historical claim boundary",
       "description": "Construction-point-in-time diagnostics, leak audits and model comparisons with vintage evidence and real-money eligibility explicit.",
-      "status": "UNVERIFIED",
-      "value": "UNVERIFIED",
-      "unit": "historical evidence status",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "validated backtest",
-          "value": "no"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "ML 5bd",
-          "value": "4.6%"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "real-money eligible",
+          "label": "values reconstructed",
           "value": "no"
         }
       ],
-      "as_of": "2026-10-28",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/proof.da31d9ca7da698bc.png",
-      "sha256_prefix": "da31d9ca7da698bc"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/proof.0921dec3e5216b85.png",
+      "sha256_prefix": "0921dec3e5216b85"
     },
     {
       "kind": "tab",
@@ -1517,30 +1509,30 @@
       "eyebrow": "terminal view / referee",
       "title": "Global-liquidity claims, refereed",
       "description": "Three popular quantitative claims tested on the public G3 central-bank layer with uncertainty and sample limits attached.",
-      "status": "OBSERVED + CLAIM TEST",
-      "value": "-5.1",
-      "unit": "G3 central-bank assets · YoY %",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "G3 assets",
-          "value": "$17.5tn"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "asset lead peak",
-          "value": "5 months"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "cycle estimate",
-          "value": "68.2 months"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-09-30",
+      "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/referee.d69063023231b4d5.png",
-      "sha256_prefix": "d69063023231b4d5"
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/referee.268502e250a94525.png",
+      "sha256_prefix": "268502e250a94525"
     },
     {
       "kind": "tab",
@@ -1549,30 +1541,30 @@
       "eyebrow": "terminal view / system",
       "title": "Publication health and provenance",
       "description": "The sealed snapshot clock, source inventory, explicit faults and evidence-boundary status behind every public reading.",
-      "status": "1 SOURCE FAULT",
-      "value": "1",
-      "unit": "source faults in this sealed snapshot",
+      "status": "WITHHELD · RIGHTS RESTRICTED",
+      "value": "WITHHELD",
+      "unit": "pending source-rights qualification",
       "metrics": [
         {
-          "label": "source records",
-          "value": "164"
+          "label": "policy",
+          "value": "seiche.public-source-rights.2026-10-28"
         },
         {
-          "label": "stale headline rows",
-          "value": "0"
+          "label": "availability",
+          "value": "unavailable"
         },
         {
-          "label": "snapshot version",
-          "value": "0.16.10 estuary"
+          "label": "values reconstructed",
+          "value": "no"
         }
       ],
-      "as_of": "2026-10-31T17:05:48+00:00",
-      "as_of_label": "SNAPSHOT GENERATED",
-      "generated_at": "2026-10-31T17:05:48+00:00",
-      "source": "Seiche sealed publication snapshot",
-      "rights": "Research context, not investment advice. Missing, stale, restricted or unavailable inputs are never converted to zero.",
-      "image": "https://seiche.info/share/cards/tab/system.932d2bdb64c8e43c.png",
-      "sha256_prefix": "932d2bdb64c8e43c"
+      "as_of": null,
+      "as_of_label": "EVIDENCE AS OF",
+      "generated_at": null,
+      "source": "Seiche source-rights policy",
+      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/system.31fc35ce3df511d3.png",
+      "sha256_prefix": "31fc35ce3df511d3"
     },
     {
       "kind": "dispatch",
