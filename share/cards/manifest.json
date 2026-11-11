@@ -1,6 +1,6 @@
 {
   "schema": "seiche.social-cards.v1",
-  "generated_at": null,
+  "generated_at": "2026-11-11T20:59:12+00:00",
   "image_contract": {
     "width": 1200,
     "height": 630,
@@ -43,7 +43,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -58,9 +58,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/board/home.ed1651aeb110063a.png",
-      "sha256_prefix": "ed1651aeb110063a"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/board/home.0ef435107869addf.png",
+      "sha256_prefix": "0ef435107869addf"
     },
     {
       "kind": "board",
@@ -75,7 +75,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -90,9 +90,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/board/composite.2e54a8f9f2cb04ff.png",
-      "sha256_prefix": "2e54a8f9f2cb04ff"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/board/composite.de6357d0f69ae088.png",
+      "sha256_prefix": "de6357d0f69ae088"
     },
     {
       "kind": "world-markets",
@@ -101,30 +101,30 @@
       "eyebrow": "world markets / summary",
       "title": "World-markets evidence atlas",
       "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "unavailable",
+      "status": "derived",
       "value": "Evidence coverage and known gaps",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "0/3"
+          "value": "2/3"
         },
         {
           "label": "source faults",
-          "value": "0"
+          "value": "3"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": null,
+      "as_of": "2026-11-09",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": null,
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/summary.36dff87d5ec039bd.png",
-      "sha256_prefix": "36dff87d5ec039bd"
+      "image": "https://seiche.info/share/cards/world-markets/summary.3455779c0428233c.png",
+      "sha256_prefix": "3455779c0428233c"
     },
     {
       "kind": "world-markets",
@@ -132,31 +132,31 @@
       "canonical_url": "https://seiche.info/views/world-markets/money-markets/",
       "eyebrow": "world markets / money markets",
       "title": "Money markets across clearing systems",
-      "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "unavailable",
-      "value": "Evidence coverage and known gaps",
+      "description": "The most stretched current observed channel is still below the desk's watch threshold relative to its own recent history. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
+      "status": "restricted",
+      "value": "The most stretched current observed channel is still below the desk's watch threshold relative to its own recent history.",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "0/3"
+          "value": "2/3"
         },
         {
           "label": "source faults",
-          "value": "0"
+          "value": "3"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": null,
+      "as_of": "2026-11-09",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": null,
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/money-markets.ee075bd1d2fec2e6.png",
-      "sha256_prefix": "ee075bd1d2fec2e6"
+      "image": "https://seiche.info/share/cards/world-markets/money-markets.e3e3ad669a55cba5.png",
+      "sha256_prefix": "e3e3ad669a55cba5"
     },
     {
       "kind": "world-markets",
@@ -171,11 +171,11 @@
       "metrics": [
         {
           "label": "available domains",
-          "value": "0/3"
+          "value": "2/3"
         },
         {
           "label": "source faults",
-          "value": "0"
+          "value": "3"
         },
         {
           "label": "history in response",
@@ -184,11 +184,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": null,
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/forex.55f586f234dde6e8.png",
-      "sha256_prefix": "55f586f234dde6e8"
+      "image": "https://seiche.info/share/cards/world-markets/forex.9cb19b86b5072611.png",
+      "sha256_prefix": "9cb19b86b5072611"
     },
     {
       "kind": "world-markets",
@@ -197,30 +197,30 @@
       "eyebrow": "world markets / capital markets",
       "title": "Capital-market transmission",
       "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "unavailable",
+      "status": "derived",
       "value": "Evidence coverage and known gaps",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "0/3"
+          "value": "2/3"
         },
         {
           "label": "source faults",
-          "value": "0"
+          "value": "3"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": null,
+      "as_of": "2026-11-09",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": null,
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/capital-markets.42b66b7390dba703.png",
-      "sha256_prefix": "42b66b7390dba703"
+      "image": "https://seiche.info/share/cards/world-markets/capital-markets.2cb845f4ae10fbd0.png",
+      "sha256_prefix": "2cb845f4ae10fbd0"
     },
     {
       "kind": "world-markets",
@@ -239,7 +239,7 @@
         },
         {
           "label": "source faults",
-          "value": "0"
+          "value": "3"
         },
         {
           "label": "history in response",
@@ -248,11 +248,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": null,
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/china-macro.e6d6fc194e8c0e6a.png",
-      "sha256_prefix": "e6d6fc194e8c0e6a"
+      "image": "https://seiche.info/share/cards/world-markets/china-macro.2281effda76c0b01.png",
+      "sha256_prefix": "2281effda76c0b01"
     },
     {
       "kind": "world-markets",
@@ -267,11 +267,11 @@
       "metrics": [
         {
           "label": "available domains",
-          "value": "0/3"
+          "value": "2/3"
         },
         {
           "label": "source faults",
-          "value": "0"
+          "value": "3"
         },
         {
           "label": "history in response",
@@ -280,11 +280,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": null,
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/sources.d3c014868e782c96.png",
-      "sha256_prefix": "d3c014868e782c96"
+      "image": "https://seiche.info/share/cards/world-markets/sources.408ff7adbeb3bb6d.png",
+      "sha256_prefix": "408ff7adbeb3bb6d"
     },
     {
       "kind": "world-markets",
@@ -299,11 +299,11 @@
       "metrics": [
         {
           "label": "available domains",
-          "value": "0/3"
+          "value": "2/3"
         },
         {
           "label": "source faults",
-          "value": "0"
+          "value": "3"
         },
         {
           "label": "history in response",
@@ -312,11 +312,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": null,
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/methodology.80d63c67cac28e4f.png",
-      "sha256_prefix": "80d63c67cac28e4f"
+      "image": "https://seiche.info/share/cards/world-markets/methodology.04d20d953621676e.png",
+      "sha256_prefix": "04d20d953621676e"
     },
     {
       "kind": "world-markets",
@@ -325,30 +325,30 @@
       "eyebrow": "world markets / all",
       "title": "World markets, one evidence contract",
       "description": "Evidence coverage and known gaps. Status, source-native clocks and explicit coverage gaps travel with this bounded projection.",
-      "status": "unavailable",
+      "status": "derived",
       "value": "Evidence coverage and known gaps",
       "unit": "context only · no executable prices",
       "metrics": [
         {
           "label": "available domains",
-          "value": "0/3"
+          "value": "2/3"
         },
         {
           "label": "source faults",
-          "value": "0"
+          "value": "3"
         },
         {
           "label": "history in response",
           "value": "no"
         }
       ],
-      "as_of": null,
+      "as_of": "2026-11-09",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": null,
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche world-markets v1",
       "rights": "Observed, derived, structural, restricted and unavailable remain distinct.",
-      "image": "https://seiche.info/share/cards/world-markets/all.5ddc2d751679bca4.png",
-      "sha256_prefix": "5ddc2d751679bca4"
+      "image": "https://seiche.info/share/cards/world-markets/all.3ea7023388dccff5.png",
+      "sha256_prefix": "3ea7023388dccff5"
     },
     {
       "kind": "money-markets",
@@ -376,11 +376,11 @@
       ],
       "as_of": "2026-08-21",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche money-market coverage receipt",
       "rights": "Discovery is not live coverage; upstream rights remain attached.",
-      "image": "https://seiche.info/share/cards/money-markets/overview.66984f9e85152e3f.png",
-      "sha256_prefix": "66984f9e85152e3f"
+      "image": "https://seiche.info/share/cards/money-markets/overview.a4b2696d710f81e4.png",
+      "sha256_prefix": "a4b2696d710f81e4"
     },
     {
       "kind": "money-markets",
@@ -408,11 +408,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/au-aud.189aae1769ec4e96.png",
-      "sha256_prefix": "189aae1769ec4e96"
+      "image": "https://seiche.info/share/cards/money-markets/au-aud.6f94ca1c6bfd6e77.png",
+      "sha256_prefix": "6f94ca1c6bfd6e77"
     },
     {
       "kind": "money-markets",
@@ -440,11 +440,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/cn-cny.ce2ec2faf6abedc1.png",
-      "sha256_prefix": "ce2ec2faf6abedc1"
+      "image": "https://seiche.info/share/cards/money-markets/cn-cny.d1e2e07a731213da.png",
+      "sha256_prefix": "d1e2e07a731213da"
     },
     {
       "kind": "money-markets",
@@ -472,11 +472,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/ea-eur.2af6dbead3efa5c7.png",
-      "sha256_prefix": "2af6dbead3efa5c7"
+      "image": "https://seiche.info/share/cards/money-markets/ea-eur.c1b2c4c1d2c7451f.png",
+      "sha256_prefix": "c1b2c4c1d2c7451f"
     },
     {
       "kind": "money-markets",
@@ -504,11 +504,11 @@
       ],
       "as_of": "2026-08-18",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/hk-hkd.f55b20d2b3c35f6e.png",
-      "sha256_prefix": "f55b20d2b3c35f6e"
+      "image": "https://seiche.info/share/cards/money-markets/hk-hkd.85624db21a7ceacf.png",
+      "sha256_prefix": "85624db21a7ceacf"
     },
     {
       "kind": "money-markets",
@@ -536,11 +536,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/in-inr.686aedc9341481c6.png",
-      "sha256_prefix": "686aedc9341481c6"
+      "image": "https://seiche.info/share/cards/money-markets/in-inr.ebd21f1a968b4976.png",
+      "sha256_prefix": "ebd21f1a968b4976"
     },
     {
       "kind": "money-markets",
@@ -568,11 +568,11 @@
       ],
       "as_of": "2026-08-18",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/jp-jpy.a65f1b938ead30fc.png",
-      "sha256_prefix": "a65f1b938ead30fc"
+      "image": "https://seiche.info/share/cards/money-markets/jp-jpy.001b86e6837c0521.png",
+      "sha256_prefix": "001b86e6837c0521"
     },
     {
       "kind": "money-markets",
@@ -600,11 +600,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/kr-krw.2ba49c8a46ece168.png",
-      "sha256_prefix": "2ba49c8a46ece168"
+      "image": "https://seiche.info/share/cards/money-markets/kr-krw.1f73a1afd543f904.png",
+      "sha256_prefix": "1f73a1afd543f904"
     },
     {
       "kind": "money-markets",
@@ -632,11 +632,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/nz-nzd.8ef9e86754451518.png",
-      "sha256_prefix": "8ef9e86754451518"
+      "image": "https://seiche.info/share/cards/money-markets/nz-nzd.ec75f94f638f21b9.png",
+      "sha256_prefix": "ec75f94f638f21b9"
     },
     {
       "kind": "money-markets",
@@ -664,11 +664,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/sg-sgd.bf483ce1f6b9c448.png",
-      "sha256_prefix": "bf483ce1f6b9c448"
+      "image": "https://seiche.info/share/cards/money-markets/sg-sgd.f36760248da92b7f.png",
+      "sha256_prefix": "f36760248da92b7f"
     },
     {
       "kind": "money-markets",
@@ -696,11 +696,11 @@
       ],
       "as_of": null,
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "The raw value is withheld or unavailable; this is not a zero.",
-      "image": "https://seiche.info/share/cards/money-markets/uk-gbp.9862bd8145a2c534.png",
-      "sha256_prefix": "9862bd8145a2c534"
+      "image": "https://seiche.info/share/cards/money-markets/uk-gbp.52b0e2a1df3702d1.png",
+      "sha256_prefix": "52b0e2a1df3702d1"
     },
     {
       "kind": "money-markets",
@@ -728,11 +728,11 @@
       ],
       "as_of": "2026-08-19",
       "as_of_label": "EVIDENCE AS OF",
-      "generated_at": "2026-08-21",
+      "generated_at": "2026-11-11T20:59:12+00:00",
       "source": "Seiche registered market pack",
       "rights": "Raw value may be shown under the registered source terms.",
-      "image": "https://seiche.info/share/cards/money-markets/us-usd.851c9ab7ac71fac6.png",
-      "sha256_prefix": "851c9ab7ac71fac6"
+      "image": "https://seiche.info/share/cards/money-markets/us-usd.3d9f149192f75831.png",
+      "sha256_prefix": "3d9f149192f75831"
     },
     {
       "kind": "series",
@@ -747,7 +747,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -762,9 +762,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/dw-b.c4e0726604488744.png",
-      "sha256_prefix": "c4e0726604488744"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/dw-b.9e6369c3f9c041d8.png",
+      "sha256_prefix": "9e6369c3f9c041d8"
     },
     {
       "kind": "series",
@@ -779,7 +779,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -794,9 +794,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/effr-pct.8361726a3e35eb57.png",
-      "sha256_prefix": "8361726a3e35eb57"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/effr-pct.fef5776d93150b9e.png",
+      "sha256_prefix": "fef5776d93150b9e"
     },
     {
       "kind": "series",
@@ -811,7 +811,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -826,9 +826,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/hy-oas-pct.9393e4680346a29a.png",
-      "sha256_prefix": "9393e4680346a29a"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/hy-oas-pct.b8ef2e95000b2e5e.png",
+      "sha256_prefix": "b8ef2e95000b2e5e"
     },
     {
       "kind": "series",
@@ -843,7 +843,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -858,9 +858,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/iorb-pct.6e4e84d2fcb8c213.png",
-      "sha256_prefix": "6e4e84d2fcb8c213"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/iorb-pct.aa91fe4f0d65eaf6.png",
+      "sha256_prefix": "aa91fe4f0d65eaf6"
     },
     {
       "kind": "series",
@@ -875,7 +875,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -890,9 +890,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/reserves-b.1005284f85d88731.png",
-      "sha256_prefix": "1005284f85d88731"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/reserves-b.8cb873c40000543a.png",
+      "sha256_prefix": "8cb873c40000543a"
     },
     {
       "kind": "series",
@@ -907,7 +907,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -922,9 +922,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/rrp-b.06d5821f4341db39.png",
-      "sha256_prefix": "06d5821f4341db39"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/rrp-b.6d3e34fd48ec3f2e.png",
+      "sha256_prefix": "6d3e34fd48ec3f2e"
     },
     {
       "kind": "series",
@@ -939,7 +939,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -954,9 +954,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/sofr-pct.04fca58e99eef660.png",
-      "sha256_prefix": "04fca58e99eef660"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/sofr-pct.1e79d49fe0e690ce.png",
+      "sha256_prefix": "1e79d49fe0e690ce"
     },
     {
       "kind": "series",
@@ -971,7 +971,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -986,9 +986,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/srf-accepted-b.42d8301f85860b71.png",
-      "sha256_prefix": "42d8301f85860b71"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/srf-accepted-b.14b622b6951302a7.png",
+      "sha256_prefix": "14b622b6951302a7"
     },
     {
       "kind": "series",
@@ -1003,7 +1003,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1018,9 +1018,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/tga-b.aa857ff548250515.png",
-      "sha256_prefix": "aa857ff548250515"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/tga-b.6fc8e01ff754d7a0.png",
+      "sha256_prefix": "6fc8e01ff754d7a0"
     },
     {
       "kind": "series",
@@ -1035,7 +1035,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1050,9 +1050,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/series/vix.cec16f05569e4161.png",
-      "sha256_prefix": "cec16f05569e4161"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/series/vix.5e33015f4ca83f0d.png",
+      "sha256_prefix": "5e33015f4ca83f0d"
     },
     {
       "kind": "tab",
@@ -1067,7 +1067,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1082,9 +1082,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/today.0da5471b043ea81f.png",
-      "sha256_prefix": "0da5471b043ea81f"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/today.fdb3425d939823c0.png",
+      "sha256_prefix": "fdb3425d939823c0"
     },
     {
       "kind": "tab",
@@ -1099,7 +1099,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1114,9 +1114,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/dispatches.db87a1fbefffdf38.png",
-      "sha256_prefix": "db87a1fbefffdf38"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/dispatches.6693475c7f1a0351.png",
+      "sha256_prefix": "6693475c7f1a0351"
     },
     {
       "kind": "tab",
@@ -1131,7 +1131,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1146,9 +1146,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/fx-materials.9b281130f2714fe3.png",
-      "sha256_prefix": "9b281130f2714fe3"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/fx-materials.c009ad28178ecedb.png",
+      "sha256_prefix": "c009ad28178ecedb"
     },
     {
       "kind": "tab",
@@ -1163,7 +1163,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1178,9 +1178,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/oil-funding.cc9e1ad4752dd96f.png",
-      "sha256_prefix": "cc9e1ad4752dd96f"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/oil-funding.3d1fb848c7846387.png",
+      "sha256_prefix": "3d1fb848c7846387"
     },
     {
       "kind": "tab",
@@ -1195,7 +1195,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1210,9 +1210,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/scarcity.ff0bb1873daa076e.png",
-      "sha256_prefix": "ff0bb1873daa076e"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/scarcity.4e29a2c8dd88c781.png",
+      "sha256_prefix": "4e29a2c8dd88c781"
     },
     {
       "kind": "tab",
@@ -1227,7 +1227,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1242,9 +1242,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/supply.40da343b64dcdf07.png",
-      "sha256_prefix": "40da343b64dcdf07"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/supply.cc1f0dbdedbcc8d7.png",
+      "sha256_prefix": "cc1f0dbdedbcc8d7"
     },
     {
       "kind": "tab",
@@ -1259,7 +1259,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1274,9 +1274,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/forecast.b16d37d8733f8dfc.png",
-      "sha256_prefix": "b16d37d8733f8dfc"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/forecast.a7edcc4eea460b3e.png",
+      "sha256_prefix": "a7edcc4eea460b3e"
     },
     {
       "kind": "tab",
@@ -1291,7 +1291,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1306,9 +1306,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/physics.c3855d3b0f547ff3.png",
-      "sha256_prefix": "c3855d3b0f547ff3"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/physics.5edcec6356d8ccc4.png",
+      "sha256_prefix": "5edcec6356d8ccc4"
     },
     {
       "kind": "tab",
@@ -1323,7 +1323,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1338,9 +1338,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/helm.1538c25d6c19f4f4.png",
-      "sha256_prefix": "1538c25d6c19f4f4"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/helm.614a0a3e940d4db0.png",
+      "sha256_prefix": "614a0a3e940d4db0"
     },
     {
       "kind": "tab",
@@ -1355,7 +1355,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1370,9 +1370,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/market.9b99129c2dd067b1.png",
-      "sha256_prefix": "9b99129c2dd067b1"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/market.a0f07a71d07d4528.png",
+      "sha256_prefix": "a0f07a71d07d4528"
     },
     {
       "kind": "tab",
@@ -1387,7 +1387,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1402,9 +1402,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/calendar.aa032937e66b6048.png",
-      "sha256_prefix": "aa032937e66b6048"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/calendar.779135d9218b12da.png",
+      "sha256_prefix": "779135d9218b12da"
     },
     {
       "kind": "tab",
@@ -1419,7 +1419,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1434,9 +1434,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/positioning.9890c2c41d4873fb.png",
-      "sha256_prefix": "9890c2c41d4873fb"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/positioning.8a9b00f679fccec3.png",
+      "sha256_prefix": "8a9b00f679fccec3"
     },
     {
       "kind": "tab",
@@ -1451,7 +1451,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1466,9 +1466,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/resonance.62c7badeac349891.png",
-      "sha256_prefix": "62c7badeac349891"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/resonance.4e0de679374febee.png",
+      "sha256_prefix": "4e0de679374febee"
     },
     {
       "kind": "tab",
@@ -1483,7 +1483,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1498,9 +1498,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/proof.0921dec3e5216b85.png",
-      "sha256_prefix": "0921dec3e5216b85"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/proof.91f7f6fff1e6ec65.png",
+      "sha256_prefix": "91f7f6fff1e6ec65"
     },
     {
       "kind": "tab",
@@ -1515,7 +1515,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1530,9 +1530,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/referee.268502e250a94525.png",
-      "sha256_prefix": "268502e250a94525"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/referee.fbccc8574ad5d351.png",
+      "sha256_prefix": "fbccc8574ad5d351"
     },
     {
       "kind": "tab",
@@ -1547,7 +1547,7 @@
       "metrics": [
         {
           "label": "policy",
-          "value": "seiche.public-source-rights.2026-10-28"
+          "value": "seiche.public-source-rights.2026-11-09"
         },
         {
           "label": "availability",
@@ -1562,9 +1562,9 @@
       "as_of_label": "EVIDENCE AS OF",
       "generated_at": null,
       "source": "Seiche source-rights policy",
-      "rights": "This legacy feature is unavailable while its source reuse rights and replacement acquisitions are qualified. Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
-      "image": "https://seiche.info/share/cards/tab/system.31fc35ce3df511d3.png",
-      "sha256_prefix": "31fc35ce3df511d3"
+      "rights": "Public redistribution permission for these FRED-sourced observations and dependent readings is not established. Values are withheld pending source-specific permission or qualified original-publisher acquisition.",
+      "image": "https://seiche.info/share/cards/tab/system.1518aa70fd9923ba.png",
+      "sha256_prefix": "1518aa70fd9923ba"
     },
     {
       "kind": "dispatch",
