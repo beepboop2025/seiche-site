@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="research-interface" data-product="seiche">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,12 @@
 <meta name="description" content="How Seiche computes its funding stress reading: composite weights, point-in-time rules, the PROOF scoreboard, the reserve-demand kink, and one subsection per engine. Versioned, with citations and a changelog.">
 <link rel="canonical" href="https://seiche.info/methodology">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<style>
-:root { --bg:#000; --panel:#0b0d15; --edge:#1c1f2b; --text:#edeef4;
-        --dim:#9aa0b6; --faint:#787f95; --accent:#9c8fe8;
-        --accent-soft:#bbaffe; --accent-bright:#d9d4ff;
-        --mono:ui-monospace,Menlo,Consolas,monospace;
+<link rel="stylesheet" href="/research-ui/research.css"><link rel="stylesheet" href="/research-ui/family-tokens.css"><link rel="stylesheet" href="/research-ui/seiche-pages.css"><style>
+:root { --bg:var(--research-bg,#000); --panel:var(--research-surface,#0b0d15); --edge:var(--research-line,#1c1f2b); --text:var(--research-text,#edeef4);
+        --dim:var(--research-muted,#9aa0b6); --faint:var(--research-muted,#787f95); --accent:var(--research-accent,#abc7ff);
+        --accent-soft:var(--research-accent,#abc7ff); --accent-bright:var(--research-accent,#abc7ff);
+        --mono:var(--research-font,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif);
+        --code:var(--research-code,ui-monospace,'SF Mono',Menlo,Consolas,monospace);
         color-scheme:dark; }
 * { box-sizing:border-box; margin:0; padding:0; }
 body { background:var(--bg); color:var(--text);
@@ -29,7 +30,7 @@ h3 { font-weight:600; font-size:13.5px; margin:18px 0 4px; }
 p { margin:12px 0; }
 .dim { color:var(--dim); }
 .faint { color:var(--faint); font-size:12px; }
-code, .mono { font-family:var(--mono); font-size:.9em; }
+code, .mono { font-family:var(--code); font-size:.9em; }
 code { background:var(--panel); padding:1px 6px; border-radius:5px;
        color:var(--accent-bright); }
 table { border-collapse:collapse; width:100%; margin:14px 0; font-size:13px; }
@@ -38,7 +39,7 @@ th { color:var(--faint); font-weight:500; font-size:11px;
      letter-spacing:.08em; text-transform:uppercase; }
 td.num { font-family:var(--mono); }
 .cite { background:var(--panel); border:1px solid var(--edge); border-radius:10px;
-        padding:14px 16px; font-family:var(--mono); font-size:12.5px;
+        padding:14px 16px; font-family:var(--code); font-size:12.5px;
         white-space:pre-wrap; word-break:break-word; margin:14px 0; }
 ul { margin:12px 0 12px 20px; }
 li { margin:6px 0; }
@@ -49,14 +50,14 @@ li { margin:6px 0; }
 .wordmark span { color:var(--accent); }
 </style>
 </head>
-<body>
+<body><a class="research-skip" href="#main">Skip to content</a><header class="research-header"><div class="research-mast"><a class="research-identity" href="/"><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="14"/><path d="M7 17c5-8 9 8 14 0s7-5 8-2M7 23c5-8 9 8 14 0s7-5 8-2"/></svg><span><strong>Seiche</strong></span></a><nav class="research-network" aria-label="Products"><a href="https://liquilens.in/">LiquiLens</a><a href="/" aria-current="page">Seiche</a><a href="https://liquilens-undertow.com/">Undertow</a></nav><a class="research-api" href="/developers">API &amp; MCP</a></div><nav class="research-tabs" aria-label="Seiche sections"><a href="/#today">Today</a><a href="/money-markets/">Money markets</a><a href="/gift-city/">GIFT City</a><a href="/#geography">India geography</a><a href="/#workbench">Workbench</a><a href="/#corpus">Market atlas</a><a href="/#research">Research</a><a href="/markets/">World markets</a><a href="/articles/">Published research</a><a href="/use-cases">Use cases</a><a href="/guide">Guide</a><a href="https://liquilens.in/investors/">Company &amp; investors</a></nav></header>
 <div class="top">
   <div class="wordmark">SEI<span>CHE</span></div>
   <div class="faint"><a href="/">back to the board</a> &middot; <a href="/guide">plain English guide</a></div>
 </div>
 
-<h1>Methodology</h1>
-<p class="faint mono">methodology 2026-07-28 / board 0.16.12 estuary</p>
+<h1 id="main">Methodology</h1>
+<p class="faint mono">methodology 2026-07-28 / board 0.16.14 estuary</p>
 <p class="dim">This page is generated from the code that computes the board:
 the weights come from the config file, the engine subsections come from the
 engine module docstrings. If the code changes, this page changes with it, and
@@ -297,7 +298,7 @@ in the header. The catalog of mnemonics is at
 series (mirrored on FRED) are display-only on the board and excluded from
 bulk export; the catalog marks them.</p>
 <h3>Cite as</h3>
-<div class="cite">Seiche funding-stress terminal (methodology 2026-07-28 / board 0.16.12 estuary).
+<div class="cite">Seiche funding-stress terminal (methodology 2026-07-28 / board 0.16.14 estuary).
 https://seiche.info/methodology
 Source code: https://github.com/beepboop2025/seiche (AGPL-3.0-or-later).
 Data: free public sources with native lags; per-series provenance in each CSV header.</div>
@@ -309,5 +310,5 @@ Data: free public sources with native lags; per-series provenance in each CSV he
 
 <p class="faint">Free public data with native lags. Not investment advice.
 Seiche is free open source software (AGPL-3.0-or-later) and a public good.</p>
-</body>
+<script type="module" src="/research-ui/context.js"></script></body>
 </html>
