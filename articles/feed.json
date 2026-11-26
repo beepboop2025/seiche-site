@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Seiche daily funding analysis",
+  "title": "Seiche funding analysis archive",
   "home_page_url": "https://seiche.info/articles/",
   "feed_url": "https://seiche.info/articles/feed.json",
   "description": "Current funding analysis when the evidence moves; historical replay when it does not.",

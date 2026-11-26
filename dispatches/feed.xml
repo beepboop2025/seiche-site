@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Seiche dispatches: the daily funding stress letter</title>
-  <subtitle>US money market plumbing, read daily from free public data. Every claim carries its number.</subtitle>
+  <title>Seiche dispatches: the dated funding stress letter archive</title>
+  <subtitle>US money market plumbing, read from free public data. Every claim carries its number.</subtitle>
   <link rel="alternate" type="text/html" href="https://seiche.info/dispatches/"/>
   <link rel="self" type="application/atom+xml" href="https://seiche.info/dispatches/feed.xml"/>
   <id>https://seiche.info/dispatches/</id>
